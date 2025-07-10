@@ -20,7 +20,7 @@ The Educational Curriculum Modeller (ECM) generates modular curricula and educat
 - **🎯 Multi-Objective Optimization**: Systematic balancing of competence coverage, resource efficiency, and compliance
 - **📚 Enhanced Curriculum Generation**: 10 core professional curricula with educational standards compliance
 - **🏛️ Standards Compliance**: Full validation against 7 major international frameworks + EQF level compliance
-- **🔧 Modular Architecture**: 90-learning unit repository enabling flexible curriculum composition
+- **🔧 Modular Architecture**: 100=-learning unit repository enabling flexible curriculum composition
 - **🌐 Web Interface**: Production-ready Flask application for interactive curriculum design
 - **📊 Comprehensive Analysis Suite**: Unified engine for repository, framework, learning unit, and cross-framework analysis
 - **🎯 Multi-Level Insights**: Individual learning unit performance analysis with enhancement recommendations
@@ -443,7 +443,7 @@ output/profiles/                             # Default location
 ### ✅ Current Features (v1.2)
 - [x] Enhanced curriculum generation with educational standards compliance
 - [x] Learning unit-level framework analysis
-- [x] 90-learning unit repository validation
+- [x] 100+-learning unit repository validation
 - [x] 7 international framework support
 - [x] Comprehensive visualization suite
 - [x] CSV export capabilities
@@ -622,7 +622,7 @@ engine.frameworks['CUSTOM'] = custom_framework
 - **Memory Usage**: <512MB for complete analysis
 
 ### Scalability
-- **Learning Unit Capacity**: Tested with 90 learning units, scales to 500+
+- **Learning Unit Capacity**: Tested with 110 learning units, scales to 500+
 - **Framework Support**: 7 current, architected for 20+
 - **Analysis Methods**: Both TF-IDF and SBERT (planned)
 - **Curriculum Generation**: Tested with 10 curricula, scales to 50+
@@ -648,7 +648,7 @@ ECM/
 ├── web/                                  # Web interface
 │   └── app.py                            # Flask application
 ├── input/                                # Source data
-│   ├── modules/modules_v5.json           # 90-learning unit repository
+│   ├── modules/modules_v5.json           # repository with over 100 learning units
 │   └── educational_profiles/             # Professional profiles
 ├── output/                               # Generated outputs
 │   ├── curricula/                        # Generated curricula
