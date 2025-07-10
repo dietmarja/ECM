@@ -1,0 +1,599 @@
+"""
+Enhanced curriculum generator with T3.2/T3.4 compliance and Educational Profiles output.
+Uses Educational Profiles as intermediate data structure and saves them separately.
+"""
+
+from typing import Dict, List, Any, Optional
+from datetime import datetime
+
+from scripts.curriculum_generator.components.module_selector import ModuleSelector
+from scripts.curriculum_generator.components.curriculum_builder import CurriculumBuilder
+from scripts.curriculum_generator.components.pathway_generator import PathwayGenerator
+from scripts.curriculum_generator.components.assessment_generator import AssessmentGenerator
+from pathlib import Path
+from scripts.curriculum_generator.domain.educational_profiles import EducationalProfileGenerator
+
+class CurriculumGenerator:
+    """T3.2/T3.4 compliant curriculum generator with Educational Profiles output"""
+
+    def __init__(self, domain_knowledge, data_loader, role_manager=None):
+        """Initialize curriculum generator with domain knowledge and data loader"""
+        self.domain_knowledge = domain_knowledge
+        self.data_loader = data_loader
+        self.role_manager = role_manager
+
+        # Get project root from data_loader or set default
+        if hasattr(data_loader, 'project_root'):
+            project_root = data_loader.project_root
+        else:
+            project_root = Path(__file__).parent.parent.parent
+
+        # Initialize components
+        self.module_selector = ModuleSelector(domain_knowledge, role_manager)
+
+        # Don't initialize curriculum_builder here - it needs modules
+        self.curriculum_builder = None
+        self.pathway_generator = PathwayGenerator(domain_knowledge)
+        self.assessment_generator = AssessmentGenerator(domain_knowledge)
+
+        # Initialize T3.2 Educational Profile Generator
+        self.profile_generator = EducationalProfileGenerator(
+            project_root=project_root,
+            role_manager=role_manager
+        )
+
+        # Store generated profile for output manager
+        self.generated_educational_profile = None
+
+    def generate_curriculum(self, topic, eqf_level, target_ects, modules, role_id):
+        """Generate complete T3.2/T3.4 compliant curriculum with Educational Profile"""
+
+        print(f"🎯 Generating curriculum for {role_id}: {topic} (EQF {eqf_level}, {target_ects} ECTS)")
+
+        # Initialize curriculum builder with modules (not domain_knowledge)
+        from scripts.curriculum_generator.components.curriculum_builder import EnhancedCurriculumBuilder
+        self.curriculum_builder = EnhancedCurriculumBuilder(modules)
+
+        # Get role information
+        role_info = self.domain_knowledge.get_role(role_id)
+
+        # Extract role name properly
+        if role_info:
+            role_name = role_info.get('name', f"{role_id} Professional")
+            print(f"✅ Found role: {role_name}")
+        else:
+            print(f"⚠️ Role {role_id} not found in roles.json")
+            role_name = f"{role_id} Professional"
+
+        # Generate FULL enhanced educational profile for standalone saving
+        full_enhanced_profile = self.profile_generator.generate_profile(
+            role_id=role_id,
+            eqf_level=eqf_level,
+            topic=topic,
+            target_ects=target_ects,
+            role_info=role_info
+        )
+        
+        # Store the FULL enhanced profile (not the reduced curriculum version)
+        self.generated_educational_profile = full_enhanced_profile
+
+        # Build curriculum with semester structure
+        print(f"🔍 Building curriculum structure...")
+        curriculum = self.curriculum_builder.build_curriculum_with_semesters(
+            role_id=role_id,
+            role_name=role_name,
+            topic=topic,
+            eqf_level=eqf_level,
+            target_ects=target_ects,
+            role_info=role_info
+        )
+
+        print(f"✅ Curriculum generation completed")
+        return curriculum
+
+    def get_generated_educational_profile(self):
+        """Get the most recently generated educational profile"""
+        return self.generated_educational_profile
+
+    def _create_reduced_profile_data(
+        self,
+        role_id: str,
+        topic: str,
+        eqf_level: int,
+        target_ects: int
+    ) -> Dict[str, Any]:
+        """Create reduced educational profile when role not fully defined"""
+
+        # Try to get role name, fallback to role_id
+        role_name = role_id
+        core_skills = []
+
+        if self.role_manager:
+            role_info = self.domain_knowledge.get_role(role_id)
+            if role_info:
+                role_name = role_info.get('name', role_id)
+                core_skills = role_info.get('core_skills', [])
+
+        # Calculate basic semester structure
+        num_semesters = max(2, (target_ects + 15) // 30)
+        ects_per_semester = target_ects // num_semesters
+
+        semesters = []
+        for i in range(num_semesters):
+            semester = {
+                'semester_number': i + 1,
+                'semester_name': f"Semester {i + 1}",
+                'focus_area': "Foundation" if i == 0 else ("Capstone" if i == num_semesters - 1 else "Specialization"),
+                'target_ects': ects_per_semester + (1 if i < (target_ects % num_semesters) else 0),
+                'duration_weeks': 15,
+                'learning_objectives': [
+                    f"Develop competencies for {role_name}",
+                    f"Apply knowledge in {topic}",
+                    "Demonstrate professional skills"
+                ],
+                'module_types': ['theoretical', 'practical'],
+                'assessment_weight': round(100 / num_semesters, 1),
+                'prerequisite_semesters': list(range(1, i + 1)) if i > 0 else [],
+                'work_based_learning': False,
+                'dual_principle_weeks': 0
+            }
+            semesters.append(semester)
+
+        return {
+            'profile_id': f"EP_REDUCED_{role_id}_{datetime.now().strftime('%Y%m%d')}",
+            'role_id': role_id,
+            'role_name': role_name,
+            'profile_title': f"Reduced Educational Profile: {role_name} in {topic}",
+            'profile_type': 'reduced',
+
+            'target_eqf_level': eqf_level,
+            'target_ects': target_ects,
+            'duration_semesters': num_semesters,
+            'learning_mode': 'flexible',
+            'delivery_methods': ['blended', 'online'],
+
+            'semester_breakdown': semesters,
+            'work_based_learning_percentage': 0.0,
+            'dual_principle_applicable': False,
+
+            'core_competencies': [
+                {
+                    'competency_name': skill.replace('_', ' ').title(),
+                    'competency_level': 'Proficient',
+                    'learning_outcomes': [f"Demonstrate {skill.replace('_', ' ')}"]
+                }
+                for skill in core_skills
+            ],
+
+            'learning_outcomes_programme': [
+                f"Demonstrate competency as {role_name}",
+                f"Apply skills in {topic} context",
+                "Integrate professional knowledge"
+            ],
+
+            'micro_credentials': [
+                {
+                    'credential_id': f"MC_{role_id}_S{i+1}",
+                    'credential_name': f"{role_name} - Semester {i+1}",
+                    'ects_value': semester['target_ects'],
+                    'recognition_level': 'semester'
+                }
+                for i, semester in enumerate(semesters)
+            ],
+
+            'creation_date': datetime.now().isoformat(),
+            'version': '1.0-reduced',
+            'compliance_frameworks': ['EQF', 'ECTS']
+        }
+
+    def _distribute_modules_basic(
+        self,
+        selected_modules: List[Dict[str, Any]],
+        target_ects: int
+    ) -> Dict[int, List[Dict[str, Any]]]:
+        """Basic module distribution when no full educational profile available"""
+
+        num_semesters = max(2, (target_ects + 15) // 30)
+        modules_per_semester = len(selected_modules) // num_semesters
+        remainder_modules = len(selected_modules) % num_semesters
+
+        distribution = {}
+        module_index = 0
+
+        for semester_num in range(1, num_semesters + 1):
+            modules_for_semester = modules_per_semester
+            if semester_num <= remainder_modules:
+                modules_for_semester += 1
+
+            distribution[semester_num] = selected_modules[module_index:module_index + modules_for_semester]
+            module_index += modules_for_semester
+
+        return distribution
+
+    def _build_basic_curriculum_structure(
+        self,
+        semester_distribution: Dict[int, List[Dict[str, Any]]],
+        reduced_profile_data: Dict[str, Any]
+    ) -> Dict[str, Any]:
+        """Build basic curriculum structure for reduced profiles"""
+
+        semester_details = []
+        total_ects = 0
+        total_modules = 0
+
+        semesters_info = reduced_profile_data.get('semester_breakdown', [])
+
+        for semester_info in semesters_info:
+            semester_num = semester_info['semester_number']
+            semester_modules = semester_distribution.get(semester_num, [])
+            semester_ects = sum(m.get('ects', 5) for m in semester_modules)
+
+            semester_detail = {
+                'semester_number': semester_num,
+                'semester_name': semester_info['semester_name'],
+                'focus_area': semester_info['focus_area'],
+                'target_ects': semester_info['target_ects'],
+                'actual_ects': semester_ects,
+                'duration_weeks': semester_info['duration_weeks'],
+                'module_count': len(semester_modules),
+                'modules': semester_modules,
+                'learning_objectives': semester_info['learning_objectives'],
+                'assessment_weight': semester_info['assessment_weight']
+            }
+
+            semester_details.append(semester_detail)
+            total_ects += semester_ects
+            total_modules += len(semester_modules)
+
+        return {
+            'programme_structure': 'semester_based',
+            'total_semesters': len(semesters_info),
+            'total_ects': total_ects,
+            'total_modules': total_modules,
+            'semester_breakdown': semester_details,
+            'profile_type': 'reduced'
+        }
+
+    def _generate_basic_assessment_strategy(
+        self,
+        selected_modules: List[Dict[str, Any]],
+        semester_distribution: Dict[int, List[Dict[str, Any]]]
+    ) -> Dict[str, Any]:
+        """Generate basic assessment strategy for reduced profiles"""
+
+        semester_assessments = []
+
+        for semester_num, modules in semester_distribution.items():
+            assessment = {
+                'semester_number': semester_num,
+                'assessment_weight': round(100 / len(semester_distribution), 1),
+                'assessment_methods': ['assignment', 'exam', 'practical_work'],
+                'module_assessments': [
+                    {
+                        'module_title': module.get('title', ''),
+                        'module_ects': module.get('ects', 5),
+                        'assessment_methods': module.get('assessment_methods', ['exam'])
+                    }
+                    for module in modules
+                ]
+            }
+            semester_assessments.append(assessment)
+
+        return {
+            'assessment_philosophy': 'Balanced assessment approach combining theoretical and practical evaluation',
+            'semester_assessments': semester_assessments,
+            'profile_type': 'reduced'
+        }
+
+    def _compile_curriculum(
+        self,
+        educational_profile: Any,
+        reduced_profile_data: Dict[str, Any],
+        selected_modules: List[Dict[str, Any]],
+        semester_distribution: Dict[int, List[Dict[str, Any]]],
+        curriculum_structure: Dict[str, Any],
+        learning_pathways: Dict[str, Any],
+        assessment_strategy: Dict[str, Any],
+        coverage_analysis: Dict[str, Any],
+        topic: str,
+        eqf_level: int,
+        target_ects: int,
+        role_id: str,
+        use_full_profile: bool
+    ) -> Dict[str, Any]:
+        """Compile final curriculum with appropriate profile integration"""
+
+        # Create metadata
+        metadata = {
+            "generation_date": datetime.now().isoformat(),
+            "generator_version": "3.0.0-T32-T34",
+            "compliance_frameworks": ["T3.2", "T3.4", "EQF", "ECTS"] if use_full_profile else ["EQF", "ECTS"],
+            "profile_type": "full" if use_full_profile else "reduced",
+            "role_id": role_id,
+            "topic": topic,
+            "eqf_level": eqf_level,
+            "target_ects": target_ects,
+            "actual_ects": sum(m.get('ects', 5) for m in selected_modules),
+            "total_modules": len(selected_modules)
+        }
+
+        # Prepare educational profile data for curriculum
+        if use_full_profile and educational_profile:
+            profile_data = {
+                "profile_id": educational_profile.profile_id,
+                "role_id": educational_profile.role_id,
+                "role_name": educational_profile.role_name,
+                "profile_title": educational_profile.profile_title,
+                "target_eqf_level": educational_profile.target_eqf_level,
+                "target_ects": educational_profile.target_ects,
+                "duration_semesters": educational_profile.duration_semesters,
+                "work_based_learning_percentage": educational_profile.work_based_learning_percentage,
+                "dual_principle_applicable": educational_profile.dual_principle_applicable,
+                "delivery_methods": educational_profile.delivery_methods,
+                "core_competencies": educational_profile.core_competencies,
+                "learning_outcomes_programme": educational_profile.learning_outcomes_programme
+            }
+        else:
+            profile_data = reduced_profile_data
+
+        # Compile final curriculum
+        curriculum = {
+            "metadata": metadata,
+            "educational_profile": profile_data,
+            "curriculum_structure": curriculum_structure,
+            "modules": selected_modules,
+            "semester_distribution": semester_distribution,
+            "learning_pathways": learning_pathways,
+            "assessment_strategy": assessment_strategy,
+
+            # Quality Metrics
+            "quality_metrics": {
+                "coverage_analysis": coverage_analysis,
+                "ects_efficiency": (metadata["actual_ects"] / target_ects) * 100 if target_ects > 0 else 0,
+                "relevance_score": coverage_analysis.get('average_relevance_score', 0),
+                "t32_compliance": use_full_profile,
+                "t34_compliance": use_full_profile
+            }
+        }
+
+        # Add full T3.2/T3.4 features if using full profile
+        if use_full_profile and educational_profile:
+            curriculum.update({
+                "micro_credentials": [
+                    {
+                        "credential_id": mc.credential_id,
+                        "credential_name": mc.credential_name,
+                        "ects_value": mc.ects_value,
+                        "eqf_level": mc.eqf_level,
+                        "recognition_level": mc.recognition_level,
+                        "stackable_with": mc.stackable_with
+                    }
+                    for mc in educational_profile.micro_credentials
+                ],
+                "workplace_integration": educational_profile.workplace_integration,
+                "accreditation": {
+                    "criteria": educational_profile.accreditation_criteria,
+                    "quality_indicators": educational_profile.quality_indicators,
+                    "compliance_status": "T3.2/T3.4 Compliant"
+                }
+            })
+        else:
+            curriculum.update({
+                "micro_credentials": reduced_profile_data.get('micro_credentials', []),
+                "accreditation": {
+                    "compliance_status": "Basic EQF/ECTS Compliant"
+                }
+            })
+
+        return curriculum
+
+    def _distribute_modules_to_semesters(
+        self,
+        selected_modules: List[Dict[str, Any]],
+        semester_breakdown: List[Any]
+    ) -> Dict[int, List[Dict[str, Any]]]:
+        """Distribute selected modules across semesters based on Educational Profile"""
+
+        distribution = {}
+        modules_by_type = self._categorize_modules_by_type(selected_modules)
+
+        for semester in semester_breakdown:
+            semester_num = semester.semester_number
+            semester_ects = semester.target_ects
+            allowed_types = semester.module_types
+
+            # Initialize semester module list
+            distribution[semester_num] = []
+            current_ects = 0
+
+            # First pass: Add modules that match semester type preferences
+            for module_type in allowed_types:
+                if module_type in modules_by_type:
+                    for module in modules_by_type[module_type]:
+                        if module not in [m for sem_modules in distribution.values() for m in sem_modules]:
+                            module_ects = module.get('ects', 5)
+                            if current_ects + module_ects <= semester_ects * 1.2:  # 20% overage allowed
+                                distribution[semester_num].append(module)
+                                current_ects += module_ects
+
+                                if current_ects >= semester_ects * 0.8:  # 80% target reached
+                                    break
+
+                    if current_ects >= semester_ects * 0.8:
+                        break
+
+            # Second pass: Fill remaining ECTS with any available modules
+            if current_ects < semester_ects * 0.7:  # Less than 70% filled
+                for module in selected_modules:
+                    if module not in [m for sem_modules in distribution.values() for m in sem_modules]:
+                        module_ects = module.get('ects', 5)
+                        if current_ects + module_ects <= semester_ects * 1.3:
+                            distribution[semester_num].append(module)
+                            current_ects += module_ects
+
+                            if current_ects >= semester_ects * 0.8:
+                                break
+
+        return distribution
+
+    def _categorize_modules_by_type(self, modules: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
+        """Categorize modules by type for semester distribution"""
+
+        categorized = {
+            'theoretical': [],
+            'practical': [],
+            'foundational': [],
+            'project-based': [],
+            'capstone': [],
+            'work-based': []
+        }
+
+        for module in modules:
+            module_types = module.get('module_type', ['theoretical'])
+            if isinstance(module_types, str):
+                module_types = [module_types]
+
+            # Assign to primary category
+            primary_type = module_types[0] if module_types else 'theoretical'
+
+            # Map variations to standard types
+            if primary_type in ['theory', 'lecture', 'conceptual']:
+                primary_type = 'theoretical'
+            elif primary_type in ['practice', 'lab', 'hands-on']:
+                primary_type = 'practical'
+            elif primary_type in ['foundation', 'basic', 'introduction']:
+                primary_type = 'foundational'
+            elif primary_type in ['project', 'assignment', 'portfolio']:
+                primary_type = 'project-based'
+            elif primary_type in ['thesis', 'dissertation', 'final']:
+                primary_type = 'capstone'
+            elif primary_type in ['internship', 'workplace', 'apprenticeship']:
+                primary_type = 'work-based'
+
+            if primary_type in categorized:
+                categorized[primary_type].append(module)
+            else:
+                categorized['theoretical'].append(module)  # Default
+
+        return categorized
+
+    def _build_t32_curriculum_structure(
+        self,
+        educational_profile: Any,
+        semester_distribution: Dict[int, List[Dict[str, Any]]]
+    ) -> Dict[str, Any]:
+        """Build T3.2 compliant curriculum structure with semester breakdown"""
+
+        semester_details = []
+        total_ects = 0
+        total_modules = 0
+
+        for semester in educational_profile.semester_breakdown:
+            semester_num = semester.semester_number
+            semester_modules = semester_distribution.get(semester_num, [])
+            semester_ects = sum(m.get('ects', 5) for m in semester_modules)
+
+            semester_info = {
+                'semester_number': semester_num,
+                'semester_name': semester.semester_name,
+                'focus_area': semester.focus_area,
+                'target_ects': semester.target_ects,
+                'actual_ects': semester_ects,
+                'duration_weeks': semester.duration_weeks,
+                'module_count': len(semester_modules),
+                'modules': semester_modules,
+                'learning_objectives': semester.learning_objectives,
+                'assessment_weight': semester.assessment_weight,
+                'work_based_learning': semester.work_based_learning,
+                'dual_principle_weeks': semester.dual_principle_weeks,
+                'prerequisite_semesters': semester.prerequisite_semesters
+            }
+
+            semester_details.append(semester_info)
+            total_ects += semester_ects
+            total_modules += len(semester_modules)
+
+        return {
+            'programme_structure': 'semester_based',
+            'total_semesters': len(educational_profile.semester_breakdown),
+            'total_ects': total_ects,
+            'total_modules': total_modules,
+            'semester_breakdown': semester_details,
+            'work_based_learning_percentage': educational_profile.work_based_learning_percentage,
+            'dual_principle_applicable': educational_profile.dual_principle_applicable,
+            'delivery_methods': educational_profile.delivery_methods,
+            'learning_mode': educational_profile.learning_mode
+        }
+
+    def _generate_t34_assessment_strategy(
+        self,
+        educational_profile: Any,
+        semester_distribution: Dict[int, List[Dict[str, Any]]]
+    ) -> Dict[str, Any]:
+        """Generate T3.4 compliant assessment strategy with micro-credentials"""
+
+        semester_assessments = []
+        micro_credential_assessments = []
+
+        for semester in educational_profile.semester_breakdown:
+            semester_num = semester.semester_number
+            semester_modules = semester_distribution.get(semester_num, [])
+
+            # Generate semester-specific assessment
+            semester_assessment = {
+                'semester_number': semester_num,
+                'assessment_weight': semester.assessment_weight,
+                'assessment_methods': self._determine_semester_assessment_methods(semester),
+                'work_based_assessment': semester.work_based_learning,
+                'module_assessments': []
+            }
+
+            # Generate module-level assessments
+            for module in semester_modules:
+                module_assessment = {
+                    'module_title': module.get('title', ''),
+                    'module_ects': module.get('ects', 5),
+                    'assessment_methods': module.get('assessment_methods', ['exam']),
+                    'micro_credential_eligible': True
+                }
+                semester_assessment['module_assessments'].append(module_assessment)
+
+            semester_assessments.append(semester_assessment)
+
+        # Generate micro-credential assessments (T3.4 requirement)
+        for micro_cred in educational_profile.micro_credentials:
+            micro_assessment = {
+                'credential_id': micro_cred.credential_id,
+                'credential_name': micro_cred.credential_name,
+                'assessment_type': 'competency_based',
+                'ects_value': micro_cred.ects_value,
+                'recognition_level': micro_cred.recognition_level,
+                'stackable': True
+            }
+            micro_credential_assessments.append(micro_assessment)
+
+        return {
+            'assessment_philosophy': f"T3.4 compliant competency-based assessment for {educational_profile.role_name}",
+            'semester_assessments': semester_assessments,
+            'micro_credential_assessments': micro_credential_assessments,
+            'certification_pathway': educational_profile.certification_pathway,
+            'stackable_credentials': educational_profile.stackable_credentials,
+            'quality_assurance': educational_profile.quality_indicators
+        }
+
+    def _determine_semester_assessment_methods(self, semester: Any) -> List[str]:
+        """Determine appropriate assessment methods for semester"""
+
+        methods = []
+        focus_area = semester.focus_area.lower()
+
+        if 'foundation' in focus_area:
+            methods = ['written_exam', 'coursework', 'quiz']
+        elif 'integration' in focus_area or 'capstone' in focus_area:
+            methods = ['project', 'portfolio', 'presentation', 'thesis']
+        elif semester.work_based_learning:
+            methods = ['workplace_assessment', 'practical_demonstration', 'reflection_report']
+        else:
+            methods = ['assignment', 'practical_work', 'case_study']
+
+        return methods

@@ -1,0 +1,314 @@
+{
+  "curriculum_identification": {
+    "number": "08",
+    "id": "DSC_6_Professional",
+    "title": "Professional Consultancy Certificate",
+    "role_abbreviation": "DSC",
+    "eqf_level": 6,
+    "total_ects": 45.0,
+    "total_modules": 14,
+    "development_date": "2025-07-08T16:13:11.243345"
+  },
+  "role_profile": {
+    "title": "Digital Sustainability Consultant",
+    "description": "Advises organizations, especially SMEs, on applying digital sustainability solutions.",
+    "focus": "Advisory services and solution bridging",
+    "professional_context": "This curriculum prepares learners to deliver professional-level consulting services, manage complex sustainability transformation projects, and provide strategic advisory expertise."
+  },
+  "target_audience": "Experienced professionals seeking professional certification in sustainability consulting, transformation management, and strategic advisory services",
+  "learning_approach": "EQF Level 6 professional development program with 45.0 ECTS, combining theoretical knowledge with practical application through structured learning and workplace integration.",
+  "assessment_framework": {
+    "primary": "Professional consulting certification",
+    "components": [
+      "Complex client engagement",
+      "Best practice development",
+      "Professional methodology innovation"
+    ],
+    "weightings": [
+      40,
+      30,
+      30
+    ],
+    "rationale": "Professional certification requires demonstrated excellence in complex consulting and methodological innovation"
+  },
+  "delivery_framework": {
+    "total_contact_hours": 450,
+    "total_self_study_hours": 385,
+    "total_workplace_hours": 278,
+    "work_based_learning": true
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "module_id": "M1",
+      "module_title": "Introduction to Digital Sustainability",
+      "module_description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+      "ects_credits": 0.5,
+      "eqf_level": 6,
+      "total_workload_hours": 12.5,
+      "contact_hours": 5,
+      "self_study_hours": 4,
+      "workplace_hours": 3,
+      "assessment_hours": 0.5,
+      "learning_outcomes": {
+        "knowledge": "Critically evaluate foundational concepts of introduction to digital sustainability and their application to professional consulting and organizational advisory services within sustainability applications.",
+        "skills": "Lead strategic professional application of introduction to digital sustainability to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Lead strategic initiatives for professional responsibilities involving introduction to digital sustainability while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Foundation"
+    },
+    {
+      "module_number": 2,
+      "module_id": "M19",
+      "module_title": "Sustainability Assessment and Benchmarking",
+      "module_description": "Evaluate organizational sustainability performance against relevant benchmarks",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 50,
+      "self_study_hours": 43,
+      "workplace_hours": 31,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Formulate analytical frameworks for sustainability assessment and benchmarking within advisory services and solution bridging contexts within sustainability applications.",
+        "skills": "Innovate professional application of sustainability assessment and benchmarking to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Influence organizational consulting engagement involving sustainability assessment and benchmarking while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Analysis"
+    },
+    {
+      "module_number": 3,
+      "module_id": "M2",
+      "module_title": "Sustainability Frameworks and Standards",
+      "module_description": "Overview of major sustainability frameworks, regulations, and standards",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 50,
+      "self_study_hours": 43,
+      "workplace_hours": 31,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Construct implementation strategies for sustainability frameworks and standards in professional consulting and organizational advisory services within sustainability applications.",
+        "skills": "Optimize management strategies for sustainability frameworks and standards to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Drive change in professional responsibilities involving sustainability frameworks and standards while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Management"
+    },
+    {
+      "module_number": 4,
+      "module_id": "M97",
+      "module_title": "Corporate Sustainability Reporting Directive (CSRD) Implementation",
+      "module_description": "Step-by-step guide to CSRD compliance and sustainability reporting requirements",
+      "ects_credits": 0.5,
+      "eqf_level": 5,
+      "total_workload_hours": 12.5,
+      "contact_hours": 5,
+      "self_study_hours": 4,
+      "workplace_hours": 3,
+      "assessment_hours": 0.5,
+      "learning_outcomes": {
+        "knowledge": "Devise evaluation methodologies for corporate sustainability reporting directive (csrd) implementation relevant to advisory services and solution bridging within sustainability applications.",
+        "skills": "Transform professional application of corporate sustainability reporting directive (csrd) implementation to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Manage complex situations in professional responsibilities involving corporate sustainability reporting directive (csrd) implementation while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "EU Legislation"
+    },
+    {
+      "module_number": 5,
+      "module_id": "M96",
+      "module_title": "EU Taxonomy Regulation: Classification and Compliance",
+      "module_description": "Practical guide to understanding and implementing EU Taxonomy for sustainable activities",
+      "ects_credits": 0.5,
+      "eqf_level": 5,
+      "total_workload_hours": 12.5,
+      "contact_hours": 5,
+      "self_study_hours": 4,
+      "workplace_hours": 3,
+      "assessment_hours": 0.5,
+      "learning_outcomes": {
+        "knowledge": "Integrate integration approaches for eu taxonomy regulation: classification and compliance within professional consulting and organizational advisory services within sustainability applications.",
+        "skills": "Develop professional application of eu taxonomy regulation: classification and compliance to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Lead strategic initiatives for professional responsibilities involving eu taxonomy regulation: classification and compliance while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "EU Legislation"
+    },
+    {
+      "module_number": 6,
+      "module_id": "M108",
+      "module_title": "EU Environmental Management Standards and Certification",
+      "module_description": "Practical guide to EMAS, ISO 14001, and EU environmental management requirements",
+      "ects_credits": 2.0,
+      "eqf_level": 5,
+      "total_workload_hours": 50.0,
+      "contact_hours": 20,
+      "self_study_hours": 17,
+      "workplace_hours": 12,
+      "assessment_hours": 1.0,
+      "learning_outcomes": {
+        "knowledge": "Synthesize optimization principles for eu environmental management standards and certification in advisory services and solution bridging within sustainability applications.",
+        "skills": "Design complex professional application of eu environmental management standards and certification to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Influence organizational professional responsibilities involving eu environmental management standards and certification while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "EU Legislation"
+    },
+    {
+      "module_number": 7,
+      "module_id": "M93",
+      "module_title": "Digital Inclusion and Social Sustainability",
+      "module_description": "Technical implementation of digital inclusion systems, accessibility technologies, and social impact data analytics",
+      "ects_credits": 5,
+      "eqf_level": 5,
+      "total_workload_hours": 125,
+      "contact_hours": 50,
+      "self_study_hours": 43,
+      "workplace_hours": 31,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Critically evaluate strategic applications of digital inclusion and social sustainability for professional consulting and organizational advisory services within sustainability applications.",
+        "skills": "Lead strategic professional application of digital inclusion and social sustainability to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Drive change in professional responsibilities involving digital inclusion and social sustainability while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Social Sustainability"
+    },
+    {
+      "module_number": 8,
+      "module_id": "M98",
+      "module_title": "Sustainable Finance Disclosure Regulation (SFDR) Fundamentals",
+      "module_description": "Introduction to SFDR requirements for financial services and investment transparency",
+      "ects_credits": 0.5,
+      "eqf_level": 5,
+      "total_workload_hours": 12.5,
+      "contact_hours": 5,
+      "self_study_hours": 4,
+      "workplace_hours": 3,
+      "assessment_hours": 0.5,
+      "learning_outcomes": {
+        "knowledge": "Formulate advanced methodologies for sustainable finance disclosure regulation (sfdr) fundamentals within advisory services and solution bridging within sustainability applications.",
+        "skills": "Innovate professional application of sustainable finance disclosure regulation (sfdr) fundamentals to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Manage complex situations in professional responsibilities involving sustainable finance disclosure regulation (sfdr) fundamentals while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "EU Legislation"
+    },
+    {
+      "module_number": 9,
+      "module_id": "M109",
+      "module_title": "Introduction to EU Sustainability Legislation",
+      "module_description": "Practical knowledge of European Union sustainability regulations affecting business operations",
+      "ects_credits": 1,
+      "eqf_level": 5,
+      "total_workload_hours": 25,
+      "contact_hours": 10,
+      "self_study_hours": 8,
+      "workplace_hours": 6,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Construct specialized knowledge of introduction to eu sustainability legislation for professional consulting and organizational advisory services within sustainability applications.",
+        "skills": "Optimize professional application of introduction to eu sustainability legislation to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Lead strategic initiatives for professional responsibilities involving introduction to eu sustainability legislation while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "EU Legislation"
+    },
+    {
+      "module_number": 10,
+      "module_id": "M17",
+      "module_title": "Digital Circular Business Models",
+      "module_description": "Design business models that leverage digital technologies for circular economy",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 50,
+      "self_study_hours": 43,
+      "workplace_hours": 31,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Devise specialized knowledge of digital circular business models for professional consulting and organizational advisory services within sustainability applications.",
+        "skills": "Transform professional application of digital circular business models to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Influence organizational professional responsibilities involving digital circular business models while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "General"
+    },
+    {
+      "module_number": 11,
+      "module_id": "M22",
+      "module_title": "Sustainable ICT Procurement and Policy",
+      "module_description": "Develop policies and practices for sustainable technology procurement",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 50,
+      "self_study_hours": 43,
+      "workplace_hours": 31,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Integrate specialized knowledge of sustainable ict procurement and policy for professional consulting and organizational advisory services within sustainability applications.",
+        "skills": "Develop management strategies for sustainable ict procurement and policy to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Drive change in professional responsibilities involving sustainable ict procurement and policy while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Management"
+    },
+    {
+      "module_number": 12,
+      "module_id": "M31",
+      "module_title": "Large Language Prompt Design for Sustainability Data Science",
+      "module_description": "Design effective prompts for large language models applied to sustainability data contexts",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 50,
+      "self_study_hours": 43,
+      "workplace_hours": 31,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Synthesize specialized knowledge of large language prompt design for sustainability data science for professional consulting and organizational advisory services within sustainability applications.",
+        "skills": "Design complex data-driven approaches to large language prompt design for sustainability data science to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Manage complex situations in professional responsibilities involving large language prompt design for sustainability data science while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Data"
+    },
+    {
+      "module_number": 13,
+      "module_id": "M7",
+      "module_title": "Ethics and Governance in Digital Innovation",
+      "module_description": "Evaluate ethical implications of digital systems and ensure inclusive governance",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 50,
+      "self_study_hours": 43,
+      "workplace_hours": 31,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Critically evaluate specialized knowledge of ethics and governance in digital innovation for professional consulting and organizational advisory services within sustainability applications.",
+        "skills": "Lead strategic ethical governance of ethics and governance in digital innovation to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Lead strategic initiatives for professional responsibilities involving ethics and governance in digital innovation while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Ethics & Governance"
+    },
+    {
+      "module_number": 14,
+      "module_id": "M94",
+      "module_title": "Circular Economy for Digital Systems",
+      "module_description": "Comprehensive circular economy principles and lifecycle thinking for sustainable digital system design and management",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 50,
+      "self_study_hours": 43,
+      "workplace_hours": 31,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Formulate specialized knowledge of circular economy for digital systems for professional consulting and organizational advisory services within sustainability applications.",
+        "skills": "Innovate professional application of circular economy for digital systems to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Influence organizational professional responsibilities involving circular economy for digital systems while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Circular Economy"
+    }
+  ],
+  "recognition": {
+    "eqf_level": 6,
+    "ects_transferable": true,
+    "bologna_compliant": true,
+    "professional_recognition": "Industry recognition for Digital Sustainability Consultant competencies at EQF Level 6"
+  }
+}

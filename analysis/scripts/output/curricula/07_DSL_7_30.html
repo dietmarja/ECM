@@ -1,0 +1,530 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Leadership Programme</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c5530, #1e3a5f);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header hr {
+            border: none;
+            height: 2px;
+            background: rgba(255,255,255,0.3);
+            margin: 1.5rem 0;
+        }
+        
+        .professional-context {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            text-align: left;
+            border-left: 4px solid rgba(255,255,255,0.5);
+        }
+        
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .metric-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-left: 4px solid #28a745;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c5530;
+        }
+        
+        .metric-label {
+            font-size: 0.9rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #2c5530;
+            border-bottom: 3px solid #28a745;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .module-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .module-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .module-title {
+            color: #2c5530;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .ects-badge {
+            background: #28a745;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+        }
+        
+        .eqf-badge {
+            background: #17a2b8;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            margin-left: 0.5rem;
+        }
+        
+        .workload-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .workload-item {
+            text-align: center;
+            padding: 0.8rem;
+            background: white;
+            border-radius: 6px;
+            border: 1px solid #dee2e6;
+        }
+        
+        .learning-outcomes {
+            background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+            border-left: 4px solid #28a745;
+            border-radius: 6px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .learning-outcomes ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .learning-outcomes li {
+            margin: 0.8rem 0;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(40, 167, 69, 0.2);
+        }
+        
+        .learning-outcomes li:last-child {
+            border-bottom: none;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2rem; }
+            .metrics { grid-template-columns: 1fr; }
+            .module-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Advanced Leadership Programme</h1>
+        <hr>
+        <div class="professional-context">
+            This curriculum prepares learners to lead strategic sustainability transformations, drive organizational change at senior management levels, and influence industry practices.
+        </div>
+        
+        <div class="metrics">
+            <div class="metric-card">
+                <div class="metric-value">7</div>
+                <div class="metric-label">Modules</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">EQF 7</div>
+                <div class="metric-label">Level</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">30.0</div>
+                <div class="metric-label">ECTS</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">300h</div>
+                <div class="metric-label">Work-Based</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Programme Overview</h2>
+        <p><strong>Role Focus:</strong> Executive and system-level leadership</p>
+        <p><strong>Target Audience:</strong> Senior managers and directors responsible for strategic sustainability leadership, organizational transformation, and cross-sector influence</p>
+        <p><strong>Learning Approach:</strong> EQF Level 7 professional development program with 30.0 ECTS, combining theoretical knowledge with practical application through structured learning and workplace integration.</p>
+    </div>
+    
+    <div class="section">
+        <h2>Assessment Framework</h2>
+        <p><strong>Primary Method:</strong> Strategic leadership portfolio</p>
+        <p><strong>Components:</strong></p>
+        <ul><li>Organizational transformation strategy: <strong>45%</strong></li><li>Industry influence project: <strong>35%</strong></li><li>Multi-stakeholder coordination: <strong>20%</strong></li>
+        </ul>
+        <p><strong>Rationale:</strong> Advanced leadership programs require strategic thinking and demonstrated industry-level influence</p>
+    </div>
+    
+    <div class="section">
+        <h2>Delivery Framework</h2>
+        <div class="workload-grid">
+            <div class="workload-item">
+                <div class="metric-value">186h</div>
+                <div class="metric-label">Contact Hours</div>
+            </div>
+            <div class="workload-item">
+                <div class="metric-value">258h</div>
+                <div class="metric-label">Self-Study</div>
+            </div>
+            <div class="workload-item">
+                <div class="metric-value">300h</div>
+                <div class="metric-label">Workplace</div>
+            </div>
+        </div>
+        <p><strong>Work-Based Learning:</strong> Integrated</p>
+    </div>
+    
+    <div class="section">
+        <h2>Module Structure</h2>
+        <div class="module-card">
+            <div class="module-header">
+                <div class="module-title">Module 1: Introduction to Digital Sustainability</div>
+                <div>
+                    <span class="ects-badge">0.5 ECTS</span>
+                    <span class="eqf-badge">EQF 6</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Core sustainability concepts and their intersection with technology systems for digital professionals</p>
+            <p><strong>Thematic Area:</strong> Foundation</p>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="metric-value">12.5h</div>
+                    <div class="metric-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">3h</div>
+                    <div class="metric-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">4h</div>
+                    <div class="metric-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">5h</div>
+                    <div class="metric-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <strong>Learning Outcomes:</strong>
+                <ul>
+                    <li><strong>Knowledge:</strong> Pioneer new approaches to foundational concepts of introduction to digital sustainability and their application to organizational transformation and strategic sustainability leadership within sustainability applications.</li>
+                    <li><strong>Skills:</strong> Lead transformational professional application of introduction to digital sustainability to support executive and system-level leadership in organizational contexts.</li>
+                    <li><strong>Competence:</strong> Lead strategic transformations of professional responsibilities involving introduction to digital sustainability while ensuring professional standards and stakeholder value.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="module-card">
+            <div class="module-header">
+                <div class="module-title">Module 2: Sustainable Digital Transformation Strategy</div>
+                <div>
+                    <span class="ects-badge">5 ECTS</span>
+                    <span class="eqf-badge">EQF 6</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Develop holistic strategies for sustainability-focused digital transformation</p>
+            <p><strong>Thematic Area:</strong> General</p>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="metric-value">125h</div>
+                    <div class="metric-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">31h</div>
+                    <div class="metric-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">43h</div>
+                    <div class="metric-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">50h</div>
+                    <div class="metric-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <strong>Learning Outcomes:</strong>
+                <ul>
+                    <li><strong>Knowledge:</strong> Establish methodological analytical frameworks for sustainable digital transformation strategy within executive and system-level leadership contexts within sustainability applications.</li>
+                    <li><strong>Skills:</strong> Create breakthrough professional application of sustainable digital transformation strategy to support executive and system-level leadership in organizational contexts.</li>
+                    <li><strong>Competence:</strong> Shape industry practices through professional responsibilities involving sustainable digital transformation strategy while ensuring professional standards and stakeholder value.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="module-card">
+            <div class="module-header">
+                <div class="module-title">Module 3: Systematic Innovation for Sustainability Challenges</div>
+                <div>
+                    <span class="ects-badge">5 ECTS</span>
+                    <span class="eqf-badge">EQF 7</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Apply structured innovation methodologies to develop breakthrough sustainability solutions</p>
+            <p><strong>Thematic Area:</strong> Technical Implementation</p>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="metric-value">125h</div>
+                    <div class="metric-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">31h</div>
+                    <div class="metric-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">43h</div>
+                    <div class="metric-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">50h</div>
+                    <div class="metric-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <strong>Learning Outcomes:</strong>
+                <ul>
+                    <li><strong>Knowledge:</strong> Create original implementation strategies for systematic innovation for sustainability challenges in organizational transformation and strategic sustainability leadership within sustainability applications.</li>
+                    <li><strong>Skills:</strong> Establish new practices in technical implementation of systematic innovation for sustainability challenges to support executive and system-level leadership in organizational contexts.</li>
+                    <li><strong>Competence:</strong> Influence sector-wide professional responsibilities involving systematic innovation for sustainability challenges while ensuring professional standards and stakeholder value.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="module-card">
+            <div class="module-header">
+                <div class="module-title">Module 4: Ethics and Governance in Digital Innovation</div>
+                <div>
+                    <span class="ects-badge">5 ECTS</span>
+                    <span class="eqf-badge">EQF 6</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Evaluate ethical implications of digital systems and ensure inclusive governance</p>
+            <p><strong>Thematic Area:</strong> Ethics & Governance</p>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="metric-value">125h</div>
+                    <div class="metric-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">31h</div>
+                    <div class="metric-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">43h</div>
+                    <div class="metric-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">50h</div>
+                    <div class="metric-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <strong>Learning Outcomes:</strong>
+                <ul>
+                    <li><strong>Knowledge:</strong> Synthesize multi-disciplinary evaluation methodologies for ethics and governance in digital innovation relevant to executive and system-level leadership within sustainability applications.</li>
+                    <li><strong>Skills:</strong> Innovate solutions for ethical governance of ethics and governance in digital innovation to support executive and system-level leadership in organizational contexts.</li>
+                    <li><strong>Competence:</strong> Drive systemic change in professional responsibilities involving ethics and governance in digital innovation while ensuring professional standards and stakeholder value.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="module-card">
+            <div class="module-header">
+                <div class="module-title">Module 5: Sustainability Frameworks and Standards</div>
+                <div>
+                    <span class="ects-badge">5 ECTS</span>
+                    <span class="eqf-badge">EQF 6</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Overview of major sustainability frameworks, regulations, and standards</p>
+            <p><strong>Thematic Area:</strong> Management</p>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="metric-value">125h</div>
+                    <div class="metric-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">31h</div>
+                    <div class="metric-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">43h</div>
+                    <div class="metric-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">50h</div>
+                    <div class="metric-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <strong>Learning Outcomes:</strong>
+                <ul>
+                    <li><strong>Knowledge:</strong> Conceptualize advanced integration approaches for sustainability frameworks and standards within organizational transformation and strategic sustainability leadership within sustainability applications.</li>
+                    <li><strong>Skills:</strong> Research and develop management strategies for sustainability frameworks and standards to support executive and system-level leadership in organizational contexts.</li>
+                    <li><strong>Competence:</strong> Lead strategic transformations of leadership responsibilities for sustainability frameworks and standards while ensuring professional standards and stakeholder value.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="module-card">
+            <div class="module-header">
+                <div class="module-title">Module 6: Sustainable ICT Procurement and Policy</div>
+                <div>
+                    <span class="ects-badge">5 ECTS</span>
+                    <span class="eqf-badge">EQF 6</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Develop policies and practices for sustainable technology procurement</p>
+            <p><strong>Thematic Area:</strong> Management</p>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="metric-value">125h</div>
+                    <div class="metric-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">31h</div>
+                    <div class="metric-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">43h</div>
+                    <div class="metric-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">50h</div>
+                    <div class="metric-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <strong>Learning Outcomes:</strong>
+                <ul>
+                    <li><strong>Knowledge:</strong> Pioneer new approaches to optimization principles for sustainable ict procurement and policy in executive and system-level leadership within sustainability applications.</li>
+                    <li><strong>Skills:</strong> Lead transformational management strategies for sustainable ict procurement and policy to support executive and system-level leadership in organizational contexts.</li>
+                    <li><strong>Competence:</strong> Shape industry practices through leadership responsibilities for sustainable ict procurement and policy while ensuring professional standards and stakeholder value.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="module-card">
+            <div class="module-header">
+                <div class="module-title">Module 7: Applied Ethics in AI for Sustainability</div>
+                <div>
+                    <span class="ects-badge">4.5 ECTS</span>
+                    <span class="eqf-badge">EQF 6</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Address ethical considerations in AI applications for sustainability challenges</p>
+            <p><strong>Thematic Area:</strong> Ethics & Governance</p>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="metric-value">112.5h</div>
+                    <div class="metric-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">28h</div>
+                    <div class="metric-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">39h</div>
+                    <div class="metric-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">45h</div>
+                    <div class="metric-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <strong>Learning Outcomes:</strong>
+                <ul>
+                    <li><strong>Knowledge:</strong> Establish methodological strategic applications of applied ethics in ai for sustainability for organizational transformation and strategic sustainability leadership within sustainability applications.</li>
+                    <li><strong>Skills:</strong> Create breakthrough ethical governance of applied ethics in ai for sustainability to support executive and system-level leadership in organizational contexts.</li>
+                    <li><strong>Competence:</strong> Influence sector-wide professional responsibilities involving applied ethics in ai for sustainability while ensuring professional standards and stakeholder value.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Recognition Framework</h2>
+        <p><strong>EQF Level:</strong> 7</p>
+        <p><strong>ECTS Transferable:</strong> Yes</p>
+        <p><strong>Bologna Compliant:</strong> Yes</p>
+        <p><strong>Professional Recognition:</strong> Industry recognition for Digital Sustainability Leader competencies at EQF Level 7</p>
+    </div>
+</body>
+</html>

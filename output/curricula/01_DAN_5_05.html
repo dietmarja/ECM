@@ -1,0 +1,455 @@
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability Data Analyst (DAN)</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fafafa;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c5530, #1e3a5f);
+            color: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            margin-bottom: 2.5rem;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        
+        .pathway-guidance {
+            background: rgba(255,255,255,0.15);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            text-align: left;
+            border-left: 4px solid rgba(255,255,255,0.6);
+        }
+        
+        .pathway-guidance h3 {
+            margin-top: 0;
+            color: rgba(255,255,255,0.9);
+            font-size: 1.1rem;
+        }
+        
+        .professional-context {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            text-align: left;
+            border-left: 4px solid rgba(255,255,255,0.5);
+        }
+        
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 1.5rem;
+            margin: 2.5rem 0;
+        }
+        
+        .metric-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+            border-left: 4px solid #28a745;
+            transition: transform 0.2s ease;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-2px);
+        }
+        
+        .metric-value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #2c5530;
+            margin-bottom: 0.5rem;
+        }
+        
+        .metric-label {
+            font-size: 0.9rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .section {
+            background: white;
+            padding: 2.5rem;
+            margin-bottom: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 3px 20px rgba(0,0,0,0.08);
+        }
+        
+        .section h2 {
+            color: #2c5530;
+            border-bottom: 3px solid #28a745;
+            padding-bottom: 0.8rem;
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+        }
+        
+        .section h3 {
+            color: #2c5530;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .learning-unit-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .learning-unit-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .learning-unit-title {
+            color: #2c5530;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .badges {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .ects-badge {
+            background: #28a745;
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .eqf-badge {
+            background: #17a2b8;
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .wbl-badge {
+            background: #fd7e14;
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .workload-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .workload-item {
+            text-align: center;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+        }
+        
+        .workload-value {
+            font-weight: bold;
+            color: #2c5530;
+            font-size: 1.2rem;
+        }
+        
+        .workload-label {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 0.3rem;
+        }
+        
+        .learning-outcomes {
+            background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+            border-left: 4px solid #28a745;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .learning-outcomes h4 {
+            margin-top: 0;
+            color: #2c5530;
+            margin-bottom: 1rem;
+        }
+        
+        .outcome-item {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: rgba(255,255,255,0.7);
+            border-radius: 6px;
+            border-left: 3px solid #28a745;
+        }
+        
+        .outcome-text {
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+        }
+        
+        .framework-mapping {
+            font-size: 0.85rem;
+            color: #666;
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+        
+        .pathway-note {
+            background: #e8f5e8;
+            border: 1px solid #c3e6c3;
+            border-radius: 6px;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+            color: #2c5530;
+        }
+        
+        .wbl-section {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 6px;
+            padding: 1rem;
+            margin: 1rem 0;
+            color: #856404;
+        }
+        
+        .footer {
+            margin-top: 3rem;
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+            border-top: 2px solid #e9ecef;
+            background: white;
+            border-radius: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2.2rem; }
+            .metrics { grid-template-columns: 1fr; }
+            .learning-unit-header { flex-direction: column; align-items: flex-start; }
+            .badges { justify-content: flex-start; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Sustainability Data Analyst (DAN)</h1>
+        
+        <div class="pathway-guidance">
+            <h3>Learning Pathway Position</h3>
+            Foundation level in Level 5 Certificate in ESG Data Foundations
+        </div>
+        
+        <div class="professional-context">
+            This curriculum prepares learners to develop foundational sustainability awareness and analytical thinking essential for entry-level data roles in sustainability reporting and compliance. Graduates will understand core ESG frameworks, basic data collection methodologies, and fundamental regulatory requirements. They typically contribute to sustainability data infrastructure projects and support the development of environmental reporting systems within organisations beginning their sustainability journey.
+        </div>
+        
+        <div class="metrics">
+            <div class="metric-card">
+                <div class="metric-value">1</div>
+                <div class="metric-label">Learning Units</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">EQF 5</div>
+                <div class="metric-label">Level</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">0.5</div>
+                <div class="metric-label">ECTS</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">16.0%</div>
+                <div class="metric-label">Work-Based</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Programme Overview</h2>
+        <p><strong>Role Focus:</strong> ESG data analysis and regulatory compliance</p>
+        <p><strong>Target Audience:</strong> Entry-level professionals and recent graduates seeking to develop basic sustainability data skills for regulatory reporting roles</p>
+        <p><strong>Learning Approach:</strong> EQF Level 5 professional development programme with 0.5 ECTS, combining theoretical knowledge with practical application through structured learning and standardised work-based learning integration.</p>
+        <p><strong>Core Tools & Platforms:</strong> Excel, Power BI, ESG databases, TCFD frameworks, GRI standards</p>
+    </div>
+    
+    <div class="section">
+        <h2>Competence Frameworks Alignment</h2>
+        <h3>GreenComp Framework</h3>
+        <p>1.1 Embodying sustainability values, 4.1 Political agency, 4.3 Collective action</p>
+        
+        <h3>e-CF Framework (Detailed Mapping)</h3>
+        <ul><li><strong>A.1:</strong> IS and Business Strategy Alignment - Level 2</li><li><strong>A.7:</strong> Technology Trend Monitoring - Level 2</li><li><strong>B.6:</strong> Systems Engineering - Level 1</li>
+        </ul>
+        
+        <div class="pathway-note">
+            <strong>Framework Note:</strong> Learning outcomes are mapped directly to GreenComp and e-CF framework descriptors
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Dual Education Model & Work-Based Learning</h2>
+        <div class="wbl-section">
+            <h3>WBL Compliance</h3>
+            <p>16.0% work-based learning (exceeds minimum 20%)</p>
+        </div>
+        
+        <h3>Model Implementation</h3>
+        <ul><li><strong>Minimum Wbl Percentage:</strong> 20</li><li><strong>Employer Partnership:</strong> Mandatory for all programmes</li><li><strong>Workplace Learning:</strong> Integrated throughout curriculum</li><li><strong>Assessment Split:</strong> 70% academic, 30% workplace-based</li>
+        </ul>
+        
+        <h3>Quality Assurance</h3>
+        <ul><li><strong>Workplace Standards:</strong> Standardised workplace learning environments</li><li><strong>Mentor Qualifications:</strong> Certified workplace mentors</li><li><strong>Assessment Criteria:</strong> Unified workplace assessment standards</li><li><strong>Monitoring Systems:</strong> Regular quality monitoring of WBL delivery</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Flexible Learning Pathways</h2>
+        <ul><li><strong>Modular Design:</strong> Learning units designed for flexible recombination</li><li><strong>Competence Catalog:</strong> Integrated with competence-based learning unit catalog</li><li><strong>Stackability Options:</strong> Horizontal and vertical stacking supported</li><li><strong>Pathway Flexibility:</strong> Multiple entry and exit points available</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Assessment Framework</h2>
+        <p><strong>Primary Method:</strong> Basic competence demonstration</p>
+        <p><strong>Work-Based Component:</strong> Workplace observation and basic task completion</p>
+        <p><strong>Components:</strong></p>
+        <ul><li>Foundational knowledge test: <strong>40%</strong></li><li>Basic data exercise: <strong>40%</strong></li><li>Professional awareness reflection: <strong>20%</strong></li>
+        </ul>
+        <p><strong>Rationale:</strong> Basic level programmes emphasise foundational knowledge acquisition and awareness development in sustainability data practices</p>
+    </div>
+    
+    <div class="section">
+        <h2>Delivery Framework</h2>
+        <div class="workload-grid">
+            <div class="workload-item">
+                <div class="workload-value">6h</div>
+                <div class="workload-label">Contact Hours</div>
+            </div>
+            <div class="workload-item">
+                <div class="workload-value">3h</div>
+                <div class="workload-label">Self-Study</div>
+            </div>
+            <div class="workload-item">
+                <div class="workload-value">2h</div>
+                <div class="workload-label">Workplace</div>
+            </div>
+            <div class="workload-item">
+                <div class="workload-value">16.0%</div>
+                <div class="workload-label">WBL %</div>
+            </div>
+        </div>
+        <p><strong>Work-Based Learning:</strong> Integrated (exceeds 20% minimum)</p>
+        <p><strong>Dual Education Model:</strong> Implemented</p>
+    </div>
+    
+    <div class="section">
+        <h2>Learning Unit Structure</h2>
+        <div class="learning-unit-card">
+            <div class="learning-unit-header">
+                <div class="learning-unit-title">Learning Unit 1: Introduction to Digital Sustainability</div>
+                <div class="badges">
+                    <span class="ects-badge">0.5 ECTS</span>
+                    <span class="eqf-badge">EQF 5</span>
+                    <span class="wbl-badge">20.0% WBL</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Core sustainability concepts and their intersection with technology systems for digital professionals</p>
+            <p><strong>Thematic Area:</strong> Foundation</p>
+            
+            <div class="pathway-note">
+                This learning unit forms part of the Foundation level in Level 5 Certificate in ESG Data Foundations
+            </div>
+            
+            <div class="wbl-section">
+                <strong>Work-Based Learning Integration:</strong>
+                <ul><li>ESG data collection projects</li><li>Regulatory reporting tasks</li><li>Audit support activities</li>
+                </ul>
+                <p><strong>Employer Partnerships:</strong> Financial services, manufacturing, energy sectors</p>
+            </div>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="workload-value">12.5h</div>
+                    <div class="workload-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="workload-value">6h</div>
+                    <div class="workload-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="workload-value">3h</div>
+                    <div class="workload-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="workload-value">2h</div>
+                    <div class="workload-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <h4>Learning Outcomes</h4>
+                
+                <div class="outcome-item">
+                    <div class="outcome-text"><strong>Knowledge:</strong> Compare regulatory compliance requirements for introduction to digital sustainability within professional sustainability practice.</div>
+                    <div class="framework-mapping">GreenComp: 4.1 Political agency</div>
+                </div>
+                
+                <div class="outcome-item">
+                    <div class="outcome-text"><strong>Skills:</strong> Organise Power BI visualisation of introduction to digital sustainability metrics to support organisational sustainability objectives.</div>
+                    <div class="framework-mapping">e-CF: Technology Trend Monitoring - Level 2</div>
+                </div>
+                
+                <div class="outcome-item">
+                    <div class="outcome-text"><strong>Competence:</strong> Contribute to team leadership in regulatory reporting activities related to introduction to digital sustainability while ensuring professional standards and stakeholder value.</div>
+                    <div class="framework-mapping">e-CF: Systems Engineering - Level 1</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        Educational Curriculum Modeller (ECM) - Version 2.0 - July 10, 2025
+    </div>
+</body>
+</html>

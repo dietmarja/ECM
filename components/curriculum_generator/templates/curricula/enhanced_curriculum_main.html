@@ -1,0 +1,347 @@
+<!-- templates/curricula/enhanced_curriculum_main.html -->
+<!-- Enhanced Template with Rich Content Display for Phase 1 & 2 Integration -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ curriculum.metadata.role_name }} Curriculum: {{ curriculum.metadata.topic }}</title>
+    <style>
+        /* ENHANCED CURRICULUM STYLES with Rich Content Support */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); min-height: 100vh; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        /* Enhanced Header with Profile Integration */
+        .header { background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white; padding: 3rem 2rem; border-radius: 15px; margin-bottom: 2rem; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .header h2 { font-size: 1.5rem; margin-bottom: 1.5rem; opacity: 0.9; }
+        .metadata { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+        .badge { background: rgba(255, 255, 255, 0.25); padding: 0.5rem 1rem; border-radius: 25px; font-size: 0.9rem; }
+        .profile-badge { background: rgba(255, 215, 0, 0.3); border: 1px solid rgba(255, 215, 0, 0.5); }
+        
+        /* Enhanced Section Styles */
+        .section { background: white; margin-bottom: 2rem; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); overflow: hidden; }
+        .section-header { background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white; padding: 1.5rem 2rem; font-size: 1.5rem; font-weight: 600; }
+        .section-content { padding: 2rem; }
+        
+        /* Enhanced Overview Grid with Profile Integration */
+        .overview-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem; }
+        .overview-card { background: linear-gradient(135deg, #f8f9fc 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 10px; border-left: 5px solid #2563eb; }
+        .overview-card h3 { color: #2563eb; margin-bottom: 1rem; font-size: 1.2rem; }
+        .profile-integration-card { border-left: 5px solid #10b981; }
+        .profile-integration-card h3 { color: #10b981; }
+        
+        /* Enhanced Module Cards with Rich Content */
+        .modules-catalog { display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 1.5rem; }
+        .module-card { background: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden; border-left: 5px solid #8b5cf6; transition: transform 0.2s ease; }
+        .module-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.15); }
+        .module-card-header { background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); color: white; padding: 1.5rem; }
+        .module-title-section h4 { font-size: 1rem; margin-bottom: 0.3rem; }
+        .module-title-section h5 { font-size: 1.1rem; opacity: 0.9; }
+        .module-badges { display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap; }
+        .ects-badge, .eqf-badge, .area-badge { background: rgba(255, 255, 255, 0.25); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem; }
+        
+        /* NEW: Enhanced Description Section */
+        .enhanced-description { padding: 1.5rem; background: #f8f9fa; border-left: 4px solid #17a2b8; margin: 0 1.5rem 1rem; border-radius: 0 8px 8px 0; }
+        .enhanced-description h6 { color: #17a2b8; margin-bottom: 0.5rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        .enhanced-description p { color: #495057; line-height: 1.6; }
+        
+        /* NEW: Rich Topics Section */
+        .rich-topics { padding: 0 1.5rem 1rem; }
+        .rich-topics h6 { color: #6f42c1; margin-bottom: 0.5rem; font-size: 0.9rem; }
+        .topic-tag { background: #f3e8ff; color: #7c3aed; padding: 0.2rem 0.6rem; margin-right: 0.3rem; margin-bottom: 0.3rem; border-radius: 12px; font-size: 0.8rem; display: inline-block; border: 1px solid #e9d5ff; }
+        
+        /* NEW: Learning Approach Section */
+        .learning-approach { padding: 0 1.5rem 1rem; }
+        .learning-approach h6 { color: #dc3545; margin-bottom: 0.5rem; font-size: 0.9rem; }
+        .learning-approach p { color: #6c757d; font-style: italic; font-size: 0.9rem; }
+        
+        /* NEW: Practical Applications Section */
+        .practical-applications { padding: 0 1.5rem 1rem; background: #fff3cd; margin: 0 1.5rem 1rem; border-radius: 8px; border-left: 4px solid #ffc107; }
+        .practical-applications h6 { color: #856404; margin-bottom: 0.5rem; font-size: 0.9rem; }
+        .practical-applications p { color: #856404; font-size: 0.9rem; }
+        
+        /* NEW: Profile Integration Indicators */
+        .profile-indicator { background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.75rem; margin-left: 0.5rem; }
+        .competency-aligned { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); }
+        
+        /* NEW: Enhanced Learning Outcomes */
+        .enhanced-outcomes { padding: 1.5rem; background: #e3f2fd; margin: 0 1.5rem 1rem; border-radius: 8px; }
+        .enhanced-outcomes h6 { color: #1565c0; margin-bottom: 0.8rem; font-size: 0.9rem; }
+        .outcome-item { margin-bottom: 0.5rem; padding-left: 1rem; position: relative; }
+        .outcome-item::before { content: "✓"; position: absolute; left: 0; color: #1565c0; font-weight: bold; }
+        .outcome-item strong { color: #1565c0; }
+        
+        /* NEW: Career Integration Section */
+        .career-integration { background: #d4edda; padding: 1.5rem; margin: 1.5rem 0; border-radius: 10px; border-left: 5px solid #28a745; }
+        .career-integration h4 { color: #155724; margin-bottom: 1rem; }
+        .career-skills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+        .career-skill-tag { background: #28a745; color: white; padding: 0.2rem 0.6rem; border-radius: 15px; font-size: 0.8rem; }
+        
+        /* NEW: Competency Mapping Section */
+        .competency-mapping { background: #fff3cd; padding: 1.5rem; margin: 1.5rem 0; border-radius: 10px; border-left: 5px solid #ffc107; }
+        .competency-mapping h4 { color: #856404; margin-bottom: 1rem; }
+        .competency-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+        .competency-item { background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #ffc107; }
+        .competency-item h6 { color: #856404; margin-bottom: 0.5rem; }
+        .competency-item p { color: #6c757d; font-size: 0.9rem; }
+        
+        /* Delivery Methods Enhancement */
+        .delivery-methods { padding: 0 1.5rem 1rem; }
+        .delivery-methods strong { color: #495057; }
+        .delivery-method-tag { background: #6c757d; color: white; padding: 0.2rem 0.5rem; margin-right: 0.3rem; border-radius: 10px; font-size: 0.8rem; }
+        
+        /* Footer */
+        .footer { text-align: center; padding: 2rem; color: #666; background: rgba(255, 255, 255, 0.8); border-radius: 10px; margin-top: 3rem; }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) { 
+            .overview-grid { grid-template-columns: 1fr; } 
+            .modules-catalog { grid-template-columns: 1fr; }
+            .competency-list { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>📚 {{ curriculum.metadata.role_name }} Curriculum</h1>
+            <h2>{{ curriculum.metadata.topic }}</h2>
+            <div class="metadata">
+                <span class="badge">Role: {{ curriculum.metadata.role_id }}</span>
+                <span class="badge">EQF Level {{ curriculum.metadata.eqf_level }}</span>
+                <span class="badge">{{ curriculum.metadata.actual_ects }} ECTS</span>
+                <span class="badge">{{ curriculum.metadata.num_modules }} Modules</span>
+        <!--    <span class="badge">T3.2/T3.4 Compliant</span>  -->
+                {% if curriculum.metadata.educational_profile_integrated %}
+                <span class="badge profile-badge">📊 Profile-Driven</span>
+                {% endif %}
+                {% if curriculum.metadata.extended_descriptions_used %}
+                <span class="badge profile-badge">🌟 Rich Content</span>
+                {% endif %}
+            </div>
+        </header>
+        
+        <main>
+            <!-- Enhanced Overview Section -->
+            <section class="section">
+                <div class="section-header">📋 Enhanced Curriculum Overview</div>
+                <div class="section-content">
+                    <div class="overview-grid">
+                        <div class="overview-card">
+                            <h3>📚 Programme Details</h3>
+                            <p><strong>Focus:</strong> {{ curriculum.metadata.topic }}</p>
+                            <p><strong>ECTS:</strong> {{ curriculum.metadata.actual_ects }} (target: {{ curriculum.metadata.target_ects }})</p>
+                            <p><strong>Type:</strong> {{ curriculum.curriculum_type|replace('_', ' ')|title }}</p>
+                            <p><strong>Builder:</strong> {{ curriculum.metadata.builder_type|default('Standard') }}</p>
+                        </div>
+                        <div class="overview-card">
+                            <h3>📊 Quality Metrics</h3>
+                            <p><strong>ECTS Efficiency:</strong> {{ curriculum.quality_metrics.ects_efficiency|default('N/A') }}%</p>
+                            <p><strong>Topic Relevance:</strong> {{ curriculum.quality_metrics.topic_relevance|default('N/A') }}/10</p>
+                            <p><strong>Profile Integration:</strong> {{ curriculum.quality_metrics.profile_integration_score|default('N/A') }}%</p>
+                            <p><strong>Content Richness:</strong> {{ curriculum.quality_metrics.rich_content_integration_score|default('N/A') }}%</p>
+                        </div>
+                        {% if curriculum.profile_driven_features %}
+                        <div class="overview-card profile-integration-card">
+                            <h3>🎯 Profile Integration</h3>
+                            <p><strong>Competency-Based:</strong> {{ curriculum.profile_driven_features.competency_based_selection|yesno:'✅,❌' }}</p>
+                            <p><strong>Career Aligned:</strong> {{ curriculum.profile_driven_features.career_pathway_alignment|yesno:'✅,❌' }}</p>
+                            <p><strong>Industry Context:</strong> {{ curriculum.profile_driven_features.industry_context_integration|yesno:'✅,❌' }}</p>
+                            <p><strong>Employer Relevance:</strong> {{ curriculum.profile_driven_features.employer_expectations_mapped|yesno:'✅,❌' }}</p>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </section>
+
+            <!-- Career Integration Section -->
+            {% if curriculum.career_integration %}
+            <section class="career-integration">
+                <h4>🚀 Career Progression Alignment</h4>
+                {% if curriculum.career_integration.immediate_skills_addressed %}
+                <div>
+                    <strong>Immediate Skills Addressed:</strong>
+                    <div class="career-skills">
+                        {% for skill in curriculum.career_integration.immediate_skills_addressed %}
+                        <span class="career-skill-tag">{{ skill }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+                {% if curriculum.career_integration.industry_alignment %}
+                <p><strong>Industry Focus:</strong> {{ curriculum.career_integration.industry_alignment|join:', ' }}</p>
+                {% endif %}
+            </section>
+            {% endif %}
+
+            <!-- Competency Mapping Section -->
+            {% if curriculum.competency_mapping %}
+            <section class="competency-mapping">
+                <h4>🎯 Competency Mapping</h4>
+                <p><strong>Total Competencies Mapped:</strong> {{ curriculum.competency_mapping.total_competencies_mapped }}</p>
+                {% if curriculum.competency_mapping.priority_competencies %}
+                <div>
+                    <strong>Priority Competencies:</strong>
+                    <div class="competency-list">
+                        {% for competency in curriculum.competency_mapping.priority_competencies %}
+                        <div class="competency-item">
+                            <h6>{{ competency }}</h6>
+                            <p>Core professional competency for {{ curriculum.metadata.role_name }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+            </section>
+            {% endif %}
+
+            <!-- Enhanced Module Catalog -->
+            <section class="section">
+                <div class="section-header">📖 Enhanced Module Catalog ({{ curriculum.metadata.num_modules }} Modules)</div>
+                <div class="section-content">
+                    <div class="modules-catalog">
+                        {% if curriculum.micro_units %}
+                            {% for unit in curriculum.micro_units %}
+                            <div class="module-card">
+                                <div class="module-card-header">
+                                    <div class="module-title-section">
+                                        <h4>{{ unit.source_module_name|default:'Micro-Learning Unit' }}</h4>
+                                        <h5>{{ unit.title }}</h5>
+                                    </div>
+                                    <div class="module-badges">
+                                        <span class="ects-badge">{{ unit.ects }} ECTS</span>
+                                        <span class="eqf-badge">EQF {{ unit.eqf_level|default:curriculum.metadata.eqf_level }}</span>
+                                        <span class="area-badge">{{ unit.unit_type|default:'General'|title }}</span>
+                                        {% if unit.profile_competency_aligned %}
+                                        <span class="profile-indicator competency-aligned">🎯 Competency Aligned</span>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                
+                                <!-- Enhanced Description -->
+                                {% if unit.enhanced_description %}
+                                <div class="enhanced-description">
+                                    <h6>📝 Enhanced Description</h6>
+                                    <p>{{ unit.enhanced_description }}</p>
+                                </div>
+                                {% endif %}
+                                
+                                <!-- Rich Topics -->
+                                {% if unit.rich_topics %}
+                                <div class="rich-topics">
+                                    <h6>📚 Key Topics Covered</h6>
+                                    {% for topic in unit.rich_topics %}
+                                    <span class="topic-tag">{{ topic }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                                
+                                <!-- Learning Approach -->
+                                {% if unit.learning_approach %}
+                                <div class="learning-approach">
+                                    <h6>🎓 Learning Approach</h6>
+                                    <p>{{ unit.learning_approach }}</p>
+                                </div>
+                                {% endif %}
+                                
+                                <!-- Practical Applications -->
+                                {% if unit.practical_applications %}
+                                <div class="practical-applications">
+                                    <h6>💼 Practical Applications</h6>
+                                    <p>{{ unit.practical_applications }}</p>
+                                </div>
+                                {% endif %}
+                                
+                                <!-- Enhanced Learning Outcomes -->
+                                {% if unit.extended_learning_outcomes %}
+                                <div class="enhanced-outcomes">
+                                    <h6>🎯 Learning Outcomes</h6>
+                                    {% if unit.extended_learning_outcomes.knowledge_outcome %}
+                                    <div class="outcome-item"><strong>Knowledge:</strong> {{ unit.extended_learning_outcomes.knowledge_outcome }}</div>
+                                    {% endif %}
+                                    {% if unit.extended_learning_outcomes.understanding_outcome %}
+                                    <div class="outcome-item"><strong>Understanding:</strong> {{ unit.extended_learning_outcomes.understanding_outcome }}</div>
+                                    {% endif %}
+                                    {% if unit.extended_learning_outcomes.skills_outcome %}
+                                    <div class="outcome-item"><strong>Skills:</strong> {{ unit.extended_learning_outcomes.skills_outcome }}</div>
+                                    {% endif %}
+                                </div>
+                                {% endif %}
+                                
+                                <!-- Delivery Methods -->
+                                <div class="delivery-methods">
+                                    <strong>Delivery Methods:</strong>
+                                    {% for method in unit.delivery_methods %}
+                                    <span class="delivery-method-tag">{{ method|title }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        {% endif %}
+                        
+                        {% if curriculum.modules %}
+                            {% for module in curriculum.modules %}
+                            <div class="module-card">
+                                <div class="module-card-header">
+                                    <div class="module-title-section">
+                                        <h4>{{ module.name|default:'Module' }}</h4>
+                                        <h5>{{ module.title|default:module.name }}</h5>
+                                    </div>
+                                    <div class="module-badges">
+                                        <span class="ects-badge">{{ module.ects|default:module.ects_points }} ECTS</span>
+                                        <span class="eqf-badge">EQF {{ module.eqf_level|default:curriculum.metadata.eqf_level }}</span>
+                                        <span class="area-badge">{{ module.thematic_area|default:'General' }}</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- Extended Description -->
+                                {% if module.extended_description %}
+                                <div class="enhanced-description">
+                                    <h6>📝 Comprehensive Description</h6>
+                                    <p>{{ module.extended_description }}</p>
+                                </div>
+                                {% else %}
+                                <div class="module-description">
+                                    <p>{{ module.description|default:'Comprehensive module content designed for professional development in sustainability contexts.' }}</p>
+                                </div>
+                                {% endif %}
+                                
+                                <!-- Rich Topics -->
+                                {% if module.topics %}
+                                <div class="rich-topics">
+                                    <h6>📚 Topics Covered</h6>
+                                    {% for topic in module.topics %}
+                                    <span class="topic-tag">{{ topic }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                                
+                                <!-- Delivery Methods -->
+                                <div class="delivery-methods">
+                                    <strong>Delivery Methods:</strong>
+                                    {% for method in module.delivery_methods %}
+                                    <span class="delivery-method-tag">{{ method|title }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <p><strong>Enhanced Curriculum Generated by DSCG v3.2 (Phase 1 & 2)</strong></p>
+            <p>Generated: {{ curriculum.metadata.generation_date|default:'2025-06-04' }}</p>
+            <p>Curriculum ID: {{ curriculum.metadata.curriculum_id|default:'Enhanced_Curriculum' }}</p>
+            <p><em>T3.2 & T3.4 Compliant Digital Sustainability Curriculum with Rich Content Integration</em></p>
+            {% if curriculum.metadata.phase_1_features or curriculum.metadata.phase_2_features %}
+            <p><small>Features: Phase 1 (Rich Content) + Phase 2 (Profile-Driven) Integration</small></p>
+            {% endif %}
+        </footer>
+    </div>
+</body>
+</html>

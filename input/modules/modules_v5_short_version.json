@@ -1,0 +1,284 @@
+[
+  {
+    "id": "M1",
+    "name": "Introduction to Digital Sustainability",
+    "description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+    "extended_description": "This foundational module introduces digital professionals to core sustainability concepts and their intersection with technology systems. Participants will explore how digital technologies impact environmental outcomes and learn practical approaches to sustainable technology practices.",
+    "topics": [
+      "Digital sustainability fundamentals and core concepts",
+      "Environmental impact assessment of digital technologies",
+      "Digital carbon footprinting methodologies and tools",
+      "Energy-efficient system design principles",
+      "Sustainable software development practices"
+    ],
+    "eqf_level": 6,
+    "ects_points": 0.5,
+    "thematic_area": "Foundation",
+    "prerequisites": [],
+    "delivery_methods": ["online", "self-paced"],
+    "module_type": ["theoretical", "practical"],
+    "skills": ["sustainability_awareness", "digital_literacy", "environmental_assessment"],
+    "is_work_based": false,
+    "dual_principle_applicable": true,
+    "is_optional": false,
+    "learning_outcomes": {
+      "knowledge": "Recognize fundamental digital sustainability concepts and outline their practical applications within technology systems.",
+      "understanding": "Examine the environmental impact of digital technologies and analyze opportunities for sustainable technology implementation.",
+      "skills": "Demonstrate sustainable digital practices and apply carbon footprinting techniques to assess technology environmental performance."
+    },
+    "micro_credentials": {
+      "knowledge_micro_credential": "M1_lo_1",
+      "understanding_micro_credential": "M1_lo_2", 
+      "skills_micro_credential": "M1_lo_3"
+    },
+    "role_relevance": {
+      "DSL": 100, "DSM": 100, "DSC": 100, "SBA": 100, "SDD": 100,
+      "SSD": 100, "DAN": 100, "DSI": 100, "DSE": 100, "STS": 100
+    },
+    "institutional_framework": {
+      "issuing_institutions": ["National College of Ireland"],
+      "awarding_bodies": ["Digital4Sustainability Alliance"],
+      "recognition_scope": "european"
+    },
+    "quality_assurance": {
+      "standards_compliance": ["EQAVET", "Foundation_Level"],
+      "external_validation": true,
+      "stakeholder_feedback": true
+    }
+  },
+  {
+    "id": "M3",
+    "name": "Data Analytics for Sustainability",
+    "description": "Use data tools to derive actionable sustainability insights",
+    "extended_description": "This hands-on module equips participants with practical skills in analyzing sustainability data to generate actionable insights for organizational decision-making. Participants will learn to work with diverse data sources including environmental sensors, energy consumption data, and supply chain information.",
+    "topics": [
+      "Sustainability data sources and types",
+      "Environmental sensor data collection", 
+      "Energy consumption data analysis",
+      "Statistical analysis for sustainability",
+      "Data visualization for environmental insights"
+    ],
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "Data",
+    "prerequisites": ["M1"],
+    "delivery_methods": ["online", "blended"],
+    "module_type": ["practical"],
+    "skills": ["data_analysis", "sustainability_analytics", "insight_extraction"],
+    "is_work_based": false,
+    "dual_principle_applicable": false,
+    "is_optional": false,
+    "learning_outcomes": {
+      "knowledge": "Identify data analysis methods suitable for sustainability contexts and challenges.",
+      "understanding": "Evaluate tools and techniques for data-driven sustainability assessments.",
+      "skills": "Use analytics tools to extract sustainability insights from complex datasets."
+    },
+    "micro_credentials": {
+      "knowledge_micro_credential": "M3_lo_1",
+      "understanding_micro_credential": "M3_lo_2",
+      "skills_micro_credential": "M3_lo_3"
+    },
+    "role_relevance": {
+      "DAN": 100, "DSI": 100, "SBA": 85, "DSC": 75, "DSE": 100,
+      "DSL": 70, "DSM": 100, "SDD": 65, "SSD": 70, "STS": 60
+    },
+    "institutional_framework": {
+      "issuing_institutions": ["National College of Ireland", "Stichting Hogeschool Utrecht"],
+      "awarding_bodies": ["Digital4Sustainability Alliance"],
+      "recognition_scope": "european"
+    },
+    "quality_assurance": {
+      "standards_compliance": ["EQF_Annex_IV"],
+      "external_validation": true,
+      "stakeholder_feedback": true
+    }
+  },
+  {
+    "id": "M13",
+    "name": "Low-Carbon Cloud Infrastructure",
+    "description": "Design and implement energy-efficient cloud computing solutions",
+    "extended_description": "This module focuses on designing and implementing cloud computing solutions that minimize carbon footprint and energy consumption while maintaining high performance and availability. Participants will learn about energy-efficient cloud architecture patterns and carbon-aware computing strategies.",
+    "topics": [
+      "Energy-efficient cloud architecture patterns",
+      "Carbon-aware computing strategies",
+      "Renewable energy-powered data centers",
+      "Workload optimization for carbon reduction",
+      "Cloud service carbon accounting"
+    ],
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "Technical Implementation",
+    "prerequisites": ["M1"],
+    "delivery_methods": ["blended"],
+    "module_type": ["practical"],
+    "skills": ["cloud_optimization", "energy_efficiency"],
+    "is_work_based": false,
+    "dual_principle_applicable": false,
+    "is_optional": false,
+    "learning_outcomes": {
+      "knowledge": "Identify cloud infrastructure components and their energy consumption patterns.",
+      "understanding": "Explain strategies for reducing carbon footprint in cloud computing environments.",
+      "skills": "Implement and optimize low-carbon cloud infrastructure solutions."
+    },
+    "micro_credentials": {
+      "knowledge_micro_credential": "M13_lo_1",
+      "understanding_micro_credential": "M13_lo_2",
+      "skills_micro_credential": "M13_lo_3"
+    },
+    "role_relevance": {
+      "DSE": 100, "STS": 85, "SSD": 70, "SDD": 75, "DSC": 65,
+      "DSL": 70, "DSM": 75, "SBA": 60, "DAN": 55, "DSI": 65
+    },
+    "institutional_framework": {
+      "issuing_institutions": ["Fast Lane Institute", "CEFRIEL"],
+      "awarding_bodies": ["Digital4Sustainability Alliance"],
+      "recognition_scope": "european"
+    },
+    "quality_assurance": {
+      "standards_compliance": ["EQF_Annex_IV"],
+      "external_validation": true,
+      "stakeholder_feedback": true
+    }
+  },
+  {
+    "id": "M26",
+    "name": "AI for Sustainable Decision-Making",
+    "description": "Using AI tools to support sustainability decisions in organizations",
+    "extended_description": "This advanced module teaches participants to leverage artificial intelligence technologies to enhance organizational decision-making processes related to sustainability strategy, operations, and impact management.",
+    "topics": [
+      "AI-driven decision support systems",
+      "Algorithmic sustainability optimization",
+      "AI-powered scenario planning",
+      "Automated sustainability reporting",
+      "Machine learning for resource optimization"
+    ],
+    "eqf_level": 7,
+    "ects_points": 5,
+    "thematic_area": "Data",
+    "prerequisites": ["M4"],
+    "delivery_methods": ["online", "blended"],
+    "module_type": ["theoretical", "practical"],
+    "skills": ["ai_application", "sustainability_decision_support"],
+    "is_work_based": false,
+    "dual_principle_applicable": false,
+    "is_optional": false,
+    "learning_outcomes": {
+      "knowledge": "Identify AI technologies that can assist with sustainability analysis and strategy development.",
+      "understanding": "Evaluate AI-driven insights in the context of organizational sustainability goals.",
+      "skills": "Apply advanced AI models to assess sustainability outcomes and inform decision-making processes."
+    },
+    "micro_credentials": {
+      "knowledge_micro_credential": "M26_lo_1",
+      "understanding_micro_credential": "M26_lo_2",
+      "skills_micro_credential": "M26_lo_3"
+    },
+    "role_relevance": {
+      "DSI": 95, "DAN": 90, "DSL": 80, "DSC": 85, "DSM": 75,
+      "SBA": 70, "SDD": 60, "SSD": 65, "DSE": 75, "STS": 60
+    },
+    "institutional_framework": {
+      "issuing_institutions": ["Universidad Internacional de la Rioja", "Fraunhofer"],
+      "awarding_bodies": ["Digital4Sustainability Alliance"],
+      "recognition_scope": "european"
+    },
+    "quality_assurance": {
+      "standards_compliance": ["EQF_Annex_IV"],
+      "external_validation": true,
+      "stakeholder_feedback": true
+    }
+  },
+  {
+    "id": "M25",
+    "name": "Digital Sustainability in SMEs",
+    "description": "Work-based strategies to apply digital sustainability in small and medium-sized enterprises",
+    "extended_description": "This practical work-based module addresses the unique challenges and opportunities of implementing digital sustainability initiatives in small and medium-sized enterprises with limited resources and specialized expertise.",
+    "topics": [
+      "SME sustainability context assessment",
+      "Resource-efficient digital solutions",
+      "Cost-effective sustainability tools",
+      "Collaborative resource sharing approaches",
+      "Implementation within resource constraints"
+    ],
+    "eqf_level": 4,
+    "ects_points": 5,
+    "thematic_area": "Management",
+    "prerequisites": [],
+    "delivery_methods": ["workplace", "blended"],
+    "module_type": ["work-based"],
+    "skills": ["sme_sustainability", "digital_tool_use"],
+    "is_work_based": true,
+    "dual_principle_applicable": true,
+    "is_optional": false,
+    "learning_outcomes": {
+      "knowledge": "Identify the challenges and opportunities of implementing digital sustainability in SMEs.",
+      "understanding": "Recognize appropriate digital tools and workflows to enhance sustainability in small business contexts.",
+      "skills": "Apply digital solutions in a real SME context to address sustainability issues."
+    },
+    "micro_credentials": {
+      "knowledge_micro_credential": "M25_lo_1",
+      "understanding_micro_credential": "M25_lo_2",
+      "skills_micro_credential": "M25_lo_3"
+    },
+    "role_relevance": {
+      "DSL": 60, "DSM": 80, "STS": 90, "SDD": 70, "DSC": 75,
+      "SSD": 65, "SBA": 70, "DAN": 55, "DSI": 50, "DSE": 60
+    },
+    "institutional_framework": {
+      "issuing_institutions": ["GZS CCIS", "IVSZ"],
+      "awarding_bodies": ["Digital4Sustainability Alliance"],
+      "recognition_scope": "european"
+    },
+    "quality_assurance": {
+      "standards_compliance": ["EQAVET"],
+      "external_validation": true,
+      "stakeholder_feedback": true
+    }
+  },
+  {
+    "id": "M95",
+    "name": "EU Green Deal: Foundations and Framework",
+    "description": "Comprehensive introduction to the European Green Deal as the overarching framework for EU sustainability legislation",
+    "extended_description": "This foundational module provides participants with comprehensive understanding of the European Green Deal as the central policy framework driving EU sustainability legislation.",
+    "topics": [
+      "European Green Deal objectives and key principles",
+      "Climate neutrality targets and 2050 roadmap",
+      "Fit for 55 package overview and implementation",
+      "Sectoral impact assessment and transformation requirements",
+      "Organizational compliance strategies and preparation"
+    ],
+    "eqf_level": 5,
+    "ects_points": 0.5,
+    "thematic_area": "EU Legislation",
+    "prerequisites": [],
+    "delivery_methods": ["online", "self-paced"],
+    "module_type": ["theoretical"],
+    "skills": ["policy_analysis", "regulatory_awareness", "strategic_planning"],
+    "is_work_based": false,
+    "dual_principle_applicable": true,
+    "is_optional": false,
+    "learning_outcomes": {
+      "knowledge": "Identify the key components, objectives, and legislative instruments of the European Green Deal framework.",
+      "understanding": "Explain how the Green Deal serves as the overarching policy framework for EU sustainability legislation.",
+      "skills": "Analyze the implications of Green Deal policies for different sectors and develop organizational preparedness strategies."
+    },
+    "micro_credentials": {
+      "knowledge_micro_credential": "M95_lo_1",
+      "understanding_micro_credential": "M95_lo_2",
+      "skills_micro_credential": "M95_lo_3"
+    },
+    "role_relevance": {
+      "DSL": 95, "DSM": 90, "DSC": 85, "SBA": 80, "SDD": 75,
+      "SSD": 70, "DAN": 75, "DSI": 80, "DSE": 70, "STS": 75
+    },
+    "institutional_framework": {
+      "issuing_institutions": ["National College of Ireland", "Universidad de Alcala"],
+      "awarding_bodies": ["Digital4Sustainability Alliance"],
+      "recognition_scope": "european"
+    },
+    "quality_assurance": {
+      "standards_compliance": ["EQF_Annex_IV", "EU_Green_Deal"],
+      "external_validation": true,
+      "stakeholder_feedback": true
+    }
+  }
+]

@@ -1,0 +1,1338 @@
+{
+  "curriculum_identification": {
+    "number": "08",
+    "id": "DSC_6_Professional",
+    "title": "Professional Consultancy Certificate",
+    "role_title": "Digital Sustainability Consultant",
+    "role_abbreviation": "DSC",
+    "formatted_title": "Digital Sustainability Consultant (DSC)",
+    "eqf_level": 6,
+    "total_ects": 45.0,
+    "total_learning_units": 14,
+    "development_date": "2025-07-10T13:48:01.792956",
+    "pathway_position": "Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy"
+  },
+  "role_profile": {
+    "title": "Digital Sustainability Consultant",
+    "description": "Advises organisations, especially SMEs, on applying digital sustainability solutions.",
+    "focus": "Advisory services and solution bridging",
+    "professional_context": "This curriculum prepares learners to deliver professional-level consulting services and manage complex sustainability transformation projects across diverse industry sectors. Graduates will master advanced consulting methodologies, project management frameworks, and strategic advisory capabilities. They typically lead major consulting engagements, develop innovative sustainability solutions, and provide expert guidance to organisations undertaking comprehensive digital sustainability transformations.",
+    "core_tools": [
+      "Consulting methodologies",
+      "Assessment frameworks",
+      "Solution design tools",
+      "Client engagement platforms"
+    ],
+    "authentic_tasks": [
+      "Assess organisational sustainability readiness",
+      "Design tailored sustainability solutions",
+      "Facilitate client transformation processes",
+      "Develop implementation roadmaps"
+    ]
+  },
+  "competence_frameworks_alignment": {
+    "greencomp": [
+      "2.2 Critical thinking",
+      "3.3 Political agency",
+      "4.2 Envisioning"
+    ],
+    "ecf_detailed": {
+      "A.4": "Product/Service Planning - Level 3",
+      "A.5": "Architecture Design - Level 3",
+      "E.3": "Risk Management - Level 3"
+    },
+    "framework_note": "Learning outcomes are mapped directly to GreenComp and e-CF framework descriptors"
+  },
+  "target_audience": "Experienced professionals seeking professional certification in sustainability consulting, transformation management, and strategic advisory services",
+  "learning_approach": "EQF Level 6 professional development programme with 45.0 ECTS, combining theoretical knowledge with practical application through structured learning and standardised work-based learning integration.",
+  "assessment_framework": {
+    "primary": "Professional consulting certification",
+    "components": [
+      "Complex client engagement",
+      "Best practice development",
+      "Professional methodology innovation"
+    ],
+    "weightings": [
+      40,
+      30,
+      30
+    ],
+    "rationale": "Professional certification requires demonstrated excellence in complex consulting and methodological innovation",
+    "wbl_component": "Professional consulting practice and methodology development"
+  },
+  "dual_education_model": {
+    "wbl_compliance": "40.0% work-based learning (exceeds minimum 20%)",
+    "model_implementation": {
+      "minimum_wbl_percentage": 20,
+      "employer_partnership": "Mandatory for all programmes",
+      "workplace_learning": "Integrated throughout curriculum",
+      "assessment_split": "70% academic, 30% workplace-based"
+    },
+    "employer_engagement": {
+      "partnership_agreements": "Formal agreements with industry partners",
+      "mentor_training": "Workplace mentor development programme",
+      "assessment_participation": "Employer involvement in competence assessment",
+      "feedback_systems": "Regular employer feedback on learning outcomes"
+    },
+    "quality_assurance": {
+      "workplace_standards": "Standardised workplace learning environments",
+      "mentor_qualifications": "Certified workplace mentors",
+      "assessment_criteria": "Unified workplace assessment standards",
+      "monitoring_systems": "Regular quality monitoring of WBL delivery"
+    }
+  },
+  "flexible_learning_pathways": {
+    "modular_design": "Learning units designed for flexible recombination",
+    "competence_catalog": "Integrated with competence-based learning unit catalog",
+    "stackability_options": "Horizontal and vertical stacking supported",
+    "pathway_flexibility": "Multiple entry and exit points available"
+  },
+  "delivery_framework": {
+    "total_contact_hours": 385,
+    "total_self_study_hours": 278,
+    "total_workplace_hours": 450,
+    "wbl_percentage": 40.0,
+    "work_based_learning": true,
+    "delivery_methods": [
+      "Classroom",
+      "Online",
+      "Workplace",
+      "Blended"
+    ],
+    "dual_principle_applicable": true
+  },
+  "learning_units": [
+    {
+      "learning_unit_number": 1,
+      "learning_unit_id": "M1",
+      "learning_unit_title": "Introduction to Digital Sustainability",
+      "learning_unit_description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+      "ects_credits": 0.5,
+      "eqf_level": 5,
+      "total_workload_hours": 12.5,
+      "contact_hours": 4,
+      "self_study_hours": 3,
+      "workplace_hours": 5,
+      "assessment_hours": 0.5,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Critically evaluate solution design frameworks in introduction to digital sustainability within professional sustainability practice.",
+        "skills": "Innovate solution architecture design in introduction to digital sustainability to support organisational sustainability objectives.",
+        "competence": "Lead initiatives in consulting delivery responsibilities for introduction to digital sustainability while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 3.3 Political agency",
+          "skills_framework": "e-CF: Architecture Design - Level 3",
+          "competence_framework": "e-CF: Risk Management - Level 3"
+        }
+      },
+      "thematic_area": "Foundation",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Introduction to Digital Sustainability",
+        "description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+        "thematic_area": "Foundation",
+        "eqf_level": 5,
+        "ects_points": 0.5,
+        "competence_category": "General Professional Competence",
+        "role_relevance": {
+          "DSL": 100,
+          "DSM": 100,
+          "DSC": 100,
+          "SBA": 100,
+          "SDD": 100,
+          "SSD": 100,
+          "DAN": 100,
+          "DSI": 100,
+          "DSE": 100,
+          "STS": 100
+        },
+        "prerequisites": [],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 5 Professional Development",
+          "General Professional Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 5 learning units",
+          "vertical_stacking": "Can progress to EQF 6 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 0.5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Foundation",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Foundation context",
+          "employer_engagement": "Employer partnership for Foundation projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 2,
+      "learning_unit_id": "M19",
+      "learning_unit_title": "Sustainability Assessment and Benchmarking",
+      "learning_unit_description": "Evaluate organizational sustainability performance against relevant benchmarks",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 43,
+      "self_study_hours": 31,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Formulate implementation roadmapping for sustainability assessment and benchmarking within professional sustainability practice.",
+        "skills": "Transform implementation facilitation of sustainability assessment and benchmarking to support organisational sustainability objectives.",
+        "competence": "Drive change in solution implementation leadership in sustainability assessment and benchmarking while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 4.2 Envisioning",
+          "skills_framework": "e-CF: Risk Management - Level 3",
+          "competence_framework": "e-CF: Product/Service Planning - Level 3"
+        }
+      },
+      "thematic_area": "Analysis",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Sustainability Assessment and Benchmarking",
+        "description": "Evaluate organizational sustainability performance against relevant benchmarks",
+        "thematic_area": "Analysis",
+        "eqf_level": 6,
+        "ects_points": 5,
+        "competence_category": "Data & Analytics Competence",
+        "role_relevance": {
+          "DSC": 100,
+          "DSL": 85,
+          "DSM": 80,
+          "SBA": 85,
+          "SDD": 60,
+          "SSD": 70,
+          "DAN": 75,
+          "DSI": 70,
+          "DSE": 65,
+          "STS": 65
+        },
+        "prerequisites": [
+          "EQF Level 5 foundation in Analysis"
+        ],
+        "pathway_options": [
+          "DSC Specialisation Pathway",
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 6 Professional Development",
+          "Data & Analytics Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 6 learning units",
+          "vertical_stacking": "Can progress to EQF 7 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Analysis",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Analysis context",
+          "employer_engagement": "Employer partnership for Analysis projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 3,
+      "learning_unit_id": "M2",
+      "learning_unit_title": "Sustainability Frameworks and Standards",
+      "learning_unit_description": "Overview of major sustainability frameworks, regulations, and standards",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 43,
+      "self_study_hours": 31,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Develop consulting best practices in sustainability frameworks and standards within professional sustainability practice.",
+        "skills": "Optimise advisory service delivery for sustainability frameworks and standards to support organisational sustainability objectives.",
+        "competence": "Take accountability for advisory relationship management for sustainability frameworks and standards while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 2.2 Critical thinking",
+          "skills_framework": "e-CF: Product/Service Planning - Level 3",
+          "competence_framework": "e-CF: Architecture Design - Level 3"
+        }
+      },
+      "thematic_area": "Management",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Sustainability Frameworks and Standards",
+        "description": "Overview of major sustainability frameworks, regulations, and standards",
+        "thematic_area": "Management",
+        "eqf_level": 6,
+        "ects_points": 5,
+        "competence_category": "Management & Strategy Competence",
+        "role_relevance": {
+          "DSL": 90,
+          "DSM": 95,
+          "DSC": 100,
+          "SBA": 85,
+          "SDD": 65,
+          "SSD": 70,
+          "DAN": 70,
+          "DSI": 70,
+          "DSE": 65,
+          "STS": 60
+        },
+        "prerequisites": [
+          "EQF Level 5 foundation in Management"
+        ],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 6 Professional Development",
+          "Management & Strategy Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 6 learning units",
+          "vertical_stacking": "Can progress to EQF 7 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Management",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Management context",
+          "employer_engagement": "Employer partnership for Management projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 4,
+      "learning_unit_id": "M97",
+      "learning_unit_title": "Corporate Sustainability Reporting Directive (CSRD) Implementation",
+      "learning_unit_description": "Step-by-step guide to CSRD compliance and sustainability reporting requirements",
+      "ects_credits": 0.5,
+      "eqf_level": 5,
+      "total_workload_hours": 12.5,
+      "contact_hours": 4,
+      "self_study_hours": 3,
+      "workplace_hours": 5,
+      "assessment_hours": 0.5,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Create client assessment methodologies for corporate sustainability reporting directive (csrd) implementation within professional sustainability practice.",
+        "skills": "Establish client needs analysis for corporate sustainability reporting directive (csrd) implementation to support organisational sustainability objectives.",
+        "competence": "Manage complex situations in client engagement projects involving corporate sustainability reporting directive (csrd) implementation while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 3.3 Political agency",
+          "skills_framework": "e-CF: Architecture Design - Level 3",
+          "competence_framework": "e-CF: Risk Management - Level 3"
+        }
+      },
+      "thematic_area": "EU Legislation",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Corporate Sustainability Reporting Directive (CSRD) Implementation",
+        "description": "Step-by-step guide to CSRD compliance and sustainability reporting requirements",
+        "thematic_area": "EU Legislation",
+        "eqf_level": 5,
+        "ects_points": 0.5,
+        "competence_category": "Data & Analytics Competence",
+        "role_relevance": {
+          "DSL": 95,
+          "DSM": 90,
+          "DSC": 100,
+          "SBA": 85,
+          "SDD": 80,
+          "SSD": 70,
+          "DAN": 90,
+          "DSI": 75,
+          "DSE": 70,
+          "STS": 75
+        },
+        "prerequisites": [],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 5 Professional Development",
+          "Data & Analytics Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 5 learning units",
+          "vertical_stacking": "Can progress to EQF 6 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 0.5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in EU Legislation",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in EU Legislation context",
+          "employer_engagement": "Employer partnership for EU Legislation projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 5,
+      "learning_unit_id": "M96",
+      "learning_unit_title": "EU Taxonomy Regulation: Classification and Compliance",
+      "learning_unit_description": "Practical guide to understanding and implementing EU Taxonomy for sustainable activities",
+      "ects_credits": 0.5,
+      "eqf_level": 5,
+      "total_workload_hours": 12.5,
+      "contact_hours": 4,
+      "self_study_hours": 3,
+      "workplace_hours": 5,
+      "assessment_hours": 0.5,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Synthesise solution design frameworks in eu taxonomy regulation: classification and compliance within professional sustainability practice.",
+        "skills": "Lead solution architecture design in eu taxonomy regulation: classification and compliance to support organisational sustainability objectives.",
+        "competence": "Lead initiatives in consulting delivery responsibilities for eu taxonomy regulation: classification and compliance while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 4.2 Envisioning",
+          "skills_framework": "e-CF: Risk Management - Level 3",
+          "competence_framework": "e-CF: Product/Service Planning - Level 3"
+        }
+      },
+      "thematic_area": "EU Legislation",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "EU Taxonomy Regulation: Classification and Compliance",
+        "description": "Practical guide to understanding and implementing EU Taxonomy for sustainable activities",
+        "thematic_area": "EU Legislation",
+        "eqf_level": 5,
+        "ects_points": 0.5,
+        "competence_category": "Data & Analytics Competence",
+        "role_relevance": {
+          "DSL": 90,
+          "DSM": 85,
+          "DSC": 95,
+          "SBA": 90,
+          "SDD": 75,
+          "SSD": 70,
+          "DAN": 85,
+          "DSI": 75,
+          "DSE": 70,
+          "STS": 75
+        },
+        "prerequisites": [],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 5 Professional Development",
+          "Data & Analytics Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 5 learning units",
+          "vertical_stacking": "Can progress to EQF 6 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 0.5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in EU Legislation",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in EU Legislation context",
+          "employer_engagement": "Employer partnership for EU Legislation projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 6,
+      "learning_unit_id": "M108",
+      "learning_unit_title": "EU Environmental Management Standards and Certification",
+      "learning_unit_description": "Practical guide to EMAS, ISO 14001, and EU environmental management requirements",
+      "ects_credits": 2.0,
+      "eqf_level": 5,
+      "total_workload_hours": 50.0,
+      "contact_hours": 17,
+      "self_study_hours": 12,
+      "workplace_hours": 20,
+      "assessment_hours": 1.0,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Critically evaluate implementation roadmapping for eu environmental management standards and certification within professional sustainability practice.",
+        "skills": "Innovate implementation facilitation of eu environmental management standards and certification to support organisational sustainability objectives.",
+        "competence": "Drive change in solution implementation leadership in eu environmental management standards and certification while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 2.2 Critical thinking",
+          "skills_framework": "e-CF: Product/Service Planning - Level 3",
+          "competence_framework": "e-CF: Architecture Design - Level 3"
+        }
+      },
+      "thematic_area": "EU Legislation",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "EU Environmental Management Standards and Certification",
+        "description": "Practical guide to EMAS, ISO 14001, and EU environmental management requirements",
+        "thematic_area": "EU Legislation",
+        "eqf_level": 5,
+        "ects_points": 2.0,
+        "competence_category": "Management & Strategy Competence",
+        "role_relevance": {
+          "DSL": 75,
+          "DSM": 90,
+          "DSC": 95,
+          "SBA": 80,
+          "SDD": 85,
+          "SSD": 85,
+          "DAN": 75,
+          "DSI": 80,
+          "DSE": 80,
+          "STS": 90
+        },
+        "prerequisites": [],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 5 Professional Development",
+          "Management & Strategy Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 5 learning units",
+          "vertical_stacking": "Can progress to EQF 6 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 2.0 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in EU Legislation",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in EU Legislation context",
+          "employer_engagement": "Employer partnership for EU Legislation projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 7,
+      "learning_unit_id": "M93",
+      "learning_unit_title": "Digital Inclusion and Social Sustainability",
+      "learning_unit_description": "Technical implementation of digital inclusion systems, accessibility technologies, and social impact data analytics",
+      "ects_credits": 5,
+      "eqf_level": 5,
+      "total_workload_hours": 125,
+      "contact_hours": 43,
+      "self_study_hours": 31,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Formulate consulting best practices in digital inclusion and social sustainability within professional sustainability practice.",
+        "skills": "Transform advisory service delivery for digital inclusion and social sustainability to support organisational sustainability objectives.",
+        "competence": "Take accountability for advisory relationship management for digital inclusion and social sustainability while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 3.3 Political agency",
+          "skills_framework": "e-CF: Architecture Design - Level 3",
+          "competence_framework": "e-CF: Risk Management - Level 3"
+        }
+      },
+      "thematic_area": "Social Sustainability",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Digital Inclusion and Social Sustainability",
+        "description": "Technical implementation of digital inclusion systems, accessibility technologies, and social impact data analytics",
+        "thematic_area": "Social Sustainability",
+        "eqf_level": 5,
+        "ects_points": 5,
+        "competence_category": "General Professional Competence",
+        "role_relevance": {
+          "DSL": 80,
+          "DSM": 85,
+          "DSC": 90,
+          "SBA": 75,
+          "SDD": 70,
+          "SSD": 75,
+          "DAN": 65,
+          "DSI": 85,
+          "DSE": 65,
+          "STS": 70
+        },
+        "prerequisites": [],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 5 Professional Development",
+          "General Professional Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 5 learning units",
+          "vertical_stacking": "Can progress to EQF 6 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Social Sustainability",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Social Sustainability context",
+          "employer_engagement": "Employer partnership for Social Sustainability projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 8,
+      "learning_unit_id": "M98",
+      "learning_unit_title": "Sustainable Finance Disclosure Regulation (SFDR) Fundamentals",
+      "learning_unit_description": "Introduction to SFDR requirements for financial services and investment transparency",
+      "ects_credits": 0.5,
+      "eqf_level": 5,
+      "total_workload_hours": 12.5,
+      "contact_hours": 4,
+      "self_study_hours": 3,
+      "workplace_hours": 5,
+      "assessment_hours": 0.5,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Develop client assessment methodologies for sustainable finance disclosure regulation (sfdr) fundamentals within professional sustainability practice.",
+        "skills": "Optimise client needs analysis for sustainable finance disclosure regulation (sfdr) fundamentals to support organisational sustainability objectives.",
+        "competence": "Manage complex situations in client engagement projects involving sustainable finance disclosure regulation (sfdr) fundamentals while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 4.2 Envisioning",
+          "skills_framework": "e-CF: Risk Management - Level 3",
+          "competence_framework": "e-CF: Product/Service Planning - Level 3"
+        }
+      },
+      "thematic_area": "EU Legislation",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Sustainable Finance Disclosure Regulation (SFDR) Fundamentals",
+        "description": "Introduction to SFDR requirements for financial services and investment transparency",
+        "thematic_area": "EU Legislation",
+        "eqf_level": 5,
+        "ects_points": 0.5,
+        "competence_category": "General Professional Competence",
+        "role_relevance": {
+          "DSL": 85,
+          "DSM": 80,
+          "DSC": 90,
+          "SBA": 100,
+          "SDD": 75,
+          "SSD": 65,
+          "DAN": 85,
+          "DSI": 70,
+          "DSE": 65,
+          "STS": 70
+        },
+        "prerequisites": [],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 5 Professional Development",
+          "General Professional Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 5 learning units",
+          "vertical_stacking": "Can progress to EQF 6 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 0.5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in EU Legislation",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in EU Legislation context",
+          "employer_engagement": "Employer partnership for EU Legislation projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 9,
+      "learning_unit_id": "M109",
+      "learning_unit_title": "Introduction to EU Sustainability Legislation",
+      "learning_unit_description": "Practical knowledge of European Union sustainability regulations affecting business operations",
+      "ects_credits": 1,
+      "eqf_level": 5,
+      "total_workload_hours": 25,
+      "contact_hours": 8,
+      "self_study_hours": 6,
+      "workplace_hours": 10,
+      "assessment_hours": 1,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Create solution design frameworks in introduction to eu sustainability legislation within professional sustainability practice.",
+        "skills": "Establish solution architecture design in introduction to eu sustainability legislation to support organisational sustainability objectives.",
+        "competence": "Lead initiatives in consulting delivery responsibilities for introduction to eu sustainability legislation while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 2.2 Critical thinking",
+          "skills_framework": "e-CF: Product/Service Planning - Level 3",
+          "competence_framework": "e-CF: Architecture Design - Level 3"
+        }
+      },
+      "thematic_area": "EU Legislation",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Introduction to EU Sustainability Legislation",
+        "description": "Practical knowledge of European Union sustainability regulations affecting business operations",
+        "thematic_area": "EU Legislation",
+        "eqf_level": 5,
+        "ects_points": 1,
+        "competence_category": "General Professional Competence",
+        "role_relevance": {
+          "DSL": 80,
+          "DSM": 95,
+          "DSC": 90,
+          "SBA": 100,
+          "SDD": 70,
+          "SSD": 65,
+          "DAN": 85,
+          "DSI": 75,
+          "DSE": 70,
+          "STS": 75
+        },
+        "prerequisites": [],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 5 Professional Development",
+          "General Professional Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 5 learning units",
+          "vertical_stacking": "Can progress to EQF 6 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 1 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in EU Legislation",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in EU Legislation context",
+          "employer_engagement": "Employer partnership for EU Legislation projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 10,
+      "learning_unit_id": "M17",
+      "learning_unit_title": "Digital Circular Business Models",
+      "learning_unit_description": "Design business models that leverage digital technologies for circular economy",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 43,
+      "self_study_hours": 31,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Synthesise implementation roadmapping for digital circular business models within professional sustainability practice.",
+        "skills": "Lead implementation facilitation of digital circular business models to support organisational sustainability objectives.",
+        "competence": "Drive change in solution implementation leadership in digital circular business models while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 3.3 Political agency",
+          "skills_framework": "e-CF: Architecture Design - Level 3",
+          "competence_framework": "e-CF: Risk Management - Level 3"
+        }
+      },
+      "thematic_area": "General",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Digital Circular Business Models",
+        "description": "Design business models that leverage digital technologies for circular economy",
+        "thematic_area": "General",
+        "eqf_level": 6,
+        "ects_points": 5,
+        "competence_category": "General Professional Competence",
+        "role_relevance": {
+          "SBA": 95,
+          "DSM": 90,
+          "SSD": 80,
+          "DSC": 85,
+          "DSL": 80,
+          "SDD": 65,
+          "DAN": 70,
+          "DSI": 65,
+          "DSE": 60,
+          "STS": 70
+        },
+        "prerequisites": [
+          "EQF Level 5 foundation in General"
+        ],
+        "pathway_options": [
+          "SBA Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "DSL Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 6 Professional Development",
+          "General Professional Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 6 learning units",
+          "vertical_stacking": "Can progress to EQF 7 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in General",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in General context",
+          "employer_engagement": "Employer partnership for General projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 11,
+      "learning_unit_id": "M22",
+      "learning_unit_title": "Sustainable ICT Procurement and Policy",
+      "learning_unit_description": "Develop policies and practices for sustainable technology procurement",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 43,
+      "self_study_hours": 31,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Critically evaluate consulting best practices in sustainable ict procurement and policy within professional sustainability practice.",
+        "skills": "Innovate advisory service delivery for sustainable ict procurement and policy to support organisational sustainability objectives.",
+        "competence": "Take accountability for advisory relationship management for sustainable ict procurement and policy while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 4.2 Envisioning",
+          "skills_framework": "e-CF: Risk Management - Level 3",
+          "competence_framework": "e-CF: Product/Service Planning - Level 3"
+        }
+      },
+      "thematic_area": "Management",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Sustainable ICT Procurement and Policy",
+        "description": "Develop policies and practices for sustainable technology procurement",
+        "thematic_area": "Management",
+        "eqf_level": 6,
+        "ects_points": 5,
+        "competence_category": "Management & Strategy Competence",
+        "role_relevance": {
+          "DSL": 90,
+          "DSC": 85,
+          "DSM": 80,
+          "SBA": 75,
+          "SDD": 60,
+          "SSD": 70,
+          "DAN": 65,
+          "DSI": 60,
+          "DSE": 65,
+          "STS": 70
+        },
+        "prerequisites": [
+          "EQF Level 5 foundation in Management"
+        ],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 6 Professional Development",
+          "Management & Strategy Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 6 learning units",
+          "vertical_stacking": "Can progress to EQF 7 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Management",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Management context",
+          "employer_engagement": "Employer partnership for Management projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 12,
+      "learning_unit_id": "M31",
+      "learning_unit_title": "Large Language Prompt Design for Sustainability Data Science",
+      "learning_unit_description": "Design effective prompts for large language models applied to sustainability data contexts",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 43,
+      "self_study_hours": 31,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Formulate client assessment methodologies for large language prompt design for sustainability data science within professional sustainability practice.",
+        "skills": "Transform client needs analysis for large language prompt design for sustainability data science to support organisational sustainability objectives.",
+        "competence": "Manage complex situations in client engagement projects involving large language prompt design for sustainability data science while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 2.2 Critical thinking",
+          "skills_framework": "e-CF: Product/Service Planning - Level 3",
+          "competence_framework": "e-CF: Architecture Design - Level 3"
+        }
+      },
+      "thematic_area": "Data",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Large Language Prompt Design for Sustainability Data Science",
+        "description": "Design effective prompts for large language models applied to sustainability data contexts",
+        "thematic_area": "Data",
+        "eqf_level": 6,
+        "ects_points": 5,
+        "competence_category": "Data & Analytics Competence",
+        "role_relevance": {
+          "DSL": 75,
+          "DSM": 80,
+          "DSC": 85,
+          "SBA": 70,
+          "SDD": 65,
+          "SSD": 70,
+          "DAN": 90,
+          "DSI": 95,
+          "DSE": 85,
+          "STS": 80
+        },
+        "prerequisites": [
+          "EQF Level 5 foundation in Data"
+        ],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 6 Professional Development",
+          "Data & Analytics Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 6 learning units",
+          "vertical_stacking": "Can progress to EQF 7 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Data",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Data context",
+          "employer_engagement": "Employer partnership for Data projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 13,
+      "learning_unit_id": "M7",
+      "learning_unit_title": "Ethics and Governance in Digital Innovation",
+      "learning_unit_description": "Evaluate ethical implications of digital systems and ensure inclusive governance",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 43,
+      "self_study_hours": 31,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Develop solution design frameworks in ethics and governance in digital innovation within professional sustainability practice.",
+        "skills": "Optimise solution architecture design in ethics and governance in digital innovation to support organisational sustainability objectives.",
+        "competence": "Lead initiatives in consulting delivery responsibilities for ethics and governance in digital innovation while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 3.3 Political agency",
+          "skills_framework": "e-CF: Architecture Design - Level 3",
+          "competence_framework": "e-CF: Risk Management - Level 3"
+        }
+      },
+      "thematic_area": "Ethics & Governance",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Ethics and Governance in Digital Innovation",
+        "description": "Evaluate ethical implications of digital systems and ensure inclusive governance",
+        "thematic_area": "Ethics & Governance",
+        "eqf_level": 6,
+        "ects_points": 5,
+        "competence_category": "General Professional Competence",
+        "role_relevance": {
+          "DSL": 95,
+          "DSM": 90,
+          "DSC": 85,
+          "SBA": 80,
+          "SDD": 70,
+          "SSD": 75,
+          "DAN": 65,
+          "DSI": 75,
+          "DSE": 65,
+          "STS": 70
+        },
+        "prerequisites": [
+          "EQF Level 5 foundation in Ethics & Governance"
+        ],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 6 Professional Development",
+          "General Professional Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 6 learning units",
+          "vertical_stacking": "Can progress to EQF 7 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Ethics & Governance",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Ethics & Governance context",
+          "employer_engagement": "Employer partnership for Ethics & Governance projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 14,
+      "learning_unit_id": "M94",
+      "learning_unit_title": "Circular Economy for Digital Systems",
+      "learning_unit_description": "Comprehensive circular economy principles and lifecycle thinking for sustainable digital system design and management",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 43,
+      "self_study_hours": 31,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Create implementation roadmapping for circular economy for digital systems within professional sustainability practice.",
+        "skills": "Establish implementation facilitation of circular economy for digital systems to support organisational sustainability objectives.",
+        "competence": "Drive change in solution implementation leadership in circular economy for digital systems while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 4.2 Envisioning",
+          "skills_framework": "e-CF: Risk Management - Level 3",
+          "competence_framework": "e-CF: Product/Service Planning - Level 3"
+        }
+      },
+      "thematic_area": "Circular Economy",
+      "pathway_guidance": "This learning unit forms part of the Professional level in Level 6 Advanced Diploma in Digital Sustainability Consultancy",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Client consulting projects",
+          "Solution implementation support",
+          "Transformation facilitation"
+        ],
+        "employer_partnerships": "Consulting firms, professional services, SMEs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Circular Economy for Digital Systems",
+        "description": "Comprehensive circular economy principles and lifecycle thinking for sustainable digital system design and management",
+        "thematic_area": "Circular Economy",
+        "eqf_level": 6,
+        "ects_points": 5,
+        "competence_category": "Technical & Engineering Competence",
+        "role_relevance": {
+          "DSL": 75,
+          "DSM": 80,
+          "DSC": 85,
+          "SBA": 80,
+          "SDD": 95,
+          "SSD": 100,
+          "DAN": 70,
+          "DSI": 90,
+          "DSE": 75,
+          "STS": 85
+        },
+        "prerequisites": [
+          "EQF Level 5 foundation in Circular Economy"
+        ],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 6 Professional Development",
+          "Technical & Engineering Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 6 learning units",
+          "vertical_stacking": "Can progress to EQF 7 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Circular Economy",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Circular Economy context",
+          "employer_engagement": "Employer partnership for Circular Economy projects"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "curriculum_identification": {
+    "number": "01",
+    "id": "DAN_5_Basic",
+    "title": "Basic Sustainability Skills",
+    "role_title": "Sustainability Data Analyst",
+    "role_abbreviation": "DAN",
+    "formatted_title": "Sustainability Data Analyst (DAN)",
+    "eqf_level": 5,
+    "total_ects": 0.5,
+    "total_learning_units": 1,
+    "development_date": "2025-07-10T13:48:01.356331",
+    "pathway_position": "Foundation level in Level 5 Certificate in ESG Data Foundations"
+  },
+  "role_profile": {
+    "title": "Sustainability Data Analyst",
+    "description": "Specialist in ESG reporting and compliance who interprets sustainability data to support regulatory and organisational decisions.",
+    "focus": "ESG data analysis and regulatory compliance",
+    "professional_context": "This curriculum prepares learners to develop foundational sustainability awareness and analytical thinking essential for entry-level data roles in sustainability reporting and compliance. Graduates will understand core ESG frameworks, basic data collection methodologies, and fundamental regulatory requirements. They typically contribute to sustainability data infrastructure projects and support the development of environmental reporting systems within organisations beginning their sustainability journey.",
+    "core_tools": [
+      "Excel",
+      "Power BI",
+      "ESG databases",
+      "TCFD frameworks",
+      "GRI standards"
+    ],
+    "authentic_tasks": [
+      "Collect and validate ESG data",
+      "Prepare regulatory compliance reports",
+      "Maintain sustainability databases",
+      "Support ESG audit processes"
+    ]
+  },
+  "competence_frameworks_alignment": {
+    "greencomp": [
+      "1.1 Embodying sustainability values",
+      "4.1 Political agency",
+      "4.3 Collective action"
+    ],
+    "ecf_detailed": {
+      "A.1": "IS and Business Strategy Alignment - Level 2",
+      "A.7": "Technology Trend Monitoring - Level 2",
+      "B.6": "Systems Engineering - Level 1"
+    },
+    "framework_note": "Learning outcomes are mapped directly to GreenComp and e-CF framework descriptors"
+  },
+  "target_audience": "Entry-level professionals and recent graduates seeking to develop basic sustainability data skills for regulatory reporting roles",
+  "learning_approach": "EQF Level 5 professional development programme with 0.5 ECTS, combining theoretical knowledge with practical application through structured learning and standardised work-based learning integration.",
+  "assessment_framework": {
+    "primary": "Basic competence demonstration",
+    "components": [
+      "Foundational knowledge test",
+      "Basic data exercise",
+      "Professional awareness reflection"
+    ],
+    "weightings": [
+      40,
+      40,
+      20
+    ],
+    "rationale": "Basic level programmes emphasise foundational knowledge acquisition and awareness development in sustainability data practices",
+    "wbl_component": "Workplace observation and basic task completion"
+  },
+  "dual_education_model": {
+    "wbl_compliance": "16.0% work-based learning (exceeds minimum 20%)",
+    "model_implementation": {
+      "minimum_wbl_percentage": 20,
+      "employer_partnership": "Mandatory for all programmes",
+      "workplace_learning": "Integrated throughout curriculum",
+      "assessment_split": "70% academic, 30% workplace-based"
+    },
+    "employer_engagement": {
+      "partnership_agreements": "Formal agreements with industry partners",
+      "mentor_training": "Workplace mentor development programme",
+      "assessment_participation": "Employer involvement in competence assessment",
+      "feedback_systems": "Regular employer feedback on learning outcomes"
+    },
+    "quality_assurance": {
+      "workplace_standards": "Standardised workplace learning environments",
+      "mentor_qualifications": "Certified workplace mentors",
+      "assessment_criteria": "Unified workplace assessment standards",
+      "monitoring_systems": "Regular quality monitoring of WBL delivery"
+    }
+  },
+  "flexible_learning_pathways": {
+    "modular_design": "Learning units designed for flexible recombination",
+    "competence_catalog": "Integrated with competence-based learning unit catalog",
+    "stackability_options": "Horizontal and vertical stacking supported",
+    "pathway_flexibility": "Multiple entry and exit points available"
+  },
+  "delivery_framework": {
+    "total_contact_hours": 6,
+    "total_self_study_hours": 3,
+    "total_workplace_hours": 2,
+    "wbl_percentage": 16.0,
+    "work_based_learning": true,
+    "delivery_methods": [
+      "Classroom",
+      "Online",
+      "Workplace",
+      "Blended"
+    ],
+    "dual_principle_applicable": true
+  },
+  "learning_units": [
+    {
+      "learning_unit_number": 1,
+      "learning_unit_id": "M1",
+      "learning_unit_title": "Introduction to Digital Sustainability",
+      "learning_unit_description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+      "ects_credits": 0.5,
+      "eqf_level": 5,
+      "total_workload_hours": 12.5,
+      "contact_hours": 6,
+      "self_study_hours": 3,
+      "workplace_hours": 2,
+      "assessment_hours": 1.5,
+      "wbl_percentage": 20.0,
+      "learning_outcomes": {
+        "knowledge": "Compare regulatory compliance requirements for introduction to digital sustainability within professional sustainability practice.",
+        "skills": "Organise Power BI visualisation of introduction to digital sustainability metrics to support organisational sustainability objectives.",
+        "competence": "Contribute to team leadership in regulatory reporting activities related to introduction to digital sustainability while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 4.1 Political agency",
+          "skills_framework": "e-CF: Technology Trend Monitoring - Level 2",
+          "competence_framework": "e-CF: Systems Engineering - Level 1"
+        }
+      },
+      "thematic_area": "Foundation",
+      "pathway_guidance": "This learning unit forms part of the Foundation level in Level 5 Certificate in ESG Data Foundations",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "ESG data collection projects",
+          "Regulatory reporting tasks",
+          "Audit support activities"
+        ],
+        "employer_partnerships": "Financial services, manufacturing, energy sectors",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 16.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Introduction to Digital Sustainability",
+        "description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+        "thematic_area": "Foundation",
+        "eqf_level": 5,
+        "ects_points": 0.5,
+        "competence_category": "General Professional Competence",
+        "role_relevance": {
+          "DSL": 100,
+          "DSM": 100,
+          "DSC": 100,
+          "SBA": 100,
+          "SDD": 100,
+          "SSD": 100,
+          "DAN": 100,
+          "DSI": 100,
+          "DSE": 100,
+          "STS": 100
+        },
+        "prerequisites": [],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 5 Professional Development",
+          "General Professional Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 5 learning units",
+          "vertical_stacking": "Can progress to EQF 6 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 0.5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Foundation",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Foundation context",
+          "employer_engagement": "Employer partnership for Foundation projects"
+        }
+      }
+    }
+  ]
+}

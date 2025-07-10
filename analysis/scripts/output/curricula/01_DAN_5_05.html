@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Sustainability Skills</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c5530, #1e3a5f);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header hr {
+            border: none;
+            height: 2px;
+            background: rgba(255,255,255,0.3);
+            margin: 1.5rem 0;
+        }
+        
+        .professional-context {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            text-align: left;
+            border-left: 4px solid rgba(255,255,255,0.5);
+        }
+        
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .metric-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-left: 4px solid #28a745;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c5530;
+        }
+        
+        .metric-label {
+            font-size: 0.9rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #2c5530;
+            border-bottom: 3px solid #28a745;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .module-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .module-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .module-title {
+            color: #2c5530;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .ects-badge {
+            background: #28a745;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+        }
+        
+        .eqf-badge {
+            background: #17a2b8;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            margin-left: 0.5rem;
+        }
+        
+        .workload-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .workload-item {
+            text-align: center;
+            padding: 0.8rem;
+            background: white;
+            border-radius: 6px;
+            border: 1px solid #dee2e6;
+        }
+        
+        .learning-outcomes {
+            background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+            border-left: 4px solid #28a745;
+            border-radius: 6px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .learning-outcomes ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .learning-outcomes li {
+            margin: 0.8rem 0;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(40, 167, 69, 0.2);
+        }
+        
+        .learning-outcomes li:last-child {
+            border-bottom: none;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2rem; }
+            .metrics { grid-template-columns: 1fr; }
+            .module-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Basic Sustainability Skills</h1>
+        <hr>
+        <div class="professional-context">
+            This curriculum prepares learners to develop foundational sustainability awareness and basic analytical skills for entry-level sustainability data roles.
+        </div>
+        
+        <div class="metrics">
+            <div class="metric-card">
+                <div class="metric-value">1</div>
+                <div class="metric-label">Modules</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">EQF 5</div>
+                <div class="metric-label">Level</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">0.5</div>
+                <div class="metric-label">ECTS</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">1h</div>
+                <div class="metric-label">Work-Based</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Programme Overview</h2>
+        <p><strong>Role Focus:</strong> ESG data analysis and regulatory compliance</p>
+        <p><strong>Target Audience:</strong> Entry-level professionals and recent graduates seeking to develop basic sustainability data skills for regulatory reporting roles</p>
+        <p><strong>Learning Approach:</strong> EQF Level 5 professional development program with 0.5 ECTS, combining theoretical knowledge with practical application through structured learning and workplace integration.</p>
+    </div>
+    
+    <div class="section">
+        <h2>Assessment Framework</h2>
+        <p><strong>Primary Method:</strong> Basic competency demonstration</p>
+        <p><strong>Components:</strong></p>
+        <ul><li>Foundational knowledge test: <strong>40%</strong></li><li>Basic data exercise: <strong>40%</strong></li><li>Professional awareness reflection: <strong>20%</strong></li>
+        </ul>
+        <p><strong>Rationale:</strong> Basic level programs emphasize foundational knowledge acquisition and awareness development in sustainability data practices</p>
+    </div>
+    
+    <div class="section">
+        <h2>Delivery Framework</h2>
+        <div class="workload-grid">
+            <div class="workload-item">
+                <div class="metric-value">7h</div>
+                <div class="metric-label">Contact Hours</div>
+            </div>
+            <div class="workload-item">
+                <div class="metric-value">3h</div>
+                <div class="metric-label">Self-Study</div>
+            </div>
+            <div class="workload-item">
+                <div class="metric-value">1h</div>
+                <div class="metric-label">Workplace</div>
+            </div>
+        </div>
+        <p><strong>Work-Based Learning:</strong> Integrated</p>
+    </div>
+    
+    <div class="section">
+        <h2>Module Structure</h2>
+        <div class="module-card">
+            <div class="module-header">
+                <div class="module-title">Module 1: Sustainability Data Fundamentals</div>
+                <div>
+                    <span class="ects-badge">0.5 ECTS</span>
+                    <span class="eqf-badge">EQF 4</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Essential data skills for sustainability professionals requiring immediate deployment</p>
+            <p><strong>Thematic Area:</strong> Data & Analytics</p>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="metric-value">12.5h</div>
+                    <div class="metric-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">7h</div>
+                    <div class="metric-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">3h</div>
+                    <div class="metric-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">1h</div>
+                    <div class="metric-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <strong>Learning Outcomes:</strong>
+                <ul>
+                    <li><strong>Knowledge:</strong> Evaluate foundational concepts of sustainability data fundamentals and their application to data-driven sustainability reporting and compliance within sustainability applications.</li>
+                    <li><strong>Skills:</strong> Coordinate professional application of sustainability data fundamentals to support esg data analysis and regulatory compliance in organizational contexts.</li>
+                    <li><strong>Competence:</strong> Manage projects involving professional responsibilities involving sustainability data fundamentals while ensuring professional standards and stakeholder value.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Recognition Framework</h2>
+        <p><strong>EQF Level:</strong> 5</p>
+        <p><strong>ECTS Transferable:</strong> Yes</p>
+        <p><strong>Bologna Compliant:</strong> No</p>
+        <p><strong>Professional Recognition:</strong> Industry recognition for Sustainability Data Analyst competencies at EQF Level 5</p>
+    </div>
+</body>
+</html>

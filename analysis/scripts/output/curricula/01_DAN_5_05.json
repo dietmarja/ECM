@@ -1,0 +1,67 @@
+{
+  "curriculum_identification": {
+    "number": "01",
+    "id": "DAN_5_Basic",
+    "title": "Basic Sustainability Skills",
+    "role_abbreviation": "DAN",
+    "eqf_level": 5,
+    "total_ects": 0.5,
+    "total_modules": 1,
+    "development_date": "2025-07-08T16:13:10.654737"
+  },
+  "role_profile": {
+    "title": "Sustainability Data Analyst",
+    "description": "Specialist in ESG reporting and compliance who interprets sustainability data to support regulatory and organizational decisions.",
+    "focus": "ESG data analysis and regulatory compliance",
+    "professional_context": "This curriculum prepares learners to develop foundational sustainability awareness and basic analytical skills for entry-level sustainability data roles."
+  },
+  "target_audience": "Entry-level professionals and recent graduates seeking to develop basic sustainability data skills for regulatory reporting roles",
+  "learning_approach": "EQF Level 5 professional development program with 0.5 ECTS, combining theoretical knowledge with practical application through structured learning and workplace integration.",
+  "assessment_framework": {
+    "primary": "Basic competency demonstration",
+    "components": [
+      "Foundational knowledge test",
+      "Basic data exercise",
+      "Professional awareness reflection"
+    ],
+    "weightings": [
+      40,
+      40,
+      20
+    ],
+    "rationale": "Basic level programs emphasize foundational knowledge acquisition and awareness development in sustainability data practices"
+  },
+  "delivery_framework": {
+    "total_contact_hours": 7,
+    "total_self_study_hours": 3,
+    "total_workplace_hours": 1,
+    "work_based_learning": true
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "module_id": "M90",
+      "module_title": "Sustainability Data Fundamentals",
+      "module_description": "Essential data skills for sustainability professionals requiring immediate deployment",
+      "ects_credits": 0.5,
+      "eqf_level": 4,
+      "total_workload_hours": 12.5,
+      "contact_hours": 7,
+      "self_study_hours": 3,
+      "workplace_hours": 1,
+      "assessment_hours": 1.5,
+      "learning_outcomes": {
+        "knowledge": "Evaluate foundational concepts of sustainability data fundamentals and their application to data-driven sustainability reporting and compliance within sustainability applications.",
+        "skills": "Coordinate professional application of sustainability data fundamentals to support esg data analysis and regulatory compliance in organizational contexts.",
+        "competence": "Manage projects involving professional responsibilities involving sustainability data fundamentals while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Data & Analytics"
+    }
+  ],
+  "recognition": {
+    "eqf_level": 5,
+    "ects_transferable": true,
+    "bologna_compliant": false,
+    "professional_recognition": "Industry recognition for Sustainability Data Analyst competencies at EQF Level 5"
+  }
+}

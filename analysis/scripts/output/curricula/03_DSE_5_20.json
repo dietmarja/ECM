@@ -1,0 +1,67 @@
+{
+  "curriculum_identification": {
+    "number": "03",
+    "id": "DSE_5_Operations",
+    "title": "Sustainable IT Operations",
+    "role_abbreviation": "DSE",
+    "eqf_level": 5,
+    "total_ects": 2.0,
+    "total_modules": 1,
+    "development_date": "2025-07-08T16:13:10.781261"
+  },
+  "role_profile": {
+    "title": "Digital Sustainability Engineer",
+    "description": "Builds and maintains infrastructure for sustainability-related data pipelines, supporting ESG metrics and real-time monitoring.",
+    "focus": "Sustainable IT infrastructure and operations",
+    "professional_context": "This curriculum prepares learners to implement and manage sustainable IT operations, green technology infrastructure, and environmental monitoring systems."
+  },
+  "target_audience": "IT professionals and engineers seeking to integrate sustainability principles into technical operations and infrastructure management",
+  "learning_approach": "EQF Level 5 professional development program with 2.0 ECTS, combining theoretical knowledge with practical application through structured learning and workplace integration.",
+  "assessment_framework": {
+    "primary": "Technical operations portfolio",
+    "components": [
+      "Infrastructure implementation project",
+      "System optimization task",
+      "Environmental monitoring setup"
+    ],
+    "weightings": [
+      45,
+      30,
+      25
+    ],
+    "rationale": "Operations programs emphasize hands-on technical competency and practical implementation skills"
+  },
+  "delivery_framework": {
+    "total_contact_hours": 30,
+    "total_self_study_hours": 15,
+    "total_workplace_hours": 5,
+    "work_based_learning": true
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "module_id": "M45",
+      "module_title": "Big Data for Environmental Intelligence (EQF 4 Version)",
+      "module_description": "Leverage big data technologies to analyze environmental patterns and trends (This module has been adapted for EQF level 4.)",
+      "ects_credits": 2.0,
+      "eqf_level": 4,
+      "total_workload_hours": 50.0,
+      "contact_hours": 30,
+      "self_study_hours": 15,
+      "workplace_hours": 5,
+      "assessment_hours": 0.0,
+      "learning_outcomes": {
+        "knowledge": "Evaluate foundational concepts of big data for environmental intelligence (eqf 4 version) and their application to sustainable IT operations and infrastructure development within sustainability applications.",
+        "skills": "Coordinate data-driven approaches to big data for environmental intelligence (eqf 4 version) to support sustainable it infrastructure and operations in organizational contexts.",
+        "competence": "Manage projects involving professional responsibilities involving big data for environmental intelligence (eqf 4 version) while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Data"
+    }
+  ],
+  "recognition": {
+    "eqf_level": 5,
+    "ects_transferable": true,
+    "bologna_compliant": false,
+    "professional_recognition": "Industry recognition for Digital Sustainability Engineer competencies at EQF Level 5"
+  }
+}

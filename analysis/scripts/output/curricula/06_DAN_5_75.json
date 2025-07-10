@@ -1,0 +1,105 @@
+{
+  "curriculum_identification": {
+    "number": "06",
+    "id": "DAN_5_Analysis",
+    "title": "Sustainability Data Analysis",
+    "role_abbreviation": "DAN",
+    "eqf_level": 5,
+    "total_ects": 7.5,
+    "total_modules": 3,
+    "development_date": "2025-07-08T16:13:11.019006"
+  },
+  "role_profile": {
+    "title": "Sustainability Data Analyst",
+    "description": "Specialist in ESG reporting and compliance who interprets sustainability data to support regulatory and organizational decisions.",
+    "focus": "ESG data analysis and regulatory compliance",
+    "professional_context": "This curriculum prepares learners to conduct comprehensive sustainability data analysis, support complex regulatory compliance requirements, and deliver advanced ESG reporting."
+  },
+  "target_audience": "Data analysts with foundational experience seeking to specialize in comprehensive sustainability analytics and advanced ESG reporting systems",
+  "learning_approach": "EQF Level 5 professional development program with 7.5 ECTS, combining theoretical knowledge with practical application through structured learning and workplace integration.",
+  "assessment_framework": {
+    "primary": "Advanced analytical portfolio",
+    "components": [
+      "Complex data analysis project",
+      "Regulatory compliance case study",
+      "ESG reporting system design"
+    ],
+    "weightings": [
+      45,
+      30,
+      25
+    ],
+    "rationale": "Advanced analysis programs require sophisticated application of analytical techniques and regulatory knowledge"
+  },
+  "delivery_framework": {
+    "total_contact_hours": 75,
+    "total_self_study_hours": 64,
+    "total_workplace_hours": 46,
+    "work_based_learning": true
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "module_id": "M90",
+      "module_title": "Sustainability Data Fundamentals",
+      "module_description": "Essential data skills for sustainability professionals requiring immediate deployment",
+      "ects_credits": 2.0,
+      "eqf_level": 4,
+      "total_workload_hours": 50.0,
+      "contact_hours": 20,
+      "self_study_hours": 17,
+      "workplace_hours": 12,
+      "assessment_hours": 1.0,
+      "learning_outcomes": {
+        "knowledge": "Evaluate foundational concepts of sustainability data fundamentals and their application to data-driven sustainability reporting and compliance within sustainability applications.",
+        "skills": "Coordinate professional application of sustainability data fundamentals to support esg data analysis and regulatory compliance in organizational contexts.",
+        "competence": "Manage projects involving professional responsibilities involving sustainability data fundamentals while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Data & Analytics"
+    },
+    {
+      "module_number": 2,
+      "module_id": "M97",
+      "module_title": "Corporate Sustainability Reporting Directive (CSRD) Implementation",
+      "module_description": "Step-by-step guide to CSRD compliance and sustainability reporting requirements",
+      "ects_credits": 0.5,
+      "eqf_level": 5,
+      "total_workload_hours": 12.5,
+      "contact_hours": 5,
+      "self_study_hours": 4,
+      "workplace_hours": 3,
+      "assessment_hours": 0.5,
+      "learning_outcomes": {
+        "knowledge": "Compare analytical frameworks for corporate sustainability reporting directive (csrd) implementation within esg data analysis and regulatory compliance contexts within sustainability applications.",
+        "skills": "Manage professional application of corporate sustainability reporting directive (csrd) implementation to support esg data analysis and regulatory compliance in organizational contexts.",
+        "competence": "Guide others in professional responsibilities involving corporate sustainability reporting directive (csrd) implementation while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "EU Legislation"
+    },
+    {
+      "module_number": 3,
+      "module_id": "M45",
+      "module_title": "Big Data for Environmental Intelligence (EQF 4 Version)",
+      "module_description": "Leverage big data technologies to analyze environmental patterns and trends (This module has been adapted for EQF level 4.)",
+      "ects_credits": 5,
+      "eqf_level": 4,
+      "total_workload_hours": 125,
+      "contact_hours": 50,
+      "self_study_hours": 43,
+      "workplace_hours": 31,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Assess implementation strategies for big data for environmental intelligence (eqf 4 version) in data-driven sustainability reporting and compliance within sustainability applications.",
+        "skills": "Plan data-driven approaches to big data for environmental intelligence (eqf 4 version) to support esg data analysis and regulatory compliance in organizational contexts.",
+        "competence": "Take responsibility for analytical responsibilities involving big data for environmental intelligence (eqf 4 version) while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Data"
+    }
+  ],
+  "recognition": {
+    "eqf_level": 5,
+    "ects_transferable": true,
+    "bologna_compliant": false,
+    "professional_recognition": "Industry recognition for Sustainability Data Analyst competencies at EQF Level 5"
+  }
+}

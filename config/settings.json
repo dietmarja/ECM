@@ -1,0 +1,25 @@
+{
+  "system": {
+    "name": "Educational Curriculum Modeller (ECM)",
+    "version": "1.2.0"
+  },
+  "paths": {
+    "input_modules": "./input/modules/modules_v5.json",
+    "input_educational_profiles": "./input/educational_profiles/educational_profiles.json",
+    "input_educational_profiles": "./input/educational_profiles/educational_profiles_short.json"
+  },
+  "output": {
+    "curricula": {
+      "directory": "./output/curricula",
+      "formats": ["json", "html", "docx"]
+    },
+    "profiles": {
+      "directory": "./output/profiles", 
+      "formats": ["json", "html", "docx"]
+    }
+  },
+  "analysis": {
+    "similarity_threshold": 0.1,
+    "output_directory": "./analysis/results/phase_3"
+  }
+}

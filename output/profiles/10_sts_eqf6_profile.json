@@ -1,0 +1,154 @@
+{
+  "profile_info": {
+    "id": "STS_EQF6_Profile",
+    "title": "Educational Profile: Sustainability Technical Specialist (EQF 6)",
+    "eqf_level": 6,
+    "complexity_level": "EQF Level 6: Advanced knowledge with critical understanding in professional contexts requiring autonomous responsibility",
+    "target_ects": 36,
+    "total_hours": 900,
+    "delivery_modes": [
+      "Blended Learning",
+      "Online Learning",
+      "Work-Based Learning"
+    ],
+    "target_sectors": [
+      "Sustainability Management",
+      "Environmental Consulting",
+      "Corporate ESG"
+    ],
+    "generated_date": "2025-07-05T13:37:23.391306"
+  },
+  "programme_goal": {
+    "primary_objective": "Professional development for sustainability technical specialist with EQF Level 6 competencies",
+    "learning_approach": "Competency-based professional development with integrated green-transversal skill development",
+    "professional_context": "Prepares learners for complex sustainability technical specialist practice requiring critical understanding, advanced skills, and autonomous professional management"
+  },
+  "complexity_description": {
+    "eqf_alignment": "EQF Level 6: Advanced knowledge with critical understanding in professional contexts requiring autonomous responsibility",
+    "cognitive_demands": "Critical understanding of sustainability theories and principles, sophisticated analytical thinking, and complex problem-solving in professional contexts with autonomous judgment",
+    "operational_requirements": "Advanced skill application with innovative approaches, autonomous decision-making, and strategic management of complex professional activities",
+    "responsibility_scope": "Management and supervision of complex sustainability initiatives, responsibility for strategic outcomes, and accountability for professional excellence with independent decision-making authority"
+  },
+  "unit_breakdown": {
+    "total_units": 3,
+    "total_ects": 36,
+    "units_summary": "Units include: Sustainability Technical Specialist Core Competency 1, Sustainability Technical Specialist Core Competency 2, Sustainability Technical Specialist Core Competency 3",
+    "units": [
+      {
+        "name": "Sustainability Technical Specialist Core Competency 1",
+        "ects": 12,
+        "complexity": "EQF Level 6 complexity requiring professional competency development",
+        "knowledge": "Advanced knowledge relevant to sustainability technical specialist professional practice",
+        "skills": "Advanced skills application in sustainability technical specialist contexts",
+        "competences": "Autonomous professional competences with independent decision-making"
+      },
+      {
+        "name": "Sustainability Technical Specialist Core Competency 2",
+        "ects": 12,
+        "complexity": "EQF Level 6 complexity requiring professional competency development",
+        "knowledge": "Advanced knowledge relevant to sustainability technical specialist professional practice",
+        "skills": "Advanced skills application in sustainability technical specialist contexts",
+        "competences": "Autonomous professional competences with independent decision-making"
+      },
+      {
+        "name": "Sustainability Technical Specialist Core Competency 3",
+        "ects": 12,
+        "complexity": "EQF Level 6 complexity requiring professional competency development",
+        "knowledge": "Advanced knowledge relevant to sustainability technical specialist professional practice",
+        "skills": "Advanced skills application in sustainability technical specialist contexts",
+        "competences": "Autonomous professional competences with independent decision-making"
+      }
+    ]
+  },
+  "unit_learning_outcomes": {
+    "unit_outcomes_overview": "Detailed learning outcomes for each unit demonstrating progression from knowledge through skills to autonomous competence",
+    "units": [
+      {
+        "unit_name": "Sustainability Technical Specialist Core Competency 1",
+        "unit_ects": 12,
+        "complexity_level": "EQF Level 6 complexity requiring professional competency development",
+        "knowledge_outcome": "Advanced knowledge relevant to sustainability technical specialist professional practice",
+        "skills_outcome": "Advanced skills application in sustainability technical specialist contexts",
+        "competence_outcome": "Autonomous professional competences with independent decision-making"
+      },
+      {
+        "unit_name": "Sustainability Technical Specialist Core Competency 2",
+        "unit_ects": 12,
+        "complexity_level": "EQF Level 6 complexity requiring professional competency development",
+        "knowledge_outcome": "Advanced knowledge relevant to sustainability technical specialist professional practice",
+        "skills_outcome": "Advanced skills application in sustainability technical specialist contexts",
+        "competence_outcome": "Autonomous professional competences with independent decision-making"
+      },
+      {
+        "unit_name": "Sustainability Technical Specialist Core Competency 3",
+        "unit_ects": 12,
+        "complexity_level": "EQF Level 6 complexity requiring professional competency development",
+        "knowledge_outcome": "Advanced knowledge relevant to sustainability technical specialist professional practice",
+        "skills_outcome": "Advanced skills application in sustainability technical specialist contexts",
+        "competence_outcome": "Autonomous professional competences with independent decision-making"
+      }
+    ]
+  },
+  "learning_outcomes": {
+    "programme_outcome": "Professional development for sustainability technical specialist with comprehensive competency building",
+    "knowledge_outcomes": [
+      "Advanced knowledge relevant to sustainability technical specialist professional practice",
+      "Advanced knowledge relevant to sustainability technical specialist professional practice",
+      "Advanced knowledge relevant to sustainability technical specialist professional practice"
+    ],
+    "skills_outcomes": [
+      "Advanced skills application in sustainability technical specialist contexts",
+      "Advanced skills application in sustainability technical specialist contexts",
+      "Advanced skills application in sustainability technical specialist contexts"
+    ],
+    "competence_outcomes": [
+      "Autonomous professional competences with independent decision-making",
+      "Autonomous professional competences with independent decision-making",
+      "Autonomous professional competences with independent decision-making"
+    ]
+  },
+  "green_competencies": {
+    "framework": "GreenComp Framework (Comprehensive Coverage)",
+    "competency_groups": {
+      "environmental_understanding": [
+        "Evaluate complex environmental interconnections using systems thinking approaches with autonomous analytical judgment (GreenComp 1.1 Interconnectedness: Level 4 - Advanced)",
+        "Champion comprehensive systems thinking to sustainability challenge analysis using independent critical analysis (GreenComp 1.2 Systems Thinking: Level 4 - Advanced)"
+      ],
+      "sustainable_innovation": [
+        "Pioneer circular economy principles in complex organizational contexts with autonomous strategic decision-making (GreenComp 1.3 Circular Thinking: Level 4 - Advanced)",
+        "Orchestrate advanced futures thinking for long-term sustainability planning with independent visionary thinking (GreenComp 2.3 Futures Thinking: Level 4 - Advanced)"
+      ],
+      "sustainability_complexity": [
+        "Navigate complexity in sustainability decisions using sophisticated frameworks with autonomous professional judgment (GreenComp 2.2 Complexity in Sustainability: Level 4 - Advanced)"
+      ],
+      "collaborative_action": [
+        "Cultivate collective action initiatives for complex sustainability transformations using independent leadership capabilities (GreenComp 4.2 Collective Action: Level 4 - Advanced)",
+        "Steward advanced individual responsibility and leadership in sustainability practice with autonomous ethical decision-making (GreenComp 4.3 Individual Initiative: Level 4 - Advanced)"
+      ]
+    }
+  },
+  "assessment_framework": {
+    "assessment_philosophy": "Competency-aligned assessment with multi-level performance indicators and comprehensive visual rubric framework",
+    "assessment_overview": "Competency-based assessment with professional validation for sustainability technical specialist",
+    "rubric_availability": "Detailed assessment rubrics with specific performance descriptors are available through the institutional learning management system. Complete rubric matrices are provided to enrolled participants and supervising mentors, with external examiner access available for quality assurance purposes."
+  },
+  "recognition_of_prior_learning": {
+    "rpl_pathway": "Comprehensive Recognition of Prior Learning (RPL) pathway enabling credit transfer and accelerated progression through systematic competency validation with visual competency mapping",
+    "recognition_limits": {
+      "maximum_credit": "Up to 60% of total 36 ECTS can be recognized through RPL assessment",
+      "core_requirements": "All learners must complete capstone assessment and reflective practice components regardless of RPL recognition",
+      "currency_validation": "Prior learning evidence must demonstrate recent application within the past 5 years"
+    }
+  },
+  "validation_framework": {
+    "quality_assurance": {
+      "update_cycles": "This profile will be reviewed biannually with input from industry stakeholders and aligned with evolving frameworks, ensuring continued relevance and professional currency through systematic stakeholder consultation"
+    }
+  },
+  "industry_application": [
+    "Sustainability Technical Specialist applications across sustainability sectors"
+  ],
+  "distinctive_features": [
+    "Specialized expertise in sustainability technical specialist"
+  ]
+}

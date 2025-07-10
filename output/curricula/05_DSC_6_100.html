@@ -1,0 +1,579 @@
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Sustainability Consultant (DSC)</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fafafa;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c5530, #1e3a5f);
+            color: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            margin-bottom: 2.5rem;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        
+        .pathway-guidance {
+            background: rgba(255,255,255,0.15);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            text-align: left;
+            border-left: 4px solid rgba(255,255,255,0.6);
+        }
+        
+        .pathway-guidance h3 {
+            margin-top: 0;
+            color: rgba(255,255,255,0.9);
+            font-size: 1.1rem;
+        }
+        
+        .professional-context {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            text-align: left;
+            border-left: 4px solid rgba(255,255,255,0.5);
+        }
+        
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 1.5rem;
+            margin: 2.5rem 0;
+        }
+        
+        .metric-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+            border-left: 4px solid #28a745;
+            transition: transform 0.2s ease;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-2px);
+        }
+        
+        .metric-value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #2c5530;
+            margin-bottom: 0.5rem;
+        }
+        
+        .metric-label {
+            font-size: 0.9rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .section {
+            background: white;
+            padding: 2.5rem;
+            margin-bottom: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 3px 20px rgba(0,0,0,0.08);
+        }
+        
+        .section h2 {
+            color: #2c5530;
+            border-bottom: 3px solid #28a745;
+            padding-bottom: 0.8rem;
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+        }
+        
+        .section h3 {
+            color: #2c5530;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .learning-unit-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .learning-unit-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .learning-unit-title {
+            color: #2c5530;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .badges {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .ects-badge {
+            background: #28a745;
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .eqf-badge {
+            background: #17a2b8;
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .wbl-badge {
+            background: #fd7e14;
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .workload-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .workload-item {
+            text-align: center;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+        }
+        
+        .workload-value {
+            font-weight: bold;
+            color: #2c5530;
+            font-size: 1.2rem;
+        }
+        
+        .workload-label {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 0.3rem;
+        }
+        
+        .learning-outcomes {
+            background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+            border-left: 4px solid #28a745;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .learning-outcomes h4 {
+            margin-top: 0;
+            color: #2c5530;
+            margin-bottom: 1rem;
+        }
+        
+        .outcome-item {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: rgba(255,255,255,0.7);
+            border-radius: 6px;
+            border-left: 3px solid #28a745;
+        }
+        
+        .outcome-text {
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+        }
+        
+        .framework-mapping {
+            font-size: 0.85rem;
+            color: #666;
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+        
+        .pathway-note {
+            background: #e8f5e8;
+            border: 1px solid #c3e6c3;
+            border-radius: 6px;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+            color: #2c5530;
+        }
+        
+        .wbl-section {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 6px;
+            padding: 1rem;
+            margin: 1rem 0;
+            color: #856404;
+        }
+        
+        .footer {
+            margin-top: 3rem;
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+            border-top: 2px solid #e9ecef;
+            background: white;
+            border-radius: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2.2rem; }
+            .metrics { grid-template-columns: 1fr; }
+            .learning-unit-header { flex-direction: column; align-items: flex-start; }
+            .badges { justify-content: flex-start; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Digital Sustainability Consultant (DSC)</h1>
+        
+        <div class="pathway-guidance">
+            <h3>Learning Pathway Position</h3>
+            Foundation level in Level 6 Diploma in Digital Sustainability Consultancy
+        </div>
+        
+        <div class="professional-context">
+            This curriculum prepares learners to provide professional consulting services and advisory support for digital sustainability transformations in diverse organisational contexts. Graduates will develop expertise in sustainability assessment methodologies, solution design frameworks, and client engagement strategies. They typically work with SMEs and mid-sized organisations to design and implement sustainability strategies, providing expert guidance on digital tools and methodologies that support environmental objectives.
+        </div>
+        
+        <div class="metrics">
+            <div class="metric-card">
+                <div class="metric-value">3</div>
+                <div class="metric-label">Learning Units</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">EQF 6</div>
+                <div class="metric-label">Level</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">10.0</div>
+                <div class="metric-label">ECTS</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">40.0%</div>
+                <div class="metric-label">Work-Based</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Programme Overview</h2>
+        <p><strong>Role Focus:</strong> Advisory services and solution bridging</p>
+        <p><strong>Target Audience:</strong> Professionals seeking to develop consulting expertise for sustainability advisory roles with SMEs and organisations requiring transformation support</p>
+        <p><strong>Learning Approach:</strong> EQF Level 6 professional development programme with 10.0 ECTS, combining theoretical knowledge with practical application through structured learning and standardised work-based learning integration.</p>
+        <p><strong>Core Tools & Platforms:</strong> Consulting methodologies, Assessment frameworks, Solution design tools, Client engagement platforms</p>
+    </div>
+    
+    <div class="section">
+        <h2>Competence Frameworks Alignment</h2>
+        <h3>GreenComp Framework</h3>
+        <p>2.2 Critical thinking, 3.3 Political agency, 4.2 Envisioning</p>
+        
+        <h3>e-CF Framework (Detailed Mapping)</h3>
+        <ul><li><strong>A.4:</strong> Product/Service Planning - Level 3</li><li><strong>A.5:</strong> Architecture Design - Level 3</li><li><strong>E.3:</strong> Risk Management - Level 3</li>
+        </ul>
+        
+        <div class="pathway-note">
+            <strong>Framework Note:</strong> Learning outcomes are mapped directly to GreenComp and e-CF framework descriptors
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Dual Education Model & Work-Based Learning</h2>
+        <div class="wbl-section">
+            <h3>WBL Compliance</h3>
+            <p>40.0% work-based learning (exceeds minimum 20%)</p>
+        </div>
+        
+        <h3>Model Implementation</h3>
+        <ul><li><strong>Minimum Wbl Percentage:</strong> 20</li><li><strong>Employer Partnership:</strong> Mandatory for all programmes</li><li><strong>Workplace Learning:</strong> Integrated throughout curriculum</li><li><strong>Assessment Split:</strong> 70% academic, 30% workplace-based</li>
+        </ul>
+        
+        <h3>Quality Assurance</h3>
+        <ul><li><strong>Workplace Standards:</strong> Standardised workplace learning environments</li><li><strong>Mentor Qualifications:</strong> Certified workplace mentors</li><li><strong>Assessment Criteria:</strong> Unified workplace assessment standards</li><li><strong>Monitoring Systems:</strong> Regular quality monitoring of WBL delivery</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Flexible Learning Pathways</h2>
+        <ul><li><strong>Modular Design:</strong> Learning units designed for flexible recombination</li><li><strong>Competence Catalog:</strong> Integrated with competence-based learning unit catalog</li><li><strong>Stackability Options:</strong> Horizontal and vertical stacking supported</li><li><strong>Pathway Flexibility:</strong> Multiple entry and exit points available</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Assessment Framework</h2>
+        <p><strong>Primary Method:</strong> Consulting competence portfolio</p>
+        <p><strong>Work-Based Component:</strong> Real client engagement and solution implementation support</p>
+        <p><strong>Components:</strong></p>
+        <ul><li>Client assessment project: <strong>35%</strong></li><li>Solution design presentation: <strong>40%</strong></li><li>Implementation roadmap: <strong>25%</strong></li>
+        </ul>
+        <p><strong>Rationale:</strong> Consultancy programmes establish core competences in client engagement and solution development</p>
+    </div>
+    
+    <div class="section">
+        <h2>Delivery Framework</h2>
+        <div class="workload-grid">
+            <div class="workload-item">
+                <div class="workload-value">86h</div>
+                <div class="workload-label">Contact Hours</div>
+            </div>
+            <div class="workload-item">
+                <div class="workload-value">62h</div>
+                <div class="workload-label">Self-Study</div>
+            </div>
+            <div class="workload-item">
+                <div class="workload-value">100h</div>
+                <div class="workload-label">Workplace</div>
+            </div>
+            <div class="workload-item">
+                <div class="workload-value">40.0%</div>
+                <div class="workload-label">WBL %</div>
+            </div>
+        </div>
+        <p><strong>Work-Based Learning:</strong> Integrated (exceeds 20% minimum)</p>
+        <p><strong>Dual Education Model:</strong> Implemented</p>
+    </div>
+    
+    <div class="section">
+        <h2>Learning Unit Structure</h2>
+        <div class="learning-unit-card">
+            <div class="learning-unit-header">
+                <div class="learning-unit-title">Learning Unit 1: Introduction to Digital Sustainability</div>
+                <div class="badges">
+                    <span class="ects-badge">0.5 ECTS</span>
+                    <span class="eqf-badge">EQF 5</span>
+                    <span class="wbl-badge">40.0% WBL</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Core sustainability concepts and their intersection with technology systems for digital professionals</p>
+            <p><strong>Thematic Area:</strong> Foundation</p>
+            
+            <div class="pathway-note">
+                This learning unit forms part of the Foundation level in Level 6 Diploma in Digital Sustainability Consultancy
+            </div>
+            
+            <div class="wbl-section">
+                <strong>Work-Based Learning Integration:</strong>
+                <ul><li>Client consulting projects</li><li>Solution implementation support</li><li>Transformation facilitation</li>
+                </ul>
+                <p><strong>Employer Partnerships:</strong> Consulting firms, professional services, SMEs</p>
+            </div>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="workload-value">12.5h</div>
+                    <div class="workload-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="workload-value">4h</div>
+                    <div class="workload-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="workload-value">3h</div>
+                    <div class="workload-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="workload-value">5h</div>
+                    <div class="workload-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <h4>Learning Outcomes</h4>
+                
+                <div class="outcome-item">
+                    <div class="outcome-text"><strong>Knowledge:</strong> Critically evaluate solution design frameworks in introduction to digital sustainability within professional sustainability practice.</div>
+                    <div class="framework-mapping">GreenComp: 3.3 Political agency</div>
+                </div>
+                
+                <div class="outcome-item">
+                    <div class="outcome-text"><strong>Skills:</strong> Innovate solution architecture design in introduction to digital sustainability to support organisational sustainability objectives.</div>
+                    <div class="framework-mapping">e-CF: Architecture Design - Level 3</div>
+                </div>
+                
+                <div class="outcome-item">
+                    <div class="outcome-text"><strong>Competence:</strong> Lead initiatives in consulting delivery responsibilities for introduction to digital sustainability while ensuring professional standards and stakeholder value.</div>
+                    <div class="framework-mapping">e-CF: Risk Management - Level 3</div>
+                </div>
+            </div>
+        </div>
+        <div class="learning-unit-card">
+            <div class="learning-unit-header">
+                <div class="learning-unit-title">Learning Unit 2: Sustainability Assessment and Benchmarking</div>
+                <div class="badges">
+                    <span class="ects-badge">5 ECTS</span>
+                    <span class="eqf-badge">EQF 6</span>
+                    <span class="wbl-badge">40.0% WBL</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Evaluate organizational sustainability performance against relevant benchmarks</p>
+            <p><strong>Thematic Area:</strong> Analysis</p>
+            
+            <div class="pathway-note">
+                This learning unit forms part of the Foundation level in Level 6 Diploma in Digital Sustainability Consultancy
+            </div>
+            
+            <div class="wbl-section">
+                <strong>Work-Based Learning Integration:</strong>
+                <ul><li>Client consulting projects</li><li>Solution implementation support</li><li>Transformation facilitation</li>
+                </ul>
+                <p><strong>Employer Partnerships:</strong> Consulting firms, professional services, SMEs</p>
+            </div>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="workload-value">125h</div>
+                    <div class="workload-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="workload-value">43h</div>
+                    <div class="workload-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="workload-value">31h</div>
+                    <div class="workload-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="workload-value">50h</div>
+                    <div class="workload-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <h4>Learning Outcomes</h4>
+                
+                <div class="outcome-item">
+                    <div class="outcome-text"><strong>Knowledge:</strong> Formulate implementation roadmapping for sustainability assessment and benchmarking within professional sustainability practice.</div>
+                    <div class="framework-mapping">GreenComp: 4.2 Envisioning</div>
+                </div>
+                
+                <div class="outcome-item">
+                    <div class="outcome-text"><strong>Skills:</strong> Transform implementation facilitation of sustainability assessment and benchmarking to support organisational sustainability objectives.</div>
+                    <div class="framework-mapping">e-CF: Risk Management - Level 3</div>
+                </div>
+                
+                <div class="outcome-item">
+                    <div class="outcome-text"><strong>Competence:</strong> Drive change in solution implementation leadership in sustainability assessment and benchmarking while ensuring professional standards and stakeholder value.</div>
+                    <div class="framework-mapping">e-CF: Product/Service Planning - Level 3</div>
+                </div>
+            </div>
+        </div>
+        <div class="learning-unit-card">
+            <div class="learning-unit-header">
+                <div class="learning-unit-title">Learning Unit 3: Sustainability Frameworks and Standards</div>
+                <div class="badges">
+                    <span class="ects-badge">4.5 ECTS</span>
+                    <span class="eqf-badge">EQF 6</span>
+                    <span class="wbl-badge">40.0% WBL</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Overview of major sustainability frameworks, regulations, and standards</p>
+            <p><strong>Thematic Area:</strong> Management</p>
+            
+            <div class="pathway-note">
+                This learning unit forms part of the Foundation level in Level 6 Diploma in Digital Sustainability Consultancy
+            </div>
+            
+            <div class="wbl-section">
+                <strong>Work-Based Learning Integration:</strong>
+                <ul><li>Client consulting projects</li><li>Solution implementation support</li><li>Transformation facilitation</li>
+                </ul>
+                <p><strong>Employer Partnerships:</strong> Consulting firms, professional services, SMEs</p>
+            </div>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="workload-value">112.5h</div>
+                    <div class="workload-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="workload-value">39h</div>
+                    <div class="workload-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="workload-value">28h</div>
+                    <div class="workload-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="workload-value">45h</div>
+                    <div class="workload-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <h4>Learning Outcomes</h4>
+                
+                <div class="outcome-item">
+                    <div class="outcome-text"><strong>Knowledge:</strong> Develop consulting best practices in sustainability frameworks and standards within professional sustainability practice.</div>
+                    <div class="framework-mapping">GreenComp: 2.2 Critical thinking</div>
+                </div>
+                
+                <div class="outcome-item">
+                    <div class="outcome-text"><strong>Skills:</strong> Optimise advisory service delivery for sustainability frameworks and standards to support organisational sustainability objectives.</div>
+                    <div class="framework-mapping">e-CF: Product/Service Planning - Level 3</div>
+                </div>
+                
+                <div class="outcome-item">
+                    <div class="outcome-text"><strong>Competence:</strong> Take accountability for advisory relationship management for sustainability frameworks and standards while ensuring professional standards and stakeholder value.</div>
+                    <div class="framework-mapping">e-CF: Architecture Design - Level 3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        Educational Curriculum Modeller (ECM) - Version 2.0 - July 10, 2025
+    </div>
+</body>
+</html>

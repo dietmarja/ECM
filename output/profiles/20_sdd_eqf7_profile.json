@@ -1,0 +1,152 @@
+{
+  "profile_info": {
+    "id": "SDD_EQF7_Profile",
+    "title": "Educational Profile: Software Developer for Sustainability (EQF 7)",
+    "eqf_level": 7,
+    "complexity_level": "EQF Level 7: Highly specialized knowledge at the forefront as basis for original thinking and research applications",
+    "target_ects": 45,
+    "total_hours": 1125,
+    "delivery_modes": [
+      "Blended Learning",
+      "Online Learning",
+      "Work-Based Learning"
+    ],
+    "target_sectors": [
+      "Sustainability Management",
+      "Environmental Consulting",
+      "Corporate ESG"
+    ],
+    "generated_date": "2025-07-05T12:19:46.970570"
+  },
+  "programme_goal": {
+    "primary_objective": "Professional development for software developer for sustainability with EQF Level 7 competencies",
+    "learning_approach": "Competency-based professional development with integrated green-transversal skill development",
+    "professional_context": "Prepares learners for complex software developer for sustainability practice requiring critical understanding, advanced skills, and autonomous professional management"
+  },
+  "unit_breakdown": {
+    "total_units": 4,
+    "total_ects": 44,
+    "units_summary": "Units include: Software Developer for Sustainability Core Competency 1, Software Developer for Sustainability Core Competency 2, Software Developer for Sustainability Core Competency 3, Software Developer for Sustainability Core Competency 4",
+    "units": [
+      {
+        "name": "Software Developer for Sustainability Core Competency 1",
+        "ects": 11,
+        "complexity": "EQF Level 7 complexity requiring professional competency development",
+        "knowledge": "Advanced knowledge relevant to software developer for sustainability professional practice",
+        "skills": "Advanced skills application in software developer for sustainability contexts",
+        "competences": "Autonomous professional competences with independent decision-making"
+      },
+      {
+        "name": "Software Developer for Sustainability Core Competency 2",
+        "ects": 11,
+        "complexity": "EQF Level 7 complexity requiring professional competency development",
+        "knowledge": "Advanced knowledge relevant to software developer for sustainability professional practice",
+        "skills": "Advanced skills application in software developer for sustainability contexts",
+        "competences": "Autonomous professional competences with independent decision-making"
+      },
+      {
+        "name": "Software Developer for Sustainability Core Competency 3",
+        "ects": 11,
+        "complexity": "EQF Level 7 complexity requiring professional competency development",
+        "knowledge": "Advanced knowledge relevant to software developer for sustainability professional practice",
+        "skills": "Advanced skills application in software developer for sustainability contexts",
+        "competences": "Autonomous professional competences with independent decision-making"
+      },
+      {
+        "name": "Software Developer for Sustainability Core Competency 4",
+        "ects": 11,
+        "complexity": "EQF Level 7 complexity requiring professional competency development",
+        "knowledge": "Advanced knowledge relevant to software developer for sustainability professional practice",
+        "skills": "Advanced skills application in software developer for sustainability contexts",
+        "competences": "Autonomous professional competences with independent decision-making"
+      }
+    ]
+  },
+  "unit_learning_outcomes": {
+    "unit_outcomes_overview": "Detailed learning outcomes for each unit demonstrating progression from knowledge through skills to autonomous competence",
+    "units": [
+      {
+        "unit_name": "Software Developer for Sustainability Core Competency 1",
+        "unit_ects": 11,
+        "complexity_level": "EQF Level 7 complexity requiring professional competency development",
+        "knowledge_outcome": "Advanced knowledge relevant to software developer for sustainability professional practice",
+        "skills_outcome": "Advanced skills application in software developer for sustainability contexts",
+        "competence_outcome": "Autonomous professional competences with independent decision-making"
+      },
+      {
+        "unit_name": "Software Developer for Sustainability Core Competency 2",
+        "unit_ects": 11,
+        "complexity_level": "EQF Level 7 complexity requiring professional competency development",
+        "knowledge_outcome": "Advanced knowledge relevant to software developer for sustainability professional practice",
+        "skills_outcome": "Advanced skills application in software developer for sustainability contexts",
+        "competence_outcome": "Autonomous professional competences with independent decision-making"
+      },
+      {
+        "unit_name": "Software Developer for Sustainability Core Competency 3",
+        "unit_ects": 11,
+        "complexity_level": "EQF Level 7 complexity requiring professional competency development",
+        "knowledge_outcome": "Advanced knowledge relevant to software developer for sustainability professional practice",
+        "skills_outcome": "Advanced skills application in software developer for sustainability contexts",
+        "competence_outcome": "Autonomous professional competences with independent decision-making"
+      },
+      {
+        "unit_name": "Software Developer for Sustainability Core Competency 4",
+        "unit_ects": 11,
+        "complexity_level": "EQF Level 7 complexity requiring professional competency development",
+        "knowledge_outcome": "Advanced knowledge relevant to software developer for sustainability professional practice",
+        "skills_outcome": "Advanced skills application in software developer for sustainability contexts",
+        "competence_outcome": "Autonomous professional competences with independent decision-making"
+      }
+    ]
+  },
+  "learning_outcomes": {
+    "programme_outcome": "Professional development for software developer for sustainability with comprehensive competency building",
+    "knowledge_outcomes": [
+      "Advanced knowledge relevant to software developer for sustainability professional practice",
+      "Advanced knowledge relevant to software developer for sustainability professional practice",
+      "Advanced knowledge relevant to software developer for sustainability professional practice",
+      "Advanced knowledge relevant to software developer for sustainability professional practice"
+    ],
+    "skills_outcomes": [
+      "Advanced skills application in software developer for sustainability contexts",
+      "Advanced skills application in software developer for sustainability contexts",
+      "Advanced skills application in software developer for sustainability contexts",
+      "Advanced skills application in software developer for sustainability contexts"
+    ],
+    "competence_outcomes": [
+      "Autonomous professional competences with independent decision-making",
+      "Autonomous professional competences with independent decision-making",
+      "Autonomous professional competences with independent decision-making",
+      "Autonomous professional competences with independent decision-making"
+    ]
+  },
+  "green_competencies": {
+    "framework": "GreenComp Framework (Comprehensive Coverage)",
+    "competencies": [
+      "Evaluate complex environmental interconnections using systems thinking approaches with autonomous analytical judgment (GreenComp 1.1 Interconnectedness: Level 4 - Advanced)",
+      "Champion comprehensive systems thinking to sustainability challenge analysis using independent critical analysis (GreenComp 1.2 Systems Thinking: Level 4 - Advanced)",
+      "Pioneer circular economy principles in complex organizational contexts with autonomous strategic decision-making (GreenComp 1.3 Circular Thinking: Level 4 - Advanced)",
+      "Navigate complexity in sustainability decisions using sophisticated frameworks with autonomous professional judgment (GreenComp 2.2 Complexity in Sustainability: Level 4 - Advanced)",
+      "Orchestrate advanced futures thinking for long-term sustainability planning with independent visionary thinking (GreenComp 2.3 Futures Thinking: Level 4 - Advanced)",
+      "Cultivate collective action initiatives for complex sustainability transformations using independent leadership capabilities (GreenComp 4.2 Collective Action: Level 4 - Advanced)",
+      "Steward advanced individual responsibility and leadership in sustainability practice with autonomous ethical decision-making (GreenComp 4.3 Individual Initiative: Level 4 - Advanced)"
+    ]
+  },
+  "assessment_framework": {
+    "assessment_philosophy": "Competency-aligned assessment with multi-level performance indicators",
+    "assessment_overview": "Competency-based assessment with professional validation for software developer for sustainability",
+    "rubric_availability": "Detailed assessment rubrics with specific performance descriptors are available through the institutional learning management system."
+  },
+  "recognition_of_prior_learning": {
+    "rpl_pathway": "Comprehensive Recognition of Prior Learning (RPL) pathway enabling credit transfer and accelerated progression",
+    "recognition_limits": {
+      "maximum_credit": "Up to 60% of total 45 ECTS can be recognized through RPL assessment",
+      "core_requirements": "All learners must complete capstone assessment and reflective practice components regardless of RPL recognition"
+    }
+  },
+  "validation_framework": {
+    "quality_assurance": {
+      "update_cycles": "This profile will be reviewed biannually with input from industry stakeholders and aligned with evolving frameworks, ensuring continued relevance and professional currency through systematic stakeholder consultation"
+    }
+  }
+}

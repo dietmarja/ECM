@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Sustainability Fundamentals</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c5530, #1e3a5f);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header hr {
+            border: none;
+            height: 2px;
+            background: rgba(255,255,255,0.3);
+            margin: 1.5rem 0;
+        }
+        
+        .professional-context {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            text-align: left;
+            border-left: 4px solid rgba(255,255,255,0.5);
+        }
+        
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .metric-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-left: 4px solid #28a745;
+        }
+        
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c5530;
+        }
+        
+        .metric-label {
+            font-size: 0.9rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #2c5530;
+            border-bottom: 3px solid #28a745;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .module-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .module-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .module-title {
+            color: #2c5530;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .ects-badge {
+            background: #28a745;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+        }
+        
+        .eqf-badge {
+            background: #17a2b8;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            margin-left: 0.5rem;
+        }
+        
+        .workload-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .workload-item {
+            text-align: center;
+            padding: 0.8rem;
+            background: white;
+            border-radius: 6px;
+            border: 1px solid #dee2e6;
+        }
+        
+        .learning-outcomes {
+            background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+            border-left: 4px solid #28a745;
+            border-radius: 6px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .learning-outcomes ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .learning-outcomes li {
+            margin: 0.8rem 0;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(40, 167, 69, 0.2);
+        }
+        
+        .learning-outcomes li:last-child {
+            border-bottom: none;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2rem; }
+            .metrics { grid-template-columns: 1fr; }
+            .module-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Digital Sustainability Fundamentals</h1>
+        <hr>
+        <div class="professional-context">
+            This curriculum prepares learners to understand core principles of digital sustainability and develop fundamental management skills for sustainability initiatives.
+        </div>
+        
+        <div class="metrics">
+            <div class="metric-card">
+                <div class="metric-value">2</div>
+                <div class="metric-label">Modules</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">EQF 6</div>
+                <div class="metric-label">Level</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">1.0</div>
+                <div class="metric-label">ECTS</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">2h</div>
+                <div class="metric-label">Work-Based</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Programme Overview</h2>
+        <p><strong>Role Focus:</strong> Operational management and process implementation</p>
+        <p><strong>Target Audience:</strong> Professionals with management responsibilities seeking foundational digital sustainability knowledge and coordination skills</p>
+        <p><strong>Learning Approach:</strong> EQF Level 6 professional development program with 1.0 ECTS, combining theoretical knowledge with practical application through structured learning and workplace integration.</p>
+    </div>
+    
+    <div class="section">
+        <h2>Assessment Framework</h2>
+        <p><strong>Primary Method:</strong> Management fundamentals portfolio</p>
+        <p><strong>Components:</strong></p>
+        <ul><li>Core concept application: <strong>35%</strong></li><li>Team coordination exercise: <strong>35%</strong></li><li>Strategic planning project: <strong>30%</strong></li>
+        </ul>
+        <p><strong>Rationale:</strong> Fundamental management programs focus on core concept application and practical coordination skills</p>
+    </div>
+    
+    <div class="section">
+        <h2>Delivery Framework</h2>
+        <div class="workload-grid">
+            <div class="workload-item">
+                <div class="metric-value">14h</div>
+                <div class="metric-label">Contact Hours</div>
+            </div>
+            <div class="workload-item">
+                <div class="metric-value">6h</div>
+                <div class="metric-label">Self-Study</div>
+            </div>
+            <div class="workload-item">
+                <div class="metric-value">2h</div>
+                <div class="metric-label">Workplace</div>
+            </div>
+        </div>
+        <p><strong>Work-Based Learning:</strong> Integrated</p>
+    </div>
+    
+    <div class="section">
+        <h2>Module Structure</h2>
+        <div class="module-card">
+            <div class="module-header">
+                <div class="module-title">Module 1: Introduction to Digital Sustainability</div>
+                <div>
+                    <span class="ects-badge">0.5 ECTS</span>
+                    <span class="eqf-badge">EQF 6</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Core sustainability concepts and their intersection with technology systems for digital professionals</p>
+            <p><strong>Thematic Area:</strong> Foundation</p>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="metric-value">12.5h</div>
+                    <div class="metric-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">7h</div>
+                    <div class="metric-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">3h</div>
+                    <div class="metric-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">1h</div>
+                    <div class="metric-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <strong>Learning Outcomes:</strong>
+                <ul>
+                    <li><strong>Knowledge:</strong> Critically evaluate foundational concepts of introduction to digital sustainability and their application to cross-functional sustainability management and strategic implementation within sustainability applications.</li>
+                    <li><strong>Skills:</strong> Lead strategic professional application of introduction to digital sustainability to support operational management and process implementation in organizational contexts.</li>
+                    <li><strong>Competence:</strong> Lead strategic initiatives for professional responsibilities involving introduction to digital sustainability while ensuring professional standards and stakeholder value.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="module-card">
+            <div class="module-header">
+                <div class="module-title">Module 2: Data Analytics for Sustainability</div>
+                <div>
+                    <span class="ects-badge">0.5 ECTS</span>
+                    <span class="eqf-badge">EQF 6</span>
+                </div>
+            </div>
+            
+            <p><strong>Description:</strong> Use data tools to derive actionable sustainability insights</p>
+            <p><strong>Thematic Area:</strong> Data</p>
+            
+            <div class="workload-grid">
+                <div class="workload-item">
+                    <div class="metric-value">12.5h</div>
+                    <div class="metric-label">Total</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">7h</div>
+                    <div class="metric-label">Contact</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">3h</div>
+                    <div class="metric-label">Self-Study</div>
+                </div>
+                <div class="workload-item">
+                    <div class="metric-value">1h</div>
+                    <div class="metric-label">Workplace</div>
+                </div>
+            </div>
+            
+            <div class="learning-outcomes">
+                <strong>Learning Outcomes:</strong>
+                <ul>
+                    <li><strong>Knowledge:</strong> Formulate analytical frameworks for data analytics for sustainability within operational management and process implementation contexts within sustainability applications.</li>
+                    <li><strong>Skills:</strong> Innovate data-driven approaches to data analytics for sustainability to support operational management and process implementation in organizational contexts.</li>
+                    <li><strong>Competence:</strong> Influence organizational professional responsibilities involving data analytics for sustainability while ensuring professional standards and stakeholder value.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Recognition Framework</h2>
+        <p><strong>EQF Level:</strong> 6</p>
+        <p><strong>ECTS Transferable:</strong> Yes</p>
+        <p><strong>Bologna Compliant:</strong> Yes</p>
+        <p><strong>Professional Recognition:</strong> Industry recognition for Digital Sustainability Manager competencies at EQF Level 6</p>
+    </div>
+</body>
+</html>

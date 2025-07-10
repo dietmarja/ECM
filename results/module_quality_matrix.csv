@@ -1,0 +1,631 @@
+module_id,module_name,framework,framework_name,quality_score,max_similarity,alignment_rate,suitability,thematic_area,eqf_level
+M1,Introduction to Digital Sustainability,ESCO,"European Skills, Competences, Qualifications and Occupations",0.1351231418316279,0.24824800252693643,0.1,Poor,General,6
+M10,Circular Economy and Lifecycle Thinking,ESCO,"European Skills, Competences, Qualifications and Occupations",0.026060510635334464,0.058869619159539865,0.0,Poor,General,6
+M11,Big Data for Environmental Intelligence,ESCO,"European Skills, Competences, Qualifications and Occupations",0.13629027821620623,0.24824800252693643,0.1,Poor,Data,6
+M12,Advanced Visualisation for Sustainability Reporting,ESCO,"European Skills, Competences, Qualifications and Occupations",0.09640255586263569,0.1897672843384491,0.05,Poor,Data,6
+M13,Low-Carbon Cloud Infrastructure,ESCO,"European Skills, Competences, Qualifications and Occupations",0.0,0.0,0.0,Poor,Technical Implementation,6
+M14,Sustainable Digital Transformation Strategy,ESCO,"European Skills, Competences, Qualifications and Occupations",0.10056846716801317,0.16319486256720964,0.1,Poor,General,6
+M15,Applied Ethics in AI for Sustainability,ESCO,"European Skills, Competences, Qualifications and Occupations",0.08828455282922143,0.17475038236070678,0.05,Poor,Ethics & Governance,6
+M16,DevOps and Sustainable Deployment,ESCO,"European Skills, Competences, Qualifications and Occupations",0.028361227702706986,0.0659563434946674,0.0,Poor,Technical Implementation,6
+M17,Digital Circular Business Models,ESCO,"European Skills, Competences, Qualifications and Occupations",0.09038177008690762,0.13797394741164487,0.1,Poor,General,6
+M18,AI-Driven Environmental Risk Modelling,ESCO,"European Skills, Competences, Qualifications and Occupations",0.12717621225554582,0.2161094500683864,0.1,Poor,Data,6
+M19,Sustainability Assessment and Benchmarking,ESCO,"European Skills, Competences, Qualifications and Occupations",0.11764555508591361,0.20199309249791833,0.1,Poor,Analysis,6
+M2,Sustainability Frameworks and Standards,ESCO,"European Skills, Competences, Qualifications and Occupations",0.09105450313252351,0.17952265829918904,0.05,Poor,Management,6
+M20,Data Ethics and Governance in Practice,ESCO,"European Skills, Competences, Qualifications and Occupations",0.11709819345206793,0.20455982299556305,0.1,Poor,Data,6
+M21,Energy-Efficient Software Architecture,ESCO,"European Skills, Competences, Qualifications and Occupations",0.023276243520664822,0.0560873337847345,0.0,Poor,Technical Implementation,6
+M22,Sustainable ICT Procurement and Policy,ESCO,"European Skills, Competences, Qualifications and Occupations",0.026076742790176268,0.06097229545515701,0.0,Poor,Management,6
+M23,Digital Twin and Smart Systems for Green Transition,ESCO,"European Skills, Competences, Qualifications and Occupations",0.09543387877412123,0.149188650396373,0.1,Poor,Technical Implementation,6
+M24,Collaborative Tools for Green Innovation,ESCO,"European Skills, Competences, Qualifications and Occupations",0.10852167670605964,0.17952265829918904,0.1,Poor,Analysis,6
+M25,Digital Sustainability in SMEs,ESCO,"European Skills, Competences, Qualifications and Occupations",0.10161104849237086,0.16560867635473497,0.1,Poor,Management,4
+M26,AI for Sustainable Decision-Making,ESCO,"European Skills, Competences, Qualifications and Occupations",0.08569108621304668,0.16319486256720964,0.05,Poor,Data,7
+M27,Green IT Service Management,ESCO,"European Skills, Competences, Qualifications and Occupations",0.0680566040951074,0.12784723878339133,0.05,Poor,Management,5
+M28,Strategic Digital Sustainability Leadership,ESCO,"European Skills, Competences, Qualifications and Occupations",0.09385435929251738,0.14438355527738675,0.1,Poor,Management,8
+M29,Blockchain for Sustainability Traceability,ESCO,"European Skills, Competences, Qualifications and Occupations",0.061900975687697646,0.1130143992474642,0.05,Poor,Technical Implementation,7
+M3,Data Analytics for Sustainability,ESCO,"European Skills, Competences, Qualifications and Occupations",0.11309921675813726,0.19375030574373353,0.1,Poor,Data,6
+M30,Human-Centered Design for Sustainable Tech,ESCO,"European Skills, Competences, Qualifications and Occupations",0.04218777895109195,0.09409088178026434,0.0,Poor,Analysis,6
+M31,Introduction to Digital Sustainability,ESCO,"European Skills, Competences, Qualifications and Occupations",0.026218087045717514,0.06097229545515701,0.0,Poor,Technical Implementation,6
+M32,Sustainable IT Strategy,ESCO,"European Skills, Competences, Qualifications and Occupations",0.07843388933293997,0.15064018498706513,0.05,Poor,Management,7
+M33,Green Software Engineering,ESCO,"European Skills, Competences, Qualifications and Occupations",0.07254402684964088,0.13627634143908643,0.05,Poor,Technical Implementation,6
+M34,Industry Collaboration Project,ESCO,"European Skills, Competences, Qualifications and Occupations",0.11408837066062216,0.19765912494786975,0.1,Poor,Management,7
+M35,Sustainable IT Consultancy,ESCO,"European Skills, Competences, Qualifications and Occupations",0.030848719803918817,0.07433426458775619,0.0,Poor,Management,7
+M36,Eco-design for Digital Products,ESCO,"European Skills, Competences, Qualifications and Occupations",0.07380516815872559,0.13797394741164487,0.05,Poor,Technical Implementation,6
+M37,Net-Zero IT Infrastructure,ESCO,"European Skills, Competences, Qualifications and Occupations",0.02314170081178671,0.055763134486233025,0.0,Poor,Technical Implementation,6
+M38,Introduction to Green IT,ESCO,"European Skills, Competences, Qualifications and Occupations",0.030848719803918817,0.07433426458775619,0.0,Poor,Technical Implementation,4
+M39,Sustainable IT for Small Organizations,ESCO,"European Skills, Competences, Qualifications and Occupations",0.026218087045717514,0.06097229545515701,0.0,Poor,Technical Implementation,4
+M4,Machine Learning and Predictive Modeling,ESCO,"European Skills, Competences, Qualifications and Occupations",0.12141782564006837,0.21614983206136978,0.1,Poor,Data,7
+M40,Advanced Sustainability Impact Assessment Methods,ESCO,"European Skills, Competences, Qualifications and Occupations",0.08497431267685827,0.12784723878339133,0.1,Poor,Analysis,8
+M41,Green Blockchain Applications,ESCO,"European Skills, Competences, Qualifications and Occupations",0.058041937203248975,0.10371551133313006,0.05,Poor,Technical Implementation,7
+M42,Sector-specific Green IT Applications,ESCO,"European Skills, Competences, Qualifications and Occupations",0.026060510635334464,0.058869619159539865,0.0,Poor,Technical Implementation,7
+M43,Circular Economy Digital Applications,ESCO,"European Skills, Competences, Qualifications and Occupations",0.08118529846789568,0.15738999505170365,0.05,Poor,Analysis,7
+M44,Advanced Sustainability Impact Assessment,ESCO,"European Skills, Competences, Qualifications and Occupations",0.13146298428225775,0.20042611329793483,0.15,Poor,Analysis,8
+M45,Big Data for Environmental Intelligence (EQF 4 Version),ESCO,"European Skills, Competences, Qualifications and Occupations",0.13629027821620623,0.24824800252693643,0.1,Poor,Data,4
+M46,Sustainable Business Models for Digital Companies (EQF 4 Version),ESCO,"European Skills, Competences, Qualifications and Occupations",0.10693551262799515,0.179522658299189,0.1,Poor,General,4
+M47,Applied Ethics in AI for Sustainability (EQF 5 Version),ESCO,"European Skills, Competences, Qualifications and Occupations",0.08828455282922143,0.17475038236070678,0.05,Poor,Ethics & Governance,5
+M48,AI for Sustainable Decision-Making (EQF 8 Version),ESCO,"European Skills, Competences, Qualifications and Occupations",0.08569108621304668,0.16319486256720964,0.05,Poor,Data,8
+M49,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version),ESCO,"European Skills, Competences, Qualifications and Occupations",0.10167725489620172,0.16560867635473497,0.1,Poor,General,8
+M5,Sustainable Software Engineering,ESCO,"European Skills, Competences, Qualifications and Occupations",0.026218087045717514,0.06097229545515701,0.0,Poor,Technical Implementation,6
+M50,Advanced Sustainability Impact Assessment Methods,ESCO,"European Skills, Competences, Qualifications and Occupations",0.08497431267685827,0.12784723878339133,0.1,Poor,Analysis,8
+M51,AI for Sustainable Decision-Making (EQF 8 Version) - Duplicate,ESCO,"European Skills, Competences, Qualifications and Occupations",0.08569108621304668,0.16319486256720964,0.05,Poor,Data,8
+M52,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Duplicate,ESCO,"European Skills, Competences, Qualifications and Occupations",0.10167725489620172,0.16560867635473497,0.1,Poor,General,8
+M53,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Triple Duplicate,ESCO,"European Skills, Competences, Qualifications and Occupations",0.10167725489620172,0.16560867635473497,0.1,Poor,General,8
+M54,Digital Sustainability Policy Development,ESCO,"European Skills, Competences, Qualifications and Occupations",0.09596256458114441,0.15253242923974406,0.1,Poor,Management,7
+M55,Global Climate Technology Governance,ESCO,"European Skills, Competences, Qualifications and Occupations",0.07840572032380952,0.1527848682501434,0.05,Poor,Management,8
+M56,Green Finance and Sustainable Investment,ESCO,"European Skills, Competences, Qualifications and Occupations",0.10285337444519656,0.16612199235410324,0.1,Poor,Management,7
+M57,Sustainability Economics and Market Mechanisms,ESCO,"European Skills, Competences, Qualifications and Occupations",0.11304934025116833,0.23446942009947724,0.05,Poor,Management,7
+M58,Public Engagement and Science Communication,ESCO,"European Skills, Competences, Qualifications and Occupations",0.06594430852101793,0.1189314332961741,0.05,Poor,Management,6
+M59,Digital Storytelling for Sustainability Impact,ESCO,"European Skills, Competences, Qualifications and Occupations",0.08483180427699914,0.16319486256720964,0.05,Poor,Management,6
+M6,Systems Architecture for Sustainability,ESCO,"European Skills, Competences, Qualifications and Occupations",0.11173702385139651,0.23071729806982288,0.05,Poor,Technical Implementation,6
+M60,Systematic Innovation for Sustainability Challenges,ESCO,"European Skills, Competences, Qualifications and Occupations",0.10017379090390015,0.16319486256720964,0.1,Poor,Technical Implementation,7
+M61,Technology Assessment for Sustainability,ESCO,"European Skills, Competences, Qualifications and Occupations",0.09432363886339194,0.14705779392728374,0.1,Poor,Technical Implementation,7
+M62,Digital Health for Planetary Health,ESCO,"European Skills, Competences, Qualifications and Occupations",0.09612667214301746,0.15476911315457814,0.1,Poor,Technical Implementation,6
+M63,Smart Manufacturing and Industry 4.0 Sustainability,ESCO,"European Skills, Competences, Qualifications and Occupations",0.06269236755570376,0.11129020231004749,0.05,Poor,Technical Implementation,6
+M64,Behavioral Insights for Sustainability Transformation,ESCO,"European Skills, Competences, Qualifications and Occupations",0.021964064559628422,0.052925456770188964,0.0,Poor,Management,6
+M65,Community-Based Participatory Sustainability Research,ESCO,"European Skills, Competences, Qualifications and Occupations",0.12827241935600076,0.22921843908219103,0.1,Poor,Management,7
+M66,ESG Reporting and Compliance Framework,ESCO,"European Skills, Competences, Qualifications and Occupations",0.042704615616586,0.09985136800345734,0.0,Poor,Management,6
+M67,Digital Sustainability Legislation and Policy,ESCO,"European Skills, Competences, Qualifications and Occupations",0.09639296200421052,0.15177836744198994,0.1,Poor,Management,7
+M68,Regulatory Technology (RegTech) for Sustainability,ESCO,"European Skills, Competences, Qualifications and Occupations",0.10706553270317712,0.17952265829918904,0.1,Poor,Data,6
+M69,Sustainable IT Operations and DevOps,ESCO,"European Skills, Competences, Qualifications and Occupations",0.030649664949313045,0.06097229545515701,0.0,Poor,Technical Implementation,6
+M7,Ethics and Governance in Digital Innovation,ESCO,"European Skills, Competences, Qualifications and Occupations",0.08936807657143372,0.13627634143908643,0.1,Poor,Ethics & Governance,6
+M70,ICT Energy Consumption and Carbon Footprint Management,ESCO,"European Skills, Competences, Qualifications and Occupations",0.023408188285224216,0.05443764717494003,0.0,Poor,Technical Implementation,6
+M71,Green Software Development Practices,ESCO,"European Skills, Competences, Qualifications and Occupations",0.024224752992848316,0.05443764717494003,0.0,Poor,Software Development,5
+M72,Sustainability Data Engineering and Architecture,ESCO,"European Skills, Competences, Qualifications and Occupations",0.1308085543825139,0.23140682097864215,0.1,Poor,Data,7
+M73,Business-Technical Sustainability Bridge,ESCO,"European Skills, Competences, Qualifications and Occupations",0.09722549294330592,0.15654119637210875,0.1,Poor,Business Analysis,7
+M74,Sustainability Data Science and Predictive Analytics,ESCO,"European Skills, Competences, Qualifications and Occupations",0.18054609740186728,0.31259345145078987,0.15,Poor,Data,8
+M8,Work-based Sustainability Project,ESCO,"European Skills, Competences, Qualifications and Occupations",0.1262389669999207,0.21187450069946928,0.1,Poor,Management,6
+M89,ESG Reporting Essentials,ESCO,"European Skills, Competences, Qualifications and Occupations",0.042920686829250716,0.09865621511919305,0.0,Poor,ESG & Compliance,4
+M9,Technical Implementation and Tool Support,ESCO,"European Skills, Competences, Qualifications and Occupations",0.09169623144975296,0.18275102230576856,0.05,Poor,Technical Implementation,5
+M90,Sustainability Data Fundamentals,ESCO,"European Skills, Competences, Qualifications and Occupations",0.14032825989421774,0.25611524482323195,0.1,Poor,Data & Analytics,4
+M91,Green ICT Principles,ESCO,"European Skills, Competences, Qualifications and Occupations",0.08942760488999546,0.1391708730163605,0.1,Poor,Technical Implementation,4
+OM1,Digital Sustainability Fundamentals,ESCO,"European Skills, Competences, Qualifications and Occupations",0.11445402149600588,0.19359266676133627,0.1,Poor,General,6
+OM10,Advanced Sustainability Impact Assessment Methods,ESCO,"European Skills, Competences, Qualifications and Occupations",0.08497431267685827,0.12784723878339133,0.1,Poor,Analysis,8
+OM2,Sustainable IT Strategy,ESCO,"European Skills, Competences, Qualifications and Occupations",0.07843388933293997,0.15064018498706513,0.05,Poor,Management,7
+OM3,Green Software Engineering,ESCO,"European Skills, Competences, Qualifications and Occupations",0.07254402684964088,0.13627634143908643,0.05,Poor,Technical Implementation,6
+OM4,Industry Collaboration Project,ESCO,"European Skills, Competences, Qualifications and Occupations",0.11408837066062216,0.19765912494786975,0.1,Poor,Management,7
+OM5,Sustainable IT Consultancy,ESCO,"European Skills, Competences, Qualifications and Occupations",0.030848719803918817,0.07433426458775619,0.0,Poor,Management,7
+OM6,Eco-design for Digital Products,ESCO,"European Skills, Competences, Qualifications and Occupations",0.07380516815872559,0.13797394741164487,0.05,Poor,Technical Implementation,6
+OM7,Net-Zero IT Infrastructure,ESCO,"European Skills, Competences, Qualifications and Occupations",0.02314170081178671,0.055763134486233025,0.0,Poor,Technical Implementation,6
+OM8,Introduction to Green IT,ESCO,"European Skills, Competences, Qualifications and Occupations",0.030848719803918817,0.07433426458775619,0.0,Poor,Technical Implementation,4
+OM9,Sustainable IT for Small Organizations,ESCO,"European Skills, Competences, Qualifications and Occupations",0.026218087045717514,0.06097229545515701,0.0,Poor,Technical Implementation,4
+M92,Digital Sustainability Foundation,ESCO,"European Skills, Competences, Qualifications and Occupations",0.13761360380921653,0.2508196664316734,0.1,Poor,Foundation,4
+M93,Digital Inclusion and Social Sustainability,ESCO,"European Skills, Competences, Qualifications and Occupations",0.10118356999765994,0.20305870302928525,0.05,Poor,Social Sustainability,5
+M94,Circular Economy for Digital Systems,ESCO,"European Skills, Competences, Qualifications and Occupations",0.09553759111706747,0.14982363486245817,0.1,Poor,Circular Economy,6
+M1,Introduction to Digital Sustainability,CS2023,IEEE/ACM Computer Science Curricula 2023,0.08517301107888155,0.16560867635473497,0.05,Poor,General,6
+M10,Circular Economy and Lifecycle Thinking,CS2023,IEEE/ACM Computer Science Curricula 2023,0.025313936238602144,0.058869619159539865,0.0,Poor,General,6
+M11,Big Data for Environmental Intelligence,CS2023,IEEE/ACM Computer Science Curricula 2023,0.10227323186183082,0.16560867635473497,0.1,Poor,Data,6
+M12,Advanced Visualisation for Sustainability Reporting,CS2023,IEEE/ACM Computer Science Curricula 2023,0.033143604475079705,0.07593731515892597,0.0,Poor,Data,6
+M13,Low-Carbon Cloud Infrastructure,CS2023,IEEE/ACM Computer Science Curricula 2023,0.13130383668673862,0.2743909216069547,0.05,Poor,Technical Implementation,6
+M14,Sustainable Digital Transformation Strategy,CS2023,IEEE/ACM Computer Science Curricula 2023,0.08272586796539201,0.16319486256720964,0.05,Poor,General,6
+M15,Applied Ethics in AI for Sustainability,CS2023,IEEE/ACM Computer Science Curricula 2023,0.023812411553280934,0.050876276635207454,0.0,Poor,Ethics & Governance,6
+M16,DevOps and Sustainable Deployment,CS2023,IEEE/ACM Computer Science Curricula 2023,0.10716159677661953,0.1757860783933462,0.1,Poor,Technical Implementation,6
+M17,Digital Circular Business Models,CS2023,IEEE/ACM Computer Science Curricula 2023,0.08337939638382272,0.16319486256720964,0.05,Poor,General,6
+M18,AI-Driven Environmental Risk Modelling,CS2023,IEEE/ACM Computer Science Curricula 2023,0.02432746109326067,0.05524402556623145,0.0,Poor,Data,6
+M19,Sustainability Assessment and Benchmarking,CS2023,IEEE/ACM Computer Science Curricula 2023,0.02577639581302501,0.0621117971398193,0.0,Poor,Analysis,6
+M2,Sustainability Frameworks and Standards,CS2023,IEEE/ACM Computer Science Curricula 2023,0.023276243520664826,0.05608733378473451,0.0,Poor,Management,6
+M20,Data Ethics and Governance in Practice,CS2023,IEEE/ACM Computer Science Curricula 2023,0.11959662896022487,0.20455982299556305,0.1,Poor,Data,6
+M21,Energy-Efficient Software Architecture,CS2023,IEEE/ACM Computer Science Curricula 2023,0.10305791562697297,0.1261431006085266,0.15,Poor,Technical Implementation,6
+M22,Sustainable ICT Procurement and Policy,CS2023,IEEE/ACM Computer Science Curricula 2023,0.0678005194410228,0.12536693798731732,0.05,Poor,Management,6
+M23,Digital Twin and Smart Systems for Green Transition,CS2023,IEEE/ACM Computer Science Curricula 2023,0.09058863114163945,0.17645955453738604,0.05,Poor,Technical Implementation,6
+M24,Collaborative Tools for Green Innovation,CS2023,IEEE/ACM Computer Science Curricula 2023,0.0626508395620469,0.11482130014951059,0.05,Poor,Analysis,6
+M25,Digital Sustainability in SMEs,CS2023,IEEE/ACM Computer Science Curricula 2023,0.083727600687215,0.16560867635473497,0.05,Poor,Management,4
+M26,AI for Sustainable Decision-Making,CS2023,IEEE/ACM Computer Science Curricula 2023,0.022932036412912398,0.05153266609643235,0.0,Poor,Data,7
+M27,Green IT Service Management,CS2023,IEEE/ACM Computer Science Curricula 2023,0.026564086953916422,0.0621117971398193,0.0,Poor,Management,5
+M28,Strategic Digital Sustainability Leadership,CS2023,IEEE/ACM Computer Science Curricula 2023,0.08667707066818747,0.1707761131901165,0.05,Poor,Management,8
+M29,Blockchain for Sustainability Traceability,CS2023,IEEE/ACM Computer Science Curricula 2023,0.08155867649759793,0.1130143992474642,0.1,Poor,Technical Implementation,7
+M3,Data Analytics for Sustainability,CS2023,IEEE/ACM Computer Science Curricula 2023,0.09770383089330296,0.19375030574373353,0.05,Poor,Data,6
+M30,Human-Centered Design for Sustainable Tech,CS2023,IEEE/ACM Computer Science Curricula 2023,0.11432949692730492,0.1534151627791454,0.15,Poor,Analysis,6
+M31,Introduction to Digital Sustainability,CS2023,IEEE/ACM Computer Science Curricula 2023,0.07198873533408852,0.13732225381708077,0.05,Poor,Technical Implementation,6
+M32,Sustainable IT Strategy,CS2023,IEEE/ACM Computer Science Curricula 2023,0.030047577335366556,0.07240380080811218,0.0,Poor,Management,7
+M33,Green Software Engineering,CS2023,IEEE/ACM Computer Science Curricula 2023,0.18237300442341098,0.31878402175377923,0.15,Poor,Technical Implementation,6
+M34,Industry Collaboration Project,CS2023,IEEE/ACM Computer Science Curricula 2023,0.0,0.0,0.0,Poor,Management,7
+M35,Sustainable IT Consultancy,CS2023,IEEE/ACM Computer Science Curricula 2023,0.030848719803918817,0.07433426458775619,0.0,Poor,Management,7
+M36,Eco-design for Digital Products,CS2023,IEEE/ACM Computer Science Curricula 2023,0.10134145715945966,0.16319486256720966,0.1,Poor,Technical Implementation,6
+M37,Net-Zero IT Infrastructure,CS2023,IEEE/ACM Computer Science Curricula 2023,0.030870568754587477,0.06595634349466742,0.0,Poor,Technical Implementation,6
+M38,Introduction to Green IT,CS2023,IEEE/ACM Computer Science Curricula 2023,0.10725307531641809,0.16816529140565506,0.1,Poor,Technical Implementation,4
+M39,Sustainable IT for Small Organizations,CS2023,IEEE/ACM Computer Science Curricula 2023,0.07198873533408852,0.13732225381708077,0.05,Poor,Technical Implementation,4
+M4,Machine Learning and Predictive Modeling,CS2023,IEEE/ACM Computer Science Curricula 2023,0.0632538787314888,0.11437635563999371,0.05,Poor,Data,7
+M40,Advanced Sustainability Impact Assessment Methods,CS2023,IEEE/ACM Computer Science Curricula 2023,0.021792788231329092,0.05251274272609419,0.0,Poor,Analysis,8
+M41,Green Blockchain Applications,CS2023,IEEE/ACM Computer Science Curricula 2023,0.02328514730271456,0.05087627663520746,0.0,Poor,Technical Implementation,7
+M42,Sector-specific Green IT Applications,CS2023,IEEE/ACM Computer Science Curricula 2023,0.020655224976260905,0.04977162644882146,0.0,Poor,Technical Implementation,7
+M43,Circular Economy Digital Applications,CS2023,IEEE/ACM Computer Science Curricula 2023,0.0947275628162933,0.18616006205348862,0.05,Poor,Analysis,7
+M44,Advanced Sustainability Impact Assessment,CS2023,IEEE/ACM Computer Science Curricula 2023,0.06499944727290452,0.11871135241370204,0.05,Poor,Analysis,8
+M45,Big Data for Environmental Intelligence (EQF 4 Version),CS2023,IEEE/ACM Computer Science Curricula 2023,0.10227323186183082,0.16560867635473497,0.1,Poor,Data,4
+M46,Sustainable Business Models for Digital Companies (EQF 4 Version),CS2023,IEEE/ACM Computer Science Curricula 2023,0.024828843459024884,0.056087333784734496,0.0,Poor,General,4
+M47,Applied Ethics in AI for Sustainability (EQF 5 Version),CS2023,IEEE/ACM Computer Science Curricula 2023,0.023812411553280934,0.050876276635207454,0.0,Poor,Ethics & Governance,5
+M48,AI for Sustainable Decision-Making (EQF 8 Version),CS2023,IEEE/ACM Computer Science Curricula 2023,0.022932036412912398,0.05153266609643235,0.0,Poor,Data,8
+M49,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version),CS2023,IEEE/ACM Computer Science Curricula 2023,0.05922057992778699,0.10655561428382407,0.05,Poor,General,8
+M5,Sustainable Software Engineering,CS2023,IEEE/ACM Computer Science Curricula 2023,0.08559560794265991,0.12536693798731732,0.1,Poor,Technical Implementation,6
+M50,Advanced Sustainability Impact Assessment Methods,CS2023,IEEE/ACM Computer Science Curricula 2023,0.021792788231329092,0.05251274272609419,0.0,Poor,Analysis,8
+M51,AI for Sustainable Decision-Making (EQF 8 Version) - Duplicate,CS2023,IEEE/ACM Computer Science Curricula 2023,0.022932036412912398,0.05153266609643235,0.0,Poor,Data,8
+M52,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Duplicate,CS2023,IEEE/ACM Computer Science Curricula 2023,0.05922057992778699,0.10655561428382407,0.05,Poor,General,8
+M53,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Triple Duplicate,CS2023,IEEE/ACM Computer Science Curricula 2023,0.05922057992778699,0.10655561428382407,0.05,Poor,General,8
+M54,Digital Sustainability Policy Development,CS2023,IEEE/ACM Computer Science Curricula 2023,0.07891578701717486,0.15253242923974406,0.05,Poor,Management,7
+M55,Global Climate Technology Governance,CS2023,IEEE/ACM Computer Science Curricula 2023,0.08102147646926862,0.1527848682501434,0.05,Poor,Management,8
+M56,Green Finance and Sustainable Investment,CS2023,IEEE/ACM Computer Science Curricula 2023,0.042284374540338704,0.09865621511919305,0.0,Poor,Management,7
+M57,Sustainability Economics and Market Mechanisms,CS2023,IEEE/ACM Computer Science Curricula 2023,0.022717217866143433,0.049635393992352034,0.0,Poor,Management,7
+M58,Public Engagement and Science Communication,CS2023,IEEE/ACM Computer Science Curricula 2023,0.021964064559628422,0.052925456770188964,0.0,Poor,Management,6
+M59,Digital Storytelling for Sustainability Impact,CS2023,IEEE/ACM Computer Science Curricula 2023,0.058619320013036214,0.10510679521213545,0.05,Poor,Management,6
+M6,Systems Architecture for Sustainability,CS2023,IEEE/ACM Computer Science Curricula 2023,0.06380379565426147,0.11521554337793123,0.05,Poor,Technical Implementation,6
+M60,Systematic Innovation for Sustainability Challenges,CS2023,IEEE/ACM Computer Science Curricula 2023,0.0,0.0,0.0,Poor,Technical Implementation,7
+M61,Technology Assessment for Sustainability,CS2023,IEEE/ACM Computer Science Curricula 2023,0.07036395208789709,0.12433077859567623,0.05,Poor,Technical Implementation,7
+M62,Digital Health for Planetary Health,CS2023,IEEE/ACM Computer Science Curricula 2023,0.05987349264520077,0.10371551133313006,0.05,Poor,Technical Implementation,6
+M63,Smart Manufacturing and Industry 4.0 Sustainability,CS2023,IEEE/ACM Computer Science Curricula 2023,0.08089927963527259,0.11129020231004749,0.1,Poor,Technical Implementation,6
+M64,Behavioral Insights for Sustainability Transformation,CS2023,IEEE/ACM Computer Science Curricula 2023,0.11950745624256011,0.24829489841090388,0.05,Poor,Management,6
+M65,Community-Based Participatory Sustainability Research,CS2023,IEEE/ACM Computer Science Curricula 2023,0.017677325110512895,0.04111005839654161,0.0,Poor,Management,7
+M66,ESG Reporting and Compliance Framework,CS2023,IEEE/ACM Computer Science Curricula 2023,0.04353177854932877,0.09985136800345734,0.0,Poor,Management,6
+M67,Digital Sustainability Legislation and Policy,CS2023,IEEE/ACM Computer Science Curricula 2023,0.09118452320770548,0.17952265829918904,0.05,Poor,Management,7
+M68,Regulatory Technology (RegTech) for Sustainability,CS2023,IEEE/ACM Computer Science Curricula 2023,0.025540133390613937,0.0560873337847345,0.0,Poor,Data,6
+M69,Sustainable IT Operations and DevOps,CS2023,IEEE/ACM Computer Science Curricula 2023,0.07444980011848809,0.13732225381708077,0.05,Poor,Technical Implementation,6
+M7,Ethics and Governance in Digital Innovation,CS2023,IEEE/ACM Computer Science Curricula 2023,0.03713343134572505,0.08507864861689526,0.0,Poor,Ethics & Governance,6
+M70,ICT Energy Consumption and Carbon Footprint Management,CS2023,IEEE/ACM Computer Science Curricula 2023,0.024915121882258258,0.05443764717494003,0.0,Poor,Technical Implementation,6
+M71,Green Software Development Practices,CS2023,IEEE/ACM Computer Science Curricula 2023,0.12872402913353476,0.1877000120184919,0.15,Poor,Software Development,5
+M72,Sustainability Data Engineering and Architecture,CS2023,IEEE/ACM Computer Science Curricula 2023,0.1643692615985964,0.3077895423205088,0.1,Poor,Data,7
+M73,Business-Technical Sustainability Bridge,CS2023,IEEE/ACM Computer Science Curricula 2023,0.0,0.0,0.0,Poor,Business Analysis,7
+M74,Sustainability Data Science and Predictive Analytics,CS2023,IEEE/ACM Computer Science Curricula 2023,0.15015598907701935,0.27371726127235446,0.1,Poor,Data,8
+M8,Work-based Sustainability Project,CS2023,IEEE/ACM Computer Science Curricula 2023,0.10461574239839322,0.21187450069946928,0.05,Poor,Management,6
+M89,ESG Reporting Essentials,CS2023,IEEE/ACM Computer Science Curricula 2023,0.042284374540338704,0.09865621511919305,0.0,Poor,ESG & Compliance,4
+M9,Technical Implementation and Tool Support,CS2023,IEEE/ACM Computer Science Curricula 2023,0.0,0.0,0.0,Poor,Technical Implementation,5
+M90,Sustainability Data Fundamentals,CS2023,IEEE/ACM Computer Science Curricula 2023,0.10384282399734827,0.1707761131901165,0.1,Poor,Data & Analytics,4
+M91,Green ICT Principles,CS2023,IEEE/ACM Computer Science Curricula 2023,0.0791328722398702,0.11144617254705722,0.1,Poor,Technical Implementation,4
+OM1,Digital Sustainability Fundamentals,CS2023,IEEE/ACM Computer Science Curricula 2023,0.09610051315880587,0.19359266676133627,0.05,Poor,General,6
+OM10,Advanced Sustainability Impact Assessment Methods,CS2023,IEEE/ACM Computer Science Curricula 2023,0.021792788231329092,0.05251274272609419,0.0,Poor,Analysis,8
+OM2,Sustainable IT Strategy,CS2023,IEEE/ACM Computer Science Curricula 2023,0.030047577335366556,0.07240380080811218,0.0,Poor,Management,7
+OM3,Green Software Engineering,CS2023,IEEE/ACM Computer Science Curricula 2023,0.18237300442341098,0.31878402175377923,0.15,Poor,Technical Implementation,6
+OM4,Industry Collaboration Project,CS2023,IEEE/ACM Computer Science Curricula 2023,0.0,0.0,0.0,Poor,Management,7
+OM5,Sustainable IT Consultancy,CS2023,IEEE/ACM Computer Science Curricula 2023,0.030848719803918817,0.07433426458775619,0.0,Poor,Management,7
+OM6,Eco-design for Digital Products,CS2023,IEEE/ACM Computer Science Curricula 2023,0.10134145715945966,0.16319486256720966,0.1,Poor,Technical Implementation,6
+OM7,Net-Zero IT Infrastructure,CS2023,IEEE/ACM Computer Science Curricula 2023,0.030870568754587477,0.06595634349466742,0.0,Poor,Technical Implementation,6
+OM8,Introduction to Green IT,CS2023,IEEE/ACM Computer Science Curricula 2023,0.10725307531641809,0.16816529140565506,0.1,Poor,Technical Implementation,4
+OM9,Sustainable IT for Small Organizations,CS2023,IEEE/ACM Computer Science Curricula 2023,0.07198873533408852,0.13732225381708077,0.05,Poor,Technical Implementation,4
+M92,Digital Sustainability Foundation,CS2023,IEEE/ACM Computer Science Curricula 2023,0.09229710709136998,0.1789361719300761,0.05,Poor,Foundation,4
+M93,Digital Inclusion and Social Sustainability,CS2023,IEEE/ACM Computer Science Curricula 2023,0.11750075160782757,0.20305870302928525,0.1,Poor,Social Sustainability,5
+M94,Circular Economy for Digital Systems,CS2023,IEEE/ACM Computer Science Curricula 2023,0.09496005205383898,0.1772106108390943,0.05,Poor,Circular Economy,6
+M1,Introduction to Digital Sustainability,DigComp,Digital Competence Framework 2.2,0.33166037940399407,0.27947231503884334,0.6190476190476191,Moderate,General,6
+M10,Circular Economy and Lifecycle Thinking,DigComp,Digital Competence Framework 2.2,0.13911390845336574,0.13250453099967507,0.23809523809523808,Poor,General,6
+M11,Big Data for Environmental Intelligence,DigComp,Digital Competence Framework 2.2,0.12417699596481942,0.14001471886328518,0.19047619047619047,Poor,Data,6
+M12,Advanced Visualisation for Sustainability Reporting,DigComp,Digital Competence Framework 2.2,0.02706526402295225,0.058869619159539865,0.0,Poor,Data,6
+M13,Low-Carbon Cloud Infrastructure,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,6
+M14,Sustainable Digital Transformation Strategy,DigComp,Digital Competence Framework 2.2,0.2783129485808908,0.16319486256720964,0.6190476190476191,Moderate,General,6
+M15,Applied Ethics in AI for Sustainability,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Ethics & Governance,6
+M16,DevOps and Sustainable Deployment,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,6
+M17,Digital Circular Business Models,DigComp,Digital Competence Framework 2.2,0.3478329496169851,0.31259345145078987,0.6190476190476191,Moderate,General,6
+M18,AI-Driven Environmental Risk Modelling,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Data,6
+M19,Sustainability Assessment and Benchmarking,DigComp,Digital Competence Framework 2.2,0.03524295601536124,0.0621117971398193,0.0,Poor,Analysis,6
+M2,Sustainability Frameworks and Standards,DigComp,Digital Competence Framework 2.2,0.03182460544724844,0.05608733378473451,0.0,Poor,Management,6
+M20,Data Ethics and Governance in Practice,DigComp,Digital Competence Framework 2.2,0.14924432837356869,0.20337368828022068,0.19047619047619047,Poor,Data,6
+M21,Energy-Efficient Software Architecture,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,6
+M22,Sustainable ICT Procurement and Policy,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Management,6
+M23,Digital Twin and Smart Systems for Green Transition,DigComp,Digital Competence Framework 2.2,0.32687417590900913,0.2647812187353717,0.6190476190476191,Moderate,Technical Implementation,6
+M24,Collaborative Tools for Green Innovation,DigComp,Digital Competence Framework 2.2,0.15086522671324656,0.11482130014951059,0.2857142857142857,Poor,Analysis,6
+M25,Digital Sustainability in SMEs,DigComp,Digital Competence Framework 2.2,0.2796825745949558,0.16560867635473497,0.6190476190476191,Moderate,Management,4
+M26,AI for Sustainable Decision-Making,DigComp,Digital Competence Framework 2.2,0.024066425306383293,0.05153266609643235,0.0,Poor,Data,7
+M27,Green IT Service Management,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Management,5
+M28,Strategic Digital Sustainability Leadership,DigComp,Digital Competence Framework 2.2,0.33726364906665685,0.28846991500295616,0.6190476190476191,Moderate,Management,8
+M29,Blockchain for Sustainability Traceability,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,7
+M3,Data Analytics for Sustainability,DigComp,Digital Competence Framework 2.2,0.044050690518782326,0.0970762668588345,0.0,Poor,Data,6
+M30,Human-Centered Design for Sustainable Tech,DigComp,Digital Competence Framework 2.2,0.21296667877713266,0.1877000120184919,0.38095238095238093,Poor,Analysis,6
+M31,Introduction to Digital Sustainability,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,6
+M32,Sustainable IT Strategy,DigComp,Digital Competence Framework 2.2,0.02536015651040988,0.06121417088719625,0.0,Poor,Management,7
+M33,Green Software Engineering,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,6
+M34,Industry Collaboration Project,DigComp,Digital Competence Framework 2.2,0.021356157249806832,0.051549345085740626,0.0,Poor,Management,7
+M35,Sustainable IT Consultancy,DigComp,Digital Competence Framework 2.2,0.026036320786912398,0.06284629155461613,0.0,Poor,Management,7
+M36,Eco-design for Digital Products,DigComp,Digital Competence Framework 2.2,0.27831294858089084,0.16319486256720966,0.6190476190476191,Moderate,Technical Implementation,6
+M37,Net-Zero IT Infrastructure,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,6
+M38,Introduction to Green IT,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,4
+M39,Sustainable IT for Small Organizations,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,4
+M4,Machine Learning and Predictive Modeling,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Data,7
+M40,Advanced Sustainability Impact Assessment Methods,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Analysis,8
+M41,Green Blockchain Applications,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,7
+M42,Sector-specific Green IT Applications,DigComp,Digital Competence Framework 2.2,0.020619673814511748,0.04977162644882146,0.0,Poor,Technical Implementation,7
+M43,Circular Economy Digital Applications,DigComp,Digital Competence Framework 2.2,0.334759308711747,0.27960547917084444,0.6190476190476191,Moderate,Analysis,7
+M44,Advanced Sustainability Impact Assessment,DigComp,Digital Competence Framework 2.2,0.2245010590351993,0.11871135241370204,0.5238095238095238,Poor,Analysis,8
+M45,Big Data for Environmental Intelligence (EQF 4 Version),DigComp,Digital Competence Framework 2.2,0.12417699596481942,0.14001471886328518,0.19047619047619047,Poor,Data,4
+M46,Sustainable Business Models for Digital Companies (EQF 4 Version),DigComp,Digital Competence Framework 2.2,0.031824605447248425,0.056087333784734496,0.0,Poor,General,4
+M47,Applied Ethics in AI for Sustainability (EQF 5 Version),DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Ethics & Governance,5
+M48,AI for Sustainable Decision-Making (EQF 8 Version),DigComp,Digital Competence Framework 2.2,0.024066425306383293,0.05153266609643235,0.0,Poor,Data,8
+M49,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version),DigComp,Digital Competence Framework 2.2,0.177367048302803,0.1467957224407535,0.3333333333333333,Poor,General,8
+M5,Sustainable Software Engineering,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,6
+M50,Advanced Sustainability Impact Assessment Methods,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Analysis,8
+M51,AI for Sustainable Decision-Making (EQF 8 Version) - Duplicate,DigComp,Digital Competence Framework 2.2,0.024066425306383293,0.05153266609643235,0.0,Poor,Data,8
+M52,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Duplicate,DigComp,Digital Competence Framework 2.2,0.177367048302803,0.1467957224407535,0.3333333333333333,Poor,General,8
+M53,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Triple Duplicate,DigComp,Digital Competence Framework 2.2,0.177367048302803,0.1467957224407535,0.3333333333333333,Poor,General,8
+M54,Digital Sustainability Policy Development,DigComp,Digital Competence Framework 2.2,0.2722629599139925,0.15253242923974406,0.6190476190476191,Moderate,Management,7
+M55,Global Climate Technology Governance,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Management,8
+M56,Green Finance and Sustainable Investment,DigComp,Digital Competence Framework 2.2,0.055978683763743584,0.09865621511919305,0.0,Poor,Management,7
+M57,Sustainability Economics and Market Mechanisms,DigComp,Digital Competence Framework 2.2,0.020563234653974412,0.049635393992352034,0.0,Poor,Management,7
+M58,Public Engagement and Science Communication,DigComp,Digital Competence Framework 2.2,0.02332156866387353,0.052925456770188964,0.0,Poor,Management,6
+M59,Digital Storytelling for Sustainability Impact,DigComp,Digital Competence Framework 2.2,0.19027406516291856,0.17712602953208934,0.3333333333333333,Poor,Management,6
+M6,Systems Architecture for Sustainability,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,6
+M60,Systematic Innovation for Sustainability Challenges,DigComp,Digital Competence Framework 2.2,0.02134924738280769,0.05153266609643235,0.0,Poor,Technical Implementation,7
+M61,Technology Assessment for Sustainability,DigComp,Digital Competence Framework 2.2,0.021898861336411488,0.04689133075538411,0.0,Poor,Technical Implementation,7
+M62,Digital Health for Planetary Health,DigComp,Digital Competence Framework 2.2,0.2648243285049105,0.3559406966776018,0.3333333333333333,Moderate,Technical Implementation,6
+M63,Smart Manufacturing and Industry 4.0 Sustainability,DigComp,Digital Competence Framework 2.2,0.13394794400290566,0.12237818710344911,0.23809523809523808,Poor,Technical Implementation,6
+M64,Behavioral Insights for Sustainability Transformation,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Management,6
+M65,Community-Based Participatory Sustainability Research,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Management,7
+M66,ESG Reporting and Compliance Framework,DigComp,Digital Competence Framework 2.2,0.08673679853403121,0.13744331525927755,0.047619047619047616,Poor,Management,6
+M67,Digital Sustainability Legislation and Policy,DigComp,Digital Competence Framework 2.2,0.2875775297604465,0.17952265829918904,0.6190476190476191,Moderate,Management,7
+M68,Regulatory Technology (RegTech) for Sustainability,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Data,6
+M69,Sustainable IT Operations and DevOps,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,6
+M7,Ethics and Governance in Digital Innovation,DigComp,Digital Competence Framework 2.2,0.14741268944919145,0.148778929236055,0.23809523809523808,Poor,Ethics & Governance,6
+M70,ICT Energy Consumption and Carbon Footprint Management,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,6
+M71,Green Software Development Practices,DigComp,Digital Competence Framework 2.2,0.02974880672653355,0.07022040959413858,0.0,Poor,Software Development,5
+M72,Sustainability Data Engineering and Architecture,DigComp,Digital Competence Framework 2.2,0.1411781789320452,0.1851919964818012,0.19047619047619047,Poor,Data,7
+M73,Business-Technical Sustainability Bridge,DigComp,Digital Competence Framework 2.2,0.07913849563987363,0.15654119637210875,0.047619047619047616,Poor,Business Analysis,7
+M74,Sustainability Data Science and Predictive Analytics,DigComp,Digital Competence Framework 2.2,0.04032376311086863,0.08886308801071018,0.0,Poor,Data,8
+M8,Work-based Sustainability Project,DigComp,Digital Competence Framework 2.2,0.0325834086480926,0.07864960708160282,0.0,Poor,Management,6
+M89,ESG Reporting Essentials,DigComp,Digital Competence Framework 2.2,0.11686324126366998,0.13577853418405694,0.14285714285714285,Poor,ESG & Compliance,4
+M9,Technical Implementation and Tool Support,DigComp,Digital Competence Framework 2.2,0.0626402046907073,0.11671773546032797,0.047619047619047616,Poor,Technical Implementation,5
+M90,Sustainability Data Fundamentals,DigComp,Digital Competence Framework 2.2,0.12266036739873128,0.14438355527738675,0.19047619047619047,Poor,Data & Analytics,4
+M91,Green ICT Principles,DigComp,Digital Competence Framework 2.2,0.14307451512312333,0.10109103593303398,0.2857142857142857,Poor,Technical Implementation,4
+OM1,Digital Sustainability Fundamentals,DigComp,Digital Competence Framework 2.2,0.3408147680379874,0.290993562966566,0.6190476190476191,Moderate,General,6
+OM10,Advanced Sustainability Impact Assessment Methods,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Analysis,8
+OM2,Sustainable IT Strategy,DigComp,Digital Competence Framework 2.2,0.02536015651040988,0.06121417088719625,0.0,Poor,Management,7
+OM3,Green Software Engineering,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,6
+OM4,Industry Collaboration Project,DigComp,Digital Competence Framework 2.2,0.021356157249806832,0.051549345085740626,0.0,Poor,Management,7
+OM5,Sustainable IT Consultancy,DigComp,Digital Competence Framework 2.2,0.026036320786912398,0.06284629155461613,0.0,Poor,Management,7
+OM6,Eco-design for Digital Products,DigComp,Digital Competence Framework 2.2,0.27831294858089084,0.16319486256720966,0.6190476190476191,Moderate,Technical Implementation,6
+OM7,Net-Zero IT Infrastructure,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,6
+OM8,Introduction to Green IT,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,4
+OM9,Sustainable IT for Small Organizations,DigComp,Digital Competence Framework 2.2,0.0,0.0,0.0,Poor,Technical Implementation,4
+M92,Digital Sustainability Foundation,DigComp,Digital Competence Framework 2.2,0.32111875250274863,0.2508196664316734,0.6190476190476191,Moderate,Foundation,4
+M93,Digital Inclusion and Social Sustainability,DigComp,Digital Competence Framework 2.2,0.23152399504839677,0.13108849741787035,0.5238095238095238,Poor,Social Sustainability,5
+M94,Circular Economy for Digital Systems,DigComp,Digital Competence Framework 2.2,0.28626564714403924,0.1772106108390943,0.6190476190476191,Moderate,Circular Economy,6
+M1,Introduction to Digital Sustainability,EQF,European Qualifications Framework Level 7,0.0,0.0,0.0,Poor,General,6
+M10,Circular Economy and Lifecycle Thinking,EQF,European Qualifications Framework Level 7,0.0,0.0,0.0,Poor,General,6
+M11,Big Data for Environmental Intelligence,EQF,European Qualifications Framework Level 7,0.018541134344878838,0.04414555796399724,0.0,Poor,Data,6
+M12,Advanced Visualisation for Sustainability Reporting,EQF,European Qualifications Framework Level 7,0.02981333768574594,0.07098413734701414,0.0,Poor,Data,6
+M13,Low-Carbon Cloud Infrastructure,EQF,European Qualifications Framework Level 7,0.020229715355763293,0.048165988942293556,0.0,Poor,Technical Implementation,6
+M14,Sustainable Digital Transformation Strategy,EQF,European Qualifications Framework Level 7,0.0,0.0,0.0,Poor,General,6
+M15,Applied Ethics in AI for Sustainability,EQF,European Qualifications Framework Level 7,0.01968482885893127,0.04301361333648282,0.0,Poor,Ethics & Governance,6
+M16,DevOps and Sustainable Deployment,EQF,European Qualifications Framework Level 7,0.023420516484217866,0.05576313448623301,0.0,Poor,Technical Implementation,6
+M17,Digital Circular Business Models,EQF,European Qualifications Framework Level 7,0.018298795716059805,0.043568561228713824,0.0,Poor,General,6
+M18,AI-Driven Environmental Risk Modelling,EQF,European Qualifications Framework Level 7,0.0,0.0,0.0,Poor,Data,6
+M19,Sustainability Assessment and Benchmarking,EQF,European Qualifications Framework Level 7,0.0,0.0,0.0,Poor,Analysis,6
+M2,Sustainability Frameworks and Standards,EQF,European Qualifications Framework Level 7,0.021589245859761408,0.04741932877260333,0.0,Poor,Management,6
+M20,Data Ethics and Governance in Practice,EQF,European Qualifications Framework Level 7,0.03761153482374129,0.08599819622139156,0.0,Poor,Data,6
+M21,Energy-Efficient Software Architecture,EQF,European Qualifications Framework Level 7,0.019916118084493402,0.04741932877260333,0.0,Poor,Technical Implementation,6
+M22,Sustainable ICT Procurement and Policy,EQF,European Qualifications Framework Level 7,0.0,0.0,0.0,Poor,Management,6
+M23,Digital Twin and Smart Systems for Green Transition,EQF,European Qualifications Framework Level 7,0.019616666765844667,0.0467063494424873,0.0,Poor,Technical Implementation,6
+M24,Collaborative Tools for Green Innovation,EQF,European Qualifications Framework Level 7,0.11877023253544086,0.17952265829918904,0.13333333333333333,Poor,Analysis,6
+M25,Digital Sustainability in SMEs,EQF,European Qualifications Framework Level 7,0.020202854073323315,0.04414555796399724,0.0,Poor,Management,4
+M26,AI for Sustainable Decision-Making,EQF,European Qualifications Framework Level 7,0.023283720274092094,0.05153266609643235,0.0,Poor,Data,7
+M27,Green IT Service Management,EQF,European Qualifications Framework Level 7,0.02403202784639105,0.0525127427260942,0.0,Poor,Management,5
+M28,Strategic Digital Sustainability Leadership,EQF,European Qualifications Framework Level 7,0.03695069759741031,0.0854223476310115,0.0,Poor,Management,8
+M29,Blockchain for Sustainability Traceability,EQF,European Qualifications Framework Level 7,0.03788231556837318,0.0879718775702939,0.0,Poor,Technical Implementation,7
+M3,Data Analytics for Sustainability,EQF,European Qualifications Framework Level 7,0.03835740499231316,0.08933533596352179,0.0,Poor,Data,6
+M30,Human-Centered Design for Sustainable Tech,EQF,European Qualifications Framework Level 7,0.04152741514375642,0.09409088178026434,0.0,Poor,Analysis,6
+M31,Introduction to Digital Sustainability,EQF,European Qualifications Framework Level 7,0.02256014988246516,0.051549345085740626,0.0,Poor,Technical Implementation,6
+M32,Sustainable IT Strategy,EQF,European Qualifications Framework Level 7,0.02267853400975815,0.05399650954704321,0.0,Poor,Management,7
+M33,Green Software Engineering,EQF,European Qualifications Framework Level 7,0.0996681297001401,0.13627634143908643,0.13333333333333333,Poor,Technical Implementation,6
+M34,Industry Collaboration Project,EQF,European Qualifications Framework Level 7,0.021650724936011063,0.051549345085740626,0.0,Poor,Management,7
+M35,Sustainable IT Consultancy,EQF,European Qualifications Framework Level 7,0.0,0.0,0.0,Poor,Management,7
+M36,Eco-design for Digital Products,EQF,European Qualifications Framework Level 7,0.07985108245939378,0.13797394741164487,0.06666666666666667,Poor,Technical Implementation,6
+M37,Net-Zero IT Infrastructure,EQF,European Qualifications Framework Level 7,0.07304092004241214,0.12160331478619012,0.06666666666666667,Poor,Technical Implementation,6
+M38,Introduction to Green IT,EQF,European Qualifications Framework Level 7,0.026395442452938775,0.06284629155461613,0.0,Poor,Technical Implementation,4
+M39,Sustainable IT for Small Organizations,EQF,European Qualifications Framework Level 7,0.02256014988246516,0.051549345085740626,0.0,Poor,Technical Implementation,4
+M4,Machine Learning and Predictive Modeling,EQF,European Qualifications Framework Level 7,0.0,0.0,0.0,Poor,Data,7
+M40,Advanced Sustainability Impact Assessment Methods,EQF,European Qualifications Framework Level 7,0.04267401721342164,0.09910419609261847,0.0,Poor,Analysis,8
+M41,Green Blockchain Applications,EQF,European Qualifications Framework Level 7,0.018065717601322785,0.04301361333648282,0.0,Poor,Technical Implementation,7
+M42,Sector-specific Green IT Applications,EQF,European Qualifications Framework Level 7,0.0217821458393286,0.04977162644882146,0.0,Poor,Technical Implementation,7
+M43,Circular Economy Digital Applications,EQF,European Qualifications Framework Level 7,0.020558608594108817,0.04894906808121146,0.0,Poor,Analysis,7
+M44,Advanced Sustainability Impact Assessment,EQF,European Qualifications Framework Level 7,0.039729835542359905,0.09226393852556113,0.0,Poor,Analysis,8
+M45,Big Data for Environmental Intelligence (EQF 4 Version),EQF,European Qualifications Framework Level 7,0.018541134344878838,0.04414555796399724,0.0,Poor,Data,4
+M46,Sustainable Business Models for Digital Companies (EQF 4 Version),EQF,European Qualifications Framework Level 7,0.0199161180844934,0.047419328772603325,0.0,Poor,General,4
+M47,Applied Ethics in AI for Sustainability (EQF 5 Version),EQF,European Qualifications Framework Level 7,0.01968482885893127,0.04301361333648282,0.0,Poor,Ethics & Governance,5
+M48,AI for Sustainable Decision-Making (EQF 8 Version),EQF,European Qualifications Framework Level 7,0.023283720274092094,0.05153266609643235,0.0,Poor,Data,8
+M49,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version),EQF,European Qualifications Framework Level 7,0.0463416599832523,0.09008799964862296,0.0,Poor,General,8
+M5,Sustainable Software Engineering,EQF,European Qualifications Framework Level 7,0.06714050144332352,0.11223928915077028,0.06666666666666667,Poor,Technical Implementation,6
+M50,Advanced Sustainability Impact Assessment Methods,EQF,European Qualifications Framework Level 7,0.04267401721342164,0.09910419609261847,0.0,Poor,Analysis,8
+M51,AI for Sustainable Decision-Making (EQF 8 Version) - Duplicate,EQF,European Qualifications Framework Level 7,0.023283720274092094,0.05153266609643235,0.0,Poor,Data,8
+M52,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Duplicate,EQF,European Qualifications Framework Level 7,0.0463416599832523,0.09008799964862296,0.0,Poor,General,8
+M53,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Triple Duplicate,EQF,European Qualifications Framework Level 7,0.0463416599832523,0.09008799964862296,0.0,Poor,General,8
+M54,Digital Sustainability Policy Development,EQF,European Qualifications Framework Level 7,0.01793832262050158,0.040988592178738646,0.0,Poor,Management,7
+M55,Global Climate Technology Governance,EQF,European Qualifications Framework Level 7,0.013208220241847915,0.031448143432971226,0.0,Poor,Management,8
+M56,Green Finance and Sustainable Investment,EQF,European Qualifications Framework Level 7,0.01793832262050158,0.040988592178738646,0.0,Poor,Management,7
+M57,Sustainability Economics and Market Mechanisms,EQF,European Qualifications Framework Level 7,0.022426486284440186,0.049635393992352034,0.0,Poor,Management,7
+M58,Public Engagement and Science Communication,EQF,European Qualifications Framework Level 7,0.036776796887551505,0.08422798788742249,0.0,Poor,Management,6
+M59,Digital Storytelling for Sustainability Impact,EQF,European Qualifications Framework Level 7,0.04242728316264602,0.09711257773584644,0.0,Poor,Management,6
+M6,Systems Architecture for Sustainability,EQF,European Qualifications Framework Level 7,0.06839052821873112,0.11521554337793123,0.06666666666666667,Poor,Technical Implementation,6
+M60,Systematic Innovation for Sustainability Challenges,EQF,European Qualifications Framework Level 7,0.11325487430827016,0.16319486256720964,0.13333333333333333,Poor,Technical Implementation,7
+M61,Technology Assessment for Sustainability,EQF,European Qualifications Framework Level 7,0.040730797739191124,0.09531284697560297,0.0,Poor,Technical Implementation,7
+M62,Digital Health for Planetary Health,EQF,European Qualifications Framework Level 7,0.012506360971257062,0.028576703649263274,0.0,Poor,Technical Implementation,6
+M63,Smart Manufacturing and Industry 4.0 Sustainability,EQF,European Qualifications Framework Level 7,0.020954245273941033,0.04602459262732953,0.0,Poor,Technical Implementation,6
+M64,Behavioral Insights for Sustainability Transformation,EQF,European Qualifications Framework Level 7,0.04301767644728935,0.09720769328929006,0.0,Poor,Management,6
+M65,Community-Based Participatory Sustainability Research,EQF,European Qualifications Framework Level 7,0.1259217045716172,0.19379392440543725,0.13333333333333333,Poor,Management,7
+M66,ESG Reporting and Compliance Framework,EQF,European Qualifications Framework Level 7,0.01741653362458236,0.04146793720138657,0.0,Poor,Management,6
+M67,Digital Sustainability Legislation and Policy,EQF,European Qualifications Framework Level 7,0.0243932440772225,0.05608733378473451,0.0,Poor,Management,7
+M68,Regulatory Technology (RegTech) for Sustainability,EQF,European Qualifications Framework Level 7,0.06413944343563852,0.10310209416191549,0.06666666666666667,Poor,Data,6
+M69,Sustainable IT Operations and DevOps,EQF,European Qualifications Framework Level 7,0.06804992638977762,0.11223928915077028,0.06666666666666667,Poor,Technical Implementation,6
+M7,Ethics and Governance in Digital Innovation,EQF,European Qualifications Framework Level 7,0.030690650928660388,0.06595634349466742,0.0,Poor,Ethics & Governance,6
+M70,ICT Energy Consumption and Carbon Footprint Management,EQF,European Qualifications Framework Level 7,0.02014228708870972,0.04602459262732953,0.0,Poor,Technical Implementation,6
+M71,Green Software Development Practices,EQF,European Qualifications Framework Level 7,0.02551675370379931,0.05443764717494003,0.0,Poor,Software Development,5
+M72,Sustainability Data Engineering and Architecture,EQF,European Qualifications Framework Level 7,0.03899799338260995,0.09108967292306346,0.0,Poor,Data,7
+M73,Business-Technical Sustainability Bridge,EQF,European Qualifications Framework Level 7,0.03314928927298096,0.07892687922138325,0.0,Poor,Business Analysis,7
+M74,Sustainability Data Science and Predictive Analytics,EQF,European Qualifications Framework Level 7,0.04050730070234388,0.09461588431744677,0.0,Poor,Data,8
+M8,Work-based Sustainability Project,EQF,European Qualifications Framework Level 7,0.028579762841049666,0.06097229545515701,0.0,Poor,Management,6
+M89,ESG Reporting Essentials,EQF,European Qualifications Framework Level 7,0.01721520871507023,0.040988592178738646,0.0,Poor,ESG & Compliance,4
+M9,Technical Implementation and Tool Support,EQF,European Qualifications Framework Level 7,0.0,0.0,0.0,Poor,Technical Implementation,5
+M90,Sustainability Data Fundamentals,EQF,European Qualifications Framework Level 7,0.0,0.0,0.0,Poor,Data & Analytics,4
+M91,Green ICT Principles,EQF,European Qualifications Framework Level 7,0.017625091107309743,0.04196450263645177,0.0,Poor,Technical Implementation,4
+OM1,Digital Sustainability Fundamentals,EQF,European Qualifications Framework Level 7,0.0221609118952179,0.05063709685675427,0.0,Poor,General,6
+OM10,Advanced Sustainability Impact Assessment Methods,EQF,European Qualifications Framework Level 7,0.04267401721342164,0.09910419609261847,0.0,Poor,Analysis,8
+OM2,Sustainable IT Strategy,EQF,European Qualifications Framework Level 7,0.02267853400975815,0.05399650954704321,0.0,Poor,Management,7
+OM3,Green Software Engineering,EQF,European Qualifications Framework Level 7,0.0996681297001401,0.13627634143908643,0.13333333333333333,Poor,Technical Implementation,6
+OM4,Industry Collaboration Project,EQF,European Qualifications Framework Level 7,0.021650724936011063,0.051549345085740626,0.0,Poor,Management,7
+OM5,Sustainable IT Consultancy,EQF,European Qualifications Framework Level 7,0.0,0.0,0.0,Poor,Management,7
+OM6,Eco-design for Digital Products,EQF,European Qualifications Framework Level 7,0.07985108245939378,0.13797394741164487,0.06666666666666667,Poor,Technical Implementation,6
+OM7,Net-Zero IT Infrastructure,EQF,European Qualifications Framework Level 7,0.07304092004241214,0.12160331478619012,0.06666666666666667,Poor,Technical Implementation,6
+OM8,Introduction to Green IT,EQF,European Qualifications Framework Level 7,0.026395442452938775,0.06284629155461613,0.0,Poor,Technical Implementation,4
+OM9,Sustainable IT for Small Organizations,EQF,European Qualifications Framework Level 7,0.02256014988246516,0.051549345085740626,0.0,Poor,Technical Implementation,4
+M92,Digital Sustainability Foundation,EQF,European Qualifications Framework Level 7,0.04147682065901585,0.09370493638101372,0.0,Poor,Foundation,4
+M93,Digital Inclusion and Social Sustainability,EQF,European Qualifications Framework Level 7,0.01842390918023194,0.04216874631353785,0.0,Poor,Social Sustainability,5
+M94,Circular Economy for Digital Systems,EQF,European Qualifications Framework Level 7,0.06989985791511903,0.11536303372523765,0.06666666666666667,Poor,Circular Economy,6
+M1,Introduction to Digital Sustainability,e_CF,European e-Competence Framework,0.02806397428919458,0.06735353829406698,0.0,Poor,General,6
+M10,Circular Economy and Lifecycle Thinking,e_CF,European e-Competence Framework,0.025019588142804444,0.058869619159539865,0.0,Poor,General,6
+M11,Big Data for Environmental Intelligence,e_CF,European e-Competence Framework,0.027502694803410686,0.06735353829406698,0.0,Poor,Data,6
+M12,Advanced Visualisation for Sustainability Reporting,e_CF,European e-Competence Framework,0.0,0.0,0.0,Poor,Data,6
+M13,Low-Carbon Cloud Infrastructure,e_CF,European e-Competence Framework,0.0,0.0,0.0,Poor,Technical Implementation,6
+M14,Sustainable Digital Transformation Strategy,e_CF,European e-Competence Framework,0.02800210344625169,0.06647320574198648,0.0,Poor,General,6
+M15,Applied Ethics in AI for Sustainability,e_CF,European e-Competence Framework,0.029343490213648172,0.06562651343964712,0.0,Poor,Ethics & Governance,6
+M16,DevOps and Sustainable Deployment,e_CF,European e-Competence Framework,0.08294860363117955,0.1757860783933462,0.027777777777777776,Poor,Technical Implementation,6
+M17,Digital Circular Business Models,e_CF,European e-Competence Framework,0.06267693819645599,0.10510679521213546,0.05555555555555555,Poor,General,6
+M18,AI-Driven Environmental Risk Modelling,e_CF,European e-Competence Framework,0.0845211554662891,0.1751280861929285,0.027777777777777776,Poor,Data,6
+M19,Sustainability Assessment and Benchmarking,e_CF,European e-Competence Framework,0.0,0.0,0.0,Poor,Analysis,6
+M2,Sustainability Frameworks and Standards,e_CF,European e-Competence Framework,0.029542254921301556,0.07234837939910585,0.0,Poor,Management,6
+M20,Data Ethics and Governance in Practice,e_CF,European e-Competence Framework,0.05958790782401805,0.12294629730601807,0.027777777777777776,Poor,Data,6
+M21,Energy-Efficient Software Architecture,e_CF,European e-Competence Framework,0.08436197432682045,0.17784236109082288,0.027777777777777776,Poor,Technical Implementation,6
+M22,Sustainable ICT Procurement and Policy,e_CF,European e-Competence Framework,0.11319092459203495,0.161713780662529,0.1388888888888889,Poor,Management,6
+M23,Digital Twin and Smart Systems for Green Transition,e_CF,European e-Competence Framework,0.03186264071933754,0.07126057616750976,0.0,Poor,Technical Implementation,6
+M24,Collaborative Tools for Green Innovation,e_CF,European e-Competence Framework,0.030145158082960772,0.07234837939910585,0.0,Poor,Analysis,6
+M25,Digital Sustainability in SMEs,e_CF,European e-Competence Framework,0.021756306172404975,0.052215134813771935,0.0,Poor,Management,4
+M26,AI for Sustainable Decision-Making,e_CF,European e-Competence Framework,0.042431568884711925,0.09461588431744677,0.0,Poor,Data,7
+M27,Green IT Service Management,e_CF,European e-Competence Framework,0.09126373585445464,0.1972895051776146,0.027777777777777776,Poor,Management,5
+M28,Strategic Digital Sustainability Leadership,e_CF,European e-Competence Framework,0.029161097723721444,0.06922450137975561,0.0,Poor,Management,8
+M29,Blockchain for Sustainability Traceability,e_CF,European e-Competence Framework,0.11047238195463063,0.1751280861929285,0.1111111111111111,Poor,Technical Implementation,7
+M3,Data Analytics for Sustainability,e_CF,European e-Competence Framework,0.0,0.0,0.0,Poor,Data,6
+M30,Human-Centered Design for Sustainable Tech,e_CF,European e-Competence Framework,0.1395956597675014,0.26462813386630873,0.08333333333333333,Poor,Analysis,6
+M31,Introduction to Digital Sustainability,e_CF,European e-Competence Framework,0.03211525622498782,0.07864960708160282,0.0,Poor,Technical Implementation,6
+M32,Sustainable IT Strategy,e_CF,European e-Competence Framework,0.03966679964064491,0.09339537641256736,0.0,Poor,Management,7
+M33,Green Software Engineering,e_CF,European e-Competence Framework,0.13827218461054874,0.1757860783933462,0.19444444444444445,Poor,Technical Implementation,6
+M34,Industry Collaboration Project,e_CF,European e-Competence Framework,0.0,0.0,0.0,Poor,Management,7
+M35,Sustainable IT Consultancy,e_CF,European e-Competence Framework,0.03915325699501634,0.09588552733473388,0.0,Poor,Management,7
+M36,Eco-design for Digital Products,e_CF,European e-Competence Framework,0.10775007007107466,0.21050891594014307,0.05555555555555555,Poor,Technical Implementation,6
+M37,Net-Zero IT Infrastructure,e_CF,European e-Competence Framework,0.06224195263520573,0.12160331478619012,0.027777777777777776,Poor,Technical Implementation,6
+M38,Introduction to Green IT,e_CF,European e-Competence Framework,0.04127506821355037,0.09588552733473388,0.0,Poor,Technical Implementation,4
+M39,Sustainable IT for Small Organizations,e_CF,European e-Competence Framework,0.03211525622498782,0.07864960708160282,0.0,Poor,Technical Implementation,4
+M4,Machine Learning and Predictive Modeling,e_CF,European e-Competence Framework,0.03338311553162566,0.08011947727590159,0.0,Poor,Data,7
+M40,Advanced Sustainability Impact Assessment Methods,e_CF,European e-Competence Framework,0.03338311553162566,0.08011947727590157,0.0,Poor,Analysis,8
+M41,Green Blockchain Applications,e_CF,European e-Competence Framework,0.028608161767458076,0.06562651343964712,0.0,Poor,Technical Implementation,7
+M42,Sector-specific Green IT Applications,e_CF,European e-Competence Framework,0.03240366089629395,0.07593731515892597,0.0,Poor,Technical Implementation,7
+M43,Circular Economy Digital Applications,e_CF,European e-Competence Framework,0.0335953147952843,0.07468232555029745,0.0,Poor,Analysis,7
+M44,Advanced Sustainability Impact Assessment,e_CF,European e-Competence Framework,0.0,0.0,0.0,Poor,Analysis,8
+M45,Big Data for Environmental Intelligence (EQF 4 Version),e_CF,European e-Competence Framework,0.027502694803410686,0.06735353829406698,0.0,Poor,Data,4
+M46,Sustainable Business Models for Digital Companies (EQF 4 Version),e_CF,European e-Competence Framework,0.0932764837763064,0.179522658299189,0.05555555555555555,Poor,General,4
+M47,Applied Ethics in AI for Sustainability (EQF 5 Version),e_CF,European e-Competence Framework,0.029343490213648172,0.06562651343964712,0.0,Poor,Ethics & Governance,5
+M48,AI for Sustainable Decision-Making (EQF 8 Version),e_CF,European e-Competence Framework,0.042431568884711925,0.09461588431744677,0.0,Poor,Data,8
+M49,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version),e_CF,European e-Competence Framework,0.05240482198501205,0.10655561428382407,0.027777777777777776,Poor,General,8
+M5,Sustainable Software Engineering,e_CF,European e-Competence Framework,0.0334260830096812,0.07864960708160282,0.0,Poor,Technical Implementation,6
+M50,Advanced Sustainability Impact Assessment Methods,e_CF,European e-Competence Framework,0.03338311553162566,0.08011947727590157,0.0,Poor,Analysis,8
+M51,AI for Sustainable Decision-Making (EQF 8 Version) - Duplicate,e_CF,European e-Competence Framework,0.042431568884711925,0.09461588431744677,0.0,Poor,Data,8
+M52,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Duplicate,e_CF,European e-Competence Framework,0.05240482198501205,0.10655561428382407,0.027777777777777776,Poor,General,8
+M53,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Triple Duplicate,e_CF,European e-Competence Framework,0.05240482198501205,0.10655561428382407,0.027777777777777776,Poor,General,8
+M54,Digital Sustainability Policy Development,e_CF,European e-Competence Framework,0.026578186053336995,0.06253690836079293,0.0,Poor,Management,7
+M55,Global Climate Technology Governance,e_CF,European e-Competence Framework,0.12464215768990516,0.2331061594652961,0.08333333333333333,Poor,Management,8
+M56,Green Finance and Sustainable Investment,e_CF,European e-Competence Framework,0.026057045150330388,0.06253690836079293,0.0,Poor,Management,7
+M57,Sustainability Economics and Market Mechanisms,e_CF,European e-Competence Framework,0.07627224580440542,0.15712195407193108,0.027777777777777776,Poor,Management,7
+M58,Public Engagement and Science Communication,e_CF,European e-Competence Framework,0.0,0.0,0.0,Poor,Management,6
+M59,Digital Storytelling for Sustainability Impact,e_CF,European e-Competence Framework,0.0,0.0,0.0,Poor,Management,6
+M6,Systems Architecture for Sustainability,e_CF,European e-Competence Framework,0.15237051562573573,0.3252758877441051,0.05555555555555555,Poor,Technical Implementation,6
+M60,Systematic Innovation for Sustainability Challenges,e_CF,European e-Competence Framework,0.02714322567797782,0.0664732057419865,0.0,Poor,Technical Implementation,7
+M61,Technology Assessment for Sustainability,e_CF,European e-Competence Framework,0.1352337805607078,0.18969332914773726,0.16666666666666666,Poor,Technical Implementation,7
+M62,Digital Health for Planetary Health,e_CF,European e-Competence Framework,0.018768098534767394,0.04359990432397694,0.0,Poor,Technical Implementation,6
+M63,Smart Manufacturing and Industry 4.0 Sustainability,e_CF,European e-Competence Framework,0.08738050386473767,0.14355586612537485,0.08333333333333333,Poor,Technical Implementation,6
+M64,Behavioral Insights for Sustainability Transformation,e_CF,European e-Competence Framework,0.06639158514552623,0.1393969514013499,0.027777777777777776,Poor,Management,6
+M65,Community-Based Participatory Sustainability Research,e_CF,European e-Competence Framework,0.024342932213469927,0.05302883737365138,0.0,Poor,Management,7
+M66,ESG Reporting and Compliance Framework,e_CF,European e-Competence Framework,0.07312334280378073,0.15524074887315575,0.027777777777777776,Poor,Management,6
+M67,Digital Sustainability Legislation and Policy,e_CF,European e-Competence Framework,0.032608681000695375,0.07234837939910585,0.0,Poor,Management,7
+M68,Regulatory Technology (RegTech) for Sustainability,e_CF,European e-Competence Framework,0.03234902864104344,0.07234837939910585,0.0,Poor,Data,6
+M69,Sustainable IT Operations and DevOps,e_CF,European e-Competence Framework,0.03989907567439288,0.07864960708160282,0.0,Poor,Technical Implementation,6
+M7,Ethics and Governance in Digital Innovation,e_CF,European e-Competence Framework,0.03804109592651402,0.08507864861689526,0.0,Poor,Ethics & Governance,6
+M70,ICT Energy Consumption and Carbon Footprint Management,e_CF,European e-Competence Framework,0.07913586954702855,0.14355586612537485,0.05555555555555555,Poor,Technical Implementation,6
+M71,Green Software Development Practices,e_CF,European e-Competence Framework,0.0829314590624145,0.1725344123895806,0.027777777777777776,Poor,Software Development,5
+M72,Sustainability Data Engineering and Architecture,e_CF,European e-Competence Framework,0.02862779657222874,0.06402586954775466,0.0,Poor,Data,7
+M73,Business-Technical Sustainability Bridge,e_CF,European e-Competence Framework,0.05878793163876417,0.10109103593303398,0.05555555555555555,Poor,Business Analysis,7
+M74,Sustainability Data Science and Predictive Analytics,e_CF,European e-Competence Framework,0.031383900689832975,0.06647320574198648,0.0,Poor,Data,8
+M8,Work-based Sustainability Project,e_CF,European e-Competence Framework,0.10015823126252198,0.21187450069946928,0.027777777777777776,Poor,Management,6
+M89,ESG Reporting Essentials,e_CF,European e-Competence Framework,0.0,0.0,0.0,Poor,ESG & Compliance,4
+M9,Technical Implementation and Tool Support,e_CF,European e-Competence Framework,0.0,0.0,0.0,Poor,Technical Implementation,5
+M90,Sustainability Data Fundamentals,e_CF,European e-Competence Framework,0.0,0.0,0.0,Poor,Data & Analytics,4
+M91,Green ICT Principles,e_CF,European e-Competence Framework,0.1112774127972764,0.20192619442719453,0.08333333333333333,Poor,Technical Implementation,4
+OM1,Digital Sustainability Fundamentals,e_CF,European e-Competence Framework,0.03154692532639039,0.07725777630952747,0.0,Poor,General,6
+OM10,Advanced Sustainability Impact Assessment Methods,e_CF,European e-Competence Framework,0.03338311553162566,0.08011947727590157,0.0,Poor,Analysis,8
+OM2,Sustainable IT Strategy,e_CF,European e-Competence Framework,0.03966679964064491,0.09339537641256736,0.0,Poor,Management,7
+OM3,Green Software Engineering,e_CF,European e-Competence Framework,0.13827218461054874,0.1757860783933462,0.19444444444444445,Poor,Technical Implementation,6
+OM4,Industry Collaboration Project,e_CF,European e-Competence Framework,0.0,0.0,0.0,Poor,Management,7
+OM5,Sustainable IT Consultancy,e_CF,European e-Competence Framework,0.03915325699501634,0.09588552733473388,0.0,Poor,Management,7
+OM6,Eco-design for Digital Products,e_CF,European e-Competence Framework,0.10775007007107466,0.21050891594014307,0.05555555555555555,Poor,Technical Implementation,6
+OM7,Net-Zero IT Infrastructure,e_CF,European e-Competence Framework,0.06224195263520573,0.12160331478619012,0.027777777777777776,Poor,Technical Implementation,6
+OM8,Introduction to Green IT,e_CF,European e-Competence Framework,0.04127506821355037,0.09588552733473388,0.0,Poor,Technical Implementation,4
+OM9,Sustainable IT for Small Organizations,e_CF,European e-Competence Framework,0.03211525622498782,0.07864960708160282,0.0,Poor,Technical Implementation,4
+M92,Digital Sustainability Foundation,e_CF,European e-Competence Framework,0.024755510002465224,0.053927600114505835,0.0,Poor,Foundation,4
+M93,Digital Inclusion and Social Sustainability,e_CF,European e-Competence Framework,0.05715293470010627,0.11021770385545224,0.027777777777777776,Poor,Social Sustainability,5
+M94,Circular Economy for Digital Systems,e_CF,European e-Competence Framework,0.1317105155469657,0.1989914411251113,0.1388888888888889,Poor,Circular Economy,6
+M1,Introduction to Digital Sustainability,ONET,Occupational Information Network,0.018320406555058854,0.04414555796399724,0.0,Poor,General,6
+M10,Circular Economy and Lifecycle Thinking,ONET,Occupational Information Network,0.024430891951209045,0.058869619159539865,0.0,Poor,General,6
+M11,Big Data for Environmental Intelligence,ONET,Occupational Information Network,0.08517301107888155,0.16560867635473497,0.05,Poor,Data,6
+M12,Advanced Visualisation for Sustainability Reporting,ONET,Occupational Information Network,0.024430891951209045,0.058869619159539865,0.0,Poor,Data,6
+M13,Low-Carbon Cloud Infrastructure,ONET,Occupational Information Network,0.023642749002432236,0.056970479523933096,0.0,Poor,Technical Implementation,6
+M14,Sustainable Digital Transformation Strategy,ONET,Occupational Information Network,0.058619320013036214,0.10510679521213545,0.05,Poor,General,6
+M15,Applied Ethics in AI for Sustainability,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Ethics & Governance,6
+M16,DevOps and Sustainable Deployment,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,6
+M17,Digital Circular Business Models,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,General,6
+M18,AI-Driven Environmental Risk Modelling,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Data,6
+M19,Sustainability Assessment and Benchmarking,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Analysis,6
+M2,Sustainability Frameworks and Standards,ONET,Occupational Information Network,0.019679021440630384,0.04741932877260333,0.0,Poor,Management,6
+M20,Data Ethics and Governance in Practice,ONET,Occupational Information Network,0.13687920903674536,0.28716730446208155,0.05,Poor,Data,6
+M21,Energy-Efficient Software Architecture,ONET,Occupational Information Network,0.019679021440630384,0.04741932877260333,0.0,Poor,Technical Implementation,6
+M22,Sustainable ICT Procurement and Policy,ONET,Occupational Information Network,0.026076742790176268,0.06097229545515701,0.0,Poor,Management,6
+M23,Digital Twin and Smart Systems for Green Transition,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,6
+M24,Collaborative Tools for Green Innovation,ONET,Occupational Information Network,0.019679021440630384,0.04741932877260333,0.0,Poor,Analysis,6
+M25,Digital Sustainability in SMEs,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Management,4
+M26,AI for Sustainable Decision-Making,ONET,Occupational Information Network,0.018734481328346948,0.04356856122871383,0.0,Poor,Data,7
+M27,Green IT Service Management,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Management,5
+M28,Strategic Digital Sustainability Leadership,ONET,Occupational Information Network,0.018829315296121123,0.04537184408703886,0.0,Poor,Management,8
+M29,Blockchain for Sustainability Traceability,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,7
+M3,Data Analytics for Sustainability,ONET,Occupational Information Network,0.0626508395620469,0.11482130014951059,0.05,Poor,Data,6
+M30,Human-Centered Design for Sustainable Tech,ONET,Occupational Information Network,0.022591623577600112,0.054437647174940026,0.0,Poor,Analysis,6
+M31,Introduction to Digital Sustainability,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,6
+M32,Sustainable IT Strategy,ONET,Occupational Information Network,0.08292847060285849,0.16368306169363492,0.05,Poor,Management,7
+M33,Green Software Engineering,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,6
+M34,Industry Collaboration Project,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Management,7
+M35,Sustainable IT Consultancy,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Management,7
+M36,Eco-design for Digital Products,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,6
+M37,Net-Zero IT Infrastructure,ONET,Occupational Information Network,0.028361227702706993,0.06595634349466742,0.0,Poor,Technical Implementation,6
+M38,Introduction to Green IT,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,4
+M39,Sustainable IT for Small Organizations,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,4
+M4,Machine Learning and Predictive Modeling,ONET,Occupational Information Network,0.021792788231329095,0.0525127427260942,0.0,Poor,Data,7
+M40,Advanced Sustainability Impact Assessment Methods,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Analysis,8
+M41,Green Blockchain Applications,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,7
+M42,Sector-specific Green IT Applications,ONET,Occupational Information Network,0.024430891951209045,0.058869619159539865,0.0,Poor,Technical Implementation,7
+M43,Circular Economy Digital Applications,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Analysis,7
+M44,Advanced Sustainability Impact Assessment,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Analysis,8
+M45,Big Data for Environmental Intelligence (EQF 4 Version),ONET,Occupational Information Network,0.08517301107888155,0.16560867635473497,0.05,Poor,Data,4
+M46,Sustainable Business Models for Digital Companies (EQF 4 Version),ONET,Occupational Information Network,0.02327624352066482,0.056087333784734496,0.0,Poor,General,4
+M47,Applied Ethics in AI for Sustainability (EQF 5 Version),ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Ethics & Governance,5
+M48,AI for Sustainable Decision-Making (EQF 8 Version),ONET,Occupational Information Network,0.018734481328346948,0.04356856122871383,0.0,Poor,Data,8
+M49,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version),ONET,Occupational Information Network,0.03738651985417853,0.09008799964862296,0.0,Poor,General,8
+M5,Sustainable Software Engineering,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,6
+M50,Advanced Sustainability Impact Assessment Methods,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Analysis,8
+M51,AI for Sustainable Decision-Making (EQF 8 Version) - Duplicate,ONET,Occupational Information Network,0.018734481328346948,0.04356856122871383,0.0,Poor,Data,8
+M52,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Duplicate,ONET,Occupational Information Network,0.03738651985417853,0.09008799964862296,0.0,Poor,General,8
+M53,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Triple Duplicate,ONET,Occupational Information Network,0.03738651985417853,0.09008799964862296,0.0,Poor,General,8
+M54,Digital Sustainability Policy Development,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Management,7
+M55,Global Climate Technology Governance,ONET,Occupational Information Network,0.08999595400679032,0.18071314218503692,0.05,Poor,Management,8
+M56,Green Finance and Sustainable Investment,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Management,7
+M57,Sustainability Economics and Market Mechanisms,ONET,Occupational Information Network,0.021857623585919646,0.049635393992352034,0.0,Poor,Management,7
+M58,Public Engagement and Science Communication,ONET,Occupational Information Network,0.021964064559628422,0.052925456770188964,0.0,Poor,Management,6
+M59,Digital Storytelling for Sustainability Impact,ONET,Occupational Information Network,0.021386056430019427,0.05153266609643235,0.0,Poor,Management,6
+M6,Systems Architecture for Sustainability,ONET,Occupational Information Network,0.023978147829080195,0.05576313448623301,0.0,Poor,Technical Implementation,6
+M60,Systematic Innovation for Sustainability Challenges,ONET,Occupational Information Network,0.018734481328346948,0.04356856122871383,0.0,Poor,Technical Implementation,7
+M61,Technology Assessment for Sustainability,ONET,Occupational Information Network,0.07662365228081197,0.14705779392728374,0.05,Poor,Technical Implementation,7
+M62,Digital Health for Planetary Health,ONET,Occupational Information Network,0.014027155811248438,0.033800375448791414,0.0,Poor,Technical Implementation,6
+M63,Smart Manufacturing and Industry 4.0 Sustainability,ONET,Occupational Information Network,0.022591623577600115,0.05443764717494003,0.0,Poor,Technical Implementation,6
+M64,Behavioral Insights for Sustainability Transformation,ONET,Occupational Information Network,0.01856963289667336,0.04474610336547798,0.0,Poor,Management,6
+M65,Community-Based Participatory Sustainability Research,ONET,Occupational Information Network,0.014424035981387646,0.034756713208163,0.0,Poor,Management,7
+M66,ESG Reporting and Compliance Framework,ONET,Occupational Information Network,0.017209193938575427,0.04146793720138657,0.0,Poor,Management,6
+M67,Digital Sustainability Legislation and Policy,ONET,Occupational Information Network,0.0626508395620469,0.11482130014951059,0.05,Poor,Management,7
+M68,Regulatory Technology (RegTech) for Sustainability,ONET,Occupational Information Network,0.019679021440630384,0.04741932877260333,0.0,Poor,Data,6
+M69,Sustainable IT Operations and DevOps,ONET,Occupational Information Network,0.02530350261389016,0.06097229545515701,0.0,Poor,Technical Implementation,6
+M7,Ethics and Governance in Digital Innovation,ONET,Occupational Information Network,0.02737188255028698,0.06595634349466742,0.0,Poor,Ethics & Governance,6
+M70,ICT Energy Consumption and Carbon Footprint Management,ONET,Occupational Information Network,0.019100205940341754,0.04602459262732953,0.0,Poor,Technical Implementation,6
+M71,Green Software Development Practices,ONET,Occupational Information Network,0.019100205940341754,0.04602459262732953,0.0,Poor,Software Development,5
+M72,Sustainability Data Engineering and Architecture,ONET,Occupational Information Network,0.10727730981555489,0.21904412377378993,0.05,Poor,Data,7
+M73,Business-Technical Sustainability Bridge,ONET,Occupational Information Network,0.020598688506826095,0.049635393992352034,0.0,Poor,Business Analysis,7
+M74,Sustainability Data Science and Predictive Analytics,ONET,Occupational Information Network,0.05927284843146693,0.10510679521213545,0.05,Poor,Data,8
+M8,Work-based Sustainability Project,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Management,6
+M89,ESG Reporting Essentials,ONET,Occupational Information Network,0.03595695101328241,0.08340941143953932,0.0,Poor,ESG & Compliance,4
+M9,Technical Implementation and Tool Support,ONET,Occupational Information Network,0.019988885411051826,0.04816598894229355,0.0,Poor,Technical Implementation,5
+M90,Sustainability Data Fundamentals,ONET,Occupational Information Network,0.08655266463520395,0.1707761131901165,0.05,Poor,Data & Analytics,4
+M91,Green ICT Principles,ONET,Occupational Information Network,0.020598688506826095,0.049635393992352034,0.0,Poor,Technical Implementation,4
+OM1,Digital Sustainability Fundamentals,ONET,Occupational Information Network,0.02485571660597329,0.059893293026441655,0.0,Poor,General,6
+OM10,Advanced Sustainability Impact Assessment Methods,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Analysis,8
+OM2,Sustainable IT Strategy,ONET,Occupational Information Network,0.08292847060285849,0.16368306169363492,0.05,Poor,Management,7
+OM3,Green Software Engineering,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,6
+OM4,Industry Collaboration Project,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Management,7
+OM5,Sustainable IT Consultancy,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Management,7
+OM6,Eco-design for Digital Products,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,6
+OM7,Net-Zero IT Infrastructure,ONET,Occupational Information Network,0.028361227702706993,0.06595634349466742,0.0,Poor,Technical Implementation,6
+OM8,Introduction to Green IT,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,4
+OM9,Sustainable IT for Small Organizations,ONET,Occupational Information Network,0.0,0.0,0.0,Poor,Technical Implementation,4
+M92,Digital Sustainability Foundation,ONET,Occupational Information Network,0.01466850270468142,0.03534578964983475,0.0,Poor,Foundation,4
+M93,Digital Inclusion and Social Sustainability,ONET,Occupational Information Network,0.035459731600563406,0.08544513638689977,0.0,Poor,Social Sustainability,5
+M94,Circular Economy for Digital Systems,ONET,Occupational Information Network,0.017203428953410465,0.04145404567086859,0.0,Poor,Circular Economy,6
+M1,Introduction to Digital Sustainability,PMBOK,Project Management Body of Knowledge,0.022331464317175313,0.052215134813771935,0.0,Poor,General,6
+M10,Circular Economy and Lifecycle Thinking,PMBOK,Project Management Body of Knowledge,0.024430891951209045,0.058869619159539865,0.0,Poor,General,6
+M11,Big Data for Environmental Intelligence,PMBOK,Project Management Body of Knowledge,0.022452507969921934,0.052215134813771935,0.0,Poor,Data,6
+M12,Advanced Visualisation for Sustainability Reporting,PMBOK,Project Management Body of Knowledge,0.025313936238602144,0.058869619159539865,0.0,Poor,Data,6
+M13,Low-Carbon Cloud Infrastructure,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Technical Implementation,6
+M14,Sustainable Digital Transformation Strategy,PMBOK,Project Management Body of Knowledge,0.022159046421465912,0.05153266609643235,0.0,Poor,General,6
+M15,Applied Ethics in AI for Sustainability,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Ethics & Governance,6
+M16,DevOps and Sustainable Deployment,PMBOK,Project Management Body of Knowledge,0.029350572855126995,0.0659563434946674,0.0,Poor,Technical Implementation,6
+M17,Digital Circular Business Models,PMBOK,Project Management Body of Knowledge,0.0593923100044827,0.10510679521213546,0.05,Poor,General,6
+M18,AI-Driven Environmental Risk Modelling,PMBOK,Project Management Body of Knowledge,0.07776746717303244,0.1242178728426321,0.05,Poor,Data,6
+M19,Sustainability Assessment and Benchmarking,PMBOK,Project Management Body of Knowledge,0.02577639581302501,0.0621117971398193,0.0,Poor,Analysis,6
+M2,Sustainability Frameworks and Standards,PMBOK,Project Management Body of Knowledge,0.023987533452253875,0.05608733378473451,0.0,Poor,Management,6
+M20,Data Ethics and Governance in Practice,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Data,6
+M21,Energy-Efficient Software Architecture,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Technical Implementation,6
+M22,Sustainable ICT Procurement and Policy,PMBOK,Project Management Body of Knowledge,0.0670272792647367,0.12536693798731732,0.05,Poor,Management,6
+M23,Digital Twin and Smart Systems for Green Transition,PMBOK,Project Management Body of Knowledge,0.02375493099347953,0.05524402556623146,0.0,Poor,Technical Implementation,6
+M24,Collaborative Tools for Green Innovation,PMBOK,Project Management Body of Knowledge,0.08950190319416344,0.17952265829918904,0.05,Poor,Analysis,6
+M25,Digital Sustainability in SMEs,PMBOK,Project Management Body of Knowledge,0.021669280947715353,0.052215134813771935,0.0,Poor,Management,4
+M26,AI for Sustainable Decision-Making,PMBOK,Project Management Body of Knowledge,0.042238090384510575,0.09461588431744677,0.0,Poor,Data,7
+M27,Green IT Service Management,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Management,5
+M28,Strategic Digital Sustainability Leadership,PMBOK,Project Management Body of Knowledge,0.04252320150929591,0.09858610631498237,0.0,Poor,Management,8
+M29,Blockchain for Sustainability Traceability,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Technical Implementation,7
+M3,Data Analytics for Sustainability,PMBOK,Project Management Body of Knowledge,0.02411755352743584,0.05608733378473451,0.0,Poor,Data,6
+M30,Human-Centered Design for Sustainable Tech,PMBOK,Project Management Body of Knowledge,0.022591623577600112,0.054437647174940026,0.0,Poor,Analysis,6
+M31,Introduction to Digital Sustainability,PMBOK,Project Management Body of Knowledge,0.026218087045717514,0.06097229545515701,0.0,Poor,Technical Implementation,6
+M32,Sustainable IT Strategy,PMBOK,Project Management Body of Knowledge,0.0309657898986745,0.07240380080811218,0.0,Poor,Management,7
+M33,Green Software Engineering,PMBOK,Project Management Body of Knowledge,0.07155468169722087,0.13627634143908643,0.05,Poor,Technical Implementation,6
+M34,Industry Collaboration Project,PMBOK,Project Management Body of Knowledge,0.026218087045717514,0.06097229545515701,0.0,Poor,Management,7
+M35,Sustainable IT Consultancy,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Management,7
+M36,Eco-design for Digital Products,PMBOK,Project Management Body of Knowledge,0.021386056430019427,0.05153266609643235,0.0,Poor,Technical Implementation,6
+M37,Net-Zero IT Infrastructure,PMBOK,Project Management Body of Knowledge,0.02314170081178671,0.055763134486233025,0.0,Poor,Technical Implementation,6
+M38,Introduction to Green IT,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Technical Implementation,4
+M39,Sustainable IT for Small Organizations,PMBOK,Project Management Body of Knowledge,0.026218087045717514,0.06097229545515701,0.0,Poor,Technical Implementation,4
+M4,Machine Learning and Predictive Modeling,PMBOK,Project Management Body of Knowledge,0.06246618759059739,0.11437635563999371,0.05,Poor,Data,7
+M40,Advanced Sustainability Impact Assessment Methods,PMBOK,Project Management Body of Knowledge,0.025776395813025006,0.062111797139819284,0.0,Poor,Analysis,8
+M41,Green Blockchain Applications,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Technical Implementation,7
+M42,Sector-specific Green IT Applications,PMBOK,Project Management Body of Knowledge,0.024430891951209045,0.058869619159539865,0.0,Poor,Technical Implementation,7
+M43,Circular Economy Digital Applications,PMBOK,Project Management Body of Knowledge,0.0240271310931365,0.057896701429244565,0.0,Poor,Analysis,7
+M44,Advanced Sustainability Impact Assessment,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Analysis,8
+M45,Big Data for Environmental Intelligence (EQF 4 Version),PMBOK,Project Management Body of Knowledge,0.022452507969921934,0.052215134813771935,0.0,Poor,Data,4
+M46,Sustainable Business Models for Digital Companies (EQF 4 Version),PMBOK,Project Management Body of Knowledge,0.08950190319416344,0.179522658299189,0.05,Poor,General,4
+M47,Applied Ethics in AI for Sustainability (EQF 5 Version),PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Ethics & Governance,5
+M48,AI for Sustainable Decision-Making (EQF 8 Version),PMBOK,Project Management Body of Knowledge,0.042238090384510575,0.09461588431744677,0.0,Poor,Data,8
+M49,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version),PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,General,8
+M5,Sustainable Software Engineering,PMBOK,Project Management Body of Knowledge,0.02530350261389016,0.06097229545515701,0.0,Poor,Technical Implementation,6
+M50,Advanced Sustainability Impact Assessment Methods,PMBOK,Project Management Body of Knowledge,0.025776395813025006,0.062111797139819284,0.0,Poor,Analysis,8
+M51,AI for Sustainable Decision-Making (EQF 8 Version) - Duplicate,PMBOK,Project Management Body of Knowledge,0.042238090384510575,0.09461588431744677,0.0,Poor,Data,8
+M52,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Duplicate,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,General,8
+M53,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Triple Duplicate,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,General,8
+M54,Digital Sustainability Policy Development,PMBOK,Project Management Body of Knowledge,0.020846869651518603,0.048481092212833955,0.0,Poor,Management,7
+M55,Global Climate Technology Governance,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Management,8
+M56,Green Finance and Sustainable Investment,PMBOK,Project Management Body of Knowledge,0.020119653268326092,0.048481092212833955,0.0,Poor,Management,7
+M57,Sustainability Economics and Market Mechanisms,PMBOK,Project Management Body of Knowledge,0.020598688506826095,0.049635393992352034,0.0,Poor,Management,7
+M58,Public Engagement and Science Communication,PMBOK,Project Management Body of Knowledge,0.10240211614484858,0.20678157214877807,0.05,Poor,Management,6
+M59,Digital Storytelling for Sustainability Impact,PMBOK,Project Management Body of Knowledge,0.021386056430019427,0.05153266609643235,0.0,Poor,Management,6
+M6,Systems Architecture for Sustainability,PMBOK,Project Management Body of Knowledge,0.027371882550286972,0.0659563434946674,0.0,Poor,Technical Implementation,6
+M60,Systematic Innovation for Sustainability Challenges,PMBOK,Project Management Body of Knowledge,0.08272586796539201,0.16319486256720964,0.05,Poor,Technical Implementation,7
+M61,Technology Assessment for Sustainability,PMBOK,Project Management Body of Knowledge,0.03955483149487523,0.09531284697560297,0.0,Poor,Technical Implementation,7
+M62,Digital Health for Planetary Health,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Technical Implementation,6
+M63,Smart Manufacturing and Industry 4.0 Sustainability,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Technical Implementation,6
+M64,Behavioral Insights for Sustainability Transformation,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Management,6
+M65,Community-Based Participatory Sustainability Research,PMBOK,Project Management Body of Knowledge,0.017677325110512895,0.04111005839654161,0.0,Poor,Management,7
+M66,ESG Reporting and Compliance Framework,PMBOK,Project Management Body of Knowledge,0.02109066536818215,0.04904805899577244,0.0,Poor,Management,6
+M67,Digital Sustainability Legislation and Policy,PMBOK,Project Management Body of Knowledge,0.023987533452253875,0.05608733378473451,0.0,Poor,Management,7
+M68,Regulatory Technology (RegTech) for Sustainability,PMBOK,Project Management Body of Knowledge,0.023987533452253875,0.05608733378473451,0.0,Poor,Data,6
+M69,Sustainable IT Operations and DevOps,PMBOK,Project Management Body of Knowledge,0.0376836518928494,0.06097229545515701,0.0,Poor,Technical Implementation,6
+M7,Ethics and Governance in Digital Innovation,PMBOK,Project Management Body of Knowledge,0.02737188255028698,0.06595634349466742,0.0,Poor,Ethics & Governance,6
+M70,ICT Energy Consumption and Carbon Footprint Management,PMBOK,Project Management Body of Knowledge,0.022591623577600115,0.05443764717494003,0.0,Poor,Technical Implementation,6
+M71,Green Software Development Practices,PMBOK,Project Management Body of Knowledge,0.022591623577600115,0.05443764717494003,0.0,Poor,Software Development,5
+M72,Sustainability Data Engineering and Architecture,PMBOK,Project Management Body of Knowledge,0.020598688506826095,0.049635393992352034,0.0,Poor,Data,7
+M73,Business-Technical Sustainability Bridge,PMBOK,Project Management Body of Knowledge,0.0871855532630564,0.13234857063656771,0.1,Poor,Business Analysis,7
+M74,Sustainability Data Science and Predictive Analytics,PMBOK,Project Management Body of Knowledge,0.023585564831343105,0.051532666096432346,0.0,Poor,Data,8
+M8,Work-based Sustainability Project,PMBOK,Project Management Body of Knowledge,0.32023895344693537,0.21187450069946928,0.65,Moderate,Management,6
+M89,ESG Reporting Essentials,PMBOK,Project Management Body of Knowledge,0.020734482151007174,0.048481092212833955,0.0,Poor,ESG & Compliance,4
+M9,Technical Implementation and Tool Support,PMBOK,Project Management Body of Knowledge,0.04180659865450488,0.0986796179798696,0.0,Poor,Technical Implementation,5
+M90,Sustainability Data Fundamentals,PMBOK,Project Management Body of Knowledge,0.04320377917060149,0.09858610631498235,0.0,Poor,Data & Analytics,4
+M91,Green ICT Principles,PMBOK,Project Management Body of Knowledge,0.02122815604637287,0.049635393992352034,0.0,Poor,Technical Implementation,4
+OM1,Digital Sustainability Fundamentals,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,General,6
+OM10,Advanced Sustainability Impact Assessment Methods,PMBOK,Project Management Body of Knowledge,0.025776395813025006,0.062111797139819284,0.0,Poor,Analysis,8
+OM2,Sustainable IT Strategy,PMBOK,Project Management Body of Knowledge,0.0309657898986745,0.07240380080811218,0.0,Poor,Management,7
+OM3,Green Software Engineering,PMBOK,Project Management Body of Knowledge,0.07155468169722087,0.13627634143908643,0.05,Poor,Technical Implementation,6
+OM4,Industry Collaboration Project,PMBOK,Project Management Body of Knowledge,0.026218087045717514,0.06097229545515701,0.0,Poor,Management,7
+OM5,Sustainable IT Consultancy,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Management,7
+OM6,Eco-design for Digital Products,PMBOK,Project Management Body of Knowledge,0.021386056430019427,0.05153266609643235,0.0,Poor,Technical Implementation,6
+OM7,Net-Zero IT Infrastructure,PMBOK,Project Management Body of Knowledge,0.02314170081178671,0.055763134486233025,0.0,Poor,Technical Implementation,6
+OM8,Introduction to Green IT,PMBOK,Project Management Body of Knowledge,0.0,0.0,0.0,Poor,Technical Implementation,4
+OM9,Sustainable IT for Small Organizations,PMBOK,Project Management Body of Knowledge,0.026218087045717514,0.06097229545515701,0.0,Poor,Technical Implementation,4
+M92,Digital Sustainability Foundation,PMBOK,Project Management Body of Knowledge,0.017349828194849426,0.04180681492734801,0.0,Poor,Foundation,4
+M93,Digital Inclusion and Social Sustainability,PMBOK,Project Management Body of Knowledge,0.01750002972011821,0.04216874631353785,0.0,Poor,Social Sustainability,5
+M94,Circular Economy for Digital Systems,PMBOK,Project Management Body of Knowledge,0.035465072067286746,0.08395966598126196,0.0,Poor,Circular Economy,6

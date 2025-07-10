@@ -1,0 +1,447 @@
+[
+  {
+    "id": "DAN",
+    "name": "Data Analyst",
+    "description": "Analyzes and visualizes data to drive sustainability insights and reporting",
+    "main_area": "Data",
+    "thematic_area": "sustainability",
+    "eqf_levels": [
+      6,
+      7
+    ],
+    "core_skills": [
+      "data_analysis",
+      "data_visualization",
+      "sustainability_reporting"
+    ],
+    "default_ects": {
+      "6": 70,
+      "7": 75
+    },
+    "work_based_components": {
+      "6": false,
+      "7": false
+    },
+    "module_design": {
+      "module_types": [
+        "practical",
+        "theoretical"
+      ],
+      "preferred_delivery": [
+        "online",
+        "blended"
+      ]
+    },
+    "related_modules": {
+      "M1": 65,
+      "M3": 100,
+      "M4": 80,
+      "M12": 90,
+      "M18": 90,
+      "M20": 95,
+      "M26": 90
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "DSE",
+    "name": "Data Engineer",
+    "description": "Implements and optimizes digital infrastructure with minimal environmental impact",
+    "main_area": "Data",
+    "thematic_area": "sustainability",
+    "eqf_levels": [
+      6,
+      7
+    ],
+    "core_skills": [
+      "infrastructure_optimization",
+      "energy_efficiency",
+      "cloud_optimization"
+    ],
+    "default_ects": {
+      "6": 70,
+      "7": 75
+    },
+    "work_based_components": {
+      "6": true,
+      "7": false
+    },
+    "module_design": {
+      "module_types": [
+        "practical",
+        "theoretical"
+      ],
+      "preferred_delivery": [
+        "blended",
+        "online"
+      ]
+    },
+    "related_modules": {
+      "M1": 60,
+      "M4": 70,
+      "M6": 85,
+      "M8": 90,
+      "M11": 90,
+      "M13": 100,
+      "M16": 80,
+      "M18": 80,
+      "M21": 80,
+      "M23": 90,
+      "M29": 90
+    },
+    "dual_principle_applicable": true
+  },
+  {
+    "id": "DSL",
+    "name": "Digital Sustainability Lead",
+    "description": "Drives digital sustainability initiatives within organizations",
+    "main_area": "Management",
+    "thematic_area": "sustainability",
+    "eqf_levels": [
+      7,
+      8
+    ],
+    "core_skills": [
+      "sustainability_strategy",
+      "leadership",
+      "strategic_thinking"
+    ],
+    "default_ects": {
+      "7": 75,
+      "8": 80
+    },
+    "work_based_components": {
+      "7": false,
+      "8": false
+    },
+    "module_design": {
+      "module_types": [
+        "theoretical",
+        "practical"
+      ],
+      "preferred_delivery": [
+        "blended",
+        "online",
+        "classroom"
+      ]
+    },
+    "related_modules": {
+      "M26": 80,
+      "M28": 100
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "DSM",
+    "name": "Digital Sustainability Manager",
+    "description": "Implements and manages digital sustainability initiatives",
+    "main_area": "Management",
+    "thematic_area": "sustainability",
+    "eqf_levels": [
+      6,
+      7
+    ],
+    "core_skills": [
+      "project_management",
+      "sustainability_regulations",
+      "team_management"
+    ],
+    "default_ects": {
+      "6": 70,
+      "7": 75
+    },
+    "work_based_components": {
+      "6": true,
+      "7": false
+    },
+    "module_design": {
+      "module_types": [
+        "theoretical",
+        "practical"
+      ],
+      "preferred_delivery": [
+        "blended",
+        "online",
+        "classroom"
+      ]
+    },
+    "related_modules": {
+      "M1": 75,
+      "M2": 95,
+      "M7": 90,
+      "M8": 100,
+      "M10": 85,
+      "M14": 90,
+      "M17": 90,
+      "M19": 80,
+      "M22": 80,
+      "M24": 95,
+      "M29": 75
+    },
+    "dual_principle_applicable": true
+  },
+  {
+    "id": "DSC",
+    "name": "Digital Sustainability Consultant",
+    "description": "Provides advisory services on digital sustainability strategies",
+    "main_area": "Advisory",
+    "thematic_area": "sustainability",
+    "eqf_levels": [
+      6,
+      7
+    ],
+    "core_skills": [
+      "consulting",
+      "regulatory_compliance",
+      "stakeholder_engagement"
+    ],
+    "default_ects": {
+      "6": 70,
+      "7": 75
+    },
+    "work_based_components": {
+      "6": false,
+      "7": false
+    },
+    "module_design": {
+      "module_types": [
+        "theoretical",
+        "practical"
+      ],
+      "preferred_delivery": [
+        "blended",
+        "online"
+      ]
+    },
+    "related_modules": {
+      "M1": 70,
+      "M2": 100,
+      "M7": 85,
+      "M14": 80,
+      "M19": 100,
+      "M20": 80,
+      "M22": 85
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "DSI",
+    "name": "Data Scientist (Sustainability)",
+    "description": "Applies advanced analytics and machine learning to address sustainability challenges",
+    "main_area": "Data",
+    "thematic_area": "sustainability",
+    "eqf_levels": [
+      7,
+      8
+    ],
+    "core_skills": [
+      "machine_learning",
+      "predictive_modeling",
+      "impact_assessment"
+    ],
+    "default_ects": {
+      "6": 70,
+      "7": 75
+    },
+    "work_based_components": {
+      "6": false,
+      "7": false
+    },
+    "module_design": {
+      "module_types": [
+        "theoretical",
+        "practical"
+      ],
+      "preferred_delivery": [
+        "online",
+        "blended"
+      ]
+    },
+    "related_modules": {
+      "M4": 100,
+      "M26": 95,
+      "M29": 85
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "SBA",
+    "name": "Sustainability Business Analyst",
+    "description": "Analyzes business processes and sustainability performance metrics",
+    "main_area": "Analysis",
+    "thematic_area": "sustainability",
+    "eqf_levels": [
+      6,
+      7
+    ],
+    "core_skills": [
+      "business_analysis",
+      "sustainability_metrics",
+      "process_optimization"
+    ],
+    "default_ects": {
+      "6": 70,
+      "7": 75
+    },
+    "work_based_components": {
+      "6": false,
+      "7": false
+    },
+    "module_design": {
+      "module_types": [
+        "theoretical",
+        "practical"
+      ],
+      "preferred_delivery": [
+        "blended",
+        "online",
+        "classroom"
+      ]
+    },
+    "related_modules": {
+      "M1": 60,
+      "M2": 85,
+      "M3": 85,
+      "M7": 80,
+      "M10": 90,
+      "M11": 80,
+      "M12": 80,
+      "M15": 75,
+      "M17": 95,
+      "M24": 85,
+      "M29": 80,
+      "M30": 85
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "SDD",
+    "name": "Software Developer for Sustainability",
+    "description": "Implements sustainable coding practices and develops eco-efficient applications",
+    "main_area": "Software Development",
+    "thematic_area": "sustainability",
+    "eqf_levels": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "core_skills": [
+      "green_coding",
+      "software_development",
+      "energy_optimization"
+    ],
+    "default_ects": {
+      "5": 60,
+      "6": 70
+    },
+    "work_based_components": {
+      "5": true,
+      "6": true
+    },
+    "module_design": {
+      "module_types": [
+        "practical",
+        "work-based"
+      ],
+      "preferred_delivery": [
+        "blended",
+        "online"
+      ]
+    },
+    "related_modules": {
+      "M1": 70,
+      "M5": 100,
+      "M8": 85,
+      "M9": 85,
+      "M16": 100,
+      "M21": 90
+    },
+    "dual_principle_applicable": true
+  },
+  {
+    "id": "SSD",
+    "name": "Sustainable Solution Designer",
+    "description": "Designs IT architectures and systems with sustainability as a core principle",
+    "main_area": "Design",
+    "thematic_area": "sustainability",
+    "eqf_levels": [
+      6,
+      7
+    ],
+    "core_skills": [
+      "system_design",
+      "eco_design",
+      "circular_design"
+    ],
+    "default_ects": {
+      "6": 70,
+      "7": 75
+    },
+    "work_based_components": {
+      "6": false,
+      "7": false
+    },
+    "module_design": {
+      "module_types": [
+        "theoretical",
+        "practical"
+      ],
+      "preferred_delivery": [
+        "blended",
+        "classroom"
+      ]
+    },
+    "related_modules": {
+      "M1": 60,
+      "M5": 85,
+      "M6": 100,
+      "M10": 95,
+      "M13": 70,
+      "M17": 80,
+      "M21": 100,
+      "M23": 85,
+      "M30": 100
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "STS",
+    "name": "Sustainability Technical Specialist",
+    "description": "Provides specialized technical support for sustainability tools and platforms",
+    "main_area": "Technical Implementation",
+    "thematic_area": "sustainability",
+    "eqf_levels": [
+      4,
+      5
+    ],
+    "core_skills": [
+      "tool_support",
+      "platform_configuration",
+      "technical_implementation"
+    ],
+    "default_ects": {
+      "5": 60,
+      "6": 65
+    },
+    "work_based_components": {
+      "5": true,
+      "6": true
+    },
+    "module_design": {
+      "module_types": [
+        "practical",
+        "work-based"
+      ],
+      "preferred_delivery": [
+        "blended",
+        "workplace"
+      ]
+    },
+    "related_modules": {
+      "M9": 100,
+      "M25": 90
+    },
+    "dual_principle_applicable": true
+  }
+]

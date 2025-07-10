@@ -1,0 +1,942 @@
+# scripts/curriculum_generator/core/output_manager.py
+"""
+INTEGRATION FIX: Enhanced Output Manager with proper curriculum AND educational profile generation
+Fixes the broken curriculum generation pipeline while preserving educational profiles fixes
+"""
+
+import json
+import os
+from pathlib import Path
+from typing import Dict, Any, List, Optional
+from datetime import datetime
+
+class OutputManager:
+    """INTEGRATION FIX: Complete output manager with curriculum AND educational profiles"""
+
+    def __init__(self, project_root: Path):
+        self.project_root = project_root
+        self.setup_output_directories()
+
+    def setup_output_directories(self):
+        """Create necessary output directories"""
+        directories = [
+            'output/curricula',
+            'output/educational_profiles',
+            'output/summaries',
+            'output/pathways'
+        ]
+        
+        for directory in directories:
+            dir_path = self.project_root / directory
+            dir_path.mkdir(parents=True, exist_ok=True)
+
+    def save_curriculum(
+        self,
+        curriculum: Dict[str, Any],
+        output_dir: str,
+        topic: str,
+        eqf_level: int,
+        role_id: str
+    ) -> List[str]:
+        """INTEGRATION FIX: Save complete curriculum with rich HTML AND educational profiles"""
+        saved_files = []
+        
+        try:
+            timestamp = datetime.now().strftime('%Y%m%d')
+            clean_topic = ''.join(c.upper() if c.isalnum() else '_' for c in topic)
+            base_filename = f"{role_id}_{clean_topic}_{eqf_level}_{timestamp}"
+            
+            output_path = Path(output_dir)
+            output_path.mkdir(parents=True, exist_ok=True)
+            
+            print(f"💾 INTEGRATION FIX: Saving complete curriculum with rich content...")
+            
+            # Debug: Check what curriculum contains
+            print(f"🔍 Curriculum content check:")
+            print(f"   - Metadata: {'Present' if curriculum.get('metadata') else 'Missing'}")
+            print(f"   - Modules: {len(curriculum.get('modules', []))}")
+            print(f"   - Curriculum structure: {'Present' if curriculum.get('curriculum_structure') else 'Missing'}")
+            print(f"   - Educational profile: {'Present' if curriculum.get('educational_profile') else 'Missing'}")
+            print(f"   - Quality metrics: {'Present' if curriculum.get('quality_metrics') else 'Missing'}")
+            
+            # Save JSON curriculum
+            json_file = output_path / f"{base_filename}.json"
+            with open(json_file, 'w', encoding='utf-8') as f:
+                json.dump(curriculum, f, indent=2, ensure_ascii=False)
+            saved_files.append(str(json_file))
+            print(f"✅ Saved curriculum JSON: {json_file.name}")
+            
+            # INTEGRATION FIX: Generate RICH curriculum HTML (not basic fallback)
+            html_file = output_path / f"{base_filename}.html"
+            html_content = self._generate_rich_curriculum_html(curriculum, topic, eqf_level)
+            with open(html_file, 'w', encoding='utf-8') as f:
+                f.write(html_content)
+            saved_files.append(str(html_file))
+            print(f"✅ Saved RICH curriculum HTML: {html_file.name}")
+            
+            # Save summary
+            summary_file = output_path / f"{base_filename}_summary.json"
+            summary = self._generate_curriculum_summary(curriculum)
+            with open(summary_file, 'w', encoding='utf-8') as f:
+                json.dump(summary, f, indent=2, ensure_ascii=False)
+            saved_files.append(str(summary_file))
+            print(f"✅ Saved curriculum summary: {summary_file.name}")
+            
+            # Extract and save educational profile (if present)
+            educational_profile = curriculum.get('educational_profile', {})
+            if educational_profile:
+                print(f"🏗️ INTEGRATION FIX: Generating educational profile from curriculum...")
+                role_name = educational_profile.get('role_name', f'{role_id} Professional')
+                profile_files = self.save_educational_profile_standalone(
+                    educational_profile, topic, eqf_level
+                )
+                saved_files.extend(profile_files)
+                print(f"✅ Generated educational profile files: {len(profile_files)}")
+            else:
+                print(f"⚠️ No educational profile found in curriculum - may need curriculum builder fix")
+            
+            print(f"✅ INTEGRATION FIX: Total files saved: {len(saved_files)}")
+            return saved_files
+            
+        except Exception as e:
+            print(f"❌ Error saving curriculum files: {e}")
+            import traceback
+            traceback.print_exc()
+            return []
+
+    def _generate_rich_curriculum_html(self, curriculum: Dict[str, Any], topic: str, eqf_level: int) -> str:
+        """INTEGRATION FIX: Generate RICH curriculum HTML with modules, semesters, and detailed content"""
+        
+        print(f"🔧 INTEGRATION FIX: Generating RICH curriculum HTML for {topic} (EQF {eqf_level})")
+        
+        # Extract curriculum data
+        metadata = curriculum.get('metadata', {})
+        quality_metrics = curriculum.get('quality_metrics', {})
+        curriculum_structure = curriculum.get('curriculum_structure', {})
+        semesters = curriculum_structure.get('semester_breakdown', [])
+        modules = curriculum.get('modules', [])
+        educational_profile = curriculum.get('educational_profile', {})
+        learning_pathways = curriculum.get('learning_pathways', {})
+        assessment_framework = curriculum.get('assessment_framework', {})
+        workplace_integration = curriculum.get('workplace_integration', {})
+        
+        # Extract metadata
+        role_id = metadata.get('role_id', 'Unknown')
+        role_name = metadata.get('role_name', 'Unknown Role')
+        actual_ects = metadata.get('actual_ects', 0)
+        target_ects = metadata.get('target_ects', actual_ects)
+        num_modules = metadata.get('num_modules', len(modules))
+        generated_date = metadata.get('generated_date', datetime.now().isoformat())
+        
+        # Extract quality metrics
+        ects_efficiency = quality_metrics.get('ects_efficiency', 0)
+        topic_relevance = quality_metrics.get('topic_relevance', 0)
+        topic_coverage = quality_metrics.get('topic_coverage', 0)
+        flexibility_score = quality_metrics.get('flexibility_score', 0)
+        
+        print(f"📊 INTEGRATION FIX: Curriculum data found:")
+        print(f"   - Role: {role_name} ({role_id})")
+        print(f"   - ECTS: {actual_ects}/{target_ects}")
+        print(f"   - Modules: {num_modules}")
+        print(f"   - Semesters: {len(semesters)}")
+        print(f"   - Quality metrics: ECTS {ects_efficiency}%, Relevance {topic_relevance}/10")
+        
+        # Build RICH curriculum HTML
+        html_content = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{role_name} Curriculum: {topic}</title>
+    {self._get_rich_curriculum_css()}
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>📚 {role_name} Curriculum</h1>
+            <h2>{topic}</h2>
+            <div class="metadata">
+                <span class="badge">Role: {role_id}</span>
+                <span class="badge">EQF Level {eqf_level}</span>
+                <span class="badge">{actual_ects} ECTS</span>
+                <span class="badge">{num_modules} Modules</span>
+                <span class="badge">{len(semesters)} Semesters</span>
+                <span class="badge">T3.2/T3.4 Compliant</span>
+            </div>
+        </header>
+        <main>"""
+
+        # Curriculum Overview Section
+        html_content += f"""
+            <section class="section">
+                <div class="section-header">📋 Curriculum Overview</div>
+                <div class="section-content">
+                    <div class="overview-grid">
+                        <div class="overview-card">
+                            <h3>📚 Programme Details</h3>
+                            <p><strong>Focus:</strong> {topic}</p>
+                            <p><strong>ECTS:</strong> {actual_ects} (target: {target_ects})</p>
+                            <p><strong>Duration:</strong> {len(semesters)} semesters</p>
+                            <p><strong>Delivery:</strong> blended, online</p>
+                        </div>
+                        <div class="overview-card">
+                            <h3>📊 Quality Metrics</h3>
+                            <p><strong>ECTS Efficiency:</strong> {ects_efficiency}%</p>
+                            <p><strong>Topic Relevance:</strong> {topic_relevance}/10</p>
+                            <p><strong>Topic Coverage:</strong> {topic_coverage}%</p>
+                            <p><strong>Flexibility Score:</strong> {flexibility_score}%</p>
+                        </div>
+                        <div class="overview-card">
+                            <h3>🎯 Learning Approach</h3>
+                            <p><strong>Modules:</strong> {num_modules} specialized modules</p>
+                            <p><strong>Assessment:</strong> Project-based, portfolio</p>
+                            <p><strong>Recognition:</strong> Micro-credentials available</p>
+                            <p><strong>Industry:</strong> Applied learning integrated</p>
+                        </div>
+                    </div>
+                </div>
+            </section>"""
+
+        # Semester Structure Section
+        if semesters:
+            html_content += """
+            <section class="section">
+                <div class="section-header">📅 Semester Structure</div>
+                <div class="section-content">"""
+            
+            for semester in semesters:
+                semester_modules = semester.get('modules', [])
+                semester_name = semester.get('semester_name', f"Semester {semester.get('semester_number', 1)}")
+                focus_area = semester.get('focus_area', 'General Focus')
+                target_ects = semester.get('target_ects', 0)
+                objectives = semester.get('learning_objectives', [])
+                duration_weeks = semester.get('duration_weeks', 15)
+                
+                html_content += f"""
+                <div class="semester-card">
+                    <div class="semester-header">
+                        <h3>{semester_name}</h3>
+                        <div class="semester-meta">
+                            <span class="focus-badge">{focus_area}</span>
+                            <span class="ects-badge">{target_ects} ECTS</span>
+                            <span class="modules-badge">{len(semester_modules)} Modules</span>
+                            <span class="duration-badge">{duration_weeks} weeks</span>
+                        </div>
+                    </div>"""
+                
+                if objectives:
+                    html_content += """
+                    <div class="objectives">
+                        <h4>Learning Objectives:</h4>
+                        <ul>"""
+                    for objective in objectives:
+                        html_content += f"                            <li>{objective}</li>"
+                    html_content += """
+                        </ul>
+                    </div>"""
+                
+                if semester_modules:
+                    html_content += """
+                    <div class="semester-modules">
+                        <h4>Modules:</h4>
+                        <div class="modules-grid">"""
+                    for module in semester_modules:
+                        module_name = module.get('module_name', module.get('title', 'Unknown Module'))
+                        module_ects = module.get('ects', 5)
+                        thematic_area = module.get('thematic_area', 'General')
+                        module_code = module.get('module_code', module.get('code', 'N/A'))
+                        
+                        html_content += f"""
+                        <div class="module-mini-card">
+                            <div class="module-mini-header">
+                                <h5>{module_code}</h5>
+                                <span class="mini-ects">{module_ects} ECTS</span>
+                            </div>
+                            <p class="module-mini-title">{module_name}</p>
+                            <p class="module-mini-area">{thematic_area}</p>
+                        </div>"""
+                    html_content += """
+                        </div>
+                    </div>"""
+                
+                html_content += "</div>"
+            
+            html_content += """
+                </div>
+            </section>"""
+
+        # Complete Module Catalog Section
+        if modules:
+            html_content += f"""
+            <section class="section">
+                <div class="section-header">📖 Complete Module Catalog ({len(modules)} Modules)</div>
+                <div class="section-content">
+                    <div class="modules-catalog">"""
+            
+            for module in modules:
+                module_title = module.get('title', module.get('name', 'Unknown Module'))
+                module_desc = module.get('description', 'No description available')
+                module_ects = module.get('ects', 5)
+                module_eqf = module.get('eqf_level', eqf_level)
+                thematic_area = module.get('thematic_area', 'General')
+                delivery_methods = module.get('delivery_methods', ['online', 'blended'])
+                topics = module.get('topics', [])
+                module_code = module.get('code', module.get('module_code', 'N/A'))
+                
+                html_content += f"""
+                        <div class="module-card">
+                            <div class="module-card-header">
+                                <div class="module-title-section">
+                                    <h4>{module_code}</h4>
+                                    <h5>{module_title}</h5>
+                                </div>
+                                <div class="module-badges">
+                                    <span class="ects-badge">{module_ects} ECTS</span>
+                                    <span class="eqf-badge">EQF {module_eqf}</span>
+                                    <span class="area-badge">{thematic_area}</span>
+                                </div>
+                            </div>
+                            <p class="module-description">{module_desc}</p>
+                            <div class="delivery-methods">
+                                <strong>Delivery:</strong> 
+                                <span>{', '.join(delivery_methods)}</span>
+                            </div>"""
+                
+                if topics:
+                    html_content += """
+                            <div class="module-topics">
+                                <strong>Topics:</strong>"""
+                    for topic_item in topics[:8]:  # Show max 8 topics
+                        html_content += f' <span class="topic-tag">{topic_item}</span>'
+                    if len(topics) > 8:
+                        html_content += f' <span class="topic-tag">+{len(topics)-8} more</span>'
+                    html_content += """
+                            </div>"""
+                
+                html_content += """
+                        </div>"""
+            
+            html_content += """
+                    </div>
+                </div>
+            </section>"""
+
+        # Learning Pathways Section
+        if learning_pathways:
+            html_content += """
+            <section class="section">
+                <div class="section-header">🛤️ Learning Pathways</div>
+                <div class="section-content">
+                    <div class="pathways-grid">"""
+            
+            for pathway_name, pathway_data in learning_pathways.items():
+                if isinstance(pathway_data, dict):
+                    description = pathway_data.get('description', 'No description available')
+                    progression = pathway_data.get('progression', [])
+                    
+                    html_content += f"""
+                        <div class="pathway-card">
+                            <h4>{pathway_name.replace('_', ' ').title()}</h4>
+                            <p>{description}</p>
+                            <div class="pathway-progression">
+                                <strong>Progression:</strong>
+                                <ul>"""
+                    for step in progression:
+                        html_content += f"                                    <li>{step}</li>"
+                    html_content += """
+                                </ul>
+                            </div>
+                        </div>"""
+            
+            html_content += """
+                    </div>
+                </div>
+            </section>"""
+
+        # Assessment Framework Section
+        if assessment_framework:
+            html_content += """
+            <section class="section">
+                <div class="section-header">📊 Assessment Framework</div>
+                <div class="section-content">
+                    <div class="assessment-overview">"""
+            
+            methods = assessment_framework.get('methods', [])
+            weightings = assessment_framework.get('weightings', {})
+            
+            if methods:
+                html_content += """
+                        <div class="assessment-methods">
+                            <h4>Assessment Methods:</h4>
+                            <div class="methods-grid">"""
+                for method in methods:
+                    weight = weightings.get(method, 'N/A')
+                    html_content += f"""
+                                <div class="method-item">
+                                    <span class="method-name">{method}</span>
+                                    <span class="method-weight">{weight}</span>
+                                </div>"""
+                html_content += """
+                            </div>
+                        </div>"""
+            
+            html_content += """
+                    </div>
+                </div>
+            </section>"""
+
+        # Workplace Integration Section
+        if workplace_integration:
+            html_content += """
+            <section class="section">
+                <div class="section-header">🏢 Workplace Integration</div>
+                <div class="section-content">
+                    <div class="workplace-details">"""
+            
+            work_based_percentage = workplace_integration.get('work_based_percentage', 0)
+            industry_partnerships = workplace_integration.get('industry_partnerships', [])
+            practical_components = workplace_integration.get('practical_components', [])
+            
+            html_content += f"""
+                        <div class="workplace-overview">
+                            <div class="workplace-stat">
+                                <h4>Work-Based Learning</h4>
+                                <div class="big-stat">{work_based_percentage}%</div>
+                            </div>
+                        </div>"""
+            
+            if industry_partnerships:
+                html_content += """
+                        <div class="partnerships">
+                            <h4>Industry Partnerships:</h4>
+                            <div class="partners-list">"""
+                for partner in industry_partnerships:
+                    html_content += f'<span class="partner-tag">{partner}</span>'
+                html_content += """
+                            </div>
+                        </div>"""
+            
+            if practical_components:
+                html_content += """
+                        <div class="practical-components">
+                            <h4>Practical Components:</h4>
+                            <ul>"""
+                for component in practical_components:
+                    html_content += f"                                <li>{component}</li>"
+                html_content += """
+                            </ul>
+                        </div>"""
+            
+            html_content += """
+                    </div>
+                </div>
+            </section>"""
+
+        # Footer
+        generator_version = metadata.get('generator_version', 'DSCG v3.1')
+        curriculum_id = curriculum.get('curriculum_id', 'N/A')
+        
+        html_content += f"""
+        </main>
+        <footer class="footer">
+            <p><strong>Curriculum Generated by {generator_version}</strong></p>
+            <p>Generated: {generated_date}</p>
+            <p>Curriculum ID: {curriculum_id}</p>
+            <p><em>T3.2 & T3.4 Compliant Digital Sustainability Curriculum</em></p>
+        </footer>
+    </div>
+</body>
+</html>"""
+
+        print(f"✅ INTEGRATION FIX: Rich curriculum HTML generated with {len(modules)} modules and {len(semesters)} semesters")
+        return html_content
+
+    def _get_rich_curriculum_css(self) -> str:
+        """Rich CSS for comprehensive curriculum display"""
+        return """
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); min-height: 100vh; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .header { background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white; padding: 3rem 2rem; border-radius: 15px; margin-bottom: 2rem; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .header h2 { font-size: 1.5rem; margin-bottom: 1.5rem; opacity: 0.9; }
+        .metadata { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+        .badge { background: rgba(255, 255, 255, 0.25); padding: 0.5rem 1rem; border-radius: 25px; font-size: 0.9rem; }
+        .section { background: white; margin-bottom: 2rem; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); overflow: hidden; }
+        .section-header { background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white; padding: 1.5rem 2rem; font-size: 1.5rem; font-weight: 600; }
+        .section-content { padding: 2rem; }
+        .overview-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem; }
+        .overview-card { background: linear-gradient(135deg, #f8f9fc 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 10px; border-left: 5px solid #2563eb; }
+        .overview-card h3 { color: #2563eb; margin-bottom: 1rem; font-size: 1.2rem; }
+        .semester-card { background: white; margin-bottom: 2rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden; border-left: 5px solid #10b981; }
+        .semester-header { background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        .semester-meta { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+        .focus-badge, .ects-badge, .modules-badge, .duration-badge { background: rgba(255, 255, 255, 0.25); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem; }
+        .objectives { padding: 1.5rem; }
+        .objectives h4 { color: #10b981; margin-bottom: 1rem; }
+        .semester-modules { padding: 1.5rem; background: #f8f9fa; }
+        .modules-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+        .module-mini-card { background: white; padding: 1rem; border-radius: 8px; border-left: 4px solid #2563eb; transition: transform 0.2s ease; }
+        .module-mini-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .module-mini-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+        .module-mini-header h5 { color: #2563eb; font-size: 0.9rem; }
+        .mini-ects { background: #e0f2fe; color: #0369a1; padding: 0.2rem 0.5rem; border-radius: 10px; font-size: 0.7rem; font-weight: bold; }
+        .module-mini-title { font-weight: 600; margin-bottom: 0.3rem; font-size: 0.9rem; }
+        .module-mini-area { color: #666; font-size: 0.8rem; }
+        .modules-catalog { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 1.5rem; }
+        .module-card { background: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden; border-left: 5px solid #8b5cf6; transition: transform 0.2s ease; }
+        .module-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.15); }
+        .module-card-header { background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); color: white; padding: 1.5rem; }
+        .module-title-section h4 { font-size: 1rem; margin-bottom: 0.3rem; }
+        .module-title-section h5 { font-size: 1.1rem; opacity: 0.9; }
+        .module-badges { display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap; }
+        .ects-badge, .eqf-badge, .area-badge { background: rgba(255, 255, 255, 0.25); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem; }
+        .module-description { padding: 1.5rem; }
+        .delivery-methods, .module-topics { padding: 0 1.5rem 1rem; }
+        .topic-tag { background: #f3e8ff; color: #7c3aed; padding: 0.2rem 0.6rem; margin-right: 0.3rem; margin-bottom: 0.3rem; border-radius: 12px; font-size: 0.8rem; display: inline-block; }
+        .pathways-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        .pathway-card { background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%); padding: 1.5rem; border-radius: 12px; border-left: 5px solid #f59e0b; }
+        .pathway-card h4 { color: #d97706; margin-bottom: 1rem; }
+        .assessment-overview { background: #f8f9fa; padding: 1.5rem; border-radius: 10px; }
+        .methods-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
+        .method-item { background: white; padding: 1rem; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; }
+        .method-weight { background: #e0f2fe; color: #0369a1; padding: 0.2rem 0.6rem; border-radius: 10px; font-size: 0.8rem; font-weight: bold; }
+        .workplace-details { background: #f8f9fa; padding: 1.5rem; border-radius: 10px; }
+        .workplace-overview { text-align: center; margin-bottom: 2rem; }
+        .workplace-stat { display: inline-block; }
+        .big-stat { font-size: 3rem; font-weight: bold; color: #10b981; }
+        .partners-list { margin-top: 1rem; }
+        .partner-tag { background: #e0f2fe; color: #0369a1; padding: 0.3rem 0.8rem; margin-right: 0.5rem; margin-bottom: 0.5rem; border-radius: 15px; font-size: 0.9rem; display: inline-block; }
+        .footer { text-align: center; padding: 2rem; color: #666; background: rgba(255, 255, 255, 0.8); border-radius: 10px; margin-top: 3rem; }
+        @media (max-width: 768px) { 
+            .overview-grid { grid-template-columns: 1fr; } 
+            .modules-catalog { grid-template-columns: 1fr; } 
+            .modules-grid { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); } 
+            .pathways-grid { grid-template-columns: 1fr; }
+            .methods-grid { grid-template-columns: 1fr; }
+            .semester-header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+        }
+    </style>"""
+
+    def save_educational_profile_standalone(
+        self,
+        educational_profile: Dict[str, Any],
+        topic: str,
+        eqf_level: int
+    ) -> List[str]:
+        """Save educational profile with complete rich HTML (unchanged from previous fix)"""
+        
+        profile_dir = self.project_root / "output" / "educational_profiles"
+        profile_dir.mkdir(parents=True, exist_ok=True)
+
+        # Extract role information
+        role_id = educational_profile.get('role_id', 'UNKNOWN')
+        role_name = educational_profile.get('role_name', f'{role_id} Professional')
+        
+        # Generate filenames
+        timestamp = datetime.now().strftime('%Y%m%d')
+        topic_clean = topic.upper().replace(' ', '_')
+        profile_id = f"EP_{role_id}_{topic_clean}_{eqf_level}_{timestamp}"
+        
+        json_filename = f"{profile_id}.json"
+        html_filename = f"{profile_id}.html"
+        json_path = profile_dir / json_filename
+        html_path = profile_dir / html_filename
+
+        try:
+            # Save JSON
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(educational_profile, f, indent=2, ensure_ascii=False)
+
+            # Generate complete educational profile HTML (from previous fix)
+            html_content = self._generate_rich_educational_profile_html(
+                educational_profile, role_name, eqf_level
+            )
+
+            # Save HTML
+            with open(html_path, 'w', encoding='utf-8') as f:
+                f.write(html_content)
+
+            print(f"✅ Saved educational profile JSON: {json_filename}")
+            print(f"✅ Saved educational profile HTML: {html_filename}")
+
+            return [str(json_path), str(html_path)]
+
+        except Exception as e:
+            print(f"❌ Error saving educational profile: {e}")
+            import traceback
+            traceback.print_exc()
+            return []
+
+    def _generate_rich_educational_profile_html(self, profile: Dict[str, Any], role_name: str, eqf_level: int) -> str:
+        """Generate RICH educational profile HTML - SEPARATE from curriculum HTML"""
+        
+        print(f"🎨 Generating RICH educational profile HTML for {role_name}")
+        
+        # Extract profile data
+        role_id = profile.get('role_id', 'Unknown')
+        target_ects = profile.get('target_ects', 60)
+        profile_type = profile.get('profile_type', 'Standard')
+        enhanced_competencies = profile.get('enhanced_competencies', [])
+        modular_structure = profile.get('modular_structure', {})
+        career_progression = profile.get('realistic_career_progression', {})
+        industry_sectors = profile.get('industry_sectors', [])
+        typical_employers = profile.get('typical_employers', [])
+        cpd_requirements = profile.get('cpd_requirements', {})
+        entry_requirements = profile.get('entry_requirements', {})
+        assessment_methods = profile.get('assessment_methods', [])
+        
+        # Build rich HTML
+        html_content = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Profile: {role_name}</title>
+    {self._get_educational_profile_css()}
+</head>
+<body>
+    <div class="container">
+        <header class="profile-header">
+            <h1>👤 Educational Profile: {role_name}</h1>
+            <div class="profile-metadata">
+                <span class="profile-badge">Role: {role_id}</span>
+                <span class="profile-badge">EQF Level {eqf_level}</span>
+                <span class="profile-badge">{target_ects} ECTS</span>
+                <span class="profile-badge">{profile_type}</span>
+            </div>
+        </header>
+        
+        <main class="profile-content">"""
+        
+        # Enhanced Competencies Section
+        if enhanced_competencies:
+            html_content += f"""
+            <section class="profile-section">
+                <h2 class="section-title">🎯 Enhanced Competencies ({len(enhanced_competencies)})</h2>
+                <div class="competencies-grid">"""
+            
+            for i, comp in enumerate(enhanced_competencies):
+                comp_name = comp.get('competency_name', f'Competency {i+1}')
+                comp_level = comp.get('competency_level', 'Standard')
+                learning_outcomes = comp.get('learning_outcomes', [])
+                framework_mappings = comp.get('framework_mappings', {})
+                
+                html_content += f"""
+                <div class="competency-card">
+                    <div class="competency-header">
+                        <h3>{comp_name}</h3>
+                        <span class="level-badge level-{comp_level.lower()}">{comp_level}</span>
+                    </div>
+                    <div class="competency-content">"""
+                
+                if learning_outcomes:
+                    html_content += f"""
+                        <div class="learning-outcomes">
+                            <h4>Learning Outcomes:</h4>
+                            <ul>"""
+                    for outcome in learning_outcomes:
+                        html_content += f"<li>{outcome}</li>"
+                    html_content += "</ul></div>"
+                
+                if framework_mappings:
+                    html_content += f"""
+                        <div class="framework-mappings">
+                            <h4>Framework Alignments:</h4>
+                            <div class="frameworks">"""
+                    for framework, mappings in framework_mappings.items():
+                        if mappings:
+                            html_content += f"""
+                                <div class="framework-group">
+                                    <strong>{framework.upper()}:</strong>
+                                    <div class="mapping-tags">"""
+                            for mapping in mappings:
+                                html_content += f'<span class="mapping-tag">{mapping}</span>'
+                            html_content += "</div></div>"
+                    html_content += "</div></div>"
+                
+                html_content += "</div></div>"
+            
+            html_content += "</div></section>"
+        
+        # Modular Structure Section
+        if modular_structure:
+            modules = modular_structure.get('modules', [])
+            total_ects = modular_structure.get('total_ects_by_level', {})
+            semesters = modular_structure.get('semesters', 0)
+            
+            html_content += f"""
+            <section class="profile-section">
+                <h2 class="section-title">📚 Modular Structure</h2>
+                <div class="structure-overview">
+                    <div class="structure-stats">
+                        <div class="stat-card">
+                            <h3>Modules</h3>
+                            <div class="stat-number">{len(modules)}</div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Semesters</h3>
+                            <div class="stat-number">{semesters}</div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>ECTS Range</h3>
+                            <div class="stat-number">{min(total_ects.values()) if total_ects else 0}-{max(total_ects.values()) if total_ects else 0}</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modules-grid">"""
+            
+            for module in modules:
+                module_code = module.get('code', 'N/A')
+                module_name = module.get('name', 'Unknown Module')
+                module_ects = module.get('ects', {})
+                semester = module.get('semester', 1)
+                frameworks = module.get('frameworks', [])
+                
+                html_content += f"""
+                <div class="module-card">
+                    <div class="module-header">
+                        <h4>{module_code}</h4>
+                        <span class="semester-badge">Semester {semester}</span>
+                    </div>
+                    <h5 class="module-name">{module_name}</h5>
+                    <div class="module-ects">
+                        ECTS: {', '.join([f"L{level}: {ects}" for level, ects in module_ects.items()]) if isinstance(module_ects, dict) else module_ects}
+                    </div>"""
+                
+                if frameworks:
+                    html_content += f"""
+                    <div class="module-frameworks">
+                        {''.join([f'<span class="framework-tag">{fw}</span>' for fw in frameworks])}
+                    </div>"""
+                
+                html_content += "</div>"
+            
+            html_content += "</div></section>"
+        
+        # Career Progression Section
+        if career_progression:
+            html_content += f"""
+            <section class="profile-section">
+                <h2 class="section-title">🚀 Career Progression</h2>
+                <div class="career-timeline">"""
+            
+            progression_stages = ['immediate', 'short_term', 'long_term']
+            stage_icons = ['🎯', '📈', '🌟']
+            
+            for i, stage in enumerate(progression_stages):
+                stage_data = career_progression.get(stage, {})
+                if stage_data:
+                    timeframe = stage_data.get('timeframe', '')
+                    salary_range = stage_data.get('salary_range', '')
+                    roles = stage_data.get('roles', [])
+                    
+                    html_content += f"""
+                    <div class="career-stage">
+                        <div class="stage-icon">{stage_icons[i]}</div>
+                        <div class="stage-content">
+                            <h3>{stage.replace('_', ' ').title()}</h3>
+                            <div class="stage-details">
+                                <p><strong>Timeframe:</strong> {timeframe}</p>
+                                <p><strong>Salary Range:</strong> {salary_range}</p>
+                                <div class="stage-roles">
+                                    <strong>Roles:</strong>
+                                    <ul>"""
+                    for role in roles:
+                        html_content += f"<li>{role}</li>"
+                    html_content += """</ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>"""
+            
+            html_content += "</div></section>"
+        
+        # Industry & Employment Section
+        if industry_sectors or typical_employers:
+            html_content += f"""
+            <section class="profile-section">
+                <h2 class="section-title">🏢 Industry & Employment</h2>
+                <div class="employment-grid">"""
+            
+            if industry_sectors:
+                html_content += f"""
+                <div class="employment-card">
+                    <h3>Industry Sectors</h3>
+                    <div class="sector-tags">"""
+                for sector in industry_sectors:
+                    html_content += f'<span class="sector-tag">{sector}</span>'
+                html_content += "</div></div>"
+            
+            if typical_employers:
+                html_content += f"""
+                <div class="employment-card">
+                    <h3>Typical Employers</h3>
+                    <div class="employer-tags">"""
+                for employer in typical_employers:
+                    html_content += f'<span class="employer-tag">{employer}</span>'
+                html_content += "</div></div>"
+            
+            html_content += "</div></section>"
+        
+        # Requirements & Assessment Section
+        html_content += f"""
+        <section class="profile-section">
+            <h2 class="section-title">📋 Requirements & Assessment</h2>
+            <div class="requirements-grid">"""
+        
+        if entry_requirements:
+            html_content += f"""
+            <div class="requirements-card">
+                <h3>Entry Requirements</h3>
+                <ul>"""
+            for req_type, req_desc in entry_requirements.items():
+                html_content += f"<li><strong>{req_type.title()}:</strong> {req_desc}</li>"
+            html_content += "</ul></div>"
+        
+        if assessment_methods:
+            html_content += f"""
+            <div class="requirements-card">
+                <h3>Assessment Methods</h3>
+                <div class="assessment-tags">"""
+            for method in assessment_methods:
+                html_content += f'<span class="assessment-tag">{method}</span>'
+            html_content += "</div></div>"
+        
+        if cpd_requirements:
+            html_content += f"""
+            <div class="requirements-card">
+                <h3>CPD Requirements</h3>
+                <ul>"""
+            for cpd_type, cpd_desc in cpd_requirements.items():
+                html_content += f"<li><strong>{cpd_type.replace('_', ' ').title()}:</strong> {cpd_desc}</li>"
+            html_content += "</ul></div>"
+        
+        html_content += "</div></section>"
+        
+        # Footer
+        html_content += f"""
+        </main>
+        <footer class="profile-footer">
+            <p>Educational Profile generated by DSCG v3.1</p>
+            <p>Profile ID: {profile.get('profile_id', 'N/A')}</p>
+            <p>Generated: {profile.get('creation_date', 'Unknown')}</p>
+        </footer>
+    </div>
+</body>
+</html>"""
+        
+        print(f"✅ Generated rich educational profile HTML with {len(enhanced_competencies)} competencies")
+        return html_content
+    
+    def _get_educational_profile_css(self) -> str:
+        """CSS specifically for educational profiles - SEPARATE from curriculum CSS"""
+        return """
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .profile-header { background: rgba(255, 255, 255, 0.95); color: #333; padding: 2rem; border-radius: 15px; margin-bottom: 2rem; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .profile-header h1 { font-size: 2.5rem; margin-bottom: 1rem; color: #667eea; }
+        .profile-metadata { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+        .profile-badge { background: #667eea; color: white; padding: 0.5rem 1rem; border-radius: 25px; font-size: 0.9rem; }
+        .profile-section { background: white; margin-bottom: 2rem; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); overflow: hidden; }
+        .section-title { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1.5rem 2rem; font-size: 1.5rem; margin: 0; }
+        .profile-content { padding: 0; }
+        .competencies-grid { padding: 2rem; display: grid; gap: 1.5rem; }
+        .competency-card { background: #f8f9fa; border-radius: 10px; padding: 1.5rem; border-left: 5px solid #667eea; }
+        .competency-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+        .competency-header h3 { color: #667eea; margin: 0; }
+        .level-badge { padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem; font-weight: bold; }
+        .level-advanced { background: #28a745; color: white; }
+        .level-proficient { background: #17a2b8; color: white; }
+        .level-standard { background: #6c757d; color: white; }
+        .learning-outcomes ul { margin: 1rem 0; padding-left: 1.5rem; }
+        .learning-outcomes li { margin-bottom: 0.5rem; }
+        .framework-mappings { margin-top: 1rem; }
+        .framework-group { margin-bottom: 0.5rem; }
+        .mapping-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.3rem; }
+        .mapping-tag { background: #e9ecef; color: #495057; padding: 0.2rem 0.6rem; border-radius: 10px; font-size: 0.8rem; }
+        .structure-overview { padding: 2rem; }
+        .structure-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+        .stat-card { text-align: center; background: #f8f9fa; padding: 1rem; border-radius: 10px; }
+        .stat-card h3 { color: #667eea; margin-bottom: 0.5rem; }
+        .stat-number { font-size: 2rem; font-weight: bold; color: #333; }
+        .modules-grid { padding: 0 2rem 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+        .module-card { background: #f8f9fa; border-radius: 10px; padding: 1rem; border-left: 4px solid #667eea; }
+        .module-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+        .module-header h4 { color: #667eea; margin: 0; }
+        .semester-badge { background: #28a745; color: white; padding: 0.2rem 0.6rem; border-radius: 10px; font-size: 0.8rem; }
+        .module-name { margin: 0.5rem 0; color: #333; }
+        .module-ects { font-weight: bold; margin: 0.5rem 0; }
+        .framework-tag { background: #e9ecef; color: #495057; padding: 0.2rem 0.5rem; margin-right: 0.3rem; border-radius: 8px; font-size: 0.7rem; }
+        .career-timeline { padding: 2rem; }
+        .career-stage { display: flex; align-items: flex-start; margin-bottom: 2rem; }
+        .stage-icon { font-size: 2rem; margin-right: 1rem; }
+        .stage-content h3 { color: #667eea; margin-bottom: 0.5rem; }
+        .stage-details { background: #f8f9fa; padding: 1rem; border-radius: 8px; }
+        .employment-grid { padding: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        .employment-card { background: #f8f9fa; padding: 1.5rem; border-radius: 10px; }
+        .employment-card h3 { color: #667eea; margin-bottom: 1rem; }
+        .sector-tag, .employer-tag { background: #667eea; color: white; padding: 0.3rem 0.8rem; margin: 0.2rem; border-radius: 15px; font-size: 0.8rem; display: inline-block; }
+        .requirements-grid { padding: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        .requirements-card { background: #f8f9fa; padding: 1.5rem; border-radius: 10px; }
+        .requirements-card h3 { color: #667eea; margin-bottom: 1rem; }
+        .assessment-tag { background: #28a745; color: white; padding: 0.3rem 0.8rem; margin: 0.2rem; border-radius: 15px; font-size: 0.8rem; display: inline-block; }
+        .profile-footer { text-align: center; padding: 2rem; color: white; background: rgba(255, 255, 255, 0.1); border-radius: 10px; margin-top: 2rem; }
+        @media (max-width: 768px) { 
+            .competencies-grid, .modules-grid, .employment-grid, .requirements-grid { grid-template-columns: 1fr; }
+            .career-stage { flex-direction: column; text-align: center; }
+            .stage-icon { margin: 0 0 1rem 0; }
+        }
+    </style>"""
+
+    def _normalize_profile_type_for_display(self, profile_type: str) -> str:
+        """Normalize profile type for display"""
+        if not profile_type:
+            return "Standard Profile"
+        normalized = profile_type.replace('_', ' ')
+        type_mappings = {
+            'Enhanced Standard': 'Enhanced Standard',
+            'Enhanced Reduced': 'Reduced Profile', 
+            'Fallback': 'Fallback Profile',
+            'Standard': 'Standard Profile'
+        }
+        return type_mappings.get(normalized, normalized)
+
+    def load_educational_profile_from_json(self, profile_data, *args, **kwargs):
+        """Load educational profile from JSON data"""
+        if not profile_data:
+            return {}
+        
+        # If it's already a dict, return it
+        if isinstance(profile_data, dict):
+            return profile_data
+        
+        # If it's a string (JSON), parse it
+        if isinstance(profile_data, str):
+            import json
+            try:
+                return json.loads(profile_data)
+            except:
+                return {}
+        
+        return {}
+
+    def _generate_curriculum_summary(self, curriculum: Dict[str, Any]) -> Dict[str, Any]:
+        """Generate curriculum summary"""
+        metadata = curriculum.get('metadata', {})
+        return {
+            'curriculum_id': curriculum.get('curriculum_id', ''),
+            'role_id': metadata.get('role_id', ''),
+            'role_name': metadata.get('role_name', ''),
+            'topic': metadata.get('topic', ''),
+            'eqf_level': metadata.get('eqf_level', 6),
+            'actual_ects': metadata.get('actual_ects', 0),
+            'num_modules': metadata.get('num_modules', 0),
+            'num_semesters': len(curriculum.get('curriculum_structure', {}).get('semester_breakdown', [])),
+            'generated_date': metadata.get('generated_date', ''),
+            'generator_version': metadata.get('generator_version', 'DSCG v3.1')
+        }

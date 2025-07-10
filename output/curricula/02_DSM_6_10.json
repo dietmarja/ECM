@@ -1,0 +1,282 @@
+{
+  "curriculum_identification": {
+    "number": "02",
+    "id": "DSM_6_Fundamentals",
+    "title": "Digital Sustainability Fundamentals",
+    "role_title": "Digital Sustainability Manager",
+    "role_abbreviation": "DSM",
+    "formatted_title": "Digital Sustainability Manager (DSM)",
+    "eqf_level": 6,
+    "total_ects": 1.0,
+    "total_learning_units": 2,
+    "development_date": "2025-07-10T13:48:01.407959",
+    "pathway_position": "Entry learning unit in Level 6 Diploma in Digital Sustainability Management"
+  },
+  "role_profile": {
+    "title": "Digital Sustainability Manager",
+    "description": "Implementation expert who translates sustainability strategy into operational processes and oversees cross-functional teams.",
+    "focus": "Operational management and process implementation",
+    "professional_context": "This curriculum prepares learners to understand core principles of digital sustainability and develop fundamental management skills for coordinating sustainability initiatives across organisational functions. Graduates will master essential frameworks for implementing sustainability strategies, coordinating cross-functional teams, and translating sustainability objectives into operational processes. They typically manage sustainability implementation projects and serve as key coordinators between technical teams and strategic leadership.",
+    "core_tools": [
+      "Project management platforms",
+      "Stakeholder mapping tools",
+      "Process automation systems",
+      "Performance dashboards"
+    ],
+    "authentic_tasks": [
+      "Coordinate cross-functional sustainability initiatives",
+      "Implement sustainability strategies",
+      "Manage stakeholder engagement",
+      "Monitor implementation progress"
+    ]
+  },
+  "competence_frameworks_alignment": {
+    "greencomp": [
+      "2.3 Exploratory thinking",
+      "3.2 Supporting fairness",
+      "4.2 Envisioning"
+    ],
+    "ecf_detailed": {
+      "A.6": "Application Design - Level 3",
+      "C.1": "User Support - Level 3",
+      "E.2": "Project and Portfolio Management - Level 3"
+    },
+    "framework_note": "Learning outcomes are mapped directly to GreenComp and e-CF framework descriptors"
+  },
+  "target_audience": "Professionals with management responsibilities seeking foundational digital sustainability knowledge and coordination skills",
+  "learning_approach": "EQF Level 6 professional development programme with 1.0 ECTS, combining theoretical knowledge with practical application through structured learning and standardised work-based learning integration.",
+  "assessment_framework": {
+    "primary": "Management fundamentals portfolio",
+    "components": [
+      "Core concept application",
+      "Team coordination exercise",
+      "Strategic planning project"
+    ],
+    "weightings": [
+      35,
+      35,
+      30
+    ],
+    "rationale": "Fundamental management programmes focus on core concept application and practical coordination skills",
+    "wbl_component": "Workplace coordination project and stakeholder engagement"
+  },
+  "dual_education_model": {
+    "wbl_compliance": "16.0% work-based learning (exceeds minimum 20%)",
+    "model_implementation": {
+      "minimum_wbl_percentage": 20,
+      "employer_partnership": "Mandatory for all programmes",
+      "workplace_learning": "Integrated throughout curriculum",
+      "assessment_split": "70% academic, 30% workplace-based"
+    },
+    "employer_engagement": {
+      "partnership_agreements": "Formal agreements with industry partners",
+      "mentor_training": "Workplace mentor development programme",
+      "assessment_participation": "Employer involvement in competence assessment",
+      "feedback_systems": "Regular employer feedback on learning outcomes"
+    },
+    "quality_assurance": {
+      "workplace_standards": "Standardised workplace learning environments",
+      "mentor_qualifications": "Certified workplace mentors",
+      "assessment_criteria": "Unified workplace assessment standards",
+      "monitoring_systems": "Regular quality monitoring of WBL delivery"
+    }
+  },
+  "flexible_learning_pathways": {
+    "modular_design": "Learning units designed for flexible recombination",
+    "competence_catalog": "Integrated with competence-based learning unit catalog",
+    "stackability_options": "Horizontal and vertical stacking supported",
+    "pathway_flexibility": "Multiple entry and exit points available"
+  },
+  "delivery_framework": {
+    "total_contact_hours": 12,
+    "total_self_study_hours": 6,
+    "total_workplace_hours": 4,
+    "wbl_percentage": 16.0,
+    "work_based_learning": true,
+    "delivery_methods": [
+      "Classroom",
+      "Online",
+      "Workplace",
+      "Blended"
+    ],
+    "dual_principle_applicable": true
+  },
+  "learning_units": [
+    {
+      "learning_unit_number": 1,
+      "learning_unit_id": "M1",
+      "learning_unit_title": "Introduction to Digital Sustainability",
+      "learning_unit_description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+      "ects_credits": 0.5,
+      "eqf_level": 5,
+      "total_workload_hours": 12.5,
+      "contact_hours": 6,
+      "self_study_hours": 3,
+      "workplace_hours": 2,
+      "assessment_hours": 1.5,
+      "wbl_percentage": 20.0,
+      "learning_outcomes": {
+        "knowledge": "Critically evaluate stakeholder engagement approaches in introduction to digital sustainability within professional sustainability practice.",
+        "skills": "Innovate team coordination for introduction to digital sustainability implementation to support organisational sustainability objectives.",
+        "competence": "Lead initiatives in strategic implementation projects involving introduction to digital sustainability while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 3.2 Supporting fairness",
+          "skills_framework": "e-CF: User Support - Level 3",
+          "competence_framework": "e-CF: Project and Portfolio Management - Level 3"
+        }
+      },
+      "thematic_area": "Foundation",
+      "pathway_guidance": "This learning unit forms part of the Entry learning unit in Level 6 Diploma in Digital Sustainability Management",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Cross-functional project coordination",
+          "Strategy implementation projects",
+          "Stakeholder engagement initiatives"
+        ],
+        "employer_partnerships": "Large corporations, government agencies, NGOs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 16.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Introduction to Digital Sustainability",
+        "description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+        "thematic_area": "Foundation",
+        "eqf_level": 5,
+        "ects_points": 0.5,
+        "competence_category": "General Professional Competence",
+        "role_relevance": {
+          "DSL": 100,
+          "DSM": 100,
+          "DSC": 100,
+          "SBA": 100,
+          "SDD": 100,
+          "SSD": 100,
+          "DAN": 100,
+          "DSI": 100,
+          "DSE": 100,
+          "STS": 100
+        },
+        "prerequisites": [],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 5 Professional Development",
+          "General Professional Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 5 learning units",
+          "vertical_stacking": "Can progress to EQF 6 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 0.5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Foundation",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Foundation context",
+          "employer_engagement": "Employer partnership for Foundation projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 2,
+      "learning_unit_id": "M3",
+      "learning_unit_title": "Data Analytics for Sustainability",
+      "learning_unit_description": "Use data tools to derive actionable sustainability insights",
+      "ects_credits": 0.5,
+      "eqf_level": 6,
+      "total_workload_hours": 12.5,
+      "contact_hours": 6,
+      "self_study_hours": 3,
+      "workplace_hours": 2,
+      "assessment_hours": 1.5,
+      "wbl_percentage": 20.0,
+      "learning_outcomes": {
+        "knowledge": "Formulate implementation planning methodologies for data analytics for sustainability within professional sustainability practice.",
+        "skills": "Transform stakeholder facilitation in data analytics for sustainability to support organisational sustainability objectives.",
+        "competence": "Drive change in stakeholder alignment initiatives for data analytics for sustainability while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 4.2 Envisioning",
+          "skills_framework": "e-CF: Project and Portfolio Management - Level 3",
+          "competence_framework": "e-CF: Application Design - Level 3"
+        }
+      },
+      "thematic_area": "Data",
+      "pathway_guidance": "This learning unit forms part of the Entry learning unit in Level 6 Diploma in Digital Sustainability Management",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Cross-functional project coordination",
+          "Strategy implementation projects",
+          "Stakeholder engagement initiatives"
+        ],
+        "employer_partnerships": "Large corporations, government agencies, NGOs",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 16.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Data Analytics for Sustainability",
+        "description": "Use data tools to derive actionable sustainability insights",
+        "thematic_area": "Data",
+        "eqf_level": 6,
+        "ects_points": 5,
+        "competence_category": "Data & Analytics Competence",
+        "role_relevance": {
+          "DAN": 100,
+          "DSI": 100,
+          "SBA": 85,
+          "DSC": 75,
+          "DSE": 100,
+          "DSL": 70,
+          "DSM": 100,
+          "SDD": 65,
+          "SSD": 70,
+          "STS": 60
+        },
+        "prerequisites": [
+          "EQF Level 5 foundation in Data"
+        ],
+        "pathway_options": [
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 6 Professional Development",
+          "Data & Analytics Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 6 learning units",
+          "vertical_stacking": "Can progress to EQF 7 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Data",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Data context",
+          "employer_engagement": "Employer partnership for Data projects"
+        }
+      }
+    }
+  ]
+}

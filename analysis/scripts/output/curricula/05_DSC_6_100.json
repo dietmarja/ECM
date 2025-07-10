@@ -1,0 +1,105 @@
+{
+  "curriculum_identification": {
+    "number": "05",
+    "id": "DSC_6_Consultancy",
+    "title": "Digital Sustainability Consultancy",
+    "role_abbreviation": "DSC",
+    "eqf_level": 6,
+    "total_ects": 10.0,
+    "total_modules": 3,
+    "development_date": "2025-07-08T16:13:10.923496"
+  },
+  "role_profile": {
+    "title": "Digital Sustainability Consultant",
+    "description": "Advises organizations, especially SMEs, on applying digital sustainability solutions.",
+    "focus": "Advisory services and solution bridging",
+    "professional_context": "This curriculum prepares learners to provide professional consulting services and advisory support for digital sustainability transformations in diverse organizational contexts."
+  },
+  "target_audience": "Professionals seeking to develop consulting expertise for sustainability advisory roles with SMEs and organizations requiring transformation support",
+  "learning_approach": "EQF Level 6 professional development program with 10.0 ECTS, combining theoretical knowledge with practical application through structured learning and workplace integration.",
+  "assessment_framework": {
+    "primary": "Consulting competency portfolio",
+    "components": [
+      "Client assessment project",
+      "Solution design presentation",
+      "Implementation roadmap"
+    ],
+    "weightings": [
+      35,
+      40,
+      25
+    ],
+    "rationale": "Consultancy programs establish core competencies in client engagement and solution development"
+  },
+  "delivery_framework": {
+    "total_contact_hours": 100,
+    "total_self_study_hours": 86,
+    "total_workplace_hours": 62,
+    "work_based_learning": true
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "module_id": "M1",
+      "module_title": "Introduction to Digital Sustainability",
+      "module_description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+      "ects_credits": 0.5,
+      "eqf_level": 6,
+      "total_workload_hours": 12.5,
+      "contact_hours": 5,
+      "self_study_hours": 4,
+      "workplace_hours": 3,
+      "assessment_hours": 0.5,
+      "learning_outcomes": {
+        "knowledge": "Critically evaluate foundational concepts of introduction to digital sustainability and their application to professional consulting and organizational advisory services within sustainability applications.",
+        "skills": "Lead strategic professional application of introduction to digital sustainability to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Lead strategic initiatives for professional responsibilities involving introduction to digital sustainability while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Foundation"
+    },
+    {
+      "module_number": 2,
+      "module_id": "M19",
+      "module_title": "Sustainability Assessment and Benchmarking",
+      "module_description": "Evaluate organizational sustainability performance against relevant benchmarks",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 50,
+      "self_study_hours": 43,
+      "workplace_hours": 31,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Formulate analytical frameworks for sustainability assessment and benchmarking within advisory services and solution bridging contexts within sustainability applications.",
+        "skills": "Innovate professional application of sustainability assessment and benchmarking to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Influence organizational consulting engagement involving sustainability assessment and benchmarking while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Analysis"
+    },
+    {
+      "module_number": 3,
+      "module_id": "M2",
+      "module_title": "Sustainability Frameworks and Standards",
+      "module_description": "Overview of major sustainability frameworks, regulations, and standards",
+      "ects_credits": 4.5,
+      "eqf_level": 6,
+      "total_workload_hours": 112.5,
+      "contact_hours": 45,
+      "self_study_hours": 39,
+      "workplace_hours": 28,
+      "assessment_hours": 0.5,
+      "learning_outcomes": {
+        "knowledge": "Construct implementation strategies for sustainability frameworks and standards in professional consulting and organizational advisory services within sustainability applications.",
+        "skills": "Optimize management strategies for sustainability frameworks and standards to support advisory services and solution bridging in organizational contexts.",
+        "competence": "Drive change in professional responsibilities involving sustainability frameworks and standards while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Management"
+    }
+  ],
+  "recognition": {
+    "eqf_level": 6,
+    "ects_transferable": true,
+    "bologna_compliant": true,
+    "professional_recognition": "Industry recognition for Digital Sustainability Consultant competencies at EQF Level 6"
+  }
+}

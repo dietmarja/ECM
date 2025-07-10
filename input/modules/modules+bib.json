@@ -1,0 +1,399 @@
+{
+  "learning_units": [
+    {
+      "id": "LU1",
+      "name": "Introduction to Digital Sustainability",
+      "description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+      "extended_description": "This 0.5 ECTS foundational learning unit introduces digital professionals to core sustainability concepts and their intersection with technology systems. Participants will explore how digital technologies impact environmental outcomes and learn practical approaches to sustainable technology practices. Key topics include digital carbon footprinting, energy-efficient system design, sustainable software development principles, and the role of digitalization in achieving organizational sustainability goals. The learning unit combines theoretical frameworks with hands-on exercises, enabling participants to identify sustainability opportunities within digital workflows and implement environmentally responsible technology practices. Designed for developers, system administrators, IT managers, and digital professionals seeking to integrate sustainability considerations into their technical work.",
+      "topics": [
+        "Digital sustainability fundamentals and core concepts",
+        "Environmental impact assessment of digital technologies",
+        "Digital carbon footprinting methodologies and tools",
+        "Energy-efficient system design principles",
+        "Sustainable software development practices",
+        "Green computing and hardware optimization",
+        "Data center sustainability and cloud efficiency",
+        "Digital inclusion and accessibility considerations",
+        "Technology lifecycle management for sustainability",
+        "Organizational digitalization and sustainability integration"
+      ],
+      "eqf_level": 5,
+      "learning_credits": 0.5,
+      "workload_hours": 12.5,
+      "workload_breakdown": {
+        "contact_hours": 3,
+        "practical_work": 3,
+        "independent_study": 6.5
+      },
+      "progression_pathway": {
+        "leads_to": ["LU109"],
+        "prerequisite_for": ["Advanced Digital Sustainability learning units"],
+        "stackable_with": ["EU Legislation learning units", "Digital transformation learning units"]
+      },
+      "thematic_area": "Foundation",
+      "prerequisites": [],
+      "delivery_methods": [
+        "online",
+        "self-paced",
+        "hybrid"
+      ],
+      "learning_unit_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "sustainability_awareness",
+        "digital_literacy",
+        "environmental_assessment",
+        "green_computing"
+      ],
+      "is_work_based": false,
+      "dual_principle_applicable": true,
+      "is_optional": false,
+      "learning_outcomes": {
+        "tuning_framework": {
+          "subject_specific_competences": {
+            "knowledge": "Demonstrate comprehensive knowledge of digital sustainability theories, carbon footprinting methodologies, energy efficiency metrics, and lifecycle assessment frameworks as applied to technology systems.",
+            "skills": "Apply analytical tools to assess environmental impact of digital technologies using established frameworks and evaluate opportunities for sustainable technology implementation.",
+            "competences": "Integrate digital sustainability principles into organizational contexts, designing energy-efficient systems and implementing practices that achieve measurable environmental improvements."
+          },
+          "generic_competences": [
+            "Critical thinking and analysis",
+            "Communication skills (oral and written)",
+            "Digital literacy and information management",
+            "Ethical reasoning and responsibility"
+          ]
+        },
+        "legacy_format": {
+          "knowledge": "Identify and categorize fundamental digital sustainability concepts including carbon footprinting methodologies, energy efficiency metrics, and lifecycle assessment frameworks as applied to technology systems and organizational workflows.",
+          "understanding": "Analyze the quantifiable environmental impact of digital technologies using established assessment frameworks and evaluate opportunities for sustainable technology implementation within specific organizational contexts.",
+          "skills": "Calculate digital carbon footprints using industry-standard tools, design energy-efficient system architectures, and implement sustainable software development practices that measurably reduce environmental impact by at least 15%."
+        }
+      },
+      "micro_credentials": {
+        "knowledge_micro_credential": "LU1_lo_1",
+        "understanding_micro_credential": "LU1_lo_2",
+        "skills_micro_credential": "LU1_lo_3",
+        "european_approach_compliant": true,
+        "digital_verification": true,
+        "blockchain_verified": true
+      },
+      "assessment_method": {
+        "primary_method": "multiple_assessment",
+        "components": [
+          {
+            "type": "formative_quizzes",
+            "description": "Weekly knowledge checks with immediate feedback",
+            "learning_outcomes": ["LO1"],
+            "percentage": 20,
+            "timing": "Weeks 1-2"
+          },
+          {
+            "type": "practical_portfolio",
+            "description": "Carbon footprint calculation and system design exercises",
+            "learning_outcomes": ["LO2", "LO3"],
+            "percentage": 40,
+            "timing": "Week 2"
+          },
+          {
+            "type": "presentation",
+            "description": "Individual presentation on sustainability implementation strategy",
+            "learning_outcomes": ["LO1", "LO2", "LO3"],
+            "percentage": 40,
+            "timing": "Week 2"
+          }
+        ],
+        "alternative_formats": true,
+        "accessibility_provisions": true
+      },
+      "framework_alignment": {
+        "EQF": 5,
+        "EQF_descriptors": {
+          "knowledge": "Comprehensive, specialized knowledge within digital sustainability field with awareness of knowledge boundaries",
+          "skills": "Comprehensive range of cognitive and practical skills required to develop creative solutions to abstract sustainability problems",
+          "responsibility": "Exercise management and supervision in work or study contexts where there is unpredictable change"
+        },
+        "GreenComp": ["1.1 Embodying sustainability values", "1.3 Reflecting on sustainability", "2.1 Political agency", "3.2 Critical thinking"],
+        "eCF": ["A.1 IS and Business Strategy", "B.2 Component Integration", "C.4 Problem Management", "D.10 User Needs Analysis"]
+      },
+      "role_relevance": {
+        "DSL": 100,
+        "DSM": 100,
+        "DSC": 100,
+        "SBA": 100,
+        "SDD": 100,
+        "SSD": 100,
+        "DAN": 100,
+        "DSI": 100,
+        "DSE": 100,
+        "STS": 100
+      },
+      "institutional_framework": {
+        "issuing_institutions": [
+          "National College of Ireland"
+        ],
+        "awarding_bodies": [
+          "Digital4Sustainability Alliance"
+        ],
+        "recognition_scope": "european",
+        "learning_unit_coordinator": {
+          "name": "Dr. Sarah Mitchell",
+          "title": "Digital Sustainability Program Director",
+          "institution": "National College of Ireland"
+        },
+        "credit_transfer": {
+          "ehea_compatible": true,
+          "ects_transferable": true,
+          "recognition_procedures": "automatic_within_alliance"
+        }
+      },
+      "quality_assurance": {
+        "standards_compliance": [
+          "EQAVET",
+          "Foundation_Level",
+          "Green_Computing_Standards",
+          "European_Approach_Microcredentials_2022"
+        ],
+        "external_validation": true,
+        "stakeholder_feedback": true,
+        "processes": {
+          "internal_review": "Learning unit team and external examiner review",
+          "student_feedback": "Mid-learning unit and end-of-learning unit standardized evaluation",
+          "annual_review": "Incorporating student feedback and learning analytics",
+          "peer_review": "Teaching materials reviewed by partner institutions",
+          "digital_verification": "European blockchain infrastructure"
+        }
+      },
+      "language_support": {
+        "primary_language": "English",
+        "additional_support": "Language support available for international students through partner institutions"
+      },
+      "references": {
+        "recommended_resources": [
+          "Bordage, F. (2019). Green IT: The challenge of sustainable computing. EcoGuide IT.",
+          "European Commission. (2019). A European Green Deal for Europe. European Commission.",
+          "European Commission. (2022). DigComp 2.2: The digital competence framework for citizens. Publications Office of the European Union.",
+          "Freitag, C., Berners-Lee, M., Widdicks, K., Knowles, B., Blair, G. S., & Friday, A. (2021). The real climate and transformative impact of ICT: A critique of estimates, trends, and regulations. Patterns, 2(9), 100340.",
+          "Hilty, L. M., & Aebischer, B. (2015). ICT innovations for sustainability. Springer.",
+          "Murugesan, S. (2008). Harnessing Green IT: Principles and practices. IEEE IT Professional, 10(1), 24-33.",
+          "Penzenstadler, B. (2020). Foundations of green software engineering. In Green software engineering (pp. 1-42). Academic Press.",
+          "United Nations. (2015). Transforming our world: The 2030 agenda for sustainable development. United Nations General Assembly."
+        ],
+        "supplementary_resources": [
+          "Capra, E., & Merlo, F. (2009). Green IT: Everything starts from the software. In ECIS 2009 Proceedings.",
+          "CEN-CENELEC. (2016). European e-Competence Framework (e-CF) 3.0. CEN Workshop Agreement.",
+          "The Shift Project. (2019). Climate crisis: The unsustainable use of online video. The Shift Project.",
+          "World Commission on Environment and Development. (1987). Our common future (Brundtland Report). Oxford University Press."
+        ]
+      }
+    },
+    {
+      "id": "LU109",
+      "name": "Introduction to EU Sustainability Legislation",
+      "description": "Practical knowledge of European Union sustainability regulations affecting business operations",
+      "extended_description": "This 1 ECTS learning unit provides professionals with practical knowledge of European Union sustainability regulations affecting business operations. Participants will examine key legislation including the Corporate Sustainability Reporting Directive (CSRD), Sustainable Finance Disclosure Regulation (SFDR), EU Taxonomy Regulation, and related digital sustainability requirements. The learning unit covers essential compliance frameworks, materiality assessment processes, and reporting obligations through structured learning activities. Designed for self-paced learning, it serves sustainability managers, business analysts, consultants, and professionals who need to understand regulatory requirements and implementation strategies. Upon completion, participants will be equipped to support organizational compliance efforts and navigate the evolving EU regulatory landscape.",
+      "topics": [
+        "Corporate Sustainability Reporting Directive (CSRD) fundamentals",
+        "Sustainable Finance Disclosure Regulation (SFDR) requirements",
+        "EU Taxonomy Regulation classification systems",
+        "Digital sustainability regulatory framework",
+        "Compliance framework implementation strategies",
+        "Materiality assessment methodologies",
+        "Reporting obligations and timeline management",
+        "Cross-regulatory compliance coordination",
+        "Organizational readiness assessment techniques",
+        "Implementation project planning and execution"
+      ],
+      "eqf_level": 5,
+      "learning_credits": 1,
+      "workload_hours": 25,
+      "workload_breakdown": {
+        "contact_hours": 6,
+        "practical_work": 6,
+        "independent_study": 13
+      },
+      "progression_pathway": {
+        "builds_on": ["LU1"],
+        "leads_to": ["Advanced EU compliance learning units"],
+        "stackable_with": ["Digital sustainability learning units", "Business compliance learning units"]
+      },
+      "thematic_area": "EU Legislation",
+      "prerequisites": [
+        "Basic understanding of business operations and organizational structure",
+        "Awareness of European Union institutional framework and legislative processes",
+        "Familiarity with sustainability concepts and corporate reporting principles",
+        "Completion of Introduction to Digital Sustainability (LU1) or equivalent competences"
+      ],
+      "delivery_methods": [
+        "online",
+        "self-paced",
+        "blended"
+      ],
+      "learning_unit_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "regulatory_compliance",
+        "policy_interpretation",
+        "materiality_assessment",
+        "compliance_planning"
+      ],
+      "is_work_based": false,
+      "dual_principle_applicable": true,
+      "is_optional": false,
+      "learning_outcomes": {
+        "tuning_framework": {
+          "subject_specific_competences": {
+            "knowledge": "Demonstrate comprehensive, specialized knowledge of EU sustainability legislation (CSRD, SFDR, EU Taxonomy) including regulatory frameworks, compliance obligations, and interconnections between directives within defined boundaries.",
+            "skills": "Apply analytical frameworks to complex regulatory scenarios, develop creative compliance solutions, and synthesize cost-benefit assessments for organizational decision-making within established parameters.",
+            "competences": "Design and implement comprehensive compliance strategies that integrate multiple regulatory requirements and demonstrate organizational regulatory readiness, managing complex activities in unpredictable regulatory environments."
+          },
+          "generic_competences": [
+            "Analytical and critical thinking within specialized domains",
+            "Strategic planning and project coordination",
+            "Professional communication and stakeholder engagement",
+            "Regulatory reasoning and risk assessment",
+            "Team management in specialized contexts"
+          ]
+        },
+        "legacy_format": {
+          "knowledge": "Distinguish between CSRD, SFDR, and EU Taxonomy requirements, identifying specific compliance obligations, reporting timelines, and materiality thresholds applicable to organizations of different sizes and sectors.",
+          "understanding": "Evaluate the strategic implications of EU sustainability legislation for business operations, including cost-benefit analysis of compliance approaches and assessment of regulatory risk exposure.",
+          "skills": "Develop comprehensive compliance implementation plans including materiality assessment matrices, stakeholder engagement protocols, and monitoring frameworks that demonstrate organizational regulatory readiness within 12-month implementation timelines."
+        }
+      },
+      "micro_credentials": {
+        "knowledge_micro_credential": "LU109_lo_1",
+        "understanding_micro_credential": "LU109_lo_2",
+        "skills_micro_credential": "LU109_lo_3",
+        "european_approach_compliant": true,
+        "digital_verification": true,
+        "blockchain_verified": true,
+        "professional_certification_pathway": true
+      },
+      "assessment_method": {
+        "primary_method": "multiple_assessment",
+        "components": [
+          {
+            "type": "case_study_analysis",
+            "description": "Written analysis of regulatory compliance scenario",
+            "learning_outcomes": ["LO1", "LO2"],
+            "percentage": 30,
+            "timing": "Week 2"
+          },
+          {
+            "type": "portfolio",
+            "description": "Comprehensive compliance implementation plan with supporting documentation",
+            "learning_outcomes": ["LO1", "LO2", "LO3"],
+            "percentage": 50,
+            "timing": "Week 4"
+          },
+          {
+            "type": "oral_examination",
+            "description": "Viva voce on regulatory strategy and implementation",
+            "learning_outcomes": ["LO2", "LO3"],
+            "percentage": 20,
+            "timing": "Week 4"
+          }
+        ],
+        "alternative_formats": true,
+        "accessibility_provisions": true,
+        "resit_opportunities": {
+          "available": true,
+          "timeline": "6 months"
+        }
+      },
+      "framework_alignment": {
+        "EQF": 5,
+        "EQF_descriptors": {
+          "knowledge": "Comprehensive, specialized knowledge within EU sustainability legislation with awareness of knowledge boundaries",
+          "skills": "Comprehensive range of cognitive and practical skills required to develop creative solutions to abstract regulatory problems",
+          "responsibility": "Exercise management and supervision in contexts where there is unpredictable change in regulatory environments"
+        },
+        "GreenComp": ["1.1 Embodying sustainability values", "2.3 Sustainability literacy", "4.2 Critical evaluation", "4.3 Initiative taking"],
+        "eCF": ["A.2 Service Level Management", "A.4 Product/Service Planning", "E.3 Risk Management", "E.6 IT Quality Management"]
+      },
+      "role_relevance": {
+        "DSL": 80,
+        "DSM": 95,
+        "DSC": 90,
+        "SBA": 100,
+        "SDD": 70,
+        "SSD": 65,
+        "DAN": 85,
+        "DSI": 75,
+        "DSE": 70,
+        "STS": 75
+      },
+      "institutional_framework": {
+        "issuing_institutions": [
+          "National College of Ireland",
+          "Universidad de Alcala",
+          "Stichting Hogeschool Utrecht"
+        ],
+        "awarding_bodies": [
+          "Digital4Sustainability Alliance"
+        ],
+        "recognition_scope": "european",
+        "learning_unit_coordinator": {
+          "name": "Prof. Elena Rodriguez",
+          "title": "EU Law & Sustainability",
+          "institution": "Universidad de Alcalá"
+        },
+        "credit_transfer": {
+          "ehea_compatible": true,
+          "ects_transferable": true,
+          "recognition_procedures": "automatic_within_alliance"
+        }
+      },
+      "quality_assurance": {
+        "standards_compliance": [
+          "EQF_Annex_IV",
+          "EU_Legislative_Framework",
+          "CSRD",
+          "SFDR",
+          "EU_Taxonomy",
+          "European_Approach_Microcredentials_2022"
+        ],
+        "external_validation": true,
+        "stakeholder_feedback": true,
+        "processes": {
+          "internal_review": "Multi-partner quality review process with rotating external examination",
+          "student_feedback": "Standardized evaluation forms and focus groups",
+          "annual_review": "Student outcomes analysis and employer feedback integration",
+          "peer_review": "Cross-institutional review of teaching materials and assessment standards",
+          "digital_verification": "European blockchain infrastructure",
+          "professional_validation": "Professional body liaison for industry relevance"
+        }
+      },
+      "language_support": {
+        "primary_language": "English",
+        "additional_languages": {
+          "spanish": "Spanish materials available through Universidad de Alcalá",
+          "dutch": "Dutch materials available through Stichting Hogeschool Utrecht"
+        },
+        "multilingual_support": true
+      },
+      "references": {
+        "recommended_resources": [
+          "EFRAG. (2023). European Sustainability Reporting Standards (ESRS). European Financial Reporting Advisory Group.",
+          "ESMA. (2022). Technical regulatory standards under SFDR. European Securities and Markets Authority.",
+          "European Commission. (2019). Regulation (EU) 2019/2088 on sustainability‐related disclosures in the financial services sector (SFDR). Official Journal of the European Union.",
+          "European Commission. (2020). Regulation (EU) 2020/852 on the establishment of a framework to facilitate sustainable investment (EU Taxonomy Regulation). Official Journal of the European Union.",
+          "European Commission. (2022). Directive (EU) 2022/2464 on corporate sustainability reporting (CSRD). Official Journal of the European Union.",
+          "United Nations. (2015). Transforming our world: The 2030 agenda for sustainable development. United Nations General Assembly."
+        ],
+        "supplementary_resources": [
+          "Adams, C. A., Muir, S., & Hoque, Z. (2014). Measurement of sustainability performance in the public sector. Sustainability Accounting, Management and Policy Journal, 5(1), 46-67.",
+          "CEN-CENELEC. (2016). European e-Competence Framework (e-CF) 3.0. CEN Workshop Agreement.",
+          "Deloitte. (2023). CSRD implementation guide for organizations. Deloitte Touche Tohmatsu Limited.",
+          "EY. (2023). EU Taxonomy: Practical implementation guidance. Ernst & Young Global Limited.",
+          "KPMG. (2022). The CSRD: A comprehensive guide for businesses. KPMG International Limited.",
+          "PwC. (2023). SFDR compliance: From regulation to implementation. PricewaterhouseCoopers International Limited.",
+          "World Commission on Environment and Development. (1987). Our common future (Brundtland Report). Oxford University Press."
+        ]
+      }
+    }
+  ]
+}

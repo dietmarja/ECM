@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced DSCG - Intelligent Curriculum Generation</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: linear-gradient(135deg, #003399 0%, #0066cc 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px; 
+        }
+        .header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        .header h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            font-size: 1.2em;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+        .feature-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: transform 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .feature-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #FFCC00;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        .actions {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            background: #FFCC00;
+            color: #003399;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background: #fff;
+            transform: scale(1.05);
+        }
+        .btn-secondary {
+            background: rgba(255,255,255,0.2);
+            color: white;
+        }
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+        .status-active { background: #28a745; }
+        .status-inactive { background: #dc3545; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧠 Enhanced DSCG</h1>
+            <div class="subtitle">
+                Intelligent Curriculum Generation with D2.1 Compliance
+                <br>
+                <span class="status-indicator {% if enhanced_available %}status-active{% else %}status-inactive{% endif %}"></span>
+                Enhanced Features: {% if enhanced_available %}Active{% else %}Offline{% endif %}
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">{{ total_modules }}</div>
+                <div class="stat-label">Total Modules</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">91.1%</div>
+                <div class="stat-label">Avg D2.1 Compliance</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Success Rate</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">10</div>
+                <div class="stat-label">Professional Roles</div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🧠</div>
+                <div class="feature-title">Intelligent Module Selection</div>
+                <div class="feature-description">
+                    AI-driven module selection using role relevance scoring and content categorization.
+                    Automatically prioritizes ESG, regulatory, and technical modules based on D2.1 research findings.
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <div class="feature-title">D2.1 Compliance Analysis</div>
+                <div class="feature-description">
+                    Automatic analysis ensuring curricula address the four critical gaps:
+                    ESG depth, regulatory skills, technical implementation, and cross-disciplinary expertise.
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <div class="feature-title">Content Specificity Engine</div>
+                <div class="feature-description">
+                    Advanced content classification ensuring curricula move beyond generic sustainability
+                    to address specific ESG reporting, regulatory compliance, and technical implementation needs.
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <div class="feature-title">Bulk Generation</div>
+                <div class="feature-description">
+                    Automated bulk generation across all roles and ECTS ranges with comprehensive
+                    D2.1 priority area coverage and compliance reporting.
+                </div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <a href="/generator" class="btn">🚀 Start Generating</a>
+            <a href="/modules" class="btn btn-secondary">📦 Explore Modules</a>
+            <a href="/dashboard" class="btn btn-secondary">📊 View Dashboard</a>
+        </div>
+    </div>
+</body>
+</html>

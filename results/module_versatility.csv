@@ -1,0 +1,91 @@
+module_id,module_name,thematic_area,versatility_score,consistency_score,excellent_frameworks,good_frameworks,versatility_class
+M1,Introduction to Digital Sustainability,General,0.08866748249656176,0.8917016200998736,0,0,Specialized
+M10,Circular Economy and Lifecycle Thinking,General,0.0377671039103607,0.9577289986311034,0,0,Specialized
+M11,Big Data for Environmental Intelligence,Data,0.07377283631999278,0.9533761413279279,0,0,Specialized
+M12,Advanced Visualisation for Sustainability Reporting,Data,0.03373851289088925,0.9725280194695751,0,0,Specialized
+M13,Low-Carbon Cloud Infrastructure,Technical Implementation,0.025025185863562022,0.9555588687943185,0,0,Specialized
+M14,Sustainable Digital Transformation Strategy,General,0.08148396479929283,0.9132741648760977,0,0,Specialized
+M15,Applied Ethics in AI for Sustainability,Ethics & Governance,0.02301789763644026,0.9709656340664309,0,0,Specialized
+M16,DevOps and Sustainable Deployment,Technical Implementation,0.038748931064264414,0.9620751551207015,0,0,Specialized
+M17,Digital Circular Business Models,General,0.0945660228578163,0.8922301982500139,0,0,Specialized
+M18,AI-Driven Environmental Risk Modelling,Data,0.04482747085544686,0.9523544275843487,0,0,Specialized
+M19,Sustainability Assessment and Benchmarking,Analysis,0.029205900389617838,0.9613800654372551,0,0,Specialized
+M2,Sustainability Frameworks and Standards,Management,0.034421915396340576,0.9765389692201867,0,0,Specialized
+M20,Data Ethics and Governance in Practice,Data,0.08857397178148088,0.9478011563384707,0,0,Specialized
+M21,Energy-Efficient Software Architecture,Technical Implementation,0.035755896142797436,0.9619883719300014,0,0,Specialized
+M22,Sustainable ICT Procurement and Policy,Management,0.042881744125449574,0.9614738730831149,0,0,Specialized
+M23,Digital Twin and Smart Systems for Green Transition,Technical Implementation,0.0840187034719188,0.8953161271189815,0,0,Specialized
+M24,Collaborative Tools for Green Innovation,Analysis,0.08287629403350694,0.955605677474201,0,0,Specialized
+M25,Digital Sustainability in SMEs,Management,0.07552138070971219,0.9097747611155622,0,0,Specialized
+M26,AI for Sustainable Decision-Making,Data,0.03705391554342913,0.9782393162018611,0,0,Specialized
+M27,Green IT Service Management,Management,0.029988064964267074,0.966301819381314,0,0,Specialized
+M28,Strategic Digital Sustainability Leadership,Management,0.09217991302198722,0.8965130379358245,0,0,Specialized
+M29,Blockchain for Sustainability Traceability,Technical Implementation,0.04168776424404277,0.9586691438389944,0,0,Specialized
+M3,Data Analytics for Sustainability,Data,0.054282790893145486,0.9629100328710378,0,0,Specialized
+M30,Human-Centered Design for Sustainable Tech,Analysis,0.08511289667456966,0.9326749357714197,0,0,Specialized
+M31,Introduction to Digital Sustainability,Technical Implementation,0.02558575936185379,0.9775911794728307,0,0,Specialized
+M32,Sustainable IT Strategy,Management,0.04429731676152177,0.9764388764180851,0,0,Specialized
+M33,Green Software Engineering,Technical Implementation,0.08063028961156594,0.9376795734681797,0,0,Specialized
+M34,Industry Collaboration Project,Management,0.026187619984593936,0.9625303100248003,0,0,Specialized
+M35,Sustainable IT Consultancy,Management,0.018126716769966626,0.983901599305219,0,0,Specialized
+M36,Eco-design for Digital Products,Technical Implementation,0.09463525469422342,0.9163953115664194,0,0,Specialized
+M37,Net-Zero IT Infrastructure,Technical Implementation,0.034399724394069395,0.9768419181502109,0,0,Specialized
+M38,Introduction to Green IT,Technical Implementation,0.02939604368383229,0.9645310505474816,0,0,Specialized
+M39,Sustainable IT for Small Organizations,Technical Implementation,0.02558575936185379,0.9775911794728307,0,0,Specialized
+M4,Machine Learning and Predictive Modeling,Data,0.043187685103587045,0.9600384271025081,0,0,Specialized
+M40,Advanced Sustainability Impact Assessment Methods,Analysis,0.029800089923751383,0.9730631196885509,0,0,Specialized
+M41,Green Blockchain Applications,Technical Implementation,0.018285851982106343,0.9803049863003773,0,0,Specialized
+M42,Sector-specific Green IT Applications,Technical Implementation,0.024340428580592533,0.9961834885578992,0,0,Specialized
+M43,Circular Economy Digital Applications,Analysis,0.08412188921120937,0.8929477313949271,0,0,Specialized
+M44,Advanced Sustainability Impact Assessment,Analysis,0.0658133323046745,0.9214716914018439,0,0,Specialized
+M45,Big Data for Environmental Intelligence (EQF 4 Version),Data,0.07377283631999278,0.9533761413279279,0,0,Specialized
+M46,Sustainable Business Models for Digital Companies (EQF 4 Version),General,0.055651387158556644,0.9640745395402117,0,0,Specialized
+M47,Applied Ethics in AI for Sustainability (EQF 5 Version),Ethics & Governance,0.02301789763644026,0.9709656340664309,0,0,Specialized
+M48,AI for Sustainable Decision-Making (EQF 8 Version),Data,0.03705391554342913,0.9782393162018611,0,0,Specialized
+M49,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version),General,0.06777112642131923,0.947293943526317,0,0,Specialized
+M5,Sustainable Software Engineering,Technical Implementation,0.033954826007896045,0.9702176899898445,0,0,Specialized
+M50,Advanced Sustainability Impact Assessment Methods,Analysis,0.029800089923751383,0.9730631196885509,0,0,Specialized
+M51,AI for Sustainable Decision-Making (EQF 8 Version) - Duplicate,Data,0.03705391554342913,0.9782393162018611,0,0,Specialized
+M52,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Duplicate,General,0.06777112642131923,0.947293943526317,0,0,Specialized
+M53,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Triple Duplicate,General,0.06777112642131923,0.947293943526317,0,0,Specialized
+M54,Digital Sustainability Policy Development,Management,0.07321495569109557,0.9125737847494034,0,0,Specialized
+M55,Global Climate Technology Governance,Management,0.05532478981880308,0.9535618593604087,0,0,Specialized
+M56,Green Finance and Sustainable Investment,Management,0.03789020768406242,0.9687035451560309,0,0,Specialized
+M57,Sustainability Economics and Market Mechanisms,Management,0.042497833850411074,0.9655677161279138,0,0,Specialized
+M58,Public Engagement and Science Communication,Management,0.03891041704807834,0.968156700746397,0,0,Specialized
+M59,Digital Storytelling for Sustainability Impact,Management,0.059846369353662686,0.9408626716007338,0,0,Specialized
+M6,Systems Architecture for Sustainability,Technical Implementation,0.06395027053278458,0.9505070899156923,0,0,Specialized
+M60,Systematic Innovation for Sustainability Challenges,Technical Implementation,0.051911641080956396,0.9579374264324112,0,0,Specialized
+M61,Technology Assessment for Sustainability,Technical Implementation,0.06838993062332667,0.964202437178533,0,0,Specialized
+M62,Digital Health for Planetary Health,Technical Implementation,0.06658944408720023,0.9132957156870769,0,0,Specialized
+M63,Smart Manufacturing and Industry 4.0 Sustainability,Technical Implementation,0.058352280558594406,0.9566295494281178,0,0,Specialized
+M64,Behavioral Insights for Sustainability Transformation,Management,0.038492916470239634,0.9603664748119374,0,0,Specialized
+M65,Community-Based Participatory Sustainability Research,Management,0.04690224890621448,0.9488183216496547,0,0,Specialized
+M66,ESG Reporting and Compliance Framework,Management,0.04311613263358095,0.9743087081634678,0,0,Specialized
+M67,Digital Sustainability Legislation and Policy,Management,0.08839933043779731,0.9140059382790262,0,0,Specialized
+M68,Regulatory Technology (RegTech) for Sustainability,Data,0.038965813294765325,0.9670281982579829,0,0,Specialized
+M69,Sustainable IT Operations and DevOps,Technical Implementation,0.0394336602341016,0.9764563221442852,0,0,Specialized
+M7,Ethics and Governance in Digital Innovation,Ethics & Governance,0.056769958474585526,0.9578714052145195,0,0,Specialized
+M70,ICT Energy Consumption and Carbon Footprint Management,Technical Implementation,0.0270418994744518,0.9773433920460165,0,0,Specialized
+M71,Green Software Development Practices,Software Development,0.047548233019581755,0.9610498568914533,0,0,Specialized
+M72,Sustainability Data Engineering and Architecture,Data,0.09026539759862502,0.9448409602886743,0,0,Specialized
+M73,Business-Technical Sustainability Bridge,Business Analysis,0.053726493037829594,0.9660032174991773,0,0,Specialized
+M74,Sustainability Data Science and Predictive Analytics,Data,0.07511078060639174,0.9414781423821029,0,0,Specialized
+M8,Work-based Sustainability Project,Management,0.10177358079955909,0.9008328697436006,0,0,Specialized
+M89,ESG Reporting Essentials,ESG & Compliance,0.03942499207323131,0.9653053208395252,0,0,Specialized
+M9,Technical Implementation and Tool Support,Technical Implementation,0.030875988600859567,0.9666061283803397,0,0,Specialized
+M90,Sustainability Data Fundamentals,Data & Analytics,0.07094112787087181,0.9470170603252983,0,0,Specialized
+M91,Green ICT Principles,Technical Implementation,0.06890919153011058,0.9536187612830942,0,0,Specialized
+OM1,Digital Sustainability Fundamentals,General,0.0899904080743401,0.8905168348736077,0,0,Specialized
+OM10,Advanced Sustainability Impact Assessment Methods,Analysis,0.029800089923751383,0.9730631196885509,0,0,Specialized
+OM2,Sustainable IT Strategy,Management,0.04429731676152177,0.9764388764180851,0,0,Specialized
+OM3,Green Software Engineering,Technical Implementation,0.08063028961156594,0.9376795734681797,0,0,Specialized
+OM4,Industry Collaboration Project,Management,0.026187619984593936,0.9625303100248003,0,0,Specialized
+OM5,Sustainable IT Consultancy,Management,0.018126716769966626,0.983901599305219,0,0,Specialized
+OM6,Eco-design for Digital Products,Technical Implementation,0.09463525469422342,0.9163953115664194,0,0,Specialized
+OM7,Net-Zero IT Infrastructure,Technical Implementation,0.034399724394069395,0.9768419181502109,0,0,Specialized
+OM8,Introduction to Green IT,Technical Implementation,0.02939604368383229,0.9645310505474816,0,0,Specialized
+OM9,Sustainable IT for Small Organizations,Technical Implementation,0.02558575936185379,0.9775911794728307,0,0,Specialized
+M92,Digital Sustainability Foundation,Foundation,0.0927543035663353,0.8977402950699708,0,0,Specialized
+M93,Digital Inclusion and Social Sustainability,Social Sustainability,0.08267784597927201,0.9293215932971793,0,0,Specialized
+M94,Circular Economy for Digital Systems,Circular Economy,0.10443459497110394,0.9175949459797521,0,0,Specialized

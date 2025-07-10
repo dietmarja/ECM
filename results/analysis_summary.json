@@ -1,0 +1,86 @@
+{
+  "analysis_date": "2025-07-03T20:44:56.270134",
+  "total_modules": 90,
+  "total_frameworks": 7,
+  "versatility_statistics": {
+    "total_modules": 90,
+    "highly_versatile": 0,
+    "versatile": 0,
+    "moderately_versatile": 0,
+    "specialized": 90,
+    "avg_versatility": 0.0535631158042439,
+    "most_versatile": "M94"
+  },
+  "framework_statistics": {
+    "ESCO": {
+      "avg_quality": 0.08139552730643461,
+      "std_quality": 0.03728680158296273,
+      "excellent_modules": 0,
+      "good_modules": 0,
+      "moderate_modules": 0,
+      "poor_modules": 90,
+      "best_module": "M74",
+      "worst_module": "M13"
+    },
+    "CS2023": {
+      "avg_quality": 0.06518900799177912,
+      "std_quality": 0.041842265200692896,
+      "excellent_modules": 0,
+      "good_modules": 0,
+      "moderate_modules": 0,
+      "poor_modules": 90,
+      "best_module": "M33",
+      "worst_module": "M34"
+    },
+    "DigComp": {
+      "avg_quality": 0.09258414018791244,
+      "std_quality": 0.11318008498040254,
+      "excellent_modules": 0,
+      "good_modules": 0,
+      "moderate_modules": 15,
+      "poor_modules": 75,
+      "best_module": "M17",
+      "worst_module": "M13"
+    },
+    "EQF": {
+      "avg_quality": 0.03307654050637022,
+      "std_quality": 0.02688371122748555,
+      "excellent_modules": 0,
+      "good_modules": 0,
+      "moderate_modules": 0,
+      "poor_modules": 90,
+      "best_module": "M65",
+      "worst_module": "M1"
+    },
+    "e_CF": {
+      "avg_quality": 0.04974389482940606,
+      "std_quality": 0.0383897576563718,
+      "excellent_modules": 0,
+      "good_modules": 0,
+      "moderate_modules": 0,
+      "poor_modules": 90,
+      "best_module": "M6",
+      "worst_module": "M12"
+    },
+    "ONET": {
+      "avg_quality": 0.023147756628174004,
+      "std_quality": 0.02811531257073937,
+      "excellent_modules": 0,
+      "good_modules": 0,
+      "moderate_modules": 0,
+      "poor_modules": 90,
+      "best_module": "M20",
+      "worst_module": "M15"
+    },
+    "PMBOK": {
+      "avg_quality": 0.029804943179630804,
+      "std_quality": 0.038587580353700905,
+      "excellent_modules": 0,
+      "good_modules": 0,
+      "moderate_modules": 1,
+      "poor_modules": 89,
+      "best_module": "M8",
+      "worst_module": "M13"
+    }
+  }
+}

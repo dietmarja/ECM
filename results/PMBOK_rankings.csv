@@ -1,0 +1,91 @@
+rank,module_id,module_name,quality_score,suitability
+1,M8,Work-based Sustainability Project,0.32023895344693537,Moderate
+2,M58,Public Engagement and Science Communication,0.10240211614484858,Poor
+3,M24,Collaborative Tools for Green Innovation,0.08950190319416344,Poor
+4,M46,Sustainable Business Models for Digital Companies (EQF 4 Version),0.08950190319416344,Poor
+5,M73,Business-Technical Sustainability Bridge,0.0871855532630564,Poor
+6,M60,Systematic Innovation for Sustainability Challenges,0.08272586796539201,Poor
+7,M18,AI-Driven Environmental Risk Modelling,0.07776746717303244,Poor
+8,M33,Green Software Engineering,0.07155468169722087,Poor
+9,OM3,Green Software Engineering,0.07155468169722087,Poor
+10,M22,Sustainable ICT Procurement and Policy,0.0670272792647367,Poor
+11,M4,Machine Learning and Predictive Modeling,0.06246618759059739,Poor
+12,M17,Digital Circular Business Models,0.0593923100044827,Poor
+13,M90,Sustainability Data Fundamentals,0.04320377917060149,Poor
+14,M28,Strategic Digital Sustainability Leadership,0.04252320150929591,Poor
+15,M26,AI for Sustainable Decision-Making,0.042238090384510575,Poor
+16,M48,AI for Sustainable Decision-Making (EQF 8 Version),0.042238090384510575,Poor
+17,M51,AI for Sustainable Decision-Making (EQF 8 Version) - Duplicate,0.042238090384510575,Poor
+18,M9,Technical Implementation and Tool Support,0.04180659865450488,Poor
+19,M61,Technology Assessment for Sustainability,0.03955483149487523,Poor
+20,M69,Sustainable IT Operations and DevOps,0.0376836518928494,Poor
+21,M94,Circular Economy for Digital Systems,0.035465072067286746,Poor
+22,M32,Sustainable IT Strategy,0.0309657898986745,Poor
+23,OM2,Sustainable IT Strategy,0.0309657898986745,Poor
+24,M16,DevOps and Sustainable Deployment,0.029350572855126995,Poor
+25,M7,Ethics and Governance in Digital Innovation,0.02737188255028698,Poor
+26,M6,Systems Architecture for Sustainability,0.027371882550286972,Poor
+27,M31,Introduction to Digital Sustainability,0.026218087045717514,Poor
+28,M34,Industry Collaboration Project,0.026218087045717514,Poor
+29,M39,Sustainable IT for Small Organizations,0.026218087045717514,Poor
+30,OM4,Industry Collaboration Project,0.026218087045717514,Poor
+31,OM9,Sustainable IT for Small Organizations,0.026218087045717514,Poor
+32,M19,Sustainability Assessment and Benchmarking,0.02577639581302501,Poor
+33,M40,Advanced Sustainability Impact Assessment Methods,0.025776395813025006,Poor
+34,M50,Advanced Sustainability Impact Assessment Methods,0.025776395813025006,Poor
+35,OM10,Advanced Sustainability Impact Assessment Methods,0.025776395813025006,Poor
+36,M12,Advanced Visualisation for Sustainability Reporting,0.025313936238602144,Poor
+37,M5,Sustainable Software Engineering,0.02530350261389016,Poor
+38,M10,Circular Economy and Lifecycle Thinking,0.024430891951209045,Poor
+39,M42,Sector-specific Green IT Applications,0.024430891951209045,Poor
+40,M3,Data Analytics for Sustainability,0.02411755352743584,Poor
+41,M43,Circular Economy Digital Applications,0.0240271310931365,Poor
+42,M2,Sustainability Frameworks and Standards,0.023987533452253875,Poor
+43,M67,Digital Sustainability Legislation and Policy,0.023987533452253875,Poor
+44,M68,Regulatory Technology (RegTech) for Sustainability,0.023987533452253875,Poor
+45,M23,Digital Twin and Smart Systems for Green Transition,0.02375493099347953,Poor
+46,M74,Sustainability Data Science and Predictive Analytics,0.023585564831343105,Poor
+47,M37,Net-Zero IT Infrastructure,0.02314170081178671,Poor
+48,OM7,Net-Zero IT Infrastructure,0.02314170081178671,Poor
+49,M70,ICT Energy Consumption and Carbon Footprint Management,0.022591623577600115,Poor
+50,M71,Green Software Development Practices,0.022591623577600115,Poor
+51,M30,Human-Centered Design for Sustainable Tech,0.022591623577600112,Poor
+52,M11,Big Data for Environmental Intelligence,0.022452507969921934,Poor
+53,M45,Big Data for Environmental Intelligence (EQF 4 Version),0.022452507969921934,Poor
+54,M1,Introduction to Digital Sustainability,0.022331464317175313,Poor
+55,M14,Sustainable Digital Transformation Strategy,0.022159046421465912,Poor
+56,M25,Digital Sustainability in SMEs,0.021669280947715353,Poor
+57,M36,Eco-design for Digital Products,0.021386056430019427,Poor
+58,M59,Digital Storytelling for Sustainability Impact,0.021386056430019427,Poor
+59,OM6,Eco-design for Digital Products,0.021386056430019427,Poor
+60,M91,Green ICT Principles,0.02122815604637287,Poor
+61,M66,ESG Reporting and Compliance Framework,0.02109066536818215,Poor
+62,M54,Digital Sustainability Policy Development,0.020846869651518603,Poor
+63,M89,ESG Reporting Essentials,0.020734482151007174,Poor
+64,M57,Sustainability Economics and Market Mechanisms,0.020598688506826095,Poor
+65,M72,Sustainability Data Engineering and Architecture,0.020598688506826095,Poor
+66,M56,Green Finance and Sustainable Investment,0.020119653268326092,Poor
+67,M65,Community-Based Participatory Sustainability Research,0.017677325110512895,Poor
+68,M93,Digital Inclusion and Social Sustainability,0.01750002972011821,Poor
+69,M92,Digital Sustainability Foundation,0.017349828194849426,Poor
+70,M13,Low-Carbon Cloud Infrastructure,0.0,Poor
+71,M15,Applied Ethics in AI for Sustainability,0.0,Poor
+72,M20,Data Ethics and Governance in Practice,0.0,Poor
+73,M21,Energy-Efficient Software Architecture,0.0,Poor
+74,M27,Green IT Service Management,0.0,Poor
+75,M29,Blockchain for Sustainability Traceability,0.0,Poor
+76,M35,Sustainable IT Consultancy,0.0,Poor
+77,M38,Introduction to Green IT,0.0,Poor
+78,M41,Green Blockchain Applications,0.0,Poor
+79,M44,Advanced Sustainability Impact Assessment,0.0,Poor
+80,M47,Applied Ethics in AI for Sustainability (EQF 5 Version),0.0,Poor
+81,M49,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version),0.0,Poor
+82,M52,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Duplicate,0.0,Poor
+83,M53,Interdisciplinary Approaches to Digital Sustainability (EQF 8 Version) - Triple Duplicate,0.0,Poor
+84,M55,Global Climate Technology Governance,0.0,Poor
+85,M62,Digital Health for Planetary Health,0.0,Poor
+86,M63,Smart Manufacturing and Industry 4.0 Sustainability,0.0,Poor
+87,M64,Behavioral Insights for Sustainability Transformation,0.0,Poor
+88,OM1,Digital Sustainability Fundamentals,0.0,Poor
+89,OM5,Sustainable IT Consultancy,0.0,Poor
+90,OM8,Introduction to Green IT,0.0,Poor

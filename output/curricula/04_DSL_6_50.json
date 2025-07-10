@@ -1,0 +1,282 @@
+{
+  "curriculum_identification": {
+    "number": "04",
+    "id": "DSL_6_Leadership",
+    "title": "Digital Sustainability Leadership",
+    "role_title": "Digital Sustainability Leader",
+    "role_abbreviation": "DSL",
+    "formatted_title": "Digital Sustainability Leader (DSL)",
+    "eqf_level": 6,
+    "total_ects": 5.0,
+    "total_learning_units": 2,
+    "development_date": "2025-07-10T13:48:01.508080",
+    "pathway_position": "Foundation learning unit in Level 6 Diploma in Digital Sustainability Leadership"
+  },
+  "role_profile": {
+    "title": "Digital Sustainability Leader",
+    "description": "Strategic leader responsible for driving sustainability transformations in organisations by aligning digital tools with environmental goals.",
+    "focus": "Executive and system-level leadership",
+    "professional_context": "This curriculum prepares learners to develop strategic leadership capabilities for driving sustainability transformations and managing organisational change within digital contexts. Graduates will master change management methodologies, stakeholder engagement strategies, and systems thinking approaches to sustainability. They typically lead sustainability initiatives at departmental level, guide organisational adaptation to sustainability requirements, and bridge the gap between technical implementation and strategic vision.",
+    "core_tools": [
+      "Strategic planning frameworks",
+      "Change management platforms",
+      "Executive dashboards",
+      "Transformation methodologies"
+    ],
+    "authentic_tasks": [
+      "Drive organisational sustainability transformation",
+      "Develop strategic sustainability roadmaps",
+      "Lead cross-sector initiatives",
+      "Influence industry sustainability practices"
+    ]
+  },
+  "competence_frameworks_alignment": {
+    "greencomp": [
+      "2.1 Systems thinking",
+      "4.1 Political agency",
+      "4.3 Collective action"
+    ],
+    "ecf_detailed": {
+      "A.1": "IS and Business Strategy Alignment - Level 4",
+      "E.1": "Forecast Development - Level 4",
+      "E.8": "Information Security Management - Level 3"
+    },
+    "framework_note": "Learning outcomes are mapped directly to GreenComp and e-CF framework descriptors"
+  },
+  "target_audience": "Mid-level managers and team leaders beginning to take responsibility for sustainability programmes and organisational change initiatives",
+  "learning_approach": "EQF Level 6 professional development programme with 5.0 ECTS, combining theoretical knowledge with practical application through structured learning and standardised work-based learning integration.",
+  "assessment_framework": {
+    "primary": "Leadership development portfolio",
+    "components": [
+      "Team leadership project",
+      "Change management case study",
+      "Stakeholder engagement plan"
+    ],
+    "weightings": [
+      40,
+      30,
+      30
+    ],
+    "rationale": "Leadership development programmes focus on practical leadership skills and organisational change management",
+    "wbl_component": "Workplace leadership initiative and change project management"
+  },
+  "dual_education_model": {
+    "wbl_compliance": "40.0% work-based learning (exceeds minimum 20%)",
+    "model_implementation": {
+      "minimum_wbl_percentage": 20,
+      "employer_partnership": "Mandatory for all programmes",
+      "workplace_learning": "Integrated throughout curriculum",
+      "assessment_split": "70% academic, 30% workplace-based"
+    },
+    "employer_engagement": {
+      "partnership_agreements": "Formal agreements with industry partners",
+      "mentor_training": "Workplace mentor development programme",
+      "assessment_participation": "Employer involvement in competence assessment",
+      "feedback_systems": "Regular employer feedback on learning outcomes"
+    },
+    "quality_assurance": {
+      "workplace_standards": "Standardised workplace learning environments",
+      "mentor_qualifications": "Certified workplace mentors",
+      "assessment_criteria": "Unified workplace assessment standards",
+      "monitoring_systems": "Regular quality monitoring of WBL delivery"
+    }
+  },
+  "flexible_learning_pathways": {
+    "modular_design": "Learning units designed for flexible recombination",
+    "competence_catalog": "Integrated with competence-based learning unit catalog",
+    "stackability_options": "Horizontal and vertical stacking supported",
+    "pathway_flexibility": "Multiple entry and exit points available"
+  },
+  "delivery_framework": {
+    "total_contact_hours": 43,
+    "total_self_study_hours": 31,
+    "total_workplace_hours": 50,
+    "wbl_percentage": 40.0,
+    "work_based_learning": true,
+    "delivery_methods": [
+      "Classroom",
+      "Online",
+      "Workplace",
+      "Blended"
+    ],
+    "dual_principle_applicable": true
+  },
+  "learning_units": [
+    {
+      "learning_unit_number": 1,
+      "learning_unit_id": "M1",
+      "learning_unit_title": "Introduction to Digital Sustainability",
+      "learning_unit_description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+      "ects_credits": 0.5,
+      "eqf_level": 5,
+      "total_workload_hours": 12.5,
+      "contact_hours": 4,
+      "self_study_hours": 3,
+      "workplace_hours": 5,
+      "assessment_hours": 0.5,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Critically evaluate organisational change methodologies in introduction to digital sustainability within professional sustainability practice.",
+        "skills": "Innovate transformation leadership in introduction to digital sustainability to support organisational sustainability objectives.",
+        "competence": "Lead initiatives in strategic leadership responsibilities for introduction to digital sustainability while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 4.1 Political agency",
+          "skills_framework": "e-CF: Forecast Development - Level 4",
+          "competence_framework": "e-CF: Information Security Management - Level 3"
+        }
+      },
+      "thematic_area": "Foundation",
+      "pathway_guidance": "This learning unit forms part of the Foundation learning unit in Level 6 Diploma in Digital Sustainability Leadership",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Strategic transformation leadership",
+          "Cross-sector collaboration projects",
+          "Industry influence initiatives"
+        ],
+        "employer_partnerships": "Senior executive roles across sectors",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Introduction to Digital Sustainability",
+        "description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+        "thematic_area": "Foundation",
+        "eqf_level": 5,
+        "ects_points": 0.5,
+        "competence_category": "General Professional Competence",
+        "role_relevance": {
+          "DSL": 100,
+          "DSM": 100,
+          "DSC": 100,
+          "SBA": 100,
+          "SDD": 100,
+          "SSD": 100,
+          "DAN": 100,
+          "DSI": 100,
+          "DSE": 100,
+          "STS": 100
+        },
+        "prerequisites": [],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 5 Professional Development",
+          "General Professional Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 5 learning units",
+          "vertical_stacking": "Can progress to EQF 6 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 0.5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Foundation",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Foundation context",
+          "employer_engagement": "Employer partnership for Foundation projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 2,
+      "learning_unit_id": "M14",
+      "learning_unit_title": "Sustainable Digital Transformation Strategy",
+      "learning_unit_description": "Develop holistic strategies for sustainability-focused digital transformation",
+      "ects_credits": 4.5,
+      "eqf_level": 6,
+      "total_workload_hours": 112.5,
+      "contact_hours": 39,
+      "self_study_hours": 28,
+      "workplace_hours": 45,
+      "assessment_hours": 0.5,
+      "wbl_percentage": 40.0,
+      "learning_outcomes": {
+        "knowledge": "Formulate industry leadership approaches to sustainable digital transformation strategy within professional sustainability practice.",
+        "skills": "Transform cross-sector influence through sustainable digital transformation strategy to support organisational sustainability objectives.",
+        "competence": "Drive change in industry influence activities through sustainable digital transformation strategy while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 4.3 Collective action",
+          "skills_framework": "e-CF: Information Security Management - Level 3",
+          "competence_framework": "e-CF: IS and Business Strategy Alignment - Level 4"
+        }
+      },
+      "thematic_area": "General",
+      "pathway_guidance": "This learning unit forms part of the Foundation learning unit in Level 6 Diploma in Digital Sustainability Leadership",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Strategic transformation leadership",
+          "Cross-sector collaboration projects",
+          "Industry influence initiatives"
+        ],
+        "employer_partnerships": "Senior executive roles across sectors",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 40.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Sustainable Digital Transformation Strategy",
+        "description": "Develop holistic strategies for sustainability-focused digital transformation",
+        "thematic_area": "General",
+        "eqf_level": 6,
+        "ects_points": 5,
+        "competence_category": "Management & Strategy Competence",
+        "role_relevance": {
+          "DSL": 100,
+          "DSM": 90,
+          "DSC": 80,
+          "SBA": 75,
+          "SDD": 65,
+          "SSD": 70,
+          "DAN": 60,
+          "DSI": 65,
+          "DSE": 60,
+          "STS": 70
+        },
+        "prerequisites": [
+          "EQF Level 5 foundation in General"
+        ],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 6 Professional Development",
+          "Management & Strategy Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 6 learning units",
+          "vertical_stacking": "Can progress to EQF 7 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in General",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in General context",
+          "employer_engagement": "Employer partnership for General projects"
+        }
+      }
+    }
+  ]
+}

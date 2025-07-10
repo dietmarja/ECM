@@ -1,0 +1,466 @@
+{
+  "curriculum_identification": {
+    "number": "09",
+    "id": "DSL_7_Masters",
+    "title": "Master's Level Leadership",
+    "role_abbreviation": "DSL",
+    "eqf_level": 7,
+    "total_ects": 110.5,
+    "total_modules": 22,
+    "development_date": "2025-07-08T16:13:11.620683"
+  },
+  "role_profile": {
+    "title": "Digital Sustainability Leader",
+    "description": "Strategic leader responsible for driving sustainability transformations in organizations by aligning digital tools with environmental goals.",
+    "focus": "Executive and system-level leadership",
+    "professional_context": "This curriculum prepares learners to provide advanced leadership for large-scale sustainability transformations, conduct applied research, and influence industry practices."
+  },
+  "target_audience": "Senior leaders and experts seeking master's level expertise in strategic sustainability leadership and large-scale transformation management",
+  "learning_approach": "EQF Level 7 professional development program with 110.5 ECTS, combining theoretical knowledge with practical application through structured learning and workplace integration.",
+  "assessment_framework": {
+    "primary": "Master's level leadership demonstration",
+    "components": [
+      "Applied research project",
+      "Large-scale transformation leadership",
+      "Industry practice contribution"
+    ],
+    "weightings": [
+      40,
+      35,
+      25
+    ],
+    "rationale": "Master's level programs require applied research contribution and demonstrated large-scale leadership impact"
+  },
+  "delivery_framework": {
+    "total_contact_hours": 685,
+    "total_self_study_hours": 951,
+    "total_workplace_hours": 1105,
+    "work_based_learning": true
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "module_id": "M1",
+      "module_title": "Introduction to Digital Sustainability",
+      "module_description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+      "ects_credits": 0.5,
+      "eqf_level": 6,
+      "total_workload_hours": 12.5,
+      "contact_hours": 3,
+      "self_study_hours": 4,
+      "workplace_hours": 5,
+      "assessment_hours": 0.5,
+      "learning_outcomes": {
+        "knowledge": "Pioneer new approaches to foundational concepts of introduction to digital sustainability and their application to organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Lead transformational professional application of introduction to digital sustainability to support executive and system-level leadership in organizational contexts.",
+        "competence": "Lead strategic transformations of professional responsibilities involving introduction to digital sustainability while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Foundation"
+    },
+    {
+      "module_number": 2,
+      "module_id": "M14",
+      "module_title": "Sustainable Digital Transformation Strategy",
+      "module_description": "Develop holistic strategies for sustainability-focused digital transformation",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Establish methodological analytical frameworks for sustainable digital transformation strategy within executive and system-level leadership contexts within sustainability applications.",
+        "skills": "Create breakthrough professional application of sustainable digital transformation strategy to support executive and system-level leadership in organizational contexts.",
+        "competence": "Shape industry practices through professional responsibilities involving sustainable digital transformation strategy while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "General"
+    },
+    {
+      "module_number": 3,
+      "module_id": "M60",
+      "module_title": "Systematic Innovation for Sustainability Challenges",
+      "module_description": "Apply structured innovation methodologies to develop breakthrough sustainability solutions",
+      "ects_credits": 5,
+      "eqf_level": 7,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Create original implementation strategies for systematic innovation for sustainability challenges in organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Establish new practices in technical implementation of systematic innovation for sustainability challenges to support executive and system-level leadership in organizational contexts.",
+        "competence": "Influence sector-wide professional responsibilities involving systematic innovation for sustainability challenges while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Technical Implementation"
+    },
+    {
+      "module_number": 4,
+      "module_id": "M7",
+      "module_title": "Ethics and Governance in Digital Innovation",
+      "module_description": "Evaluate ethical implications of digital systems and ensure inclusive governance",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Synthesize multi-disciplinary evaluation methodologies for ethics and governance in digital innovation relevant to executive and system-level leadership within sustainability applications.",
+        "skills": "Innovate solutions for ethical governance of ethics and governance in digital innovation to support executive and system-level leadership in organizational contexts.",
+        "competence": "Drive systemic change in professional responsibilities involving ethics and governance in digital innovation while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Ethics & Governance"
+    },
+    {
+      "module_number": 5,
+      "module_id": "M2",
+      "module_title": "Sustainability Frameworks and Standards",
+      "module_description": "Overview of major sustainability frameworks, regulations, and standards",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Conceptualize advanced integration approaches for sustainability frameworks and standards within organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Research and develop management strategies for sustainability frameworks and standards to support executive and system-level leadership in organizational contexts.",
+        "competence": "Lead strategic transformations of leadership responsibilities for sustainability frameworks and standards while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Management"
+    },
+    {
+      "module_number": 6,
+      "module_id": "M22",
+      "module_title": "Sustainable ICT Procurement and Policy",
+      "module_description": "Develop policies and practices for sustainable technology procurement",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Pioneer new approaches to optimization principles for sustainable ict procurement and policy in executive and system-level leadership within sustainability applications.",
+        "skills": "Lead transformational management strategies for sustainable ict procurement and policy to support executive and system-level leadership in organizational contexts.",
+        "competence": "Shape industry practices through leadership responsibilities for sustainable ict procurement and policy while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Management"
+    },
+    {
+      "module_number": 7,
+      "module_id": "M15",
+      "module_title": "Applied Ethics in AI for Sustainability",
+      "module_description": "Address ethical considerations in AI applications for sustainability challenges",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Establish methodological strategic applications of applied ethics in ai for sustainability for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Create breakthrough ethical governance of applied ethics in ai for sustainability to support executive and system-level leadership in organizational contexts.",
+        "competence": "Influence sector-wide professional responsibilities involving applied ethics in ai for sustainability while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Ethics & Governance"
+    },
+    {
+      "module_number": 8,
+      "module_id": "M19",
+      "module_title": "Sustainability Assessment and Benchmarking",
+      "module_description": "Evaluate organizational sustainability performance against relevant benchmarks",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Create original advanced methodologies for sustainability assessment and benchmarking within executive and system-level leadership within sustainability applications.",
+        "skills": "Establish new practices in professional application of sustainability assessment and benchmarking to support executive and system-level leadership in organizational contexts.",
+        "competence": "Drive systemic change in professional responsibilities involving sustainability assessment and benchmarking while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Analysis"
+    },
+    {
+      "module_number": 9,
+      "module_id": "M8",
+      "module_title": "Work-based Sustainability Project",
+      "module_description": "Apply sustainability knowledge in real-world workplace settings",
+      "ects_credits": 10,
+      "eqf_level": 6,
+      "total_workload_hours": 250,
+      "contact_hours": 62,
+      "self_study_hours": 87,
+      "workplace_hours": 100,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Synthesize multi-disciplinary specialized knowledge of work-based sustainability project for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Innovate solutions for management strategies for work-based sustainability project to support executive and system-level leadership in organizational contexts.",
+        "competence": "Lead strategic transformations of leadership responsibilities for work-based sustainability project while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Management"
+    },
+    {
+      "module_number": 10,
+      "module_id": "M10",
+      "module_title": "Circular Economy and Lifecycle Thinking",
+      "module_description": "Analyze product lifecycles and propose circular redesign strategies",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Conceptualize advanced specialized knowledge of circular economy and lifecycle thinking for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Research and develop professional application of circular economy and lifecycle thinking to support executive and system-level leadership in organizational contexts.",
+        "competence": "Shape industry practices through professional responsibilities involving circular economy and lifecycle thinking while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "General"
+    },
+    {
+      "module_number": 11,
+      "module_id": "M17",
+      "module_title": "Digital Circular Business Models",
+      "module_description": "Design business models that leverage digital technologies for circular economy",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Pioneer new approaches to specialized knowledge of digital circular business models for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Lead transformational professional application of digital circular business models to support executive and system-level leadership in organizational contexts.",
+        "competence": "Influence sector-wide professional responsibilities involving digital circular business models while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "General"
+    },
+    {
+      "module_number": 12,
+      "module_id": "M26",
+      "module_title": "AI for Sustainable Decision-Making",
+      "module_description": "Using AI tools to support sustainability decisions in organizations",
+      "ects_credits": 5,
+      "eqf_level": 7,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Establish methodological specialized knowledge of ai for sustainable decision-making for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Create breakthrough data-driven approaches to ai for sustainable decision-making to support executive and system-level leadership in organizational contexts.",
+        "competence": "Drive systemic change in professional responsibilities involving ai for sustainable decision-making while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Data"
+    },
+    {
+      "module_number": 13,
+      "module_id": "M20",
+      "module_title": "Data Ethics and Governance in Practice",
+      "module_description": "Implement ethical data governance approaches for sustainability initiatives",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Create original specialized knowledge of data ethics and governance in practice for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Establish new practices in data-driven approaches to data ethics and governance in practice to support executive and system-level leadership in organizational contexts.",
+        "competence": "Lead strategic transformations of professional responsibilities involving data ethics and governance in practice while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Data"
+    },
+    {
+      "module_number": 14,
+      "module_id": "M24",
+      "module_title": "Collaborative Tools for Green Innovation",
+      "module_description": "Leverage collaborative platforms to drive sustainable innovation processes",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Synthesize multi-disciplinary specialized knowledge of collaborative tools for green innovation for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Innovate solutions for professional application of collaborative tools for green innovation to support executive and system-level leadership in organizational contexts.",
+        "competence": "Shape industry practices through professional responsibilities involving collaborative tools for green innovation while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Analysis"
+    },
+    {
+      "module_number": 15,
+      "module_id": "M31",
+      "module_title": "Large Language Prompt Design for Sustainability Data Science",
+      "module_description": "Design effective prompts for large language models applied to sustainability data contexts",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Conceptualize advanced specialized knowledge of large language prompt design for sustainability data science for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Research and develop data-driven approaches to large language prompt design for sustainability data science to support executive and system-level leadership in organizational contexts.",
+        "competence": "Influence sector-wide professional responsibilities involving large language prompt design for sustainability data science while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Data"
+    },
+    {
+      "module_number": 16,
+      "module_id": "M6",
+      "module_title": "Systems Architecture for Sustainability",
+      "module_description": "Design IT systems aligned with circular economy and low-impact principles",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Pioneer new approaches to specialized knowledge of systems architecture for sustainability for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Lead transformational technical implementation of systems architecture for sustainability to support executive and system-level leadership in organizational contexts.",
+        "competence": "Drive systemic change in professional responsibilities involving systems architecture for sustainability while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Technical Implementation"
+    },
+    {
+      "module_number": 17,
+      "module_id": "M94",
+      "module_title": "Circular Economy for Digital Systems",
+      "module_description": "Comprehensive circular economy principles and lifecycle thinking for sustainable digital system design and management",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Establish methodological specialized knowledge of circular economy for digital systems for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Create breakthrough professional application of circular economy for digital systems to support executive and system-level leadership in organizational contexts.",
+        "competence": "Lead strategic transformations of professional responsibilities involving circular economy for digital systems while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Circular Economy"
+    },
+    {
+      "module_number": 18,
+      "module_id": "M11",
+      "module_title": "Big Data for Environmental Intelligence",
+      "module_description": "Leverage big data technologies to analyze environmental patterns and trends",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Create original specialized knowledge of big data for environmental intelligence for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Establish new practices in data-driven approaches to big data for environmental intelligence to support executive and system-level leadership in organizational contexts.",
+        "competence": "Shape industry practices through professional responsibilities involving big data for environmental intelligence while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Data"
+    },
+    {
+      "module_number": 19,
+      "module_id": "M12",
+      "module_title": "Advanced Visualisation for Sustainability Reporting",
+      "module_description": "Create effective data visualizations to communicate sustainability performance",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Synthesize multi-disciplinary specialized knowledge of advanced visualisation for sustainability reporting for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Innovate solutions for data-driven approaches to advanced visualisation for sustainability reporting to support executive and system-level leadership in organizational contexts.",
+        "competence": "Influence sector-wide professional responsibilities involving advanced visualisation for sustainability reporting while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Data"
+    },
+    {
+      "module_number": 20,
+      "module_id": "M13",
+      "module_title": "Low-Carbon Cloud Infrastructure",
+      "module_description": "Design and implement energy-efficient cloud computing solutions",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Conceptualize advanced specialized knowledge of low-carbon cloud infrastructure for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Research and develop technical implementation of low-carbon cloud infrastructure to support executive and system-level leadership in organizational contexts.",
+        "competence": "Drive systemic change in professional responsibilities involving low-carbon cloud infrastructure while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Technical Implementation"
+    },
+    {
+      "module_number": 21,
+      "module_id": "M3",
+      "module_title": "Data Analytics for Sustainability",
+      "module_description": "Use data tools to derive actionable sustainability insights",
+      "ects_credits": 5,
+      "eqf_level": 6,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Pioneer new approaches to specialized knowledge of data analytics for sustainability for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Lead transformational data-driven approaches to data analytics for sustainability to support executive and system-level leadership in organizational contexts.",
+        "competence": "Lead strategic transformations of professional responsibilities involving data analytics for sustainability while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Data"
+    },
+    {
+      "module_number": 22,
+      "module_id": "M4",
+      "module_title": "Machine Learning and Predictive Modeling",
+      "module_description": "Develop predictive models to assess sustainability scenarios",
+      "ects_credits": 5,
+      "eqf_level": 7,
+      "total_workload_hours": 125,
+      "contact_hours": 31,
+      "self_study_hours": 43,
+      "workplace_hours": 50,
+      "assessment_hours": 1,
+      "learning_outcomes": {
+        "knowledge": "Establish methodological specialized knowledge of machine learning and predictive modeling for organizational transformation and strategic sustainability leadership within sustainability applications.",
+        "skills": "Create breakthrough data-driven approaches to machine learning and predictive modeling to support executive and system-level leadership in organizational contexts.",
+        "competence": "Shape industry practices through professional responsibilities involving machine learning and predictive modeling while ensuring professional standards and stakeholder value."
+      },
+      "thematic_area": "Data"
+    }
+  ],
+  "recognition": {
+    "eqf_level": 7,
+    "ects_transferable": true,
+    "bologna_compliant": true,
+    "professional_recognition": "Industry recognition for Digital Sustainability Leader competencies at EQF Level 7"
+  }
+}

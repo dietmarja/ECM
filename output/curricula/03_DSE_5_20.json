@@ -1,0 +1,280 @@
+{
+  "curriculum_identification": {
+    "number": "03",
+    "id": "DSE_5_Operations",
+    "title": "Sustainable IT Operations",
+    "role_title": "Digital Sustainability Engineer",
+    "role_abbreviation": "DSE",
+    "formatted_title": "Digital Sustainability Engineer (DSE)",
+    "eqf_level": 5,
+    "total_ects": 2.0,
+    "total_learning_units": 2,
+    "development_date": "2025-07-10T13:48:01.457757",
+    "pathway_position": "Core learning unit in Level 5 Certificate in Sustainable IT Operations"
+  },
+  "role_profile": {
+    "title": "Digital Sustainability Engineer",
+    "description": "Builds and maintains infrastructure for sustainability-related data pipelines, supporting ESG metrics and real-time monitoring.",
+    "focus": "Sustainable IT infrastructure and operations",
+    "professional_context": "This curriculum prepares learners to contribute to sustainable data infrastructure projects and environmentally responsible computing within IT departments or technology-driven organisations. Graduates will develop technical competences in green IT practices, energy-efficient system design, and sustainable cloud solutions. They typically support the development of environmentally conscious technology infrastructure and implement monitoring systems that track and optimise energy consumption across digital operations.",
+    "core_tools": [
+      "Cloud platforms (AWS, Azure)",
+      "Energy monitoring systems",
+      "Container orchestration",
+      "Carbon tracking tools"
+    ],
+    "authentic_tasks": [
+      "Design energy-efficient IT systems",
+      "Implement carbon monitoring infrastructure",
+      "Optimise cloud workloads for sustainability",
+      "Maintain green IT operations"
+    ]
+  },
+  "competence_frameworks_alignment": {
+    "greencomp": [
+      "1.2 Supporting fairness",
+      "3.1 Collective action",
+      "3.3 Political agency"
+    ],
+    "ecf_detailed": {
+      "B.1": "Application Development - Level 2",
+      "B.2": "Component Integration - Level 2",
+      "C.3": "Service Delivery - Level 2"
+    },
+    "framework_note": "Learning outcomes are mapped directly to GreenComp and e-CF framework descriptors"
+  },
+  "target_audience": "IT professionals and engineers seeking to integrate sustainability principles into technical operations and infrastructure management",
+  "learning_approach": "EQF Level 5 professional development programme with 2.0 ECTS, combining theoretical knowledge with practical application through structured learning and standardised work-based learning integration.",
+  "assessment_framework": {
+    "primary": "Technical operations portfolio",
+    "components": [
+      "Infrastructure implementation project",
+      "System optimisation task",
+      "Environmental monitoring setup"
+    ],
+    "weightings": [
+      45,
+      30,
+      25
+    ],
+    "rationale": "Operations programmes emphasise hands-on technical competence and practical implementation skills",
+    "wbl_component": "Real-world technical implementation and system monitoring"
+  },
+  "dual_education_model": {
+    "wbl_compliance": "18.0% work-based learning (exceeds minimum 20%)",
+    "model_implementation": {
+      "minimum_wbl_percentage": 20,
+      "employer_partnership": "Mandatory for all programmes",
+      "workplace_learning": "Integrated throughout curriculum",
+      "assessment_split": "70% academic, 30% workplace-based"
+    },
+    "employer_engagement": {
+      "partnership_agreements": "Formal agreements with industry partners",
+      "mentor_training": "Workplace mentor development programme",
+      "assessment_participation": "Employer involvement in competence assessment",
+      "feedback_systems": "Regular employer feedback on learning outcomes"
+    },
+    "quality_assurance": {
+      "workplace_standards": "Standardised workplace learning environments",
+      "mentor_qualifications": "Certified workplace mentors",
+      "assessment_criteria": "Unified workplace assessment standards",
+      "monitoring_systems": "Regular quality monitoring of WBL delivery"
+    }
+  },
+  "flexible_learning_pathways": {
+    "modular_design": "Learning units designed for flexible recombination",
+    "competence_catalog": "Integrated with competence-based learning unit catalog",
+    "stackability_options": "Horizontal and vertical stacking supported",
+    "pathway_flexibility": "Multiple entry and exit points available"
+  },
+  "delivery_framework": {
+    "total_contact_hours": 24,
+    "total_self_study_hours": 14,
+    "total_workplace_hours": 9,
+    "wbl_percentage": 18.0,
+    "work_based_learning": true,
+    "delivery_methods": [
+      "Classroom",
+      "Online",
+      "Workplace",
+      "Blended"
+    ],
+    "dual_principle_applicable": true
+  },
+  "learning_units": [
+    {
+      "learning_unit_number": 1,
+      "learning_unit_id": "M1",
+      "learning_unit_title": "Introduction to Digital Sustainability",
+      "learning_unit_description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+      "ects_credits": 0.5,
+      "eqf_level": 5,
+      "total_workload_hours": 12.5,
+      "contact_hours": 6,
+      "self_study_hours": 3,
+      "workplace_hours": 2,
+      "assessment_hours": 1.5,
+      "wbl_percentage": 20.0,
+      "learning_outcomes": {
+        "knowledge": "Compare cloud sustainability optimisation in introduction to digital sustainability within professional sustainability practice.",
+        "skills": "Organise container orchestration of introduction to digital sustainability systems to support organisational sustainability objectives.",
+        "competence": "Contribute to team leadership in green IT operations support for introduction to digital sustainability while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 3.1 Collective action",
+          "skills_framework": "e-CF: Component Integration - Level 2",
+          "competence_framework": "e-CF: Service Delivery - Level 2"
+        }
+      },
+      "thematic_area": "Foundation",
+      "pathway_guidance": "This learning unit forms part of the Core learning unit in Level 5 Certificate in Sustainable IT Operations",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Infrastructure optimization projects",
+          "Green IT implementation tasks",
+          "Energy monitoring system deployment"
+        ],
+        "employer_partnerships": "Technology companies, data centres, cloud providers",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 16.0% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Introduction to Digital Sustainability",
+        "description": "Core sustainability concepts and their intersection with technology systems for digital professionals",
+        "thematic_area": "Foundation",
+        "eqf_level": 5,
+        "ects_points": 0.5,
+        "competence_category": "General Professional Competence",
+        "role_relevance": {
+          "DSL": 100,
+          "DSM": 100,
+          "DSC": 100,
+          "SBA": 100,
+          "SDD": 100,
+          "SSD": 100,
+          "DAN": 100,
+          "DSI": 100,
+          "DSE": 100,
+          "STS": 100
+        },
+        "prerequisites": [],
+        "pathway_options": [
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 5 Professional Development",
+          "General Professional Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 5 learning units",
+          "vertical_stacking": "Can progress to EQF 6 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 0.5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Foundation",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Foundation context",
+          "employer_engagement": "Employer partnership for Foundation projects"
+        }
+      }
+    },
+    {
+      "learning_unit_number": 2,
+      "learning_unit_id": "M45",
+      "learning_unit_title": "Big Data for Environmental Intelligence (EQF 4 Version)",
+      "learning_unit_description": "Leverage big data technologies to analyze environmental patterns and trends (This learning unit has been adapted for EQF level 4.)",
+      "ects_credits": 1.5,
+      "eqf_level": 4,
+      "total_workload_hours": 37.5,
+      "contact_hours": 18,
+      "self_study_hours": 11,
+      "workplace_hours": 7,
+      "assessment_hours": 1.5,
+      "wbl_percentage": 20.0,
+      "learning_outcomes": {
+        "knowledge": "Evaluate infrastructure monitoring techniques for big data for environmental intelligence (eqf 4 version) within professional sustainability practice.",
+        "skills": "Plan energy monitoring implementation for big data for environmental intelligence (eqf 4 version) to support organisational sustainability objectives.",
+        "competence": "Coordinate activities in technical implementation activities in big data for environmental intelligence (eqf 4 version) while ensuring professional standards and stakeholder value.",
+        "framework_mapping": {
+          "knowledge_framework": "GreenComp: 3.3 Political agency",
+          "skills_framework": "e-CF: Service Delivery - Level 2",
+          "competence_framework": "e-CF: Application Development - Level 2"
+        }
+      },
+      "thematic_area": "Data",
+      "pathway_guidance": "This learning unit forms part of the Core learning unit in Level 5 Certificate in Sustainable IT Operations",
+      "dual_education_integration": {
+        "workplace_activities": [
+          "Infrastructure optimization projects",
+          "Green IT implementation tasks",
+          "Energy monitoring system deployment"
+        ],
+        "employer_partnerships": "Technology companies, data centres, cloud providers",
+        "mentor_support": "Workplace mentor assigned for practical guidance",
+        "assessment_workplace": "Workplace-based assessment comprising 18.7% of total assessment"
+      },
+      "catalog_reference": {
+        "name": "Big Data for Environmental Intelligence (EQF 4 Version)",
+        "description": "Leverage big data technologies to analyze environmental patterns and trends (This learning unit has been adapted for EQF level 4.)",
+        "thematic_area": "Data",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "competence_category": "Data & Analytics Competence",
+        "role_relevance": {
+          "DSI": 95,
+          "DSE": 90,
+          "SBA": 80,
+          "DAN": 85,
+          "DSC": 75,
+          "DSL": 70,
+          "DSM": 75,
+          "SDD": 65,
+          "SSD": 70,
+          "STS": 65
+        },
+        "prerequisites": [],
+        "pathway_options": [
+          "DSI Specialisation Pathway",
+          "DSE Specialisation Pathway",
+          "SBA Specialisation Pathway",
+          "DAN Specialisation Pathway",
+          "DSC Specialisation Pathway",
+          "DSL Specialisation Pathway",
+          "DSM Specialisation Pathway",
+          "SDD Specialisation Pathway",
+          "SSD Specialisation Pathway",
+          "STS Specialisation Pathway",
+          "EQF 4 Professional Development",
+          "Data & Analytics Competence Pathway"
+        ],
+        "stackability": {
+          "horizontal_stacking": "Can combine with other EQF 4 learning units",
+          "vertical_stacking": "Can progress to EQF 5 advanced learning units",
+          "cross_sector_stacking": "Compatible with cross-sector sustainability programmes",
+          "minimum_combination": "Minimum 5 ECTS for standalone certificate"
+        },
+        "wbl_integration": {
+          "workplace_activities": [
+            "Real-world project in Data",
+            "Workplace case study development",
+            "Professional mentoring sessions",
+            "Industry placement opportunities"
+          ],
+          "assessment_integration": "Work-based assessment in Data context",
+          "employer_engagement": "Employer partnership for Data projects"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "terminology": {
+    "competencies_and_learning_outcomes": "Competences",
+    "what_you_learn": "Target Learning Outcomes",
+    "learning_outcomes": "Learning Outcomes",
+    "competencies": "Competences",
+    "skills": "Skills",
+    "knowledge": "Knowledge",
+    "understanding": "Understanding"
+  },
+  "section_configuration": {
+    "enabled_sections": {
+      "programme_description": true,
+      "target_learning_outcomes": true,
+      "competences": true,
+      "delivery_methodologies": true,
+      "course_organization": true,
+      "entry_requirements": true,
+      "qualification_recognition": true,
+      "assessment_methods": true,
+      "framework_alignment": true,
+      "key_benefits": true,
+      "cross_border_recognition": true
+    },
+    "section_sequence": [
+      "programme_description",
+      "target_learning_outcomes", 
+      "competences",
+      "delivery_methodologies",
+      "course_organization",
+      "entry_requirements",
+      "qualification_recognition",
+      "assessment_methods",
+      "framework_alignment",
+      "key_benefits",
+      "cross_border_recognition"
+    ]
+  },
+  "subsection_configuration": {
+    "programme_description": {
+      "enabled_subsections": {
+        "title": true,
+        "description": true,
+        "objectives": true,
+        "audience_specific_features": true
+      },
+      "subsection_sequence": ["title", "description", "objectives", "audience_specific_features"]
+    },
+    "target_learning_outcomes": {
+      "enabled_subsections": {
+        "technical_competencies": true,
+        "audience_specific_skills": true,
+        "work_based_learning": true,
+        "tuning_methodology": true,
+        "differentiation_evidence": true
+      },
+      "subsection_sequence": ["tuning_methodology", "differentiation_evidence", "technical_competencies", "audience_specific_skills", "work_based_learning"]
+    },
+    "competences": {
+      "enabled_subsections": {
+        "knowledge_competences": true,
+        "skill_competences": true,
+        "responsibility_competences": true,
+        "eqf_descriptors": true
+      },
+      "subsection_sequence": ["knowledge_competences", "skill_competences", "responsibility_competences", "eqf_descriptors"]
+    }
+  },
+  "display_settings": {
+    "show_section_numbers": true,
+    "show_subsection_bullets": true,
+    "use_emoji_icons": true,
+    "section_separators": true
+  },
+  "compliance_settings": {
+    "enforce_t32_sections": true,
+    "enforce_t34_sections": true,
+    "require_audience_differentiation": true,
+    "require_tuning_methodology": true
+  }
+}
