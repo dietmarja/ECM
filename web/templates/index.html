@@ -1,193 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSCG - Digital Sustainability Curriculum Generator</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .hero-section {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 4rem 0;
-        }
-        .feature-card {
-            transition: transform 0.3s ease;
-            height: 100%;
-        }
-        .feature-card:hover {
-            transform: translateY(-5px);
-        }
-        .btn-xl {
-            padding: 1rem 2rem;
-            font-size: 1.2rem;
-        }
-    </style>
-</head>
-<body>
-    <!-- Hero Section -->
-    <section class="hero-section text-center">
-        <div class="container">
-            <h1 class="display-4 fw-bold mb-4">🎯 Digital Sustainability Curriculum Generator</h1>
-            <p class="lead mb-4">Generate industry-ready curricula with concrete learning units (UOL v2)</p>
-            <a href="/generator" class="btn btn-light btn-xl">🚀 Start Generating</a>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="py-5">
-        <div class="container">
-            <div class="row text-center mb-5">
-                <div class="col-12">
-                    <h2 class="display-6 fw-bold">Key Features</h2>
-                    <p class="text-muted">Professional curriculum generation with Units of Learning (UOL) approach</p>
-                </div>
-            </div>
-            
-            <div class="row g-4">
-                <!-- Curriculum Generator -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card feature-card border-0 shadow">
-                        <div class="card-body text-center p-4">
-                            <div class="mb-3">
-                                <span class="display-4">🎯</span>
-                            </div>
-                            <h5 class="card-title">UOL Curriculum Generator</h5>
-                            <p class="card-text">Generate concrete, industry-ready curricula with focused learning units. Each unit contains specific job skills and workplace applications.</p>
-                            <a href="/generator" class="btn btn-primary">Generate Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Framework Compliance -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card feature-card border-0 shadow">
-                        <div class="card-body text-center p-4">
-                            <div class="mb-3">
-                                <span class="display-4">🗺️</span>
-                            </div>
-                            <h5 class="card-title">Framework Aligned</h5>
-                            <p class="card-text">Full compliance with T3.2/T3.4 standards. Automatic mapping to e-CF, DigComp, and GreenComp frameworks for EU recognition.</p>
-                            <span class="badge bg-success">T3.2/T3.4 Compliant</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Industry Ready -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card feature-card border-0 shadow">
-                        <div class="card-body text-center p-4">
-                            <div class="mb-3">
-                                <span class="display-4">🏭</span>
-                            </div>
-                            <h5 class="card-title">Industry Translation Ready</h5>
-                            <p class="card-text">Concrete competencies designed for direct industry application. No generic language - specific skills employers understand.</p>
-                            <span class="badge bg-info">Concrete Content</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Stackable Units -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card feature-card border-0 shadow">
-                        <div class="card-body text-center p-4">
-                            <div class="mb-3">
-                                <span class="display-4">🧩</span>
-                            </div>
-                            <h5 class="card-title">Stackable Credentials</h5>
-                            <p class="card-text">Learning units can be combined or taken individually. Flexible pathways for professional development and upskilling.</p>
-                            <span class="badge bg-warning text-dark">Micro-Credentials</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Multi-Role Support -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card feature-card border-0 shadow">
-                        <div class="card-body text-center p-4">
-                            <div class="mb-3">
-                                <span class="display-4">👥</span>
-                            </div>
-                            <h5 class="card-title">10+ Professional Roles</h5>
-                            <p class="card-text">Support for Data Analysts, Sustainability Managers, Software Developers, and more. Each role gets customized content.</p>
-                            <span class="badge bg-secondary">Multi-Role</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Multiple Themes -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card feature-card border-0 shadow">
-                        <div class="card-body text-center p-4">
-                            <div class="mb-3">
-                                <span class="display-4">🎨</span>
-                            </div>
-                            <h5 class="card-title">Visual Themes</h5>
-                            <p class="card-text">Multiple visual themes available. Professional styling for different organizational needs and preferences.</p>
-                            <span class="badge bg-primary">Customizable</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- How It Works -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <div class="row text-center mb-5">
-                <div class="col-12">
-                    <h2 class="display-6 fw-bold">How UOL Generation Works</h2>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-3 text-center mb-4">
-                    <div class="mb-3">
-                        <span class="display-4 text-primary">1️⃣</span>
-                    </div>
-                    <h5>Select Role & Level</h5>
-                    <p class="text-muted">Choose professional role and EQF level</p>
-                </div>
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Educational Curriculum Modeller (ECM)</h1>
+                <p class="card-text lead">Multi-Objective Curriculum Optimization Framework</p>
+                <p class="card-text">
+                    ECM generates modular curricula and educational profiles that balance competence coverage, 
+                    regulatory compliance, and resource efficiency across multiple educational frameworks.
+                </p>
                 
-                <div class="col-md-3 text-center mb-4">
-                    <div class="mb-3">
-                        <span class="display-4 text-primary">2️⃣</span>
+                {% if ecm_available %}
+                    <div class="alert alert-success">
+                        <i class="fas fa-check-circle"></i> ECM components loaded successfully
                     </div>
-                    <h5>Configure ECTS & UOL</h5>
-                    <p class="text-muted">Set total ECTS and number of learning units</p>
-                </div>
+                {% else %}
+                    <div class="alert alert-warning">
+                        <i class="fas fa-exclamation-triangle"></i> ECM components not available. 
+                        Please check installation.
+                    </div>
+                {% endif %}
                 
-                <div class="col-md-3 text-center mb-4">
-                    <div class="mb-3">
-                        <span class="display-4 text-primary">3️⃣</span>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <h5>Key Features</h5>
+                        <ul>
+                            <li>10 professional curricula generation</li>
+                            <li>Educational standards compliance</li>
+                            <li>Multiple output formats (JSON, HTML, DOCX)</li>
+                            <li>Framework analysis and visualization</li>
+                        </ul>
                     </div>
-                    <h5>Generate Content</h5>
-                    <p class="text-muted">System creates concrete, industry-ready units</p>
-                </div>
-                
-                <div class="col-md-3 text-center mb-4">
-                    <div class="mb-3">
-                        <span class="display-4 text-primary">4️⃣</span>
+                    <div class="col-md-6">
+                        <h5>Quick Actions</h5>
+                        <a href="{{ url_for('generator') }}" class="btn btn-primary btn-lg d-block mb-2">
+                            <i class="fas fa-cog"></i> Generate Curricula
+                        </a>
+                        <a href="{{ url_for('analysis') }}" class="btn btn-outline-primary d-block">
+                            <i class="fas fa-chart-bar"></i> Run Analysis
+                        </a>
                     </div>
-                    <h5>Download Results</h5>
-                    <p class="text-muted">Get HTML and JSON files ready for use</p>
                 </div>
             </div>
-            
-            <div class="text-center mt-4">
-                <a href="/generator" class="btn btn-primary btn-lg">🚀 Try It Now</a>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">System Status</h5>
+                <p><strong>Project Root:</strong><br><small class="text-muted">{{ project_root }}</small></p>
+                <button class="btn btn-outline-secondary btn-sm" onclick="checkDependencies()">
+                    Check Dependencies
+                </button>
+                <div id="dependencies-status" class="mt-2"></div>
             </div>
         </div>
-    </section>
+    </div>
+</div>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-4">
-        <div class="container text-center">
-            <p>&copy; 2025 Digital Sustainability Curriculum Generator (UOL v2). Built for industry-ready education.</p>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<script>
+function checkDependencies() {
+    fetch('/check_dependencies')
+        .then(response => response.json())
+        .then(data => {
+            const status = document.getElementById('dependencies-status');
+            let html = '<small>';
+            for (const [dep, available] of Object.entries(data.dependencies)) {
+                const icon = available ? 'fa-check text-success' : 'fa-times text-danger';
+                html += `<div><i class="fas ${icon}"></i> ${dep}</div>`;
+            }
+            html += '</small>';
+            status.innerHTML = html;
+        });
+}
+</script>
+{% endblock %}
