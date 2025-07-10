@@ -727,6 +727,20 @@ analysis/scripts/generate_curricula_toggle.py is the enhanced curriculum generat
 - **Educational Standards**: Contact for compliance guidance
 
 ---
+📢 Funding
+This work received financial support from:
+
+“Digital4Sustainability: Accelerating the Digital and Green Transition in the ICT Industry”
+https://digital4sustainability.eu, a project funded by the European Commission Erasmus+ Programme under Grant No. 101140316 (Feb. 2024–Jan. 2028)
+
+“Digital4Business: Master's Programme Focused on the Practical Application of Advanced Digital Skills within European Companies”
+https://digital4business.eu, a project funded by the European Commission Digital Europe Programme under Grant No. 101084013 (Dec. 2022–Nov. 2026)
+
+
+
+
+
+---
 
 ## Acknowledgments
 
