@@ -1,9 +1,8 @@
 
-# Educational Curriculum Modeller (ECM)
+# Curriculum Creator (CG)
 
 **A Framework for Multi-Objective Curriculum Optimization with Learning Unit-Level Analysis**
 
-*Version 1.2 | SIGCSE TS '26 | International Standards Compliant*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -13,14 +12,14 @@
 
 ## Overview
 
-The Educational Curriculum Modeller (ECM) generates modular curricula and educational profiles that balance competence coverage, regulatory compliance, and resource efficiency across multiple educational frameworks. ECM formalizes curriculum design as a multi-objective optimization problem, producing competence-aligned curricula that comply with international standards such as CS2023, EQF, and ESCO.
+The Curriculum Generator (GC) generates modular curricula and educational profiles that balance competence coverage, regulatory compliance, and resource efficiency across multiple educational frameworks. GC formalizes curriculum design as a multi-objective optimization problem, producing competence-aligned curricula that comply with international standards such as CS2023, EQF, and ESCO.
 
 ### Key Features
 
 - **🎯 Multi-Objective Optimization**: Systematic balancing of competence coverage, resource efficiency, and compliance
 - **📚 Enhanced Curriculum Generation**: 10 core professional curricula with educational standards compliance
 - **🏛️ Standards Compliance**: Full validation against 7 major international frameworks + EQF level compliance
-- **🔧 Modular Architecture**: 100=-learning unit repository enabling flexible curriculum composition
+- **🔧 Modular Architecture**: 90-learning unit repository enabling flexible curriculum composition
 - **🌐 Web Interface**: Production-ready Flask application for interactive curriculum design
 - **📊 Comprehensive Analysis Suite**: Unified engine for repository, framework, learning unit, and cross-framework analysis
 - **🎯 Multi-Level Insights**: Individual learning unit performance analysis with enhancement recommendations
@@ -32,7 +31,7 @@ The Educational Curriculum Modeller (ECM) generates modular curricula and educat
 
 ### Academic Impact
 
-ECM provides quantitative evidence for automated curriculum generation effectiveness:
+GC provides quantitative evidence for automated curriculum generation effectiveness:
 - **Framework Alignment**: ESCO (74.4\%), CS2023 (58.9\%), e-CF (46.7%)
 - **High Optimization Quality**: 0.66 objective function score
 - **Resource Efficiency**: 44.7\% learning unit sharing coefficient
@@ -47,14 +46,14 @@ ECM provides quantitative evidence for automated curriculum generation effective
 
 ```bash
 # Clone the repository
-git clone https://github.com/dietmarja/ECM.git
-cd ECM
+git clone https://github.com/dietmarja/GC.git
+cd GC
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Verify installation
-python -c "import pandas; import numpy; import sklearn; print('ECM dependencies installed')"
+python -c "import pandas; import numpy; import sklearn; print('GC dependencies installed')"
 ```
 
 ### Essential Commands
@@ -83,7 +82,7 @@ python generate_curricula_toggle.py --no-visual-map
 
 #### Comprehensive Analysis (Traditional)
 ```bash
-# Run complete ECM analysis suite (uses config/settings.json)
+# Run complete GC analysis suite (uses config/settings.json)
 python ecm_comprehensive_analysis.py
 ```
 *This single script performs repository-level, framework-level, learning unit-level, and cross-framework analysis with full visualization and export capabilities. All parameters are configured via `config/settings.json`.*
@@ -98,7 +97,7 @@ python test_paths.py  # Verify all paths are correctly resolved
 nano ../../config/settings.json
 
 # Test configuration loading
-python -c "from ecm_comprehensive_analysis import ECMAnalysisEngine; engine = ECMAnalysisEngine(); print('✅ Config loaded')"
+python -c "from ecm_comprehensive_analysis import GCAnalysisEngine; engine = GCAnalysisEngine(); print('✅ Config loaded')"
 ```
 
 #### Educational Profiles Generation
@@ -182,7 +181,7 @@ The enhanced curriculum generator produces **10 professional curricula** with th
 
 ### Framework Validation
 
-ECM validates learning units against 7 international frameworks:
+GC validates learning units against 7 international frameworks:
 
 | Framework | Domain | Authority | Alignment Score |
 |-----------|---------|-----------|----------------|
@@ -443,7 +442,7 @@ output/profiles/                             # Default location
 ### ✅ Current Features (v1.2)
 - [x] Enhanced curriculum generation with educational standards compliance
 - [x] Learning unit-level framework analysis
-- [x] 100+-learning unit repository validation
+- [x] 90-learning unit repository validation
 - [x] 7 international framework support
 - [x] Comprehensive visualization suite
 - [x] CSV export capabilities
@@ -542,10 +541,10 @@ files_fast = generator_fast.generate_all_curricula()
 ### Basic Analysis
 ```python
 # From analysis/scripts/ directory
-from ecm_comprehensive_analysis import ECMAnalysisEngine
+from ecm_comprehensive_analysis import GCAnalysisEngine
 
 # Initialize with automatic config loading from settings.json
-engine = ECMAnalysisEngine()  # Loads config/settings.json automatically
+engine = GCAnalysisEngine()  # Loads config/settings.json automatically
 
 # Run complete analysis suite
 engine.load_learning_units()
@@ -562,7 +561,7 @@ summary = engine.generate_report()       # Console report with config info
 ### Configuration Customization
 ```python
 # Load with custom config file
-engine = ECMAnalysisEngine(config_path='../../config/custom_settings.json')
+engine = GCAnalysisEngine(config_path='../../config/custom_settings.json')
 
 # Access configuration parameters
 print(f"Similarity threshold: {engine.similarity_threshold}")
@@ -580,10 +579,10 @@ print(f"Quality weights: {engine.quality_weights}")
 ### Educational Profiles Generation
 ```python
 # From analysis/scripts/ directory
-from generate_educational_profiles import ECMProfilesGenerator
+from generate_educational_profiles import GCProfilesGenerator
 
 # Initialize generator (auto-load from config/settings.json)
-profiles_gen = ECMProfilesGenerator()
+profiles_gen = GCProfilesGenerator()
 
 # Generate educational profiles
 profile_files = profiles_gen.generate_sample_profiles()
@@ -622,7 +621,7 @@ engine.frameworks['CUSTOM'] = custom_framework
 - **Memory Usage**: <512MB for complete analysis
 
 ### Scalability
-- **Learning Unit Capacity**: Tested with 110 learning units, scales to 500+
+- **Learning Unit Capacity**: Tested with 90 learning units, scales to 500+
 - **Framework Support**: 7 current, architected for 20+
 - **Analysis Methods**: Both TF-IDF and SBERT (planned)
 - **Curriculum Generation**: Tested with 10 curricula, scales to 50+
@@ -632,7 +631,7 @@ engine.frameworks['CUSTOM'] = custom_framework
 ## Directory Structure
 
 ```
-ECM/
+GC/
 ├── README.md                              # This comprehensive guide
 ├── requirements.txt                       # Python dependencies
 ├── analysis/                              # Analysis engines
@@ -648,7 +647,7 @@ ECM/
 ├── web/                                  # Web interface
 │   └── app.py                            # Flask application
 ├── input/                                # Source data
-│   ├── modules/modules_v5.json           # repository with over 100 learning units
+│   ├── modules/modules_v5.json           # 90-learning unit repository
 │   └── educational_profiles/             # Professional profiles
 ├── output/                               # Generated outputs
 │   ├── curricula/                        # Generated curricula
@@ -684,7 +683,7 @@ ECM/
 
 ```bibtex
 @inproceedings{ecm2026,
-    title={The Educational Curriculum Modeller (ECM): A Framework for Multi-Objective Curriculum Optimization with Enhanced Standards Compliance},
+    title={The Curriculum Generator (GC): A Framework for Multi-Objective Curriculum Optimization with Enhanced Standards Compliance},
     author={Anonymous Author1 and Anonymous Author2},
     booktitle={Proceedings of The 57th ACM Technical Symposium on Computer Science Education},
     series={SIGCSE TS '26},
@@ -715,27 +714,16 @@ analysis/scripts/generate_curricula_toggle.py is the enhanced curriculum generat
 - **Enhanced Curriculum Generation**: generate_curricula_toggle.py documentation
 
 ### Community
-- **Issues**: [GitHub Issues](https://github.com/dietmarja/ECM/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/dietmarja/ECM/discussions)
+- **Issues**: [GitHub Issues](https://github.com/dietmarja/GC/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/dietmarja/GC/discussions)
 - **SBERT Help**: Tag issues with `enhancement` + `similarity`
 - **Curriculum Standards**: Tag issues with `curriculum` + `standards`
 
 ### Contact
-- dietmar.janetzko@ncirl.ie
-- horacio@ncirl.ie
----
-## Funding
-This work received financial support from:
-
-- Digital4Sustainability: Accelerating the Digital and Green Transition in the ICT Industry
-https://digital4sustainability.eu, a project funded by the European Commission Erasmus+ Programme under Grant No. 101140316 (Feb. 2024–Jan. 2028)
-
-- Digital4Business: Master's Programme Focused on the Practical Application of Advanced Digital Skills within European Companies
-https://digital4business.eu, a project funded by the European Commission Digital Europe Programme under Grant No. 101084013 (Dec. 2022–Nov. 2026)
-
-
-
-
+- **Research Inquiries**: Contact via paper authors
+- **Technical Support**: GitHub Issues
+- **SBERT Implementation**: Open to collaboration
+- **Educational Standards**: Contact for compliance guidance
 
 ---
 
@@ -749,6 +737,6 @@ https://digital4business.eu, a project funded by the European Commission Digital
 
 ---
 
-**ECM v1.2** - *Advancing Educational Technology through Multi-Level Curriculum Optimization with Enhanced Standards Compliance*
+**GC v1.2** - *Advancing Educational Technology through Multi-Level Curriculum Optimization with Enhanced Standards Compliance*
 
 *Supporting evidence-based curriculum design with enhanced educational standards compliance and learning unit-based architecture*
