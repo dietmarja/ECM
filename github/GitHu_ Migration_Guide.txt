@@ -1,0 +1,147 @@
+# ECM GitHub Migration Guide
+# Complete system migration to https://github.com/dietmarja/ECM
+
+# Step 1: Navigate to your ECM root directory
+cd /path/to/your/ECM  # Replace with your actual ECM directory path
+
+# Step 2: Verify you're in the correct directory
+pwd
+ls -la  # Should show your ECM files and folders
+
+# Step 3: Create .gitignore file to exclude unnecessary files
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+github/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Large data files (uncomment if you have large datasets)
+
+.txt
+.pdf
+.docx
+.csv
+.xlsx
+# *.json
+
+# Output files that can be regenerated
+# Uncomment these if you want to exclude generated outputs
+# output/
+# results/
+# analysis/results/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+EOF
+
+# Step 4: Initialize git repository (if not already done)
+git init
+
+# Step 5: Configure git (replace with your details)
+git config user.name "Your Name"
+git config user.email "your.email@example.com"
+
+# Step 6: Add the GitHub remote repository
+git remote add origin https://github.com/dietmarja/ECM.git
+
+# Step 7: Check if GitHub repo exists and is accessible
+git remote -v
+
+# Step 8: Stage all files
+git add .
+
+# Step 9: Check what will be committed
+git status
+
+# Step 10: Create initial commit
+git commit -m "Initial ECM system migration
+
+- Complete Educational Curriculum Modeller (ECM) v1.2
+- Enhanced curriculum generation with educational standards compliance
+- 90 learning units repository with framework analysis
+- Analysis scripts with comprehensive visualization
+- Web interface for interactive curriculum design
+- Configuration-driven analysis with settings.json
+- Support for 7 international frameworks (ESCO, CS2023, e-CF, etc.)
+- British educational terminology compliance
+- Direct framework mapping with GreenComp and e-CF
+- Multiple output formats (JSON, HTML, DOCX)
+- Professional curricula for 5 sustainability roles"
+
+# Step 11: Create and switch to main branch (GitHub default)
+git branch -M main
+
+# Step 12: Push to GitHub (first time)
+git push -u origin main
+
+# Alternative Step 12: If the repository already has content, force push
+# WARNING: This will overwrite existing content on GitHub
+# git push -u origin main --force
+
+echo "✅ ECM migration completed successfully!"
+echo "🌐 Visit: https://github.com/dietmarja/ECM"
